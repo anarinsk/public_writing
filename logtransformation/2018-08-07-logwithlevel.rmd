@@ -30,6 +30,7 @@ level-level의 조합에서 $\beta$는 $x$의 한 단위 변화에 대한 $y$의
 
 
 $$\log y = \alpha + \beta x$$
+&nbsp; 
 
 * $y$에 붙은 로그를 제거한다. $y = e^{\alpha + \beta x}$ 
 * $x$가 $\Delta x$ 만큼 변하면 그에 상응하여 $y$가 $\Delta y$ 만큼 변한다고 하자. 
@@ -50,6 +51,7 @@ $$
 ## level-log model 
 
 $$y = \alpha + \beta \log x$$
+&nbsp; 
 
 * 앞서와 마찬가지로 $\Delta x$, $\Delta y$를 적어보자. $y + \Delta y = \alpha + \beta \log (x + \Delta x)$ 
 * 양변에서 $y$를 빼주면 아래와 같이 전개된다. $\Delta y = \beta (\log (x + \Delta x) - \log x) = \beta \log (1+\frac{\Delta x}{x})$ 
@@ -59,7 +61,9 @@ $$y = \alpha + \beta \log x$$
 
 ## log-log model 
 
-$\log y = \alpha + \beta \log x$
+$$\log y = \alpha + \beta \log x$$
+
+&nbsp; 
 
 정확한 변화를 계산하는 것은 위의 두 과정을 합친 것과 비슷하니 각자 연습해보기 바란다! 혹시 어렵다면 아래 부록을 참고하기 바란다. 이 문제도 역시 편미분으로 접근하면 조금 이해가 쉽다. 모델에서 $\beta$는 $\log y$를 $\log x$에 대해서 편미분한 값과 같다. 즉,  
 
@@ -85,7 +89,8 @@ y + \Delta y &= e^{\alpha + \beta \log (x + \Delta x)} \\
 
 ### log-level 모형에서 더미 변수 해석 
 
-$\log(\text{write}) = \beta_0 + \beta_1 * \text{female} + \beta_2 * \text{read} + \beta_3 * \text{math} $
+
+$\log(\text{write}) = \beta_0 + \beta_1 * \text{female} + \beta_2 * \text{read} + \beta_3 * \text{math}$
 
 ![](images/reg_0.png)
 
@@ -94,7 +99,7 @@ $\log(\text{write}) = \beta_0 + \beta_1 * \text{female} + \beta_2 * \text{read} 
 
 ### level-log  모형에서 변수 해석 
 
-$\text{write} = \beta_0 + \beta_1 * \text{female} + \beta_2 * \log \text{read} + \beta_3 * \log \text{math} $
+$\text{write} = \beta_0 + \beta_1 * \text{female} + \beta_2 * \log \text{read} + \beta_3 * \log \text{math}$
 
 ![](images/reg_1.png)
 
@@ -102,7 +107,7 @@ $\log \text{read}$의 계수는 어떻게 해석해야 할까? read 값은 연�
 
 ### log-log  모형에서 변수 해석 
 
-$\log \text{write} = \beta_0 + \beta_1 * \text{female} + \beta_2 * \log \text{math} +\beta_3 *\text{read} $
+$\log \text{write} = \beta_0 + \beta_1 * \text{female} + \beta_2 * \log \text{math} +\beta_3 *\text{read}$
 
 ![](images/reg_2.png)
 
