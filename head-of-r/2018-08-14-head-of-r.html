@@ -349,7 +349,7 @@ $(document).ready(function () {
 <p>이 함수는 이렇게 작동한다. 입력으로 받은 패키지 스트링에 대해서 해당 패키지가 컴퓨터에 깔려 있으면 설치하지 않고 로드만 한다. 만일 깔려 있지 않으면 패키지들을 설치한 후 로드한다. 그런데, 이 패키지의 가장 큰 문제는 오직 CRAN(Comrehensive R Archive Network)에 있는 패키지만 가져올 수 있다는 것이다. 아시다시피 요즘 최신 패키지가 가장 먼저 배포되는 곳 그리고 기존 패키지의 최신 버전이 가장 먼저 등장하는 곳은 github이 아닌가? 아마도 비슷한 문제를 겪은 사람들이 많았는지 최근에 좋은 패키지가 나왔다.</p>
 <p><a href="https://github.com/DesiQuintans/librarian" class="uri">https://github.com/DesiQuintans/librarian</a></p>
 <pre class="{r}"><code>librarian::shelf(dplyr, DesiQuintans/desiderata, purrr)
-                   ↑        ↑                   ↑
+                   ↑         ↑                    ↑
                   CRAN     GitHub                CRAN
 
 # All downloaded, installed, and attached.</code></pre>
