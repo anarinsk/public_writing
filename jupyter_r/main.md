@@ -31,7 +31,7 @@ IRkernel::installspec()
 
 이렇게 하면 Jupyter 환경에서 위 그림처럼 R 커널을 선택할 수 있다. 이제 커널을 선택하고 RStudio에서 쓰듯이 R을 쓰면 된다.  
 
-예시 문서: [LINK]()
+예시 문서: [LINK](https://github.com/anarinsk/public_writing/blob/master/jupyter_r/assets/jupyter_r_example.ipynb)
 
 # 참고 자료 
 
@@ -41,5 +41,6 @@ IRkernel::installspec()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTQyNjM5OSw2MDc4MTcwMjldfQ==
+eyJoaXN0b3J5IjpbOTAxNTMzOTY3LDE0MDE0MjYzOTksNjA3OD
+E3MDI5XX0=
 -->
