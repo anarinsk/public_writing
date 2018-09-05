@@ -27,7 +27,7 @@ devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
 
-![](http://raw.githubusercontent.com/anarinsk/public_writing/master/jupyter_r/assets/images/jupyter_1.PNG)
+![](https://raw.githubusercontent.com/anarinsk/public_writing/master/jupyter_r/assets/images/jupyter_1.PNG)
 
 이렇게 하면 Jupyter 환경에서 위 그림처럼 R 커널을 선택할 수 있다. 이제 커널을 선택하고 RStudio에서 쓰듯이 R을 쓰면 된다.  
 
