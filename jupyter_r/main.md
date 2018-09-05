@@ -16,7 +16,9 @@ R이든 Python이든 가볍게 쓰려면 그냥 뭔가 뚝딱 되는 것이 좋�
 
 ## 편리한 문서 작성 및 문서 공유 
 
-R에서 rmd라는 포맷을 통해서 쉽게 코드+문서 환경을 구현할 수 있다. R을 기준으로 봤을 때에는 편리하고 다양한 것을 구현할 수 있는 도구지만, 그 자체로 그리 가볍진 않다. Jupyter는 코드와 markdown 환경을 자유롭게 오갈 수 있으면서도 가볍고 경쾌하다. 뚝딱 무엇인가를 시도하기에는 Jupyter가 부담이 덜하다. 아울러 Jupyter notebook은 github에서 문서 그대로 잘 보인다. 즉, 해당 주소를 그냥 공유해도 의사소통에 아무런 문제가 없다는 뜻이다. 이 점 역시 rmd 포맷에 비해 jupyter가 지닌 장점이다. 
+R에서 rmd라는 포맷을 통해서 쉽게 코드+문서 환경을 구현할 수 있다. R을 기준으로 봤을 때에는 편리하고 다양한 것을 구현할 수 있는 도구지만, 그 자체로 그리 가볍진 않다. Jupyter는 코드와 markdown 환경을 자유롭게 오갈 수 있으면서도 가볍고 경쾌하다. 뚝딱 무엇인가를 시도하기에는 Jupyter가 부담이 덜하다. 물론 본격적인 문서를 만들기에는 knitr이라는 막강한 패키지를 거느린 R이 더 편하다! 
+
+아울러 Jupyter notebook은 github에서 문서 그대로 잘 보인다. 즉, 해당 주소를 그냥 공유해도 의사소통에 아무런 문제가 없다는 뜻이다. 이 점 역시 rmd 포맷에 비해 jupyter가 지닌 장점이다. 
 
 # 설치 방법 
 
@@ -41,6 +43,6 @@ IRkernel::installspec()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDM5NjMxMiw5MDE1MzM5NjcsMTQwMT
+eyJoaXN0b3J5IjpbMTMxNzgwMjIwNSw5MDE1MzM5NjcsMTQwMT
 QyNjM5OSw2MDc4MTcwMjldfQ==
 -->
