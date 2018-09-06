@@ -35,8 +35,8 @@ html과 md 사이는 쉽게 오갈 수 있다. 웹 문서로 쉽게 바꿀 수 �
 
 앞서 언급했던 [stackedit.io](https://stackedit.io/app#)를 (PC든 모바일이든) 외부 저장소의 작업 환경을 먼저 불러온다. 오른쪽에 싱크 옵션을 누르면 동기화를 실현할 수 있는 옵션이 세 개 뜬다. 
 
-![](http://raw.githubusercontent.com/anarinsk/public_writing/master/workflow_with_github/assets/images/workflow_1.PNG)
- ![](http://raw.githubusercontent.com/anarinsk/public_writing/master/workflow_with_github/assets/images/workflow_2.PNG)
+![](http://raw.githubusercontent.com/anarinsk/public_writing/master/workflow_with_github/assets/images/workflow_1.png)
+ ![](http://raw.githubusercontent.com/anarinsk/public_writing/master/workflow_with_github/assets/images/workflow_2.png)
 
 이 중에서 메인 하나를 지정한다. 이 녀석은 기본적인 환경과 임시 문서 따위를 저장한다. 저장 옵션에 반갑게도 깃헙이 있다. 이렇게 외부 계정과 stackedit을 연동하면 끝이다. 메인 저장소에서 작업 환경을 불러와서 이를 로컬 머신에서 그대로 재현해준다. 이렇게 재현된 환경은 브라우저 화면 왼쪽에서 확인할 수 있다. 어떤 소프트웨어의 설치도 별도의 서비스 가입도 필요 없다. 
 
@@ -97,8 +97,8 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDA1MjM3OCwtMjE0NDAwMjA3NiwzMj
-g3ODgyNTYsMTUzNzMyNDgyNCw0NDYyNzg0ODQsMTcyNjYyNjAw
-NCwtMTk3MDA5NjI0MCwtMTgyMDU4NTk3NCwxMzE5NzMwNjgwXX
-0=
+eyJoaXN0b3J5IjpbMjA1MjUxNjA3MCwtMzMwMDUyMzc4LC0yMT
+Q0MDAyMDc2LDMyODc4ODI1NiwxNTM3MzI0ODI0LDQ0NjI3ODQ4
+NCwxNzI2NjI2MDA0LC0xOTcwMDk2MjQwLC0xODIwNTg1OTc0LD
+EzMTk3MzA2ODBdfQ==
 -->
