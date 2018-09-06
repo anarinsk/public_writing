@@ -1,7 +1,7 @@
 **Jupyter + R**
 
 2018-09-05 
-Jun Sok Huhh  :house:[lostineonomics.com](https://anarinsk.github.io/)
+Jun Sok Huhh | :house:[lostineonomics.com](https://anarinsk.github.io/)
 
 
 # Jupyter? 
@@ -53,7 +53,7 @@ IRkernel::installspec()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDA5OTIwMSwzMzg5NTI5NzcsMzM4OT
+eyJoaXN0b3J5IjpbMTE0MzM4NjMxNywzMzg5NTI5NzcsMzM4OT
 UyOTc3LC0xMTE0OTUyMjYxLC01NTU0NTY1ODUsLTE4NTAwMDM0
 MzEsMTM3NDE5NDQsMTM0MjAyMDA0NSwxMzE3ODAyMjA1LDkwMT
 UzMzk2NywxNDAxNDI2Mzk5LDYwNzgxNzAyOV19
