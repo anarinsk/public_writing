@@ -34,8 +34,11 @@ html과 md 사이는 쉽게 오갈 수 있다. 웹 문서로 쉽게 바꿀 수 �
 
 ![](https://github.com/anarinsk/public_writing/blob/master/workflow_with_github/assets/images/workflow_1.PNG)
 
+![](https://github.com/anarinsk/public_writing/blob/master/workflow_with_github/assets/images/workflow_2.PNG)
 
 이 중에서 메인 하나를 지정한다. 이 녀석은 기본적인 환경과 임시 문서 따위를 저장한다. 저장 옵션에 반갑게도 깃헙이 있다. 이렇게 외부 계정과 stackedit을 연동하면 끝이다. 메인 저장소에서 작업 환경을 불러와서 이를 로컬 머신에서 그대로 재현해준다. 이렇게 재현된 환경은 브라우저 화면 왼쪽에서 확인할 수 있다. 어떤 소프트웨어의 설치도 별도의 서비스 가입도 필요 없다. 
+
+![](https://github.com/anarinsk/public_writing/blob/master/workflow_with_github/assets/images/workflow_3.PNG)
 
 stackedit은 소스를 깃허브에서 읽은 후 이를 브라우저에 올리는 방식으로 구현된다. 따라서 소스가 브라우저로 로딩 되는 짧은 시간 이외에는 별도로 필요한 것이 없다. 쉽게 말해 클라우드 작업 환경을 쉽게 구축할 수 있다. 
 
@@ -92,6 +95,6 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODQ0NDA5MSwtMTk3MDA5NjI0MCwtMT
-gyMDU4NTk3NCwxMzE5NzMwNjgwXX0=
+eyJoaXN0b3J5IjpbLTE2MjM5OTQ1MzIsLTE5NzAwOTYyNDAsLT
+E4MjA1ODU5NzQsMTMxOTczMDY4MF19
 -->
