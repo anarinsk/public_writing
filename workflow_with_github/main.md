@@ -50,7 +50,7 @@ stackedit은 소스를 깃허브에서 읽은 후 이를 브라우저에 올리�
 
 이런 생각으로 만든 것이 lostineconomics.com[https://anarinsk.github.io/]다. 보시면 약간의 설명과 이미지 그리고 글들의 링크 밖에 없다. 이 페이지는 anarinsk.github.io 깃헙 리포지토리의 index.md  파일을 수정하는 것으로 손쉽게 구현된다. 얼마나 간편한가? 페이지의 포스트는 내 깃헙의 여러 리포지터리에 있다. 
 
-### html 링크 
+### html 링크의 경우
 깃헙 안에 위치하는 html 문서들은 렌더링이 되지 않고 소스 그대로 노출된다. 따라서 html 링크를 걸고 이를 렌더링하고 싶다면 다른 서비스를 하나 거치면 된다.  두 개의 서비스를 추천한다. 
 
 [rawgit.com](https://rawgit.com)
@@ -87,6 +87,6 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODgxNjczMywtMTgyMDU4NTk3NCwxMz
-E5NzMwNjgwXX0=
+eyJoaXN0b3J5IjpbLTE5NzAwOTYyNDAsLTE4MjA1ODU5NzQsMT
+MxOTczMDY4MF19
 -->
