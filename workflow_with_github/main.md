@@ -73,7 +73,7 @@ stackedit은 소스를 깃허브에서 읽은 후 이를 브라우저에 올리�
 md가 $\LaTeX$을 본격적으로 대체할 수는 없다. 하지만 수식은 인라인(글 내부)든 디스플레이 모드이든 제약 없이 쓸 수 있다. $\alpha$ 솔루션은 아닐지 모르지만 $\beta$나 $\gamma$ 정도로는 부족함이 없어 보인다. 
 
 $$
-U = u(x,y) ~ \text{s.t}~p_x x + p_y y \leq m
+U = u(x,y) ~ \text{s.t.}~p_x x + p_y y \leq m
 $$
 
 이 정도면 뭐 아쉬운 대로 쓰기 충분하지 않은가? 
@@ -97,9 +97,9 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODM2MTkxOSwxOTQxOTU2NTQzLC00ND
-MxNDgxOTYsOTYyMzU1NTA4LDk2MjM1NTUwOCwtMzMwMDUyMzc4
-LC0yMTQ0MDAyMDc2LDMyODc4ODI1NiwxNTM3MzI0ODI0LDQ0Nj
-I3ODQ4NCwxNzI2NjI2MDA0LC0xOTcwMDk2MjQwLC0xODIwNTg1
-OTc0LDEzMTk3MzA2ODBdfQ==
+eyJoaXN0b3J5IjpbNzkyMzQxMDY5LDE5NDE5NTY1NDMsLTQ0Mz
+E0ODE5Niw5NjIzNTU1MDgsOTYyMzU1NTA4LC0zMzAwNTIzNzgs
+LTIxNDQwMDIwNzYsMzI4Nzg4MjU2LDE1MzczMjQ4MjQsNDQ2Mj
+c4NDg0LDE3MjY2MjYwMDQsLTE5NzAwOTYyNDAsLTE4MjA1ODU5
+NzQsMTMxOTczMDY4MF19
 -->
