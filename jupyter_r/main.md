@@ -1,6 +1,6 @@
 # Jupyter? 
 
- :house: back to [lostineonomics.com](https://anarinsk.github.io/)
+ :house: [lostineonomics.com](https://anarinsk.github.io/)
 
 R에는 이미 RStudio라는 훌륭한 개발환경(IDE: Integrated Development Environment)이 있다. R을 쓰는 사람이라면 프로젝트 관리, 편리하고 일관된 객체(데이터 프레임 등) 뷰어, 순차 실행 등 수많은 편리한 기능을 제공하는 RStudio 외에 다른 도구를 떠올리기 힘들 것이다. Python에도 RStudio를 본딴 IDE가 있을 정도니 그 우수성을 새삼 강조할 필요가 없겠다. 
 
@@ -47,7 +47,8 @@ IRkernel::installspec()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ5NTIyNjEsLTU1NTQ1NjU4NSwtMT
-g1MDAwMzQzMSwxMzc0MTk0NCwxMzQyMDIwMDQ1LDEzMTc4MDIy
-MDUsOTAxNTMzOTY3LDE0MDE0MjYzOTksNjA3ODE3MDI5XX0=
+eyJoaXN0b3J5IjpbLTU2NDQyODkyMSwtMTExNDk1MjI2MSwtNT
+U1NDU2NTg1LC0xODUwMDAzNDMxLDEzNzQxOTQ0LDEzNDIwMjAw
+NDUsMTMxNzgwMjIwNSw5MDE1MzM5NjcsMTQwMTQyNjM5OSw2MD
+c4MTcwMjldfQ==
 -->
