@@ -46,9 +46,9 @@ stackedit은 소스를 깃허브에서 읽은 후 이를 브라우저에 올리�
 
 사실 깃헙 위에서도 상용 블로그 못지 않은 서비스를 운용할 수 있다. [jekyll](https://jekyllrb.com/)이나 [Hugo](https://gohugo.io/)를 이용하면 된다.  깃헙에 이런 전문형 블로그 만드는 방법은 구글링을 해보시면 많이 나오니 굳이 여기서 반복하지는 않겠다. 
 
-하지만 더 미니멀한 목적을 추구하는 나에게는 이것도 꽤 거추장스러워 보았다. 글들의 링크를 보여줄 수 있는 대문 페이지가 있고 거기에 md, html, ipynb 등의 문서 포맷을 링크로 걸 수 있는 정도면 충분했다. 
+하지만 더 미니멀한 목적을 추구하는 나에게는 이것도 꽤 부담스러웠다. 포스트의 링크를 보여줄 수 있는 대문 페이지가 있으면 족했다.
 
-이런 목적으로 만든 것이 lostineconomics.com[https://anarinsk.github.io/]다. 보시면 약간의 설명과 이미지 그리고 글들의 링크 밖에 없다. 이 문서는 해당 깃헙 리포지토리의 index.md  파일을 수정하는 것으로 손쉽게 구현된다. 얼마나 간편한가? 업데이트 링크들은  내 깃헙의 다른 리포지토리에 있다. 이 녀석들을 땡겨서 걸면 그만이다. 
+이런 생각으로 만든 것이 lostineconomics.com[https://anarinsk.github.io/]다. 보시면 약간의 설명과 이미지 그리고 글들의 링크 밖에 없다. 이 문서는 anarinsk.githu깃헙 리포지토리의 index.md  파일을 수정하는 것으로 손쉽게 구현된다. 얼마나 간편한가? 업데이트 링크들은  내 깃헙의 다른 리포지토리에 있다. 이 녀석들을 땡겨서 걸면 그만이다. 
 
 ### html 링크 
 깃헙 안에 위치하는 html 문서들은 렌더링이 되지 않고 소스 그대로 노출된다. 따라서 html 링크를 걸고 이를 렌더링하고 싶다면 다른 서비스를 하나 거치면 된다.  두 개의 서비스를 추천한다. 
@@ -87,6 +87,6 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDgzOTQ1MSwtMTgyMDU4NTk3NCwxMz
+eyJoaXN0b3J5IjpbMTcyNTE5MDMzMywtMTgyMDU4NTk3NCwxMz
 E5NzMwNjgwXX0=
 -->
