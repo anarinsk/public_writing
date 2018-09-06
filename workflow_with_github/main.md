@@ -19,11 +19,11 @@ Jun Sok Huhh | :house:[lostineconomics.com](https://anarinsk.github.io/)
 
 html과 md 사이는 쉽게 오갈 수 있다. 웹 문서로 쉽게 바꿀 수 있다는 것은 소통에 있어 엄청난 장점 아닐까? $\LaTeX$으로 소통할 때의 무거움과 답답함을 떠올려 보자. 
 
-## 빠른 컴파일 
+## Almost WYSIWYG  
 
 마크업 언어의 문제는 결과를 바로 바로 보기 어렵다는 것이다. $\LaTeX$이 극단적인 사례 중 하나일 것이다. 써보신 분들은 알겠지만, 아름답고 유려한 문서를 얻는 대신 $\LaTeX$을 컴파일 하는 데에는 상당한 시간과 노력이 든다. 솔직히 이 점에서 생산성에 도움이 되는 도구인지는 의문이다. 그보다는 과학자를 위한 미적 도구라고 부르는게 맞을 듯 싶다.
 
-## 설치가 필요 없다! 
+## No installation!
 
 설치형 md 에디터가 시중에 몇 개 있긴 하지만 필수는 아니다. 깃헙만 해도 그냥 웹에서 마크다운 문법으로 적은 후 commit(실행)하면 화면에 척 붙는다. 지금 이 글을 작성하는 것도 웹 기반으로 돌아가는 stackedit이다. 설치가 필요 없고 웹에서고 가볍게 돌기 때문에 모바일, 태블릿 환경에서 쓰기에는 모자람이 없다. 
 
@@ -31,7 +31,7 @@ html과 md 사이는 쉽게 오갈 수 있다. 웹 문서로 쉽게 바꿀 수 �
 
 내가 현재 쓰고 있는 문서화 작업 흐름을 간략하게 소개하겠다. 그냥 이렇게도 쓸 수 있구나, 정도로 봐주시면 되겠다. 
 
-## 문서 작성 및 관리
+## Documentation 
 
 앞서 언급했던 (PC든 모바일이든) [stackedit.io](https://stackedit.io/app#)를 띄운 후 외부 저장소의 작업 환경을 불러 온다. 오른쪽에 싱크 옵션을 누르면 동기화를 실현할 수 있는 옵션이 세 개 뜬다. 클릭 후 각자 특성에 맞게 로긴을 해주면 되겠다. 한번만 해주면 된다. 
     ![](http://raw.githubusercontent.com/anarinsk/public_writing/master/workflow_with_github/assets/images/workflow_1.png)
@@ -44,7 +44,7 @@ html과 md 사이는 쉽게 오갈 수 있다. 웹 문서로 쉽게 바꿀 수 �
 
 stackedit은 소스를 깃허브에서 읽은 후 이를 브라우저에 올리는 방식으로 구현된다. 따라서 소스가 브라우저로 로딩 되는 짧은 시간 이외에는 별도로 필요한 것이 없다. 쉽게 말해 클라우드 작업 환경을 쉽게 구축할 수 있다. 
 
-## 깃헙과 함께  
+## May the Github with you 
 
 기본적인 환경을 저장하는 데에는 google drive도 나쁘지 않다. 하지만 이외 개별 문서를 저장하는 데에는 깃헙을 활용하는 편이 낫다. 깃헙은 달에 8달러씩 내면 pivate 계정을 가질 수 있고, 무료로 쓰면 public으로만 쓸 수 있다. 8달러를 들이는 게 아깝다면, 비공개 문서는 google drive에 두고 공유하고 싶은 문서만 깃헙으로 보내면 된다. 공유라는 면에서는 google drive보다 깃헙이 압도적으로 편하고 바람직하다. 아울러 깃헙 리포지터리의 대문 역할을 하는 `README.md` 파일들도 쭉 끌어다 stackedit에 두면 add-commit-push 사이클 없이 수시고 고치며 내용을 다듬을 수 있다. 
 
@@ -60,7 +60,7 @@ stackedit은 소스를 깃허브에서 읽은 후 이를 브라우저에 올리�
 
 이런 생각으로 만든 것이 lostineconomics.com[https://anarinsk.github.io/]다. 보시면 약간의 설명과 이미지 그리고 글들의 링크 밖에 없다. 이 페이지는 anarinsk.github.io 깃헙 리포지토리의 index.md  파일을 수정하는 것으로 손쉽게 구현된다. 얼마나 간편한가? 페이지의 포스트는 내 깃헙의 여러 리다른포지터리에 있다. 
 
-### html 링크의 경우
+### For html link in github 
 깃헙 안에 위치하는 html 문서들은 렌더링이 되지 않고 소스 그대로 노출된다. 따라서 html 링크를 걸고 이를 렌더링하고 싶다면 다른 서비스를 하나 거치면 된다.  두 개의 서비스를 추천한다. 
 
 [rawgit.com](https://rawgit.com)
@@ -78,11 +78,11 @@ $$
 
 이 정도면 뭐 아쉬운 대로 쓰기 충분하지 않은가? 
 
-## 공동 작업은? 
+## What about collaboration? 
 
 git은 VCS다. 따라서 협업 대상이 뭔가 수정을 하면 기록이 자동으로 남고 그걸 언제든 조회할 수 있다. 깃허브 홈페이지 들어가면 누가 뭘 어떻게 고쳤는지 나란히 보여준다. Word의 트래킹 툴보다 훨씬 좋다. 
 
-## 코드와 함께 
+## Code is ok 
 
 md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter notebook에서 셀을 markdown으로 지정해서 코드와 코드 사이에 자유롭게 문서를 끼워 넣을 수 있다. R의 경우는 rmd라는 특화된 md 포맷이 있다. 이 정도면 md에 익숙해져서 손해볼 것은 없지 않을까? 
 
@@ -97,9 +97,9 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEwNDQzNDYsMTk0MTk1NjU0MywtND
-QzMTQ4MTk2LDk2MjM1NTUwOCw5NjIzNTU1MDgsLTMzMDA1MjM3
-OCwtMjE0NDAwMjA3NiwzMjg3ODgyNTYsMTUzNzMyNDgyNCw0ND
-YyNzg0ODQsMTcyNjYyNjAwNCwtMTk3MDA5NjI0MCwtMTgyMDU4
-NTk3NCwxMzE5NzMwNjgwXX0=
+eyJoaXN0b3J5IjpbMTY0ODM2MTkxOSwxOTQxOTU2NTQzLC00ND
+MxNDgxOTYsOTYyMzU1NTA4LDk2MjM1NTUwOCwtMzMwMDUyMzc4
+LC0yMTQ0MDAyMDc2LDMyODc4ODI1NiwxNTM3MzI0ODI0LDQ0Nj
+I3ODQ4NCwxNzI2NjI2MDA0LC0xOTcwMDk2MjQwLC0xODIwNTg1
+OTc0LDEzMTk3MzA2ODBdfQ==
 -->
