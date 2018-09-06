@@ -1,4 +1,5 @@
 **Writing on Github**
+
 2018-09-06
 Jun Sok Huhh :house: [lostineconomics.com](https://anarinsk.github.io/)
 
@@ -96,7 +97,7 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjY2OTM0OCwzMjg3ODgyNTYsMTUzNz
+eyJoaXN0b3J5IjpbLTc5NTUwNjQ3OCwzMjg3ODgyNTYsMTUzNz
 MyNDgyNCw0NDYyNzg0ODQsMTcyNjYyNjAwNCwtMTk3MDA5NjI0
 MCwtMTgyMDU4NTk3NCwxMzE5NzMwNjgwXX0=
 -->
