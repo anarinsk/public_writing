@@ -37,7 +37,7 @@ IRkernel::installspec()
 
 예시 문서: [LINK](https://github.com/anarinsk/public_writing/blob/master/jupyter_r/assets/jupyter_r_example.ipynb)
 
- :house:  back to [lostineonomics.com](https://anarinsk.github.io/)
+ :house: [lostineonomics.com](https://anarinsk.github.io/)
 
 # 참고 자료 
 
@@ -47,8 +47,8 @@ IRkernel::installspec()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDQyODkyMSwtMTExNDk1MjI2MSwtNT
-U1NDU2NTg1LC0xODUwMDAzNDMxLDEzNzQxOTQ0LDEzNDIwMjAw
-NDUsMTMxNzgwMjIwNSw5MDE1MzM5NjcsMTQwMTQyNjM5OSw2MD
-c4MTcwMjldfQ==
+eyJoaXN0b3J5IjpbMjU0NTIwODY5LC0xMTE0OTUyMjYxLC01NT
+U0NTY1ODUsLTE4NTAwMDM0MzEsMTM3NDE5NDQsMTM0MjAyMDA0
+NSwxMzE3ODAyMjA1LDkwMTUzMzk2NywxNDAxNDI2Mzk5LDYwNz
+gxNzAyOV19
 -->
