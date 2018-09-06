@@ -1,8 +1,10 @@
-
-# Github 
-
+**Writing on Github**
 2018-09-06
 Jun Sok Huhh :house: [lostineconomics.com](https://anarinsk.github.io/)
+
+
+
+# Github 
 
 한마디로 축복이다. 이런 서비스가 세상에 있다니! 문돌이로서 git과 github(깃헙)를 처음 접했을 때는 솔직히 당황스러웠다. 그저 드롭박스, 에버노트 정도의 서비스만 이해할 수 있었던 나에게 version control system(VCS)라는 건 크게 와닿지 않았다. 하지만 필요는 발명의 어머니. 허접하지만 코드 관리와 프로젝트 관리가 필요해지면서 어쩔 수 없이 쓰게 되었고, 이제는 그래도 많이 익숙해졌다.(라고 하기에는 git의 너무나 많은 훌륭한 기능 중에서 대략 5% 정도 쓰고 있는 듯... ㅠㅠ) 
 
@@ -94,7 +96,7 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzA0MTkwNjAsMzI4Nzg4MjU2LDE1Mz
-czMjQ4MjQsNDQ2Mjc4NDg0LDE3MjY2MjYwMDQsLTE5NzAwOTYy
-NDAsLTE4MjA1ODU5NzQsMTMxOTczMDY4MF19
+eyJoaXN0b3J5IjpbMTc0MjY2OTM0OCwzMjg3ODgyNTYsMTUzNz
+MyNDgyNCw0NDYyNzg0ODQsMTcyNjYyNjAwNCwtMTk3MDA5NjI0
+MCwtMTgyMDU4NTk3NCwxMzE5NzMwNjgwXX0=
 -->
