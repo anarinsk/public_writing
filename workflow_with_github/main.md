@@ -10,7 +10,7 @@ Jun Sok Huhh :house: [lostineconomics.com](https://anarinsk.github.io/)
 
 # Markdown 
 
-마크다운(md)은 워드 프로세서와 같은 WYSIWYG의 장점을 잃지 않으면서 최소한의 마크업을 통해서 문서의 표현력까지 높이는 문서화 도구다. 한마디로 워드처럼 별 생각 없이 타이핑하지만 여러가지 문서 표현(장, 절 제목 구분, 이미지 넣기, 태그 넣기, 수식) 등을 간단한 마크업으로 해결하겠다는 것이 이 언어의 목표다. 지금까지 써본 경험으로 말하자면 마크다운이 상상했던 것보다 훨씬 편하고 좋다. 학습곡선도 그리 가파르지 않다. html이나 latex에 비할 바가 아니다. 
+마크다운(md)은 워드 프로세서와 같은 WYSIWYG의 장점을 잃지 않으면서 최소한의 마크업을 통해서 문서의 표현력까지 높이는 문서화 도구다. 한마디로 워드처럼 내용을 타이핑하면서도 여러가지 문서 표현(장, 절 제목 구분, 이미지 넣기, 태그 넣기, 수식) 등을 간단한 마크업으로 해결하겠다는 것이 이 언어의 목표다. 지금까지 써본 경험으로 말하자면 마크다운은 상상했던 것보다 훨씬 편하고 좋다. 학습곡선도 그리 가파르지 않다. 소. html이나 latex에 비할 바가 아니다. 
 
 ## html &harr; md 
 
@@ -88,5 +88,5 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI2NzUwMCwxMzE5NzMwNjgwXX0=
+eyJoaXN0b3J5IjpbMTAxNzE2NDU5NSwxMzE5NzMwNjgwXX0=
 -->
