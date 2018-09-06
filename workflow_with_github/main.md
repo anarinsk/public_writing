@@ -1,7 +1,7 @@
 **Writing on Github**
 
 2018-09-06
-Jun Sok Huhh :house:[lostineconomics.com](https://anarinsk.github.io/)
+Jun Sok Huhh | :house:[lostineconomics.com](https://anarinsk.github.io/)
 
 
 
@@ -86,7 +86,7 @@ git은 VCS다. 따라서 협업 대상이 뭔가 수정을 하면 기록이 자�
 
 md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter notebook에서 셀을 markdown으로 지정해서 코드와 코드 사이에 자유롭게 문서를 끼워 넣을 수 있다. R의 경우는 rmd라는 특화된 md 포맷이 있다. 이 정도면 md에 익숙해져서 손해볼 것은 없지 않을까? 
 
-:feet: Jun Sok Huhh :house: [lostineconomics.com](https://anarinsk.github.io/)
+:feet:Jun Sok Huhh | :house:[lostineconomics.com](https://anarinsk.github.io/)
 
 
 
@@ -97,7 +97,8 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQwMDIwNzYsMzI4Nzg4MjU2LDE1Mz
-czMjQ4MjQsNDQ2Mjc4NDg0LDE3MjY2MjYwMDQsLTE5NzAwOTYy
-NDAsLTE4MjA1ODU5NzQsMTMxOTczMDY4MF19
+eyJoaXN0b3J5IjpbLTMzMDA1MjM3OCwtMjE0NDAwMjA3NiwzMj
+g3ODgyNTYsMTUzNzMyNDgyNCw0NDYyNzg0ODQsMTcyNjYyNjAw
+NCwtMTk3MDA5NjI0MCwtMTgyMDU4NTk3NCwxMzE5NzMwNjgwXX
+0=
 -->
