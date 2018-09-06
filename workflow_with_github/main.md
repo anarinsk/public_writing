@@ -7,13 +7,13 @@ Jun Sok Huhh | :house:[lostineconomics.com](https://anarinsk.github.io/)
 
 # Github 
 
-한마디로 축복이다. 이런 서비스가 세상에 있다니! 문돌이로서 git과 github(깃헙)를 처음 접했을 때는 솔직히 당황스러웠다. 그저 드롭박스, 에버노트 정도의 서비스만 이해할 수 있었던 나에게 version control system(VCS)라는 건 크게 와닿지 않았다. 하지만 필요는 발명의 어머니. 허접하지만 코드 관리와 프로젝트 관리가 필요해지면서 어쩔 수 없이 쓰게 되었고, 이제는 그래도 많이 익숙해졌다.(라고 하기에는 git의 너무나 많은 훌륭한 기능 중에서 대략 5% 정도 쓰고 있는 듯... ㅠㅠ) 
+한마디로 축복이다. 이런 서비스가 세상에 있다니! 문돌이로서 git과 github(깃헙)를 처음 접했을 때는 솔직히 당황스러웠다. 그저 드롭박스, 에버노트 정도의 서비스만 이해할 수 있었던 나에게 version control system(VCS)라는 건 크게 와닿지 않았다. 하지만 필요는 발명의 어머니. 허접하지만 코드 관리와 프로젝트 관리가 필요해지면서 어쩔 수 없이 쓰게 되었고, 이제는 그나마  많이 익숙해졌다.(라고 하기에는 git의 너무나 많은 훌륭한 기능 중에서 대략 5% 정도 쓰고 있는 듯... ㅠㅠ) 
 
-깃헙은 git이라는 VCS의 원격 저장소를 웹으로 뽑아낸 서비스다. 보통 개인 혹은 회사가 git을 구축하면 로컬 머신들이 접속하는 서버를 필요로 한다. 이걸 별도의 웹 서비스로 빼냈다고 생각하면 대충 맞을 것이다. 그런데, 깃헙은 말그대로 git의 허브 이상의 쓰임새를 제공한다. 뒤에서 다시 다루겠지만, 조금만 살펴보면 깃헙 자체를 꽤 유용한 웹하드 그리고 블로그 호스팅 서비스로도 활용할 수 있다. 
+깃헙은 git이라는 VCS의 원격 저장소를 웹으로 뽑아낸 서비스다. 보통 개인 혹은 회사가 git을 구축하면 로컬 머신들이 접속하는 서버를 필요로 한다. 이걸 별도의 웹 서비스로 제공한다고 생각하면 대충 맞을 것이다. 그런데, 깃헙은 말 그대로 git의 허브 이상의 쓰임새를 제공한다. 뒤에서 다시 다루겠지만, 조금만 살펴보면 깃헙 자체를 꽤 유용한 웹하드 그리고 블로그 호스팅 서비스로도 활용할 수 있다. 
 
 # Markdown 
 
-마크다운(md)은 워드 프로세서와 같은 WYSIWYG의 장점을 잃지 않으면서 최소한의 마크업을 통해서 문서의 표현력까지 높이는 문서화 도구다. 한마디로 워드처럼 내용을 타이핑하면서도 여러가지 문서 표현(장, 절 제목 구분, 이미지 넣기, 태그 넣기, 수식) 등을 간단한 마크업으로 해결하겠다는 것이 이 언어의 목표다. 지금까지 써본 경험으로 말하자면 마크다운은 상상했던 것보다 훨씬 편하고 좋다. 학습곡선도 그리 가파르지 않다. 솔직히 학습 곡선에서는 html이나 latex에 비할 바가 아니다. 
+마크다운(md)은 워드 프로세서와 같은 WYSIWYG의 장점을 잃지 않으면서 최소한의 마크업을 통해서 문서의 표현력까지 높이는 문서화 도구다. 한마디로 워드처럼 내용을 타이핑하면서도 여러가지 문서 표현(장, 절 제목 구분, 이미지 넣기, 태그 넣기, 수식) 등을 간단한 마크업으로 해결하겠다는 것이 이 언어의 목표다. 지금까지 써본 경험으로 말하자면 마크다운은 상상했던 것보다 훨씬 편하고 좋다. 학습곡선도 그리 가파르지 않다. 솔직히 학습 곡선에서는 html이나 $\LaTeX$에 비할 바가 아니다. 
 
 ## html &harr; md 
 
@@ -97,9 +97,9 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTk1NjU0MywtNDQzMTQ4MTk2LDk2Mj
-M1NTUwOCw5NjIzNTU1MDgsLTMzMDA1MjM3OCwtMjE0NDAwMjA3
-NiwzMjg3ODgyNTYsMTUzNzMyNDgyNCw0NDYyNzg0ODQsMTcyNj
-YyNjAwNCwtMTk3MDA5NjI0MCwtMTgyMDU4NTk3NCwxMzE5NzMw
-NjgwXX0=
+eyJoaXN0b3J5IjpbLTEwNjEwNDQzNDYsMTk0MTk1NjU0MywtND
+QzMTQ4MTk2LDk2MjM1NTUwOCw5NjIzNTU1MDgsLTMzMDA1MjM3
+OCwtMjE0NDAwMjA3NiwzMjg3ODgyNTYsMTUzNzMyNDgyNCw0ND
+YyNzg0ODQsMTcyNjYyNjAwNCwtMTk3MDA5NjI0MCwtMTgyMDU4
+NTk3NCwxMzE5NzMwNjgwXX0=
 -->
