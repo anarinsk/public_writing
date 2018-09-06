@@ -38,7 +38,7 @@ html과 md 사이는 쉽게 오갈 수 있다. 웹 문서로 쉽게 바꿀 수 �
 
 ![](http://raw.githubusercontent.com/anarinsk/public_writing/master/workflow_with_github/assets/images/workflow_2.png)
 
-이중에서 메인으로 쓸 저장소를 하나 지정한다. 이 녀석은 기본적인 환경과 임시 문서 따위를 저장한다. 저장 옵션에 반갑게도 깃헙이 있다. 이렇게 외부 계정과 stackedit을 연동하면 끝이다. 메인 저장소에서 작업 환경을 불러와서 이를 로컬 머신에서 그대로 재현해준다. 이렇게 재현된 환경은 브라우저 화면 왼쪽에서 확인할 수 있다. 어떤 소프트웨어의 설치도 별도의 서비스 가입도 필요 없다. 
+이중에서 메인으로 쓸 저장소를 하나 지정한다. 이 녀석은 기본적인 환경과 임시 문서 따위를 저장, 관리한다. 저장 옵션에 반갑게도 깃헙이 있다. 이렇게 외부 계정과 stackedit을 연동하면 끝이다. 메인 저장소에서 작업 환경을 불러와서 이를 로컬 머신에서 그대로 재현해준다. 이렇게 재현된 환경은 브라우저 화면 왼쪽에서 확인할 수 있다. 어떤 소프트웨어의 설치도 별도의 서비스 가입도 필요 없다. 
 
 ![](https://raw.githubusercontent.com/anarinsk/public_writing/master/workflow_with_github/assets/images/workflow_3.PNG)
 
@@ -97,7 +97,7 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjA3MjIyMywtNDQzMTQ4MTk2LDk2Mj
+eyJoaXN0b3J5IjpbMTk0MTk1NjU0MywtNDQzMTQ4MTk2LDk2Mj
 M1NTUwOCw5NjIzNTU1MDgsLTMzMDA1MjM3OCwtMjE0NDAwMjA3
 NiwzMjg3ODgyNTYsMTUzNzMyNDgyNCw0NDYyNzg0ODQsMTcyNj
 YyNjAwNCwtMTk3MDA5NjI0MCwtMTgyMDU4NTk3NCwxMzE5NzMw
