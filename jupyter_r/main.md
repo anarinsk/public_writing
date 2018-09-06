@@ -4,7 +4,7 @@
 
 R에는 이미 RStudio라는 훌륭한 개발환경(IDE: Integrated Development Environment)이 있다. R을 쓰는 사람이라면 프로젝트 관리, 편리하고 일관된 객체(데이터 프레임 등) 뷰어, 순차 실행 등 수많은 편리한 기능을 제공하는 RStudio 외에 다른 도구를 떠올리기 힘들 것이다. Python에도 RStudio를 본딴 IDE가 있을 정도니 그 우수성을 새삼 강조할 필요가 없겠다. 
 
-그렇다면 왜 Jupyter에 관심을 두어야 할까?  (참고로 Jupyter는 과거에 IPython으로 알려졌던 노트북의 후속 버전이다.  둘은 거의 100% 호환된다.) 사실 나도 Jupyter하면 저절로 Python이 떠오른다. 그런데 Jupyter는 Python에서만 쓸 수 있는 도구가 아니다. Jupyter는 웹 브라우저에서 돌아가는 인터프리터 스타일(인터랙티브)의 뷰어에 가깝다. 혹자는 농담 반 진담 반으로 Jupyter가 Julia + Python + R의 약자를 따서 만들었다고 주장하기도 했다.  Jupyter를 R과 쓰지 못한 이유는 없다. 
+그렇다면 왜 Jupyter에 관심을 두어야 할까?  (참고로 Jupyter는 과거에 IPython으로 알려졌던 노트북의 후속 버전이다.  둘은 거의 100% 호환된다.) 사실 나도 Jupyter하면 저절로 Python이 떠오른다. 그런데 Jupyter는 Python에서만 쓸 수 있는 도구가 아니다. Jupyter는 웹 브라우저에서 돌아가는 인터프리터 스타일(인터랙티브)의 뷰어에 가깝다. 혹자는 농담 반 진담 반으로 Jupyter가 Julia + Python + R의 약자를 따서 만들었다고 주장하기도 했다.  Jupyter를 R과 쓰지 못할 이유는 없다. 
 
 ## 가벼운 실행 환경 
 
@@ -47,7 +47,7 @@ IRkernel::installspec()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTQ1NjU4NSwtMTg1MDAwMzQzMSwxMz
-c0MTk0NCwxMzQyMDIwMDQ1LDEzMTc4MDIyMDUsOTAxNTMzOTY3
-LDE0MDE0MjYzOTksNjA3ODE3MDI5XX0=
+eyJoaXN0b3J5IjpbLTExMTQ5NTIyNjEsLTU1NTQ1NjU4NSwtMT
+g1MDAwMzQzMSwxMzc0MTk0NCwxMzQyMDIwMDQ1LDEzMTc4MDIy
+MDUsOTAxNTMzOTY3LDE0MDE0MjYzOTksNjA3ODE3MDI5XX0=
 -->
