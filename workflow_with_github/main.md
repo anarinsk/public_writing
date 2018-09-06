@@ -46,7 +46,7 @@ stackedit은 소스를 깃허브에서 읽은 후 이를 브라우저에 올리�
 
 ## 깃헙과 함께  
 
-기본적인 환경을 저장하는 데에는 google drive도 나쁘지 않다. 하지만 이외 개별 문서를 저장하는 데에는 깃헙을 활용하는 편이 낫다. 깃헙은 달에 8달러씩 내면 pivate 계정을 가질 수 있고, 무료로 쓰면 public으로만 쓸 수 있다. 8달러를 들이는 게 아깝다면, 비공개 문서는 google drive에 두고 공유하고 싶은 문서만 깃헙으로 보내면 된다. 공유라는 면에서는 google drive보다 깃헙이 압도적으로 편하고 바람직하다. 아울러 깃헙 리포지터리의 대문 역할을 하는 "README.md" 파일들도 쭉 끌어다 stackedit에 두면 add-commit-push 사이클 없이 수시고 고치며 내용을 다듬을 수 있다. 
+기본적인 환경을 저장하는 데에는 google drive도 나쁘지 않다. 하지만 이외 개별 문서를 저장하는 데에는 깃헙을 활용하는 편이 낫다. 깃헙은 달에 8달러씩 내면 pivate 계정을 가질 수 있고, 무료로 쓰면 public으로만 쓸 수 있다. 8달러를 들이는 게 아깝다면, 비공개 문서는 google drive에 두고 공유하고 싶은 문서만 깃헙으로 보내면 된다. 공유라는 면에서는 google drive보다 깃헙이 압도적으로 편하고 바람직하다. 아울러 깃헙 리포지터리의 대문 역할을 하는 `README.md` 파일들도 쭉 끌어다 stackedit에 두면 add-commit-push 사이클 없이 수시고 고치며 내용을 다듬을 수 있다. 
 
 ## Simplest blog ever
 
@@ -97,8 +97,8 @@ md의 장점은 코드 표현이 자유롭다는 것이다. 이미 Jupyter noteb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjUxNjA3MCwtMzMwMDUyMzc4LC0yMT
-Q0MDAyMDc2LDMyODc4ODI1NiwxNTM3MzI0ODI0LDQ0NjI3ODQ4
-NCwxNzI2NjI2MDA0LC0xOTcwMDk2MjQwLC0xODIwNTg1OTc0LD
-EzMTk3MzA2ODBdfQ==
+eyJoaXN0b3J5IjpbOTYyMzU1NTA4LC0zMzAwNTIzNzgsLTIxND
+QwMDIwNzYsMzI4Nzg4MjU2LDE1MzczMjQ4MjQsNDQ2Mjc4NDg0
+LDE3MjY2MjYwMDQsLTE5NzAwOTYyNDAsLTE4MjA1ODU5NzQsMT
+MxOTczMDY4MF19
 -->
