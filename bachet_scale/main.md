@@ -1,4 +1,4 @@
-**Weighting Problem of Bachet de Méziriac**
+**Weighing Problem of Bachet de Méziriac**
 
 2018-09-17
 Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
@@ -36,5 +36,5 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg0OTM0MzldfQ==
+eyJoaXN0b3J5IjpbMTkxNjExODY2NSwtMTY1ODQ5MzQzOV19
 -->
