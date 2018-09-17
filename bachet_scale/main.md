@@ -19,7 +19,12 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 사실 일종의 인덕션 문제다. 그런데 문제의 핵심에 접근하기는 쉽지는 않다. 우선 표기법부터 정하고 가자. 자연수 $x$라는 무게를 지닌 추는 $x$W으로 표기한다. 즉, $10$W는 10이라는 무게를 지닌 추를 의미한다. 필요한 경우 W앞에 괄호를 붙여 사용하도록 하자. 아래에서 $n$은 해당 상황에서 적절하게 큰 자연수를 나타낸다. 
 
 * 이제, $\{ 1, 2, \dotsc, n \}$의 무게를 모두 표현할 수 있는 추의 집합 $\omega$가 있다고 하자. 
-* 여기에 $2n+1$의 무게를 지닌 추 $(2n+1)$W 하나를 추가해보자. $\omega$에 $(2n+1)$W 하나를 추가했을 때 추가적으로 표현할 수 있는 무게는 어떤 것이 있을까? 
+* 여기에 $2n+1$의 무게를 지닌 추 $(2n+1)$W 하나를 추가해보자. 추 집합 $\omega$에 $(2n+1)$W 라는 추 하나를 추가했을 때 추가로 표현할 수 있는 무게는 얼마나 확장될까? 먼저 $\omega$에 이 새로운 추를 추가한 추 집합을 $\omega'$이라고 하자. 즉, 
+
+$$
+
+$$
+
 	* 우선, 당연히 $2n+1$이 추가된다. 
 	* $\{ 2n+2, 2n+3, \dotsc, 3n+1 \}$의 무게를 이 추 조합으로 측정할 수 있다. 짐이 해당 범위의 무게를 지닌다면, 짐을 왼쪽에 그리고 오른쪽에 $(2n+1)$W와 $\omega$를 적절하게 올리면 된다. 
 	* 다음으로 짐의 무게가 $\{ n+1, n+2, \dotsc, 2n\}$에 속한 경우에도 $\omega$ 그리고 $(2n+1)$W의 조합으로 무게 측정이 가능하다. 이는 $(2n+1)$W를 오른쪽에 두고, 왼쪽에 짐과 $\omega$를 조합함으로써 저울의 균형을 맞출 수 있다.  
@@ -36,6 +41,6 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTI0NDEzLC0xOTYzNjU4MjksMTkxNj
-ExODY2NSwtMTY1ODQ5MzQzOV19
+eyJoaXN0b3J5IjpbLTY0NjExMzA0MSwxNDg1MjQ0MTMsLTE5Nj
+M2NTgyOSwxOTE2MTE4NjY1LC0xNjU4NDkzNDM5XX0=
 -->
