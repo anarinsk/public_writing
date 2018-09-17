@@ -25,8 +25,9 @@ $$
 \omega' = \{ w | w \in \omega \cup \{ (2n+1) {\rm W} \} \}
 $$
 
-	* 우선, 당연히 $2n+1$이 추가된다. 
-	* $\{ 2n+2, 2n+3, \dotsc, 3n+1 \}$의 무게를 이 추 조합으로 측정할 수 있다. 짐이 해당 범위의 무게를 지닌다면, 짐을 왼쪽에 그리고 오른쪽에 $(2n+1)$W와 $\omega$를 적절하게 올리면 된다. 
+* $(2n+1)$W를 추가해 더 측정할 수 있는 무
+ * 우선, 당연히 무게 $2n+1$이 추가된다. 
+ * $\{ 2n+2, 2n+3, \dotsc, 3n+1 \}$의 무게를 이 추 조합으로 측정할 수 있다. 짐이 해당 범위의 무게를 지닌다면, 짐을 왼쪽에 그리고 오른쪽에 $(2n+1)$W와 $\omega$를 적절하게 올리면 된다. 
 	* 다음으로 짐의 무게가 $\{ n+1, n+2, \dotsc, 2n\}$에 속한 경우에도 $\omega$ 그리고 $(2n+1)$W의 조합으로 무게 측정이 가능하다. 이는 $(2n+1)$W를 오른쪽에 두고, 왼쪽에 짐과 $\omega$를 조합함으로써 저울의 균형을 맞출 수 있다.  
 * 결론적으로 $\omega$ 그리고 $(2n+1)$W의 조합으로 $\{ 1,2, \dotsc, n, n+1, n+2, \dotsc, 2n, 2n+1, 2n+2, \dotsc, 3n+1\}$ 무게를 측정할 수 있다.  
 
@@ -41,6 +42,6 @@ $$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk3OTg3MTEsMTQ4NTI0NDEzLC0xOT
-YzNjU4MjksMTkxNjExODY2NSwtMTY1ODQ5MzQzOV19
+eyJoaXN0b3J5IjpbMTk1NDUxOTA2NywxNDg1MjQ0MTMsLTE5Nj
+M2NTgyOSwxOTE2MTE4NjY1LC0xNjU4NDkzNDM5XX0=
 -->
