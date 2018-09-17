@@ -1,3 +1,3 @@
 # public_writing
 
-This is repo for writing posted in [lostineconomcis.com](http://lostineconomics.com)
+This is repo for writing posted in [lostineconomics.com](http://lostineconomics.com)
