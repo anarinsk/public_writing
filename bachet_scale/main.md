@@ -22,7 +22,7 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 * 여기에 $2n+1$의 무게를 지닌 추 $(2n+1)$W 하나를 추가해보자. 추 집합 $\omega$에 $(2n+1)$W 라는 추 하나를 추가했을 때 추가로 표현할 수 있는 무게는 얼마나 확장될까? 먼저 $\omega$에 이 새로운 추를 추가한 추 집합을 $\omega'$이라고 하자. 즉, 
 
 $$
-
+\omega' = \{ w | w \in \omega \cup \{ (2n+1) {\rm W} \} \}
 $$
 
 	* 우선, 당연히 $2n+1$이 추가된다. 
@@ -41,6 +41,6 @@ $$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjExMzA0MSwxNDg1MjQ0MTMsLTE5Nj
-M2NTgyOSwxOTE2MTE4NjY1LC0xNjU4NDkzNDM5XX0=
+eyJoaXN0b3J5IjpbLTEzODk3OTg3MTEsMTQ4NTI0NDEzLC0xOT
+YzNjU4MjksMTkxNjExODY2NSwtMTY1ODQ5MzQzOV19
 -->
