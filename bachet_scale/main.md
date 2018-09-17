@@ -16,7 +16,7 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 # Key insight 
 
-사실 일종의 인덕션 문제다. 그런데 문제를 핵심에 접근하기는 쉽지 않다. 우선 표기법부터 정하고 가자. 자연수 $x$라는 무게를 지닌 추는 $x$W으로 표기한다. 즉, $10$W는 10이라는 무게를 지닌 추를 의미한다. 필요한 경우 W앞에 괄호를 붙여 사용하도록 하자. 아래에서 $n$은 해당 상황에서 적절하게 큰 자연수를 나타낸다. 
+사실 일종의 인덕션 문제다. 그런데 문제의 핵심에 접근하기는 쉽지는 않다. 우선 표기법부터 정하고 가자. 자연수 $x$라는 무게를 지닌 추는 $x$W으로 표기한다. 즉, $10$W는 10이라는 무게를 지닌 추를 의미한다. 필요한 경우 W앞에 괄호를 붙여 사용하도록 하자. 아래에서 $n$은 해당 상황에서 적절하게 큰 자연수를 나타낸다. 
 
 * 이제, $\{ 1, 2, \dotsc, n \}$의 무게를 모두 표현할 수 있는 추의 집합 $\omega$가 있다고 하자. 
 * 여기에 $2n+1$의 무게를 지닌 추 $(2n+1)$W 하나를 추가해보자. $\omega$에 $(2n+1)$W 하나를 추가했을 때 추가적으로 표현할 수 있는 무게는 어떤 것이 있을까? 
@@ -36,5 +36,6 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjExODY2NSwtMTY1ODQ5MzQzOV19
+eyJoaXN0b3J5IjpbLTE5NjM2NTgyOSwxOTE2MTE4NjY1LC0xNj
+U4NDkzNDM5XX0=
 -->
