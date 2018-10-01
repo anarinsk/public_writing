@@ -46,5 +46,6 @@
 
 불확실한 상황에서의 그리고 그에 관한 의사결정은 어렵고 지능이 높은 인간도 감당하기 힘든 계산을 요한다. 그러면, 이런 상황에서 의사결정은 어떻게 되는가? 아무 것도 하지 않는 것보다는 최적은 아니지만 대체로 해가 없는 그런 만족스런 지침을 따르는 것이 낫지 않을까? 허버트 사이먼이 말한 satisficing(= sacrifice + satisfy)이 바로 이런 행동 지침을 통칭한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODQ3NjU5NywtOTM2NDY0NTAxXX0=
+eyJoaXN0b3J5IjpbLTEwOTk5MjczODgsMTIzODQ3NjU5NywtOT
+M2NDY0NTAxXX0=
 -->
