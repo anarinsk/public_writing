@@ -54,6 +54,6 @@
 
 불확실한 상황에서 결정을 하는 일은 어렵다. 지능이 높은 인간도 오래 고민해야 하는 계산을 요구한다. 그러면 이런 상황에서 평범한 인간은 어떻게 결정하는가? 아무 것도 하지 않는 것보다는 최적이 아니지만 대체로 해가 없는 그런 만족할만한 지침을 따르는 것이 낫지 않을까? 허버트 사이먼이 말한 satisficing(= sacrifice + satisfy)이 바로 이런 어림짐작의 행동 지침을 통칭한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMzkzMDY5LC0xMDk5OTI3Mzg4LDEyMz
-g0NzY1OTcsLTkzNjQ2NDUwMV19
+eyJoaXN0b3J5IjpbLTk2OTQ0NDE1MiwyMjAzOTMwNjksLTEwOT
+k5MjczODgsMTIzODQ3NjU5NywtOTM2NDY0NTAxXX0=
 -->
