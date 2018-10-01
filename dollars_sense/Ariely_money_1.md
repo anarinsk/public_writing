@@ -1,5 +1,5 @@
 
-# Dan Ariely, "Dollar and Sense" 
+# Dan Ariely, "Dollars and Sense" 
 
 * 댄 애리얼리의 새 책 [부의 감각](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=153434095)을 보고 몇 차례 쭉 쓸 예정입니다.  
 * 어찌보면 요약이고 어찌보면 잡설입니다. 
