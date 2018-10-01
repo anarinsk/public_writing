@@ -38,8 +38,7 @@
 
 그는 이렇게 컴퓨팅에 드는 비용을 인간에게 그대로 대입해보았다. 계산해야 할 문제가 간단하면 어지간한 지능을 지닌 사람이라면 쉽게 해낼 수 있을 것이다. 하지만 계산이 복잡하거나 아예 불가능한 경우라면? 인간은 이 경우에 어떻게 대응할까? 
 
->>>
-My first empirical proposition is that there is a complete lack of evidence that, in actual human choice situations of any complexity, these computations can be, or are in fact, performed” (Simon 1955).
+> My first empirical proposition is that there is a complete lack of evidence that, in actual human choice situations of any complexity, these computations can be, or are in fact, performed” (Simon 1955).
 
 그는 이런 계산이 제대로 이루어지기 힘들다고 보았다. 사실 지극히 당연한 통찰이지면 이득의 여지가 선택의 에너지를 제공하는 균형의 사고 방식에서 경제학자들이 꾸준히 무시해온 것이다. 이 문제에 관한 모호하지만 비교적 그럴 듯한 해법을 내놓은 사람이 밀튼 프리드만이다. 그는 만일 시장이 효율성의 판별기로서 충분히 빠르게 작용할 수 있다면, 실제로 사람들이 합리적인 계산을 하느냐 하지 않느냐는 중요하지 않다고 주장했다. 즉 시장이 경제적으로 최적화를 하는 유형의 주체만 남긴다면 시장에서 생존한 이들은 그런 사람들일 것이다. 따라서 사람들이 슈퍼컴퓨터처럼 최적화를 한다고 봐도 무방한 것이다. 
 
