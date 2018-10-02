@@ -100,7 +100,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
 2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$로 가정할 경우 FPRP는 무려 0.93이 된다. 
 
-앞서 과학자들도 신박한 것을 추구한다고 말했다. 신박한 것이란 사실 잘 검증되기 힘들다는 의미이기도 하다. 해당 가설 검정을 할 경우 대부분 negative로 보고될 터다. 이런 분야에서 positive를 찾아냈다면 그 연구가 잘못된 것(false positive)일 확률이 생각보다 훨씬 크게 된다. 검정력상식적이지 않은가? 
+앞서 과학자들도 신박한 것을 추구한다고 말했다. 신박한 것이란 사실 잘 검증되기 힘들다는 의미이기도 하다. 해당 가설 검정을 할 경우 대부분 negative로 보고될 터다. 이런 분야에서 positive를 찾아냈다면 그 연구가 잘못된 것(false positive)일 확률이 생각보다 훨씬 크게 된다. 검정력 마저 떨어진다면, 결과는 처참해진다.  
 
 # 정리 
 
@@ -118,8 +118,8 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTM2MDgxLDIxMzkxMjU5MjUsMTkzND
-MxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC0xNTEwMTQ3
-NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1ODcyNSwtND
-Y4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbMTc4MDEyODQ4NSwyMTM5MTI1OTI1LDE5Mz
+QzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3MywtMTUxMDE0
+NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5NTg3MjUsLT
+Q2ODg1MTQ3M119
 -->
