@@ -13,7 +13,7 @@
 
 # 예측과 사실 조건 
 
-p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 표다. 혼동행렬(confusion matrix)라고 부르기도 한다. $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 이에 대해서 예측을 하고 이것이 맞았는지를 확인하기 위해서는  
+p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 표다. 혼동행렬(confusion matrix)라고 부르기도 한다. $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 이에 대해서 예측을 하고 이것이 맞았는지를 확인하기 위해서는  네 가지 경우를 확인하면 된다. 
 
 |  | true | false |
 |--|--|--|
@@ -118,7 +118,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU0OTk2MTAsLTQ5OTMxNzQzOCwtMT
+eyJoaXN0b3J5IjpbLTE1NDU0ODc0ODIsLTQ5OTMxNzQzOCwtMT
 A0OTcwOTI3MywtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIx
 NDg2LC0xNjE5NTg3MjUsLTQ2ODg1MTQ3M119
 -->
