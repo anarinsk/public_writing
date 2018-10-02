@@ -54,10 +54,11 @@
 
 불확실한 상황에서 결정을 하는 일은 어렵다. 지능이 높은 인간도 오래 고민해야 하는 계산을 요구한다. 그러면 이런 상황에서 평범한 인간은 어떻게 결정하는가? 아무 것도 하지 않는 것보다는 최적이 아니지만 대체로 해가 없는 그런 만족할만한 지침을 따르는 것이 낫지 않을까? 허버트 사이먼이 말한 satisficing(= sacrifice + satisfy)이 바로 이런 어림짐작의 행동 지침을 통칭한다.
 
+---
 
 <b id="f1">1</b> 번역서에는 "가치 단서"라고 번역했다. 뭔가 행동을 촉발하는 자극제 혹은 힌트 같은 뜻도 있다. 단서는 보통 추리와 연결되기 때문에 행동을 타내는 데에는 다소 정적인 느낌이다. 그렇다고 행동을 유발하는 신호, 자극 이렇게 쓰기에는 너무 말이 강하다. 사실 이런 작용이 대놓고 뭔가를 촉발하는 것도 아니다. 그래서 "가치 힌트"라고 쓸까 하다가 영어로 "guiding  suggestion"의 뜻풀이를 보게 되었다. 즉 일방적인 제시가 아니라 은근하게 던져지는 무엇이라는 뜻이다. 그래서 암시라고 일단 말을 다시 풀었다.[↩](#a1) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY2MTA5NDYsLTE1NDc3ODA5ODEsMT
-A5MTcyNzc4NywtOTY5NDQ0MTUyLDIyMDM5MzA2OSwtMTA5OTky
-NzM4OCwxMjM4NDc2NTk3LC05MzY0NjQ1MDFdfQ==
+eyJoaXN0b3J5IjpbLTE5ODM5MTYzNSwtMTU0Nzc4MDk4MSwxMD
+kxNzI3Nzg3LC05Njk0NDQxNTIsMjIwMzkzMDY5LC0xMDk5OTI3
+Mzg4LDEyMzg0NzY1OTcsLTkzNjQ2NDUwMV19
 -->
