@@ -51,8 +51,8 @@ NHST가 지닌 문제에 관해서는 별도의 포스팅을 몇 번이나 해�
 
 통계 패키지를 돌렸을 때 $p < 0.05$와 같은 메시지를 보면 안심하곤 한다. 그리고 뇌리에 떠오르는 목소리는 무엇인가? "주어진 데이터에서 $H_0$이 참일 확률  $p$..."  비슷한 목소리를 들어본 적이 있다면 크게 오해한 것이다. 여기서 $p$ 값은 정확히 말하면 역(reverse) 명제이다.
 
-1. 데이터가 주어졌을 때, $H_0$가 참일 확률 
-2. 만일 $H_0$ 참이라면, 이런 데이터를 얻을 확률
+1. 현재의 데이터가 주어졌을 때, $H_0$가 참일 확률 
+2. 만일 $H_0$ 참이라면, 현재의 데이터를 얻을 확률
 
 1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 둘은 동일한 진술이 아니다. 그런데 우리는 종종 $p$ 값을 1처럼 해석하고는 한다. 이해를 돕기 위해 법의 맥락의 예를 들어보겠다. 
 
@@ -114,6 +114,6 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkwOTg4NDcsLTE2MTk1ODcyNSwtND
-Y4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbLTIxMTY3NzIzOSwtMTYxOTU4NzI1LC00Nj
+g4NTE0NzNdfQ==
 -->
