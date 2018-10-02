@@ -15,14 +15,12 @@
 
 p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 표다. 혼동행렬(confusion matrix)라고 부르기도 한다. $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 이에 대해서 예측을 하고 이것이 맞았는지를 확인하기 위해서는  네 가지 경우를 확인하면 된다. 
 
-|  | true | false |
+|  | POSITIVE | NEGATIVE |
 |--|--|--|
 | **Positive** | true Positive | false Positive  |
 | **Negative** | false Negative |  true Negative |
 
-표에서 열은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 true/false 둘로 구분한 것이다. 형용사의 의미로는 참/거짓이지만, 이는 $x$의 실존을 묘사하는 이름표로 보면 되겠다. 
-
-행은 예측 결과를 구분한 것이다. $x$의 존재 유무에 대한 예측을 각각 positive/negative로 나타내자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 
+표에서 열은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 POSITIVE/NEGATIVE 둘로 구분한 것이다. 행은 예측 결과를 나타낸다. $x$의 존재 유무에 대한 예측을 각각 positive/negative로 나타내자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 
   -  positive, negative 예측이 맞는 경우: true positive, true negative 
   -  Positive, Negative 예측이 틀리는 경우: false Positive, false Negative 
 
@@ -117,7 +115,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDE3NDc5MCwtNDk5MzE3NDM4LC0xMD
+eyJoaXN0b3J5IjpbMTMwNzU0ODQ2OSwtNDk5MzE3NDM4LC0xMD
 Q5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0
 ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
 -->
