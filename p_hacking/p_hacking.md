@@ -41,7 +41,7 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자
 
 사실 통계적인 검정은 영가설<sup id="a1">[1](#f1)</sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 계수가 $\beta_1 = 0$ 임을 검증하는 형태가 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적겠다. 
 
-보시는 것처럼 보통 혼동행렬에서 효과 있음을 "POSITIVE"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 업계의 관행을 존중하도록 하자. 
+보시는 것처럼 보통 혼동행렬에서 효과 있음을 "POSITIVE"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 여기서는 업계의 관행을 존중하도록 하자. 
 
 
 ![enter image description here](https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png)
@@ -49,7 +49,7 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자
 
 # NHST 무엇이 문제인가? (기초편)
 
-NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 번은 해야 할 것 같다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고, p-hacking으로 넘어가도록 하자. 
+NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차례는 해야 할 것이다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고, p-hacking으로 넘어가도록 하자. 
 
 통계 패키지를 돌렸을 때 $p < 0.05$와 같은 메시지를 보면 안도감이 들거나 때로는 희열을 느낄지도 모르겠다. 이때 뇌리를 스치는 목소리가 이런 것이 아닐까? "주어진 데이터에서 $H_0$이 참일 확률  $p$..."  이 목소리에 솔깃했다면 다시 정신을 차려야 한다. 여기서 $p$ 값의 의미는 오히려 역(reverse) 명제에 가깝다. 
 
@@ -116,7 +116,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5NTA0NTE4LC00OTkzMTc0MzgsLTEwND
-k3MDkyNzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4
-NiwtMTYxOTU4NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMD
+Q5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0
+ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
 -->
