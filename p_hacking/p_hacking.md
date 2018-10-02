@@ -39,9 +39,9 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자
 
 앞서의 표를 살짝 다르게 표현해보자. 각 행에 대해서, 즉 positive, negative 예측은 맞거나 틀리거나 할 것이다. 각각의 예측 결과를 POSITIVE와 NEGATIVE 별로 비율로 나타내자. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative를 2종 오류라고 부른다. 
 
-사실 통계적인 검정은 영가설<sup id="a1">[1](#f1)</sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 계수가 $\beta_1 = 0$ 임을 검증하는 형태가 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때 영가설을 기각하고 효과가 있다고 생각한다. 앞으로 영가설은 $H_0$로도 적겠다. 
+사실 통계적인 검정은 영가설<sup id="a1">[1](#f1)</sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 계수가 $\beta_1 = 0$ 임을 검증하는 형태가 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적겠다. 
 
-보시는 것처럼 보통 혼동 행렬에서 효과 있음을 "Positive"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 그래서 앞에서 Positive를 그냥 "이름표"로 봐 달라고 미리 밝혔다. 혼란의 여지가 있지만 중요한 것은 이름이 아니라 취지이므로 일단 업계의 관행을 존중하도록 하자. 
+보시는 것처럼 보통 혼동행렬에서 효과 있음을 "POSITIVE"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 업계의 관행을 존중하도록 하자. 
 
 
 ![enter image description here](https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png)
@@ -116,7 +116,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTA3MTA4OSwtNDk5MzE3NDM4LC0xMD
-Q5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0
-ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbNzM5NTA0NTE4LC00OTkzMTc0MzgsLTEwND
+k3MDkyNzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4
+NiwtMTYxOTU4NzI1LC00Njg4NTE0NzNdfQ==
 -->
