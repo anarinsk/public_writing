@@ -9,7 +9,7 @@
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
-같은 데이터 셋에 대해서 여러가지 조건의 필터를 걸어 당신이 원하는 '과학적' 결론을 찾을 수 있다! 어떻게 과학적인가? 4번 섹션의 유의 확률을 보면 된다. 업계의 표준에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-hacking이다. 
+같은 데이터 셋에 대해서 여러가지 조건의 필터를 걸어 당신이 원하는 '과학적' 결론을 찾을 수 있다! 어째서 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-hacking이다. 
 
 # 예측과 사실 조건 
 
@@ -114,6 +114,6 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjczNzE2Miw3MzM0MjE0ODYsLTE2MT
-k1ODcyNSwtNDY4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOT
+U4NzI1LC00Njg4NTE0NzNdfQ==
 -->
