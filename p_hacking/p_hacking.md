@@ -45,6 +45,10 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표부터 보자. �
 
 보시는 것처럼 보통 혼동 행렬에서 효과 있음을 "Positive"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 그래서 앞에서 Positive를 그냥 "이름표"로 봐 달라고 미리 밝혔다. 혼란의 여지가 있지만 중요한 것은 이름이 아니라 취지이므로 일단 업계의 관행을 존중하도록 하자. 
 
+
+![enter image description here](https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png)
+
+
 # NHST 무엇이 문제인가? (기초편)
 
 NHST가 지닌 문제에 관해서는 별도의 포스팅을 몇 번이나 해야할 것이다. 일단 흔하게 저지르기 쉬운 오류 하나 바로잡고 주제인 p-hacking으로 들어가도록 하자. 
@@ -114,6 +118,6 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOT
-U4NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbMjAwOTY5MzEzNSwxMTA0MzYzNzQsNzMzND
+IxNDg2LC0xNjE5NTg3MjUsLTQ2ODg1MTQ3M119
 -->
