@@ -20,7 +20,7 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자
 | **Positive** | true Positive | false Positive  |
 | **Negative** | false Negative |  true Negative |
 
-표에서 열은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 실제 존재하는 상태를 두 가지로 구분한 것이라고 보면 되겠다. true는 주어진 가설의 주장 대로 사실이 존재하는 상태를 나타낸다. 형용사의 의미로는 참/거짓이지만 이는 사실을 묘사하는 이름표로 보면 되겠다. 
+표에서 열은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 true/false 둘로 구분한 것이다. 형용사의 의미로는 참/거짓이지만, 이는 $x$의 실존을 묘사하는 이름표로 보면 되겠다. 
 
 행은 예측 결과를 구분한 것이다. 어떤 대상에 대해서 라고 예측하는 경우를 Positive라고 하고 FALSE라고 예측하는 경우를 negative라고 하자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 우선, 예측과 사실 조건이 맞는 경우는 형용사 true를 쓰도록 하자. 
 
@@ -118,7 +118,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU0ODc0ODIsLTQ5OTMxNzQzOCwtMT
+eyJoaXN0b3J5IjpbLTE0ODcyMzgzNzcsLTQ5OTMxNzQzOCwtMT
 A0OTcwOTI3MywtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIx
 NDg2LC0xNjE5NTg3MjUsLTQ2ODg1MTQ3M119
 -->
