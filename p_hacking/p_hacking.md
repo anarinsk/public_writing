@@ -104,7 +104,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 # 정리 
 
-이오니디스 선생은 정상적으로 별 의도 없이 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있다는 평범한 사실을 지적했다. 더구나 2종 오류를 명확하게 고려하지 않을 경우 신박함을 좇는 과학자의 욕망과 결합해 재앙에 가까운 결과를 낳을 수 있음을 보였다. 
+이오니디스 선생은 정상적으로 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘 지적했다. 더구나 2종 오류를 통제하지 않을 경우 신박함을 좇는 과학자의 태생적인 욕망과 결합해 재앙에 가까운 결과를 낳을 수 있음을 보였다. 
 
 과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구의 결과물은 결코 객관적일 수 있다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 더욱 신박한 연구를 추구하려는 유인이 발생하기 마련이다. 이오니디스 선생은 충고는 상식적이다. 보통 보기 힘든 신박한 것을 발견했다면, 한번 삐딱하게 보라는 것이다. 과학의 권위를 거부할 필요는 없겠지만, 과학자의 유인 그 너머를 보라는 것이다. 이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 무해하지만 그의 열정이 의도하지 않은 p-hacking으로 이끌 수 있다. 
 
@@ -118,7 +118,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM2NjgxNjgsLTEwNDk3MDkyNzMsLT
-E1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4
-NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbNjUxMjQ2OTQ4LC0xMDQ5NzA5MjczLC0xNT
+EwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1ODcy
+NSwtNDY4ODUxNDczXX0=
 -->
