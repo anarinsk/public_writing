@@ -35,8 +35,8 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자
 |--|--|--|
 | **positive** | 1-$\alpha$ | $\alpha$ |
 | **negative** | $\beta$ |  1-$\beta$ |
-
-앞서의 표를 살짝 다르게 표현해보자. 각 행에 대해서, 즉 positive, negative 예측은 맞거나 틀리거나 할 것이다. 각각의 예측 결과를 POSI. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative를 2종 오류라고 부른다. 
+($\alpha, \beta \io$)
+앞서의 표를 살짝 다르게 표현해보자. 각 행에 대해서, 즉 positive, negative 예측은 맞거나 틀리거나 할 것이다. 각각의 예측 결과를 POSITIVE와 NEGATIVE 별로 비율로 . 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative를 2종 오류라고 부른다. 
 
 앞서 사실 조건을 TRUE라고 굳이 대문자로 쓴 이유를 이제 살짝 밝히겠다. 사실 통계적인 검정은 영가설<sup id="a1">[1](#f1)</sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 보통 부른다. NHST에서 영가설은 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 계수가 $\beta_1 = 0$ 임을 검증하는 형태다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때 영가설을 기각하고 효과가 있다고 생각한다. 앞으로 영가설은 $H_0$로도 적겠다. 
 
@@ -115,7 +115,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NDYwNTg0LC00OTkzMTc0MzgsLTEwND
-k3MDkyNzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4
-NiwtMTYxOTU4NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbLTMyMjAzNDM1NiwtNDk5MzE3NDM4LC0xMD
+Q5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0
+ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
 -->
