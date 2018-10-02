@@ -98,7 +98,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 생각보다 높다! 유의수준 0.05(5%)가 무척 안전해 보일지 모르나 이렇게 살짝 안을 들춰보면 연구의 신뢰성에 문제가 생기는 것이다. 이 문제는 더 악화될 수 있다. 
 
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
-2. 대부분의 가설이 FALSE이고 1% 정도면 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$로 가정할 경우 FPRP는 0.93이 된다. 
+2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$로 가정할 경우 FPRP는 무려 0.93이 된다. 
 
 앞서 과학자들도 신박한 것을 추구한다고 말했다. 신박한 것이란 사실 잘 검증되기 힘든 것을 의미한다. 해당 가설검정을 할 경우 대부분 FALSE로 보고될 것들이다. 이런 분야에서 TRUE를 찾아냈다면 그 연구가 false Positive일 확률은 상상 이상으로 높다.
 
@@ -118,7 +118,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzY1NTg4LC0xMDQ5NzA5MjczLC0xNT
-EwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1ODcy
-NSwtNDY4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbLTE3NzgzNjkwNDgsLTEwNDk3MDkyNzMsLT
+E1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4
+NzI1LC00Njg4NTE0NzNdfQ==
 -->
