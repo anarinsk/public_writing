@@ -79,17 +79,17 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 �
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png?w=860)
 
-자 이제 업계의 관행대로 1종 오류, 즉 $alpha = 0.05$로 두자. 이는 false positive, 즉 효과가 없는데도 효과가 있다는 예측을 얻을 확률을 5%까지 허용한다는 이야기다. 1000번의 실험이라면 효과가 없는 900번 중에서 약 45번(=900 X 0.05) 정도는 효과가 있는 것으로 보고된다. 
+자 이제 업계의 관행대로 1종 오류, 즉 $alpha = 0.05$로 두자. 이는 false positive, 즉 효과가 없는데도 효과가 있다는 예측을 얻을 확률을 5%까지 허용한다는 이야기다. 1000번의 실험이라면 효과가 없는 900번 중에서 약 45번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고된다. 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png?w=860)
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false Negative가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100개 중에서 20개 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative가 20%다. 즉 100개 중에서 20개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png?w=860)
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45개의 false Positive와 80개의 true Positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 Positive라고 보고한 것 중에서 제대로 되지 않은 것의 비율( false-positive report probability)이 얼마나 되는지 계산해보자!
+1,000 번의 노가다가 끝나고 나면, 우리는 45개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율( false-positive report probability)이 얼마나 되는지 계산해보자!
 
 $\text{FPRP} = \dfrac{\text{false Positive}}{\text{false Positive + true Positive}}$
 
@@ -118,8 +118,8 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjc3OTIxNywyMTM5MTI1OTI1LDE5Mz
-QzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3MywtMTUxMDE0
-NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5NTg3MjUsLT
-Q2ODg1MTQ3M119
+eyJoaXN0b3J5IjpbODYyMzI3MjI2LDIxMzkxMjU5MjUsMTkzND
+MxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC0xNTEwMTQ3
+NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1ODcyNSwtND
+Y4ODUxNDczXX0=
 -->
