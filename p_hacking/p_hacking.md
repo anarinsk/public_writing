@@ -53,7 +53,7 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표부터 보자. �
 
 NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 번은 해야 할 것 같다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고, p-hacking으로 넘어가도록 하자. 
 
-통계 패키지를 돌렸을 때 $p < 0.05$와 같은 메시지를 보면 안심하곤 한다. 그리고 뇌리에 떠오르는 목소리는 무엇인가? "주어진 데이터에서 $H_0$이 참일 확률  $p$..."  비슷한 목소리를 들어본 적이 있다면 크게 오해한 것이다. 여기서 $p$ 값은 정확히 말하면 역(reverse) 명제이다.
+통계 패키지를 돌렸을 때 $p < 0.05$와 같은 메시지를 보면 안도감이 들거나 때로는 희열을 느낄지도 모르겠다. 이때 뇌리를 스치는 목소리가 이런 것이 아닐까? "주어진 데이터에서 $H_0$이 참일 확률  $p$..."  비슷한 목소리를 들어본 적이 있다면 크게 오해한 것이다. 여기서 $p$ 값은 정확히 말하면 역(reverse) 명제이다.
 
 1. 현재의 데이터가 주어졌을 때, $H_0$가 참일 확률 
 2. 만일 $H_0$ 참이라면, 현재의 데이터를 얻을 확률
@@ -118,6 +118,6 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMDg0NjE4LDExMDQzNjM3NCw3MzM0Mj
+eyJoaXN0b3J5IjpbNTE2ODgyMzE0LDExMDQzNjM3NCw3MzM0Mj
 E0ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
 -->
