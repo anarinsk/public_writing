@@ -1,11 +1,11 @@
 # 들어가며 
-"재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 반복해도 같은 혹은 충분히 비슷한 결과가 나와야 한다는 것이다. 
+"재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 반복해도 같은 혹은 충분히 비슷한 결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 다른 사람이 실시하는 실험으로 구현될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항 아래에서는 기본적으로 같은 결과가 나와야 한다.
 
-자연과학이나 공학에서 연구 재현성은 다른 사람이 실시하는 실험으로 구현될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항 아래에서는 기본적으로 같은 결과가 나와야 한다. 그러면 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 고정된다. 고정된 데이터를 분석하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다. 
+데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 고정된다. 고정된 데이터를 분석하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 수상한 로널드 코즈가 했다는 유명한 말이 있다. 
 
 > If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
-데이터를 고문하다니? 백문이 불여일견이다. 네이트 실버의 538에서 p-hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
+데이터를 고문하다니? 백문이 불여일견인 법. 네이트 실버의 538에서 p-hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
@@ -13,7 +13,7 @@
 
 # 예측과 사실 조건 
 
-p-hacking의 문제를 파헤치기 전에 간단한 분류 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 표다. 흔히 혼동행렬(confusion matrix)라고 부르기도 한다. 
+p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 표다. 혼동행렬(confusion matrix)라고 부르기도 한다. 
 
 |  | TRUE | FALSE |
 |--|--|--|
@@ -118,7 +118,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTk5ODI5NSwtNDk5MzE3NDM4LC0xMD
+eyJoaXN0b3J5IjpbMTk1OTUwNzI0NiwtNDk5MzE3NDM4LC0xMD
 Q5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0
 ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
 -->
