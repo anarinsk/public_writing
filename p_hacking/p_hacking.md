@@ -89,7 +89,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 �
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45개의 false Positive와 80개의 true Positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 결과가 나오지 않은 실험에서 Positive를 보고할 확률( false-positive report probability)이 얼마나 되는지 계산해보자.
+1,000 번의 노가다가 끝나고 나면, 우리는 45개의 false Positive와 80개의 true Positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 Positive라고 보고한 것 중에서 제대로 되지 않은 것의 비율( false-positive report probability)이 얼마나 되는지 계산해보자!
 
 $\text{FPRP} = \dfrac{\text{false Positive}}{\text{false Positive + true Positive}}$
 
@@ -118,7 +118,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk3MDkyNzMsLTE1MTAxNDc0NjEsMT
-EwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4NzI1LC00Njg4NTE0
-NzNdfQ==
+eyJoaXN0b3J5IjpbMTM3MzY1NTg4LC0xMDQ5NzA5MjczLC0xNT
+EwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1ODcy
+NSwtNDY4ODUxNDczXX0=
 -->
