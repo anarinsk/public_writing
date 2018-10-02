@@ -17,21 +17,21 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자
 
 |  | POSITIVE | NEGATIVE |
 |--|--|--|
-| **Positive** | true Positive | false Positive  |
-| **Negative** | false Negative |  true Negative |
+| **positive** | true positive | false positive  |
+| **negative** | false negative |  true negative |
 
 표에서 열은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 POSITIVE/NEGATIVE 둘로 구분한 것이다. 행은 예측 결과를 나타낸다. $x$의 존재 유무에 대한 예측을 각각 positive/negative로 나타내자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 
   -  positive, negative 예측이 맞는 경우: true positive, true negative 
-  -  Positive, Negative 예측이 틀리는 경우: false Positive, false Negative 
+  -  positive, negative 예측이 틀리는 경우: false positive, false negative 
 
-당연히 true Positive와 true Negative를 가급적 높이는 것이 좋을 것이다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 성과 지표를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자. 
+당연히 true positive와 true negative의 비율을 가급적 높이는 것이 좋을 것이다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 성과 지표를 도출할 수 있다. 하지만 당장의 지금의 관심사는 아니니 일단 넘어가자. 
 
 # 1종 오류와 2종 오류 
 
 통계학을 공부한 사람은 사실 이 매트릭스를 한번은 봤을 것이다. 통계학에서 제일 안 외워지는 것 중 하나가 1종 오류(type I error), 2종 오류(type II error)다. 
 
 
-|  | TRUE | FALSE |
+|  |  | FALSE |
 |--|--|--|
 | **Positive** | 1-$\alpha$ | $\alpha$ |
 | **Negative** | $\beta$ |  1-$\beta$ |
@@ -115,7 +115,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzU0ODQ2OSwtNDk5MzE3NDM4LC0xMD
-Q5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0
-ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbNjI5NTcwMzQ5LC00OTkzMTc0MzgsLTEwND
+k3MDkyNzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4
+NiwtMTYxOTU4NzI1LC00Njg4NTE0NzNdfQ==
 -->
