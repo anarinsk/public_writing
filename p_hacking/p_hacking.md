@@ -22,9 +22,8 @@ p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자
 
 표에서 열은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 true/false 둘로 구분한 것이다. 형용사의 의미로는 참/거짓이지만, 이는 $x$의 실존을 묘사하는 이름표로 보면 되겠다. 
 
-행은 예측 결과를 구분한 것이다. 어떤 대상에 대해서 라고 예측하는 경우를 Positive라고 하고 FALSE라고 예측하는 경우를 negative라고 하자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 우선, 예측과 사실 조건이 맞는 경우는 형용사 true를 쓰도록 하자. 
-
-  -  Positive, Negative 예측이 맞는 경우: true Positive, True Negative 
+행은 예측 결과를 구분한 것이다. $x$의 존재 유무에 대한 예측을 각각 positive/negative로 나타내자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 
+  -  positive, negative 예측이 맞는 경우: true positive, true negative 
   -  Positive, Negative 예측이 틀리는 경우: false Positive, false Negative 
 
 당연히 true Positive와 true Negative를 가급적 높이는 것이 좋을 것이다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 성과 지표를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자. 
@@ -118,7 +117,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODcyMzgzNzcsLTQ5OTMxNzQzOCwtMT
-A0OTcwOTI3MywtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIx
-NDg2LC0xNjE5NTg3MjUsLTQ2ODg1MTQ3M119
+eyJoaXN0b3J5IjpbMTY0MDE3NDc5MCwtNDk5MzE3NDM4LC0xMD
+Q5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0
+ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
 -->
