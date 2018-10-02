@@ -108,7 +108,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구의 결과물은 결코 객관적일 수 있다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 더욱 신박한 연구를 추구하려는 유인이 발생하기 마련이다. 이오니디스 선생은 충고는 상식적이다. 보통 보기 힘든 신박한 것을 발견했다면, 한번 삐딱하게 보라는 것이다. 과학의 권위를 거부할 필요는 없겠지만, 과학자의 유인 그 너머를 보라는 것이다. 이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-hacking을 낳을 수도 있다. 
 
-자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking를 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 소개하도록 하자.  Stay tuned! 
+자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회에 소개하도록 하자.  Stay tuned! 
 
 ----
 
@@ -118,7 +118,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDM2NzMzNSwtMTA0OTcwOTI3MywtMT
+eyJoaXN0b3J5IjpbLTQ5OTMxNzQzOCwtMTA0OTcwOTI3MywtMT
 UxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5NTg3
 MjUsLTQ2ODg1MTQ3M119
 -->
