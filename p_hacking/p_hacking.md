@@ -3,7 +3,7 @@
 
 자연과학이나 공학에서 연구 재현성은 다른 사람이 실시하는 실험으로 구현될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항에서는 기본적으로 같은 결과가 나와야 한다. 이런 맥락에서는 이해가 간다. 그러면 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 고정된다. 고정된 데이터를 분석하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다. 
 
-> If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면, 자연스레 실토할 것이다. 
+> If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
 데이터를 고문하다니? 백문이 불여일견이다. 네이트 실버의 538에서 p-hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
 
@@ -114,6 +114,6 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNDIxNDg2LC0xNjE5NTg3MjUsLTQ2OD
-g1MTQ3M119
+eyJoaXN0b3J5IjpbMTkzNjczNzE2Miw3MzM0MjE0ODYsLTE2MT
+k1ODcyNSwtNDY4ODUxNDczXX0=
 -->
