@@ -77,9 +77,9 @@ $1-\beta$는 검정력(power)이라고 불린다. 즉 대립 가설(alternative 
 
 # Ioannidis, the destroyer 
 
-이제 하버드 의대에 소속한 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 이들이 p-hacking을 부지불식간에 저지르고 있었지만, 다. 누구나 알고 있고 찜찜하게 생각하고 있지만 빼내기에는 께름칙한, 그런 것이 아닐까? 
+이제 하버드 의대에 소속한 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-hacking을 저지르고 있었지만, 이에 대해서 반성하지는 않았다. 대부분이 찜찜하게 여기고 있지만, 문제로 삼기에는 망설여 지는 그런 것이 p-hacking이 아니었을까 싶다.  
 
-2005년 이오니디스 선생이 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)을 투하했다. 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 나올 때부터 현재까지 갑론을박을 거듭하고 있는 논문이지만 p-hacking과 관련해서는 이 논문이 제대로 핵심을 짚었다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
+2005년 이오니디스 선생이 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)을 투하했다. 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 갑론을박을 거듭하고 있 p-hacking과 관련해서는 이 논문이 제대로 핵심을 짚었다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
 
 인간은 '가시성'의 동물이다. 사람들은 눈에 띄는 걸 좋아한다. "뭘 당연한 걸 연구 씩이나!" 연구자들이 종종 듣게 되는 이야기다. 과학 하는 사람들도 인간이다. 그들 역시 신박한 결과를 찾아 헤맨다. 
 
@@ -124,9 +124,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTgwNzYyNSwtNDI0NTM2ODMxLDE4MD
-Y2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5
-MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC
-0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1
-ODcyNSwtNDY4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbLTE3MTkyMjU0NzMsLTQyNDUzNjgzMSwxOD
+A2NjYyMjM2LDEwMDY2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1
+OTI1LDE5MzQzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3My
+wtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5
+NTg3MjUsLTQ2ODg1MTQ3M119
 -->
