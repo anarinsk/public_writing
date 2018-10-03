@@ -121,15 +121,19 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기도록 하자. Stay tuned! 
 
+대미는 p-hacking에 대한 가장 익살스런 묘사인 켄달 먼로의 만화로 대신하도록 하자. 
+
+![enter image description here](https://www.explainxkcd.com/wiki/index.php/File:significant.png)
+
 ----
 
 <b id="f1">1</b> 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.[↩](#a1)
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk4MzgxMTcsLTQyNDUzNjgzMSwxOD
-A2NjYyMjM2LDEwMDY2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1
-OTI1LDE5MzQzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3My
-wtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5
-NTg3MjUsLTQ2ODg1MTQ3M119
+eyJoaXN0b3J5IjpbODg5Nzg1MTQwLC0xMzk5ODM4MTE3LC00Mj
+Q1MzY4MzEsMTgwNjY2MjIzNiwxMDA2NjUzODg5LDE3ODAxMjg0
+ODUsMjEzOTEyNTkyNSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLT
+EwNDk3MDkyNzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQy
+MTQ4NiwtMTYxOTU4NzI1LC00Njg4NTE0NzNdfQ==
 -->
