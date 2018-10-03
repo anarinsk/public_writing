@@ -50,7 +50,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 영가설[^1]을 통해 결과가 유의한 정도를 검정하는 통계학적 절차를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 한다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적도록 하자. 
 
-보통 혼동 행렬에서 존재함(효과있음)을 "POSITIVE"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 여기서는 업계의 관행을 존중하도록 하자. 
+보통  혼동 행렬에서 존재함(효과있음)을 "POSITIVE"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 우리는 업계의 관행을 존중하도록 하자. 
 
 
 ![enter image description here](https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png)
@@ -133,7 +133,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODQ5MjkwNCwzMzQ4OTg5OSwtMTY1NT
-QwNzYzNCwyMDkzOTc5MjgyLDYxMjkyNjAyOCwtMTgzNzMyNDgw
-MywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ==
+eyJoaXN0b3J5IjpbLTE1NDIxMjM2MzYsMzM0ODk4OTksLTE2NT
+U0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4
+MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
