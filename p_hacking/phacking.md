@@ -46,7 +46,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 ($\alpha, \beta \in [0,1]$)
 
-각 행에 대해서, 즉 positive, negative 각 예측은 맞거나 틀리거나 둘 중 하나다. 표에서 맞춘 비율은 $1-\alpha$, $1-\beta$이고 틀린 비율은 $\alpha$, $\beta$다. 여기서 false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율($\beta$)을 2종 오류라고 부른다. 
+각 행에 대해서, 즉 positive, negative 각 예측은 맞거나 틀리거나 둘 중 하나에 속한다. 표에서 예측이 맞는 경우의 비율은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 비율은 $\alpha$, $\beta$다. 여기서 false positive 의 비율 $\alpha$를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
 
 영가설<sup id="a1">[1](#f1)</sup>을 통해 유의도를 검정하는 통계학적인 절차를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적겠다. 
 
@@ -133,7 +133,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk4MTU4NjUsMzM0ODk4OTksLTE2NT
-U0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4
-MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
+eyJoaXN0b3J5IjpbMTA2NDA1MjQzNCwzMzQ4OTg5OSwtMTY1NT
+QwNzYzNCwyMDkzOTc5MjgyLDYxMjkyNjAyOCwtMTgzNzMyNDgw
+MywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ==
 -->
