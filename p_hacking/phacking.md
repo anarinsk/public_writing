@@ -117,9 +117,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 # 정리 
 
-이오니디스 선생은 '정상적' 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘 지적했다. 더구나 2종 오류를 통제하지 않을 경우 신박함을 좇는 과학자의 자연스러운 욕망과 결합해 아주 나쁜 결과를 낳을 수 있음을 보였다. 
+이오니디스 선생은 엄밀하게 진행된 것처럼 보이는 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘 지적했다. 더구나 2종 오류를 통제하지 않을 경우 신박함을 좇는 과학자의 자연스러운 욕망과 결합해 아주 나쁜 결과를 낳을 수 있음을 보였다. 
 
-과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지 객관적일 수 없있다. 여기에 과학자의 욕망이 개입하고 이에 따라서 보다 신박한 연구를 추구하려는 유인이 자연스럽게 생겨난다. 
+과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지 객관적일 수 없다. 여기에 과학자의 욕망이 개입하고 이에 따라서 보다 눈에 띄는 연구를 추구하려는 유인이 자연스럽게 생겨난다. 
 
 이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면, 먼저 삐딱하게 보라는 것이다. 과학을 회의하라는 것이 아니다. 단지 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락 너머를 보라는 것이다. p-해킹은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-해킹을 낳을 수도 있다. 
 
@@ -135,7 +135,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxODg3NDMyLDMzNDg5ODk5LC0xNjU1ND
-A3NjM0LDIwOTM5NzkyODIsNjEyOTI2MDI4LC0xODM3MzI0ODAz
-LC0xNDQ2NDEyMTkxLDM5MjQ5OTA3OF19
+eyJoaXN0b3J5IjpbMTYwODAzNDM2MywzMzQ4OTg5OSwtMTY1NT
+QwNzYzNCwyMDkzOTc5MjgyLDYxMjkyNjAyOCwtMTgzNzMyNDgw
+MywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ==
 -->
