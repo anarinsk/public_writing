@@ -98,13 +98,13 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 �
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율( false-positive report probability)이 얼마나 되는지 계산해보라!
+1,000 번의 노가다가 끝나고 나면, 우리는 45개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 이른바 recall이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
 $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
-생각보다 높다! 유의수준 0.05(5%)가 무척 안전해 보일지 모르나 이렇게 살짝 안을 들춰보면 연구의 신뢰성에 문제가 생기는 것이다. 이 문제는 더 악화될 수 있다. 
+생각보다 높다! 유의수준 0.05(5%)이 제법 안전해 보였을지 모르나, 이렇게 살짝 들춰보면 연구의 신뢰성에 큰 금이 보인다. 이 문제는 더 악화될 수 있다. 
 
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
 2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$로 가정할 경우 FPRP는 무려 0.93이 된다. 
@@ -125,7 +125,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDk0NjI3MiwtNDI0NTM2ODMxLDE4MD
+eyJoaXN0b3J5IjpbLTI0MjcwMjU2MCwtNDI0NTM2ODMxLDE4MD
 Y2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5
 MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC
 0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1
