@@ -67,11 +67,11 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 1. $x$ 라는 증거가 주어졌을 때, 피고가 범인일 확률 
 2. 피고가 범인일 때, $x$ 라는 증거를 얻을 확률 
 
-이 두 진술은 같은 진술인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리에 어긋난다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근처럼 보일 것이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다. 이는 베이즈 정리와 관련된 내용인데, 일단은 여기까지 하고 넘어가도록 하자. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
+이 두 진술은 같은 진술인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리에 어긋난다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다. 이는 베이즈 정리와 관련된 내용이고 자체로 흥미로운 주제다. 일단 여기까지만 하겠다. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
 
 # NHST 무엇이 문제인가? (p-hacking) 
 
-NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 경우 영가설을 기각하는 형태로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. 그러면 아래는 어떻게 고려될까? 만일 효과가 없는 데도 효과를 찾아낼 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않을 때 어떤 일이 생길까? $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 결정할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 이에 대해서 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 이게 타당한 걸까? 
+NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 경우 영가설을 기각하는 방식으로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\al$아래는 어떻게 고려될까? 만일 효과가 없는 데도 효과를 찾아낼 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않을 때 어떤 일이 생길까? $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 결정할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 이에 대해서 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 이게 타당한 걸까? 
 
 # Ioannidis, the destroyer 
 
@@ -122,9 +122,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAxODEwMzUsLTQyNDUzNjgzMSwxOD
-A2NjYyMjM2LDEwMDY2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1
-OTI1LDE5MzQzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3My
-wtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5
-NTg3MjUsLTQ2ODg1MTQ3M119
+eyJoaXN0b3J5IjpbNzk5NTg5OTUzLC00MjQ1MzY4MzEsMTgwNj
+Y2MjIzNiwxMDA2NjUzODg5LDE3ODAxMjg0ODUsMjEzOTEyNTky
+NSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLTEwNDk3MDkyNzMsLT
+E1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4
+NzI1LC00Njg4NTE0NzNdfQ==
 -->
