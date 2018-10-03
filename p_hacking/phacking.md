@@ -15,7 +15,7 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
-같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학적으로 보이얻기 위해서 데이터를 고문하는 것이 p-해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하다. 
+같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리기 위해서 데이터를 고문하는 것이 p-해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하다. 
 
 # 예측과 사실 조건 
 
@@ -131,7 +131,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk3OTUxNTcsMzM0ODk4OTksLTE2NT
-U0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4
-MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
+eyJoaXN0b3J5IjpbNzE5OTM3MTQ4LDMzNDg5ODk5LC0xNjU1ND
+A3NjM0LDIwOTM5NzkyODIsNjEyOTI2MDI4LC0xODM3MzI0ODAz
+LC0xNDQ2NDEyMTkxLDM5MjQ5OTA3OF19
 -->
