@@ -23,9 +23,9 @@
 
 ## 내게 비교할 무엇을 다오  
 
-비교의 대상이 없을 때 쉽게 불확실성이 발생한다. 이 물건의 가치는 얼마나 될까? 비교는 물건의 가치는 파악하는 효과적인 지름길이다. 이것과 비교하기 위해서는 저것이 필요하다. 그리고 저것은 이것의 가치 판단에 영향을 끼치게 된다. 이때 이것의 원래 가치는 무엇일까? 비교를 참지 못하는 인간의 성향 때문에 이콘이라면 하지 않았던 불합리한 행위가 발생한다. 애리얼리는 저것, 즉 이것의 가치 판단에 영향을 주는 대상을 통칭해 가치 암시(value cue)라고 표현했다.<sup id="a1"> [1](#f1) </sup> 우리도 이 표현을 쓰기도 하자. 행동경제학의 중요한 한 부분은 이 가치신호가 이콘을 어떻게 교란하는지에 관한 우화의 집합이다. 
+비교의 대상이 없을 때 쉽게 불확실성이 발생한다. 이 물건의 가치는 얼마나 될까? 비교는 물건의 가치는 파악하는 효과적인 지름길이다. 이것과 비교하기 위해서는 저것이 필요하다. 그리고 저것은 이것의 가치 판단에 영향을 끼치게 된다. 이때 이것의 원래 가치는 무엇일까? 비교를 참지 못하는 인간의 성향 때문에 이콘이라면 하지 않았던 불합리한 행위가 발생한다. 애리얼리는 저것, 즉 이것의 가치 판단에 영향을 주는 대상을 통칭해 가치 암시(value cue)라고 표현했다.<sup id="a1"> [1](#f1) </sup> 우리도 이 표현을 쓰기도 하자. 행동경제학의 중요한 한 부분은 이 가치신호가 이콘의 선택을 어떻게 교란하는지에 관한 우화의 집합이다. 
 
-흥미롭게도 이유가 어떻건 가치 신호가 인간에게 인지되면 상당한 힘을 발휘한다. 뒤에서 다시 논할테지만, 이런 기준을 설정하려는 인간의 성향을 다니엘 카네먼과 아모스 트버스키는 "닻 내리기anchoring"이라고 통칭해 이름 붙였다. 좌우간, 비교의 위한 기준을 조작하는 대표적인 두 사례는 할인의 마법과 동일 금액의 상대성이다. 각각 간략하게 살펴보자. 
+흥미롭게도 일단 가치 신호가 인간에게 인지되고 수용되면 상당한 힘을 발휘한다. 뒤에서 다시 논할 테지만, 불확실한 상황에서 뭔가에 의지하려는 인간의 성향을 다니엘 카네먼과 아모스 트버스키는 "닻 내리기anchoring"이라고 통칭했다. 비교를 통해 기준이 조작되는 대표적인 두 사례는 할인의 마법과 동일 금액의  상대성이다. 각각 간략하게 살펴보자. 
 
 ### Sale! 
 
@@ -61,9 +61,9 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTg1OTU3NCw2NTM2NzI1NzUsMTU3ND
-E1ODUxNiwtOTEzMTI4NDQ2LC0xMzA3NDc2NzEzLC0xOTgzOTE2
-MzUsLTE1NDc3ODA5ODEsMTA5MTcyNzc4NywtOTY5NDQ0MTUyLD
-IyMDM5MzA2OSwtMTA5OTkyNzM4OCwxMjM4NDc2NTk3LC05MzY0
-NjQ1MDFdfQ==
+eyJoaXN0b3J5IjpbNTgyNjY3NTczLDY1MzY3MjU3NSwxNTc0MT
+U4NTE2LC05MTMxMjg0NDYsLTEzMDc0NzY3MTMsLTE5ODM5MTYz
+NSwtMTU0Nzc4MDk4MSwxMDkxNzI3Nzg3LC05Njk0NDQxNTIsMj
+IwMzkzMDY5LC0xMDk5OTI3Mzg4LDEyMzg0NzY1OTcsLTkzNjQ2
+NDUwMV19
 -->
