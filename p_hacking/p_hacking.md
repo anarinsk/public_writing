@@ -4,9 +4,9 @@
 Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 # Introduction
-"재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과을 때, 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은   결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이다른 사람이 실시하는 실험으로 구현될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항 아래에서는 기본적으로 같은 결과가 나와야 한다.
+"재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과을 때, 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은   결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시 실험으로 구현될다. 누가 하더라도 연구가 제시한 조건 및 세부 사항 갖춰졌을 때 기본적으로 같은 결과가 나와야 한다.
 
-데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 고정된다. 고정된 데이터를 분석하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 수상한 로널드 코즈가 했다는 유명한 말이 있다. 
+데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 고정된 데이터를 분석하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 수상한 로널드 코즈가 했다는 유명한 말이 있다. 
 
 > If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
@@ -121,8 +121,8 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjY1Mzg4OSwtMTM0NTgwNTUyNCwxNz
-gwMTI4NDg1LDIxMzkxMjU5MjUsMTkzNDMxNjk1NSwtNDk5MzE3
-NDM4LC0xMDQ5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NC
-w3MzM0MjE0ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbMTgwNjY2MjIzNiwxMDA2NjUzODg5LDE3OD
+AxMjg0ODUsMjEzOTEyNTkyNSwxOTM0MzE2OTU1LC00OTkzMTc0
+MzgsLTEwNDk3MDkyNzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LD
+czMzQyMTQ4NiwtMTYxOTU4NzI1LC00Njg4NTE0NzNdfQ==
 -->
