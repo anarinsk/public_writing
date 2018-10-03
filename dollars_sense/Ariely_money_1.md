@@ -1,5 +1,8 @@
+**Dan Ariely, "Dollars and Sense"**
 
-# Dan Ariely, "Dollars and Sense" 
+2018-10-01
+Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
+
 
 * 댄 애리얼리의 새 책 [부의 감각](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=153434095)을 보고 몇 차례 쭉 쓸 예정입니다.  
 * 어찌보면 요약이고 어찌보면 잡설입니다. 
@@ -61,9 +64,9 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTAxMzM4LDY1MzY3MjU3NSwxNTc0MT
-U4NTE2LC05MTMxMjg0NDYsLTEzMDc0NzY3MTMsLTE5ODM5MTYz
-NSwtMTU0Nzc4MDk4MSwxMDkxNzI3Nzg3LC05Njk0NDQxNTIsMj
-IwMzkzMDY5LC0xMDk5OTI3Mzg4LDEyMzg0NzY1OTcsLTkzNjQ2
-NDUwMV19
+eyJoaXN0b3J5IjpbLTg2NzQ0MTIzNSwtNjY1MDEzMzgsNjUzNj
+cyNTc1LDE1NzQxNTg1MTYsLTkxMzEyODQ0NiwtMTMwNzQ3Njcx
+MywtMTk4MzkxNjM1LC0xNTQ3NzgwOTgxLDEwOTE3Mjc3ODcsLT
+k2OTQ0NDE1MiwyMjAzOTMwNjksLTEwOTk5MjczODgsMTIzODQ3
+NjU5NywtOTM2NDY0NTAxXX0=
 -->
