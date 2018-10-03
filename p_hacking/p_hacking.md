@@ -15,11 +15,11 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
-같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학적으로 보이기 위해서 데이터를 고문하는 것이 p-hacking이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문할 도구나 방법은 다. 
+같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학적으로 보이기 위해서 데이터를 고문하는 것이 p-hacking이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하다. 
 
 # 예측과 사실 조건 
 
-p-hacking의 문제를 파헤치기 전에 간단한 분류 표를 같이 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 표다. 혼동행렬(confusion matrix)라고 부르기도 한다. $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 이에 대해서 예측을 하고 이것이 맞았는지를 확인하기 위해서는  네 가지 경우를 확인하면 된다. 
+p-hacking의 문제를 살펴보기 전에 간단한 분류표 먼저 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류다. 이 분류는 혼동행렬(confusion matrix)이라고 부르기도 한다. $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 이에 대해서 예측을 하고 이것이 맞았는지 여부를 확인하기 위해서는  다음과 같이 네 가지 경우를 확인하면 된다. 
 
 |  | POSITIVE | NEGATIVE |
 |--|--|--|
@@ -122,9 +122,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY4NDk3MjcsMTgwNjY2MjIzNiwxMD
-A2NjUzODg5LDE3ODAxMjg0ODUsMjEzOTEyNTkyNSwxOTM0MzE2
-OTU1LC00OTkzMTc0MzgsLTEwNDk3MDkyNzMsLTE1MTAxNDc0Nj
-EsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4NzI1LC00Njg4
-NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbLTQyNDUzNjgzMSwxODA2NjYyMjM2LDEwMD
+Y2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1OTI1LDE5MzQzMTY5
+NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3MywtMTUxMDE0NzQ2MS
+wxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5NTg3MjUsLTQ2ODg1
+MTQ3M119
 -->
