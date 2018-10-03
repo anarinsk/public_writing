@@ -4,17 +4,18 @@
 Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 # Introduction
+
 "재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과을 때, 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시 실험으로 구다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때 기본적으로 같은 결과가 나와야 한다.
 
-데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 고정된 데이터를 분석하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 수상한 로널드 코즈가 했다는 유명한 말이 있다. 
+데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때, 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은 로널드 코즈가 했다는 유명한 말이 있다. 
 
 > If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
-데이터를 고문하다니? 백문이 불여일견인 법. 네이트 실버의 538에서 p-hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
+데이터를 고문하다니? 백문이 불여일견! 네이트 실버의 538에서 p-hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
-같은 데이터 셋에 대해서 여러가지 조건의 필터를 걸어 당신이 원하는 '과학적' 결론을 찾을 수 있다! 어째서 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-hacking이다. 
+같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-hacking이다. 
 
 # 예측과 사실 조건 
 
@@ -121,9 +122,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzY3MDc3OCwxODA2NjYyMjM2LDEwMD
-Y2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1OTI1LDE5MzQzMTY5
-NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3MywtMTUxMDE0NzQ2MS
-wxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5NTg3MjUsLTQ2ODg1
-MTQ3M119
+eyJoaXN0b3J5IjpbOTI2OTY0ODY2LDE4MDY2NjIyMzYsMTAwNj
+Y1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5MjUsMTkzNDMxNjk1
+NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC0xNTEwMTQ3NDYxLD
+ExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1ODcyNSwtNDY4ODUx
+NDczXX0=
 -->
