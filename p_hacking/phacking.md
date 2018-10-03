@@ -78,7 +78,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 �
 
 # Ioannidis, the destroyer 
 
-이제 하버드 의대에 소속한 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-hacking을 저지르고 있었지만, 이에 대해서 반성하지는 않았다. 대부분이고 찜찜하게 여기생각하고 있지만, 문제로 삼기에는 망설여 지는 그런 것이 p-hacking이 아니었을까 싶다.  빼내기에는 께름
+이제 하버드 의대에 소속한 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-hacking을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성하지 않았다. 대부분이 찜찜하게 여기고 있지만, 문제로 삼기에는 망설여 지는 그런 것이 p-hacking이 아니었을까 싶다. 
 
 2005년 이오니디스 선생이 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)을 투하했다. 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 논문에 관한 갑론을박이 진행중이다. p-hacking과 관련해서는 이 논문이 제대로 핵심을 짚었다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
 
@@ -131,6 +131,6 @@ p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로�
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU2MzA0NSw2MTI5MjYwMjgsLTE4Mz
-czMjQ4MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
+eyJoaXN0b3J5IjpbLTE2NzgwODMzMzksNjEyOTI2MDI4LC0xOD
+M3MzI0ODAzLC0xNDQ2NDEyMTkxLDM5MjQ5OTA3OF19
 -->
