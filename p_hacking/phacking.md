@@ -17,9 +17,11 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리기 위해서 데이터를 고문하는 것이 p-해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하다. 
 
-# 예측과 사실 조건 
+# 예측 vs 사실 조건 
 
-p-해킹의 문제를 살펴보기 전에 간단한 분류표 먼저 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류다. 이 분류는 혼동행렬(confusion matrix)이라고 부르기도 한다. $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 이에 대해서 예측을 하고 이것이 맞았는지 여부를 확인하기 위해서는  다음과 같이 네 가지 경우를 확인하면 된다. 
+p-해킹의 문제를 살펴보기 전에 간단한 분류표 먼저 보자. 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류다. 이 분류는 혼동행렬(confusion matrix)이라고 부르기도 한다. 
+
+$x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
 |  | POSITIVE | NEGATIVE |
 |--|--|--|
@@ -131,7 +133,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5OTM3MTQ4LDMzNDg5ODk5LC0xNjU1ND
-A3NjM0LDIwOTM5NzkyODIsNjEyOTI2MDI4LC0xODM3MzI0ODAz
-LC0xNDQ2NDEyMTkxLDM5MjQ5OTA3OF19
+eyJoaXN0b3J5IjpbLTE3MDgzNTY5OTIsMzM0ODk4OTksLTE2NT
+U0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4
+MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
