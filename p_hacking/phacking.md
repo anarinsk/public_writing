@@ -113,15 +113,15 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 # 정리 
 
-이오니디스 선생은 정상적으로 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘 지적했다. 더구나 2종 오류를 통제하지 않을 경우 신박함을 좇는 과학자의 자연스러운 욕망과 결합해 나쁜 결과를 낳을 수 있음을 보였다. 
+이오니디스 선생은 정상적으로 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘 지적했다. 더구나 2종 오류를 통제하지 않을 경우 신박함을 좇는 과학자의 자연스러운 욕망과 결합해 아주 나쁜 결과를 낳을 수 있음을 보였다. 
 
 과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지 객관적일 수 없있다. 여기에 과학자의 욕망이 개입하고 이에 따라서 보다 신박한 연구를 추구하려는 유인이 자연스럽게 생겨난다. 
 
-이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면, 먼저 삐딱하게 보라는 것이다. 과학을 회의하라는 것이 아니다. 단지 과학자의 '유인incentive'을 의심해보라는 것이다. 이게 오히려 과학적인 태도 그 너머를 보라는 것이다. 이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-hacking을 낳을 수도 있다. 
+이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면, 먼저 삐딱하게 보라는 것이다. 과학을 회의하라는 것이 아니다. 단지 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락 너머를 보라는 것이다. 이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-hacking을 낳을 수도 있다. 
 
 자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기도록 하자. Stay tuned! 
 
-p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로의 xkcd 만화를 감상해보자. 
+p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 
 
 ![enter image description here](https://www.explainxkcd.com/wiki/images/3/3f/significant.png)
 
@@ -131,6 +131,6 @@ p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로�
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4NTIzMTEyLDYxMjkyNjAyOCwtMTgzNz
-MyNDgwMywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ==
+eyJoaXN0b3J5IjpbMTUzNTI3MzY0Nyw2MTI5MjYwMjgsLTE4Mz
+czMjQ4MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
