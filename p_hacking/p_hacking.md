@@ -87,11 +87,11 @@ $1-\beta$는 검정력(power)이라고 불린다. 즉 대립 가설(alternative 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png?w=860)
 
-이제 업계의 관행대로 1종 오류를 5%로 두자.($alpha = 0.05$) 이는 false positive, 즉 효과가 없는데도 효과가 있다는 예측을 얻을 확률을 5%까지 허용한다는 이야기다. 1000번의 실험이라면 효과가 없는 900번 중에서 약 45번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고된다. 
+이제 업계의 관행대로 1종 오류를 5%로 두자.($\alpha = 0.05$) 이는 false positive, 즉 효과가 없는데도 효과가 있다는 예측을 얻을 확률을 5%까지 허용한다는 이야기다. 1000번의 실험이라면 효과가 없는 900번 중에서 약 45번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고된다. 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png?w=860)
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative가 20%다. 즉 100개 중에서 20개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative가 20%다. 즉 ㅅtrue positive 100개 중에서 20개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png?w=860)
 
@@ -124,7 +124,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDQ0NjcwMCwtNDI0NTM2ODMxLDE4MD
+eyJoaXN0b3J5IjpbMTQ0ODAwODMyMCwtNDI0NTM2ODMxLDE4MD
 Y2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5
 MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC
 0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1
