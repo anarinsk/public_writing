@@ -5,7 +5,7 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 # Introduction
 
-"재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 때, 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시 실험으로 구다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때 기본적으로 같은 결과가 나와야 한다.
+"재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시 실험으로 구다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때 기본적으로 같은 결과가 나와야 한다.
 
 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때, 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은 로널드 코즈가 했다는 유명한 말이 있다. 
 
@@ -44,7 +44,7 @@ p-hacking의 문제를 살펴보기 전에 간단한 분류표 먼저 보자. �
 
 ($\alpha, \beta \in [0,1]$)
 
-각 행에 대해서, 즉 positive, negative 각 예측은 맞거나 틀리거나 둘 중 하나다. 표에서 맞춘 비율은 $1-\alpha$, $1-\beta$이고 틀린 비율은 $\alpha$, $\beta$다. 여기서 false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative를 2종 오류라고 부른다. 
+각 행에 대해서, 즉 positive, negative 각 예측은 맞거나 틀리거나 둘 중 하나다. 표에서 맞춘 비율은 $1-\alpha$, $1-\beta$이고 틀린 비율은 $\alpha$, $\beta$다. 여기서 false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율($\beta$)을 2종 오류라고 부른다. 
 
 영가설<sup id="a1">[1](#f1)</sup>을 통해 유의도를 검정하는 통계학적인 절차를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적겠다. 
 
@@ -63,7 +63,7 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 1. 현재의 데이터가 주어졌을 때, $H_0$가 참일 확률 
 2. 만일 $H_0$ 참이라면, 현재의 데이터를 얻을 확률
 
-1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 원래 명제와 역 명제의 진리표 결과는가 동일하지 않다. 그런데 우리는 종종 p값을 은근슬쩍 1처럼 해석한다. 이해를 돕기 위해 법의 맥락에서 다른 사례를 들어보겠다. 
+1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 원래 명제와 역 명제의 진리표 결과는 동일하지 않다. 그런데 우리는 종종 p값을 은근슬쩍 1처럼 해석한다. 이해를 돕기 위해 법의 맥락에서 다른 사례를 들어보겠다. 
 
 1. $x$ 라는 증거가 주어졌을 때, 피고가 범인일 확률 
 2. 피고가 범인일 때, $x$ 라는 증거를 얻을 확률 
@@ -131,6 +131,6 @@ p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로�
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyOTI2MDI4LC0xODM3MzI0ODAzLC0xND
-Q2NDEyMTkxLDM5MjQ5OTA3OF19
+eyJoaXN0b3J5IjpbNzc4ODI0NzI3LDYxMjkyNjAyOCwtMTgzNz
+MyNDgwMywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ==
 -->
