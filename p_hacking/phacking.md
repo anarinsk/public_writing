@@ -68,11 +68,11 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 1. $x$ 라는 증거가 주어졌을 때, 피고가 범인일 확률 
 2. 피고가 범인일 때, $x$ 라는 증거를 얻을 확률 
 
-이 두 주장이 같은 것인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리에 어긋난다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다. 이는 베이즈 정리와 관련된 내용이고 자체로 흥미로운 주제다. 일단 여기까지만 하겠다. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
+이 두 주장이 같은 것인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리에 어긋난다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다. 이는 베이즈 정리와 관련된 내용이고 이 자체로 흥미로운 주제다. 일단 여기까지만 하겠다. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
 
 # NHST 무엇이 문제인가? (p-hacking) 
 
-NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 경우 영가설을 기각하는 방식으로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나? 효과가 없는 데도 효과를 찾아낼 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
+NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 경우 영가설을 기각하는 방식으로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나? 효과가 없는 데도 효과가 있다고 예측할 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
 
 검정력은 $(1-\beta)$로 정의된다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길까?  
 
@@ -131,6 +131,6 @@ p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로�
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDE0OTgwMCw2MTI5MjYwMjgsLTE4Mz
+eyJoaXN0b3J5IjpbLTIwMzU2MzA0NSw2MTI5MjYwMjgsLTE4Mz
 czMjQ4MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
