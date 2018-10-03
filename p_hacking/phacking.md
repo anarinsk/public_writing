@@ -60,7 +60,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차례는 해야 할 것이다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고, p-해킹으로 넘어가도록 하자. 
 
-통계 패키지를 돌릴 때 $p < 0.05$와 같은 메시지가 뜨면 안도한다. 이때 뇌리를 울리는 목소리가 이런 것이 아닐까? "주어진 데이터에서 $H_0$이 참일 확률  $p$..."  이 목소리에 솔깃했다면 다시 정신을 차려야 한다. 여기서 $p$ 값의 의미는 오히려 역(reverse) 명제에 가깝다. 
+통계 패키지를 돌릴 때 $p < 0.05$와 같은 메시지가 뜨면 안도한다. 이때 마음 속에서 이런 목소리가 들린다. "주어진 데이터에서 $H_0$이 참일 확률  $p$..."  이에 솔깃했다면 다시 정신을 차려야 한다. 여기서 $p$ 값의 의미는 오히려 역(reverse)  명제에 가깝다. 
 
 1. 현재의 데이터가 주어졌을 때, $H_0$가 참일 확률 
 2. 만일 $H_0$ 참이라면, 현재의 데이터를 얻을 확률
@@ -133,7 +133,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIxMjM2MzYsMzM0ODk4OTksLTE2NT
+eyJoaXN0b3J5IjpbLTE2OTE3MjcxMjYsMzM0ODk4OTksLTE2NT
 U0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4
 MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
