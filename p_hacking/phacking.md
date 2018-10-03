@@ -88,17 +88,17 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 �
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png?w=860)
 
-이제 업계의 관행대로 1종 오류를 5%로 두자.($\alpha = 0.05$) 이는 false positive으즉 효과가 없는데도 효과가 있다는 예측을 얻을 확률을 5%까지 허용한다는 이야기다. 1000번의 실험이라면 효과가 없는 900번 중에서 약 45번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고된다. 
+이제 업계의 관행대로 1종 오류를 5%로 두자.($\alpha = 0.05$) 이는 false positive의 비율 즉 효과가 없는데도 효과가 있다는 예측을 얻을 확률을 5%까지 허용한다는 이야기다. 1,000 번의 실험에서 효과가 없는 900번 중에서 약 45번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고된다. 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png?w=860)
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative가 20%다. 즉 ㅅtrue positive 100개 중에서 20개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative를 허용하는 비율이 20%다. 즉 true positive 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png?w=860)
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 이른바 recall이라는 지표를 1에서 뺀 값과 동일하다. 
+1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 이른바 recall이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
@@ -131,6 +131,6 @@ p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로�
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQyODQ5LDYxMjkyNjAyOCwtMTgzNz
-MyNDgwMywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ==
+eyJoaXN0b3J5IjpbLTg3Mzg0MTU4OSw2MTI5MjYwMjgsLTE4Mz
+czMjQ4MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
