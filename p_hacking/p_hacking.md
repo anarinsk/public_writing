@@ -104,12 +104,12 @@ $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positiv
 
 $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
-생각보다 높다! 유의수준 0.05(5%)이 제법 안전해 보였을지 모르나, 이렇게 살짝 들춰보면 연구의 신뢰성에 큰 금이 보인다. 이 문제는 더 악화될 수 있다. 
+생각보다 높다! 유의수준 0.05(5%)이 제법 안전해 보였을지 모르나, 이렇게 살짝 들춰보면 연구의 신뢰성에 큰 금이 보인다. 이 문제는 다음과 같이 더 악화될 수 있다. 
 
-1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
-2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$로 가정할 경우 FPRP는 무려 0.93이 된다. 
+1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
+2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$의 조건에서 FPRP는 무려 0.93이 된다. 즉, 거의 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
 
-앞서 과학자들도 신박한 것을 추구한다고 말했다. 신박한 것이란 사실 잘 검증되기 힘들다는 의미이기도 하다. 해당 가설 검정을 할 경우 대부분 negative로 보고될 터다. 이런 분야에서 positive를 찾아냈다면 그 연구가 잘못된 것(false positive)일 확률이 생각보다 훨씬 크게 된다. 검정력 마저 떨어진다면, 결과는 처참해진다.  
+앞서 과학자들도 신박함을 추구한다고 말했다. 신박한 것이란 좀처럼 검증되기 힘들다는 의미이기도 하다. 해당 가설을 검정을 할 경우 대부분 negative로 보고된다는 뜻이다. 이런 분야에서 어떻게든 positive를 찾아냈다면 그 연구가 잘못된 것(false positive)일 확률이 생각보다 훨씬 크게 된다. 검정력 마저 떨어진다면, 결과는 처참해진다.  
 
 # 정리 
 
@@ -125,9 +125,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjcwMjU2MCwtNDI0NTM2ODMxLDE4MD
-Y2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5
-MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC
-0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1
-ODcyNSwtNDY4ODUxNDczXX0=
+eyJoaXN0b3J5IjpbNjc0MzE1MDQ1LC00MjQ1MzY4MzEsMTgwNj
+Y2MjIzNiwxMDA2NjUzODg5LDE3ODAxMjg0ODUsMjEzOTEyNTky
+NSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLTEwNDk3MDkyNzMsLT
+E1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4
+NzI1LC00Njg4NTE0NzNdfQ==
 -->
