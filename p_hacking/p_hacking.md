@@ -117,9 +117,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지 객관적일 수 없다. 여기에 과학자의 욕망이 개입하고 이에 따라서 보다 신박한 연구를 추구하려는 유인이 자연스럽게 생겨난다. 
 
-이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면, 먼저 삐딱하게 보라는 것이다. 과학의 권위를 거부할 필요는 없다. 단지 과학자의 유인을 의심해보라는 것이다. 이게 오히려 과학적이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-hacking을 낳을 수도 있다. 
+이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면, 먼저 삐딱하게 보라는 것이다. 과학의 권위를 거부할 필요는 없다. 단지 과학자의 유인을 의심해보라는 것이다. 이게 오히려 과학적인 태도다. 이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-hacking을 낳을 수도 있다. 
 
-자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회에 소개하도록 하자.  Stay tuned! 
+자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기도록 하자. Stay tuned! 
 
 ----
 
@@ -127,9 +127,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5Njg3Njg1LC00MjQ1MzY4MzEsMTgwNj
-Y2MjIzNiwxMDA2NjUzODg5LDE3ODAxMjg0ODUsMjEzOTEyNTky
-NSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLTEwNDk3MDkyNzMsLT
-E1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4
-NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbLTEzOTk4MzgxMTcsLTQyNDUzNjgzMSwxOD
+A2NjYyMjM2LDEwMDY2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1
+OTI1LDE5MzQzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3My
+wtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5
+NTg3MjUsLTQ2ODg1MTQ3M119
 -->
