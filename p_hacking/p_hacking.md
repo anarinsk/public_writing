@@ -109,11 +109,11 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
 2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$의 조건에서 FPRP는 무려 0.93이 된다. 즉, 거의 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
 
-앞서 과학자들도 신박함을 추구한다고 말했다. 신박한 것이란 좀처럼 검증되기 힘들다는 의미이기도 하다. 해당 가설을 검정을 할 경우 대부분 negative로 보고된다는 뜻이다. 이런 분야에서 어떻게든 positive를 찾아냈다면 그 연구가 잘못된 것(false positive)일 확률이 생각보다 훨씬 크게 된다. 검정력 마저 떨어진다면, 결과는 처참해진다.  
+앞서 과학자들도 신박함을 추구한다고 말했다. 신박한 것이란 좀처럼 검증되기 힘들다는 의미이기도 하다. 해당 가설을 검정을 할 경우 대부분 negative로 보고된다는 뜻이다. 이런 분야에서 어떻게든 positive를 찾아냈다면 그 연구가 잘못된 것(false positive)일 확률이 상당히 높다. 칭송하기 전에 먼저 의심해야 한다. 
 
 # 정리 
 
-이오니디스 선생은 정상적으로 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘 지적했다. 더구나 2종 오류를 통제하지 않을 경우 신박함을 좇는 과학자의 태생적인 욕망과 결합해 재앙에 가까운 결과를 낳을 수 있음을 보였다. 
+이오니디스 선생은 정상적으로 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘 지적했다. 더구나 2종 오류를 통제하지 않을 경우 신박함을 좇는 과학자의 자연스러운 욕망과 결합해 나쁜 결과를 낳을 수 있음을 보였다. 
 
 과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구의 결과물은 결코 객관적일 수 있다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 더욱 신박한 연구를 추구하려는 유인이 발생하기 마련이다. 이오니디스 선생은 충고는 상식적이다. 보통 보기 힘든 신박한 것을 발견했다면, 한번 삐딱하게 보라는 것이다. 과학의 권위를 거부할 필요는 없겠지만, 과학자의 유인 그 너머를 보라는 것이다. 이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-hacking을 낳을 수도 있다. 
 
@@ -125,9 +125,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0MzE1MDQ1LC00MjQ1MzY4MzEsMTgwNj
-Y2MjIzNiwxMDA2NjUzODg5LDE3ODAxMjg0ODUsMjEzOTEyNTky
-NSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLTEwNDk3MDkyNzMsLT
-E1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4
-NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbLTExMTA0NDI4NiwtNDI0NTM2ODMxLDE4MD
+Y2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5
+MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC
+0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1
+ODcyNSwtNDY4ODUxNDczXX0=
 -->
