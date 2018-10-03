@@ -19,7 +19,7 @@
 
 "귀차니즘"은 진화적으로 합리적이다. 갑자기 눈앞에 어떤 물체가 다가왔을 때 그 물체가 나에게 위협이 될 것인지에 관해 확률 분포를 추정해 베이지언 계산을 거쳐 행동할 수도 있을 것이다. 원시인에게는 앱이 없었으니 두뇌로만 해야 한다! 하지만 당신이나 나는 일단 피하고 본다. 빡세게 머리를 굴리는 계산 비용을 치르는 대신 대신 뇌 혹은 마음 어딘가에 내장된 행동 모듈이 명령하는대로 일단 피한다. 그리고 이렇게 피하는 게 목숨을 부지하는 데 도움이 된다. 유구한 세월을 거친 진화의 역사를 통해 인간은 어려운 의사 결정의 순간 활용할 수 있는 "지름길(short-cut)" 혹은 "단축키"를 만들어 왔다. 애리얼리가 말하듯이 경제생활이라고 해서, 즉 돈이 개입되는 순간이라고 해서, 이런 마음의 단축키가 개입하지 않는다고 혹은 덜 개입한다고 단언할 수 있을까? 
 
-선택 혹은 결정에 "불확실성"이 드리우는 순간 이콘의 합리성이 빛을 잃기 쉽다. 확실한 상황일수록 계산가능성이 커지고 계산을 통해 보다 이익을 추구할 여지도 커진다. 하지만 불확실성이 존재하게 되면 이콘의 활동 폭이 좁아지고 때로는 아예 사라질 수도 있다. 이때 인간은 단축키를 찾게 된다. 그리고 이런 단축키와 함께 기회비용으로 무장한 이콘이라면 하지 않았을 선택이 우리의 선택지가 되기도 한다. 행동경제학은 이렇게 탄생한다. 
+선택 혹은 결정에 "불확실성"이 드리우는 순간 이콘의 합리성이 빛을 잃기 쉽다. 확실한 상황일수록 계산가능성이 커지고 계산을 통해 보다 이익을 추구할 여지도 커진다. 하지만 불확실성이 존재하게 되면 이콘의 활동 폭이 좁아지고 때로는 아예 사라질 수도 있다. 이때 인간은 단축키를 찾게 된다. 그리고 우리가 이런 단축키를 누를 때 합리적인 기회비용으로 무장한 이콘이라면 안 했을 법한 행동을 선택한다. 행동경제학은 이렇게 탄생한다. 
 
 ## 내게 비교할 무엇을 다오  
 
@@ -61,9 +61,9 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMxMzUzNTUsNjUzNjcyNTc1LDE1Nz
-QxNTg1MTYsLTkxMzEyODQ0NiwtMTMwNzQ3NjcxMywtMTk4Mzkx
-NjM1LC0xNTQ3NzgwOTgxLDEwOTE3Mjc3ODcsLTk2OTQ0NDE1Mi
-wyMjAzOTMwNjksLTEwOTk5MjczODgsMTIzODQ3NjU5NywtOTM2
-NDY0NTAxXX0=
+eyJoaXN0b3J5IjpbMTQwNDIxOTQ5OSw2NTM2NzI1NzUsMTU3ND
+E1ODUxNiwtOTEzMTI4NDQ2LC0xMzA3NDc2NzEzLC0xOTgzOTE2
+MzUsLTE1NDc3ODA5ODEsMTA5MTcyNzc4NywtOTY5NDQ0MTUyLD
+IyMDM5MzA2OSwtMTA5OTkyNzM4OCwxMjM4NDc2NTk3LC05MzY0
+NjQ1MDFdfQ==
 -->
