@@ -1,3 +1,8 @@
+**p-hacking**
+
+2018-10-02
+Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
+
 # 들어가며 
 "재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 반복해도 같은 혹은 충분히 비슷한 결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 다른 사람이 실시하는 실험으로 구현될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항 아래에서는 기본적으로 같은 결과가 나와야 한다.
 
@@ -114,12 +119,10 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 <b id="f1">1</b> 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.[↩](#a1)
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDEyODQ4NSwyMTM5MTI1OTI1LDE5Mz
-QzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3MywtMTUxMDE0
-NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5NTg3MjUsLT
-Q2ODg1MTQ3M119
+eyJoaXN0b3J5IjpbODAzMzE3NzQ5LDE3ODAxMjg0ODUsMjEzOT
+EyNTkyNSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLTEwNDk3MDky
+NzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMT
+YxOTU4NzI1LC00Njg4NTE0NzNdfQ==
 -->
