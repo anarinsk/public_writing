@@ -62,9 +62,9 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <b id="f1">1</b> 번역서에는 "가치 단서"라고 번역했다. 뭔가 행동을 촉발하는 자극제 혹은 힌트 같은 뜻도 있다. 단서는 보통 추리와 연결되기 때문에 행동을 타내는 데에는 다소 정적인 느낌이다. 그렇다고 행동을 유발하는 신호, 자극 이렇게 쓰기에는 너무 말이 강하다. 사실 이런 작용이 대놓고 뭔가를 촉발하는 것도 아니다. 그래서 "가치 힌트"라고 쓸까 하다가 영어로 "guiding  suggestion"이라는 뜻풀이를 보게 되었다. 즉 일방적인 제시가 아니라 은근하게 던져지는 무엇이라는 뜻이다. 그래서 암시라고 일단 말을 다시 풀었다.[↩](#a1) 
 
-> Written with [StackEdit](https://stackedit.io/).
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzQ0MTIzNSwtNjY1MDEzMzgsNjUzNj
+eyJoaXN0b3J5IjpbLTUwNDQwNjcxOCwtNjY1MDEzMzgsNjUzNj
 cyNTc1LDE1NzQxNTg1MTYsLTkxMzEyODQ0NiwtMTMwNzQ3Njcx
 MywtMTk4MzkxNjM1LC0xNTQ3NzgwOTgxLDEwOTE3Mjc3ODcsLT
 k2OTQ0NDE1MiwyMjAzOTMwNjksLTEwOTk5MjczODgsMTIzODQ3
