@@ -94,7 +94,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 �
 
 보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative가 20%다. 즉 ㅅtrue positive 100개 중에서 20개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
-![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png?w=860)
+![enter image description here](https://www.explainxkcd.com/wiki/images/3/3f/significant.png)
 
 ## 이오니디스의 한방 
 
@@ -131,9 +131,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5Nzg1MTQwLC0xMzk5ODM4MTE3LC00Mj
-Q1MzY4MzEsMTgwNjY2MjIzNiwxMDA2NjUzODg5LDE3ODAxMjg0
-ODUsMjEzOTEyNTkyNSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLT
-EwNDk3MDkyNzMsLTE1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQy
-MTQ4NiwtMTYxOTU4NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbMTI2MzI2MjQyMCwtMTM5OTgzODExNywtND
+I0NTM2ODMxLDE4MDY2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4
+NDg1LDIxMzkxMjU5MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC
+0xMDQ5NzA5MjczLC0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0
+MjE0ODYsLTE2MTk1ODcyNSwtNDY4ODUxNDczXX0=
 -->
