@@ -57,13 +57,13 @@
 
 ---
 
-<b id="f1">1</b> 번역서에는 "가치 단서"라고 번역했다. 뭔가 행동을 촉발하는 자극제 혹은 힌트 같은 뜻도 있다. 단서는 보통 추리와 연결되기 때문에 행동을 타내는 데에는 다소 정적인 느낌이다. 그렇다고 행동을 유발하는 신호, 자극 이렇게 쓰기에는 너무 말이 강하다. 사실 이런 작용이 대놓고 뭔가를 촉발하는 것도 아니다. 그래서 "가치 힌트"라고 쓸까 하다가 영어로 "guiding  suggestion"의 뜻풀이를 보게 되었다. 즉 일방적인 제시가 아니라 은근하게 던져지는 무엇이라는 뜻이다. 그래서 암시라고 일단 말을 다시 풀었다.[↩](#a1) 
+<b id="f1">1</b> 번역서에는 "가치 단서"라고 번역했다. 뭔가 행동을 촉발하는 자극제 혹은 힌트 같은 뜻도 있다. 단서는 보통 추리와 연결되기 때문에 행동을 타내는 데에는 다소 정적인 느낌이다. 그렇다고 행동을 유발하는 신호, 자극 이렇게 쓰기에는 너무 말이 강하다. 사실 이런 작용이 대놓고 뭔가를 촉발하는 것도 아니다. 그래서 "가치 힌트"라고 쓸까 하다가 영어로 "guiding  suggestion"이라는 뜻풀이를 보게 되었다. 즉 일방적인 제시가 아니라 은근하게 던져지는 무엇이라는 뜻이다. 그래서 암시라고 일단 말을 다시 풀었다.[↩](#a1) 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExODYwOTgsNjUzNjcyNTc1LDE1NzQxNT
-g1MTYsLTkxMzEyODQ0NiwtMTMwNzQ3NjcxMywtMTk4MzkxNjM1
-LC0xNTQ3NzgwOTgxLDEwOTE3Mjc3ODcsLTk2OTQ0NDE1MiwyMj
-AzOTMwNjksLTEwOTk5MjczODgsMTIzODQ3NjU5NywtOTM2NDY0
-NTAxXX0=
+eyJoaXN0b3J5IjpbLTY2NTAxMzM4LDY1MzY3MjU3NSwxNTc0MT
+U4NTE2LC05MTMxMjg0NDYsLTEzMDc0NzY3MTMsLTE5ODM5MTYz
+NSwtMTU0Nzc4MDk4MSwxMDkxNzI3Nzg3LC05Njk0NDQxNTIsMj
+IwMzkzMDY5LC0xMDk5OTI3Mzg4LDEyMzg0NzY1OTcsLTkzNjQ2
+NDUwMV19
 -->
