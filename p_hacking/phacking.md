@@ -28,11 +28,11 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 | **positive** | true positive | false positive  |
 | **negative** | false negative |  true negative |
 
-표에서 열은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 POSITIVE/NEGATIVE 둘로 구분한 것이다. 행은 예측 결과를 나타낸다. $x$의 존재 유무에 대한 예측을 각각 positive/negative로 나타내자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 
+표에서 열(column)은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 POSITIVE/NEGATIVE 둘로 구분한 것이다. 행은 예측 결과를 나타낸다. $x$의 존재 유무에 대한 예측을 각각 positive/negative로 나타내자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 
   -  positive, negative 예측이 맞는 경우: true positive, true negative 
   -  positive, negative 예측이 틀리는 경우: false positive, false negative 
 
-당연히 true positive와 true negative의 비율을 가급적 높이는 것이 좋을 것이다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 성과 지표를 도출할 수 있다. 하지만 당장의 지금의 관심사는 아니니 일단 넘어가자. 
+예측 결과(가설 검정의 결과)가 있을 때 true positive와 true negative의 비율을 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 성과 지표를 도출할 수 있다. 하지만 당장의 지금의 관심사는 아니니 일단 넘어가자. 
 
 # 1종 오류와 2종 오류 
 
@@ -133,7 +133,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgzNTY5OTIsMzM0ODk4OTksLTE2NT
+eyJoaXN0b3J5IjpbLTEyODA4Mjc4NTksMzM0ODk4OTksLTE2NT
 U0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4
 MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
