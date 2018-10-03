@@ -76,7 +76,7 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 
 # NHST 무엇이 문제인가? (p-해킹) 
 
-NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 경우 영가설을 기각하는 방식으로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나? 효과가 없는 데도 효과가 있다고 예측할 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
+NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 경우 영가설을 기각하는 방식으로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나? 효과가 없는 데도 효과가 있다고 예측할 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
 
 검정력은 $(1-\beta)$로 정의된다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길까?  
 
@@ -135,7 +135,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM0ODUyODAsMzM0ODk4OTksLTE2NT
-U0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4
-MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
+eyJoaXN0b3J5IjpbMTQyMTQ2MTkwNywzMzQ4OTg5OSwtMTY1NT
+QwNzYzNCwyMDkzOTc5MjgyLDYxMjkyNjAyOCwtMTgzNzMyNDgw
+MywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ==
 -->
