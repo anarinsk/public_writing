@@ -78,9 +78,9 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 �
 
 # Ioannidis, the destroyer 
 
-이제 하버드 의대에 소속한 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-ㅎ햐캉을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성하지 않았다. 대부분이 찜찜하게 여기고 있지만, 문제로 삼기에는 망설여 지는 그런 것이 p-hacking이 아니었을까 싶다. 
+이제 하버드 의대에 소속한 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성하지 않았다. 대부분이 찜찜하게 여기고 있지만, 문제로 삼기에는 망설여 지는 그런 것이 p-해킹이 아니었을까 싶다. 
 
-2005년 이오니디스 선생이 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)을 투하했다. 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 논문에 관한 갑론을박이 진행중이다. p-hacking 만큼은 이 논문이 제대로 핵심을 짚었다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
+2005년 이오니디스 선생이 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)을 투하했다. 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 논문에 관한 갑론을박이 진행중이다. p-해킹 만큼은 이 논문이 제대로 핵심을 짚었다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
 
 인간은 '가시성'의 동물이다. 사람들은 보통 평범한 것보다는 튀는 걸 먼저 보게 된다. "뭘 당연한 걸 연구 씩이나!" 연구자들이 종종 듣게 되는 이야기다. 과학 하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할 신기한 결과를 찾아 헤맨다. 
 
@@ -117,11 +117,11 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지 객관적일 수 없있다. 여기에 과학자의 욕망이 개입하고 이에 따라서 보다 신박한 연구를 추구하려는 유인이 자연스럽게 생겨난다. 
 
-이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면, 먼저 삐딱하게 보라는 것이다. 과학을 회의하라는 것이 아니다. 단지 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락 너머를 보라는 것이다. 이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-hacking을 낳을 수도 있다. 
+이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면, 먼저 삐딱하게 보라는 것이다. 과학을 회의하라는 것이 아니다. 단지 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락 너머를 보라는 것이다. p-해킹은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려 열정이 의도하지 않은 p-해킹을 낳을 수도 있다. 
 
-자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기도록 하자. Stay tuned! 
+자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-해킹을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기도록 하자. Stay tuned! 
 
-p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
+p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
 
 ![enter image description here](https://www.explainxkcd.com/wiki/images/3/3f/significant.png)
 
@@ -131,7 +131,7 @@ p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로�
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjk3NzA3NCwyMDkzOTc5MjgyLDYxMj
-kyNjAyOCwtMTgzNzMyNDgwMywtMTQ0NjQxMjE5MSwzOTI0OTkw
-NzhdfQ==
+eyJoaXN0b3J5IjpbLTE2NTU0MDc2MzQsMjA5Mzk3OTI4Miw2MT
+I5MjYwMjgsLTE4MzczMjQ4MDMsLTE0NDY0MTIxOTEsMzkyNDk5
+MDc4XX0=
 -->
