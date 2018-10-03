@@ -121,7 +121,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-hacking을 최대한 걸러낼 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기도록 하자. Stay tuned! 
 
-p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 
+p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
 
 ![enter image description here](https://www.explainxkcd.com/wiki/images/3/3f/significant.png)
 
@@ -131,6 +131,6 @@ p.s. 아마도 p-hacking에 관한 가장 익살스런 묘사일 켄달 먼로�
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTI3MzY0Nyw2MTI5MjYwMjgsLTE4Mz
+eyJoaXN0b3J5IjpbMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4Mz
 czMjQ4MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
 -->
