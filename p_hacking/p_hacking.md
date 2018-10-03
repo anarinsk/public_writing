@@ -15,7 +15,7 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
-같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-hacking이다. 
+같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학적으로 보이기 위해서 데이터를 고문하는 것이 p-hacking이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문할 도구나 방법은 다. 
 
 # 예측과 사실 조건 
 
@@ -122,9 +122,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2OTY0ODY2LDE4MDY2NjIyMzYsMTAwNj
-Y1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5MjUsMTkzNDMxNjk1
-NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC0xNTEwMTQ3NDYxLD
-ExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1ODcyNSwtNDY4ODUx
-NDczXX0=
+eyJoaXN0b3J5IjpbLTE1OTY4NDk3MjcsMTgwNjY2MjIzNiwxMD
+A2NjUzODg5LDE3ODAxMjg0ODUsMjEzOTEyNTkyNSwxOTM0MzE2
+OTU1LC00OTkzMTc0MzgsLTEwNDk3MDkyNzMsLTE1MTAxNDc0Nj
+EsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4NzI1LC00Njg4
+NTE0NzNdfQ==
 -->
