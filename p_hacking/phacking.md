@@ -5,7 +5,6 @@ Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 # 들어가며 
 
-
 "재현성"의 위기라고 한다. 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은 결과가 나와야 한다는 것이다.  자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시 실험으로 구현할 수 있다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때 기본적으로 같은 결과가 나와야 한다.
 
 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때에도 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은 로널드 코즈가 했다는 유명한 말이 있다. 
@@ -136,8 +135,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk4NzYyNzUsMTYwODAzNDM2MywzMz
-Q4OTg5OSwtMTY1NTQwNzYzNCwyMDkzOTc5MjgyLDYxMjkyNjAy
-OCwtMTgzNzMyNDgwMywtMTQ0NjQxMjE5MSwzOTI0OTkwNzhdfQ
-==
+eyJoaXN0b3J5IjpbMTYwODAzNDM2MywtMTcxOTg3NjI3NSwxNj
+A4MDM0MzYzLDMzNDg5ODk5LC0xNjU1NDA3NjM0LDIwOTM5Nzky
+ODIsNjEyOTI2MDI4LC0xODM3MzI0ODAzLC0xNDQ2NDEyMTkxLD
+M5MjQ5OTA3OF19
 -->
