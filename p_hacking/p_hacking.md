@@ -74,7 +74,7 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 
 NHST는 $\alpha$의 임계치를 정해 놓고 구한 p값이 이보다 작을 경우 영가설을 기각하는 방식으로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나? 효과가 없는 데도 효과를 찾아낼 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
 
-$1-\beta$는 검정력(power)이라고 불린다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길까?  
+검정력은 $(1-\beta)$로 정의된다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길까?  
 
 # Ioannidis, the destroyer 
 
@@ -125,7 +125,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjQzMDM1NCwtNDI0NTM2ODMxLDE4MD
+eyJoaXN0b3J5IjpbLTY4NDk0NjI3MiwtNDI0NTM2ODMxLDE4MD
 Y2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5
 MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC
 0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1
