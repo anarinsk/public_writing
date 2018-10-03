@@ -6,7 +6,8 @@
 * 그냥 그렇게 봐주시기를. 
 
 ## 도대체 기회비용이란 무엇인가? 
-"기회비용"에서 시작해보자. "경제학개론"을 들었다면, 아마 맨 처음 접한 개념일 터다. 모든 경제적 결정의 근간에는 기회비용이 있다. 기회비용은 여러가지 말로 다르게 표현되고는 한다. "공짜 점심은 없다." 요컨대, 어떤 결정을 하면 그 결정으로 인해 잃는 것이 있다. 그 잃어버리는 무엇이 기회비용이다.  
+
+"기회비용"에서 시작해보자. "경제학개론"을 들었다면, 아마 맨 처음 접한 개념일 터다. 모든 경제적 결정의 근간에는 기회비용이 있다. 기회비용은 여러 다른 표현으로 모습ㅇmㄹ 다. "공짜 점심은 없다." 요컨대, 어떤 결정을 하면 그 결정으로 인해 잃는 것이 있다. 그 잃어버리는 무엇이 기회비용이다.  
 
 경제학에서 볼 때 합리적인 결정은 기회비용에 근거해 내려져야 한다. 손 안에 있는 10만원으로 무엇을 할까? 나는 친구들과 음주가무로 친교를 다지기로 했다. 음주가무의 기회비용은 10만원일까? 아니다. 나는 10만원만 잃은 게 아니다. 음주가무에는 시간도 소비한다. 만일 그 시간에 3만원 짜리 책을 사서 책의 1/3을 읽었더라면? 이때 음주가무의 기회비용은 7만원(=10만원-3만원)  그리고 1/3의 독서를 통해 얻은 어떤 이득이다. 만일 음주가무가 나에게 준 가치(효용)이 "7만원 + 무형의 이득"보다 크다면, 나의 음주가무는 경제학적으로 정당하다. 하지만 반대의 경우라면 나의 음주가무는 합리적이지 않다. 나는 호모 이코노미쿠스(앞으로 이 분은 이콘ECON이라고 부르겠다)의 자격이 없다. 
 
@@ -60,8 +61,8 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzEyODQ0NiwtMTMwNzQ3NjcxMywtMT
-k4MzkxNjM1LC0xNTQ3NzgwOTgxLDEwOTE3Mjc3ODcsLTk2OTQ0
-NDE1MiwyMjAzOTMwNjksLTEwOTk5MjczODgsMTIzODQ3NjU5Ny
-wtOTM2NDY0NTAxXX0=
+eyJoaXN0b3J5IjpbMTg5NDQyNDc5MCwtOTEzMTI4NDQ2LC0xMz
+A3NDc2NzEzLC0xOTgzOTE2MzUsLTE1NDc3ODA5ODEsMTA5MTcy
+Nzc4NywtOTY5NDQ0MTUyLDIyMDM5MzA2OSwtMTA5OTkyNzM4OC
+wxMjM4NDc2NTk3LC05MzY0NjQ1MDFdfQ==
 -->
