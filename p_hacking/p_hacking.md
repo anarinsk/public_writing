@@ -41,6 +41,7 @@ p-hacking의 문제를 살펴보기 전에 간단한 분류표 먼저 보자. �
 |--|--|--|
 | **positive** | 1-$\alpha$ | $\alpha$ |
 | **negative** | $\beta$ |  1-$\beta$ |
+
 ($\alpha, \beta \in [0,1]$)
 
 각 행에 대해서, 즉 positive, negative 각 예측은 맞거나 틀리거나 둘 중 하나다. 표에서 맞춘 비율은 $1-\alpha$, $1-\beta$이고 틀린 비율은 $\alpha$, $\beta$다. 여기서 false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative를 2종 오류라고 부른다. 
@@ -124,7 +125,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODAwODMyMCwtNDI0NTM2ODMxLDE4MD
+eyJoaXN0b3J5IjpbLTU0NjQzMDM1NCwtNDI0NTM2ODMxLDE4MD
 Y2NjIyMzYsMTAwNjY1Mzg4OSwxNzgwMTI4NDg1LDIxMzkxMjU5
 MjUsMTkzNDMxNjk1NSwtNDk5MzE3NDM4LC0xMDQ5NzA5MjczLC
 0xNTEwMTQ3NDYxLDExMDQzNjM3NCw3MzM0MjE0ODYsLTE2MTk1
