@@ -34,7 +34,7 @@ p-hacking의 문제를 살펴보기 전에 간단한 분류표 먼저 보자. �
 
 # 1종 오류와 2종 오류 
 
-통계학을 공부한 사람은 사실 이 매트릭스를 한번은 봤을 것이다. 통계학에서 제일 안 외워지는 것 중 하나가 1종 오류(type I error), 2종 오류(type II error)다. 
+통계학을 공부한 사람은 사실 이 혼동 행렬을 한번은 접했다. 통계학에서 제일 안 외워지는 것 중 하나가 1종 오류(type I error), 2종 오류(type II error)다. 
 
 
 |  | POSITIVE | NEGATIVE |
@@ -122,9 +122,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDUzNjgzMSwxODA2NjYyMjM2LDEwMD
-Y2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1OTI1LDE5MzQzMTY5
-NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3MywtMTUxMDE0NzQ2MS
-wxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5NTg3MjUsLTQ2ODg1
-MTQ3M119
+eyJoaXN0b3J5IjpbLTIwODYyNDc1MzYsLTQyNDUzNjgzMSwxOD
+A2NjYyMjM2LDEwMDY2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1
+OTI1LDE5MzQzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3My
+wtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5
+NTg3MjUsLTQ2ODg1MTQ3M119
 -->
