@@ -62,12 +62,12 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 1. 현재의 데이터가 주어졌을 때, $H_0$가 참일 확률 
 2. 만일 $H_0$ 참이라면, 현재의 데이터를 얻을 확률
 
-1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 진리표에서 둘의 결과가 동일하지 않다. 그런데 우리는 종종 $p$ 값을 은근슬쩍 1처럼 사용하고는 한다. 이해를 돕기 위해 법의 맥락에서 다른 예를 들어보겠다. 
+1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 원래 명제와 역 명제의 진리표 결과는 동일하지 않다. 그런데 우리는 종종 p값을 은근슬쩍 1처럼 해석한다. 이해를 돕기 위해 법의 맥락에서 다른 사례를 들어보겠다. 
 
 1. $x$ 라는 증거가 주어졌을 때, 피고가 범인일 확률 
 2. 피고가 범인일 때, $x$ 라는 증거를 얻을 확률 
 
-이 두 진술은 같은 진술인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리와 충돌한다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근처럼 보일 것이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다. 이는 베이즈 정리와 관련된 내용인데, 일단은 여기까지 하고 넘어가도록 하자. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
+이 두 진술은 같은 진술인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리에 어긋난다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근처럼 보일 것이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다. 이는 베이즈 정리와 관련된 내용인데, 일단은 여기까지 하고 넘어가도록 하자. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
 
 # NHST 무엇이 문제인가? (p-hacking) 
 
@@ -122,9 +122,9 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDUwMDY4LC00MjQ1MzY4MzEsMTgwNj
-Y2MjIzNiwxMDA2NjUzODg5LDE3ODAxMjg0ODUsMjEzOTEyNTky
-NSwxOTM0MzE2OTU1LC00OTkzMTc0MzgsLTEwNDk3MDkyNzMsLT
-E1MTAxNDc0NjEsMTEwNDM2Mzc0LDczMzQyMTQ4NiwtMTYxOTU4
-NzI1LC00Njg4NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbLTEzNzAxODEwMzUsLTQyNDUzNjgzMSwxOD
+A2NjYyMjM2LDEwMDY2NTM4ODksMTc4MDEyODQ4NSwyMTM5MTI1
+OTI1LDE5MzQzMTY5NTUsLTQ5OTMxNzQzOCwtMTA0OTcwOTI3My
+wtMTUxMDE0NzQ2MSwxMTA0MzYzNzQsNzMzNDIxNDg2LC0xNjE5
+NTg3MjUsLTQ2ODg1MTQ3M119
 -->
