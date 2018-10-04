@@ -1,7 +1,7 @@
 **p-해킹**
 
 2018-10-02
-Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.html)
 
 
@@ -137,8 +137,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTYwNzEzOSwtMTI4NDQxMDk3MywtNj
-c5OTA3NTUzLDE2MDgwMzQzNjMsLTE3MTk4NzYyNzUsMzM0ODk4
-OTksLTE2NTU0MDc2MzQsMjA5Mzk3OTI4Miw2MTI5MjYwMjgsLT
-E4MzczMjQ4MDMsLTE0NDY0MTIxOTEsMzkyNDk5MDc4XX0=
+eyJoaXN0b3J5IjpbOTkzMjMzOTcwLDEyNTE2MDcxMzksLTEyOD
+Q0MTA5NzMsLTY3OTkwNzU1MywxNjA4MDM0MzYzLC0xNzE5ODc2
+Mjc1LDMzNDg5ODk5LC0xNjU1NDA3NjM0LDIwOTM5NzkyODIsNj
+EyOTI2MDI4LC0xODM3MzI0ODAzLC0xNDQ2NDEyMTkxLDM5MjQ5
+OTA3OF19
 -->
