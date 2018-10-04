@@ -115,7 +115,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 생각보다 높다! 유의수준 0.05(5%)이 제법 안전해 보였을일지 모르나, 이렇게 살짝 들춰보면 연구에 커다란 금이 보인다. 여기서 신뢰성은 다음과 같이 더 악화될 수도 있다. 
 
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
-2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$의 조건에서 FPRP는 무려 0.93이 된다. 즉, 거의 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
+2. 대부분의 가설이 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$의 조건에서 FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
 
 앞서 과학자들도 신기함을 추구한다고 말했다. 놀라운 것이란 좀처럼 검증되기 힘들다는 의미이기도 하다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다는 것이다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치기 앞서 연구가 잘못된 것(false positive)일 확률부터 걱정해야 한다. 우쭐하고 감탄하기에 앞서 의심이 먼저다! 
 
@@ -138,9 +138,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwMzU0ODY0LDE0NTYwNjUwMDksMTI1MT
-YwNzEzOSwtMTI4NDQxMDk3MywtNjc5OTA3NTUzLDE2MDgwMzQz
-NjMsLTE3MTk4NzYyNzUsMzM0ODk4OTksLTE2NTU0MDc2MzQsMj
-A5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4MDMsLTE0NDY0
-MTIxOTEsMzkyNDk5MDc4XX0=
+eyJoaXN0b3J5IjpbOTY1OTgxOTI2LDI3MDM1NDg2NCwxNDU2MD
+Y1MDA5LDEyNTE2MDcxMzksLTEyODQ0MTA5NzMsLTY3OTkwNzU1
+MywxNjA4MDM0MzYzLC0xNzE5ODc2Mjc1LDMzNDg5ODk5LC0xNj
+U1NDA3NjM0LDIwOTM5NzkyODIsNjEyOTI2MDI4LC0xODM3MzI0
+ODAzLC0xNDQ2NDEyMTkxLDM5MjQ5OTA3OF19
 -->
