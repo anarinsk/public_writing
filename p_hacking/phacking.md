@@ -106,7 +106,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 이른바 recall이라는 지표를 1에서 뺀 값과 동일하다. 
+1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
@@ -138,9 +138,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjA2NTAwOSwxMjUxNjA3MTM5LC0xMj
-g0NDEwOTczLC02Nzk5MDc1NTMsMTYwODAzNDM2MywtMTcxOTg3
-NjI3NSwzMzQ4OTg5OSwtMTY1NTQwNzYzNCwyMDkzOTc5MjgyLD
-YxMjkyNjAyOCwtMTgzNzMyNDgwMywtMTQ0NjQxMjE5MSwzOTI0
-OTkwNzhdfQ==
+eyJoaXN0b3J5IjpbMjcwMzU0ODY0LDE0NTYwNjUwMDksMTI1MT
+YwNzEzOSwtMTI4NDQxMDk3MywtNjc5OTA3NTUzLDE2MDgwMzQz
+NjMsLTE3MTk4NzYyNzUsMzM0ODk4OTksLTE2NTU0MDc2MzQsMj
+A5Mzk3OTI4Miw2MTI5MjYwMjgsLTE4MzczMjQ4MDMsLTE0NDY0
+MTIxOTEsMzkyNDk5MDc4XX0=
 -->
