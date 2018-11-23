@@ -95,7 +95,7 @@ $$
 
 이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 
 
-![](https://github.com/anarinsk/public_writing/blob/master/entropy/imgs/tree.png)
+![](https://github.com/anarinsk/public_writing/master/entropy/imgs/tree.png)
 
 
 
@@ -117,5 +117,5 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODM0OTk5MCwtNTI4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbMTg4ODU3NjI5MiwtNTI4NzcwNTc2XX0=
 -->
