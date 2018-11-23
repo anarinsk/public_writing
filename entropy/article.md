@@ -57,7 +57,8 @@ $$
 
 즉, 현재 아무런 feature도 활용하지 않은 상태의 엔트로피에서 feature를 통해 분류를 한번 거쳤을 때의 엔트로피를 뺀다. 분류를 거친다는 것은 질문을 추가적으로 하는 것과 같은 의미다. 따라서 이런 정보를 획득함에 따라서 전체의 엔트로피는 줄어들게 된다. 이 둘 사이의 차이를 이 feature를 활용한 분류의 성능으로 이해할 수 있겠다. 
 
-![](./imgs/data.png)
+![](https://github.com/anarinsk/public_writing/master/entropy/imgs/data.png)
+
 
 위와 같은 학습 자료가 주어졌다고 하자. 맞추고자 하는 정보는 테니스는 칠 것인지 말 것인지의 여부다. 
 아무런 분류를 거치지 않았을 때 위 학습자료의 엔트로피는 다음과 같다. 전체에서 플레이를 한 횟수는 9번 하지 않은 횟수는 5번이다. 이는 일종의 이진 분류다. $S$는 
@@ -88,12 +89,13 @@ e((S_{\text{Rain}}) & =  -( \dfrac{3}{5} \log_2 \dfrac{3}{5} + \dfrac{2}{5} \log
 \end{aligned}
 $$
 
-
 $$
 e(S_v) = \dfrac{5}{14} e(S_{\text{Sunny}})  +  \dfrac{4}{14} e(S_{\text{Overcast}})   +  \dfrac{5}{14} e(S_{\text{Rain}}) 
 $$
 
 이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 
+
+![](https://github.com/anarinsk/public_writing/blob/master/entropy/imgs/tree.png)
 
 
 
@@ -115,5 +117,5 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzA3Mjg5NSwtNTI4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbLTUxODM0OTk5MCwtNTI4NzcwNTc2XX0=
 -->
