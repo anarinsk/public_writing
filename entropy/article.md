@@ -54,14 +54,15 @@ $q$는 $p$의 추정이므로 직관적으로 $H(p,q) \geq H(p,p) = e$.  이를 
 
 # Decision tree에서 어떻게 활용되는가? 
 
-앞서 보았듯이 섀넌이 가져다 쓴 엔트로피는 일종의 성능 지표(performance metric)로 활용될 수 있다. 이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준으로 데이터를 나누는 것을 의미한다. 무엇을 기준으로 결정 나무의 가지를 나눌까? 나무의 결정 노드를 가르는 기준으로 엔트로피를 얼마나 줄일 수 있는지 좋은 판단의 지표가 될 것이다. 이를 정보 이득(information gain)이라고 부른다. 
+앞서 보았듯이 섀넌이 가져다 쓴 엔트로피는 일종의 성능 지표(performance metric)로 활용될 수 있다. 이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준으로 데이터를 나누는 것을 의미한다. 무엇을 기준으로 결정 나무의 가지를 나눌까? 나무의 결정 노드를 가르는 기준으로 엔트로피를 활용하면 좋지 않을까? 엔트로피에 기반한 결정 노드의 판별 기준을 정보 이득(information gain)이라고 하고 정의는 아래와 같다. 
 
 $$
 IG(S, A(v)) = e(S) - \sum_{v \in A(v)} \dfrac{|S_v|}{|S|} e(S_v) 
 $$
 
-- $S$: all of events, $A(v)$ a set of an attribute where element is denoted by $v$. 
-- e(X): entropy for the set $S$
+- $S$: all of events
+- $A(v)$ a set of an attribute where element is denoted by $v$. 
+- $e(X)$: entropy for the event set $X$
 
 즉, 현재 아무런 feature도 활용하지 않은 상태의 엔트로피에서 feature를 통해 분류를 한번 거쳤을 때의 엔트로피를 뺀다. 분류를 거친다는 것은 질문을 추가적으로 하는 것과 같은 의미다. 따라서 이런 정보를 획득함에 따라서 전체의 엔트로피는 줄어들게 된다. 이 둘 사이의 차이를 이 feature를 활용한 분류의 성능으로 이해할 수 있겠다. 
 
@@ -128,6 +129,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTczNzE1MTEsLTc5MjYyOTAyLC0xMz
-A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbLTU5ODAzNjIyMSwtNzkyNjI5MDIsLTEzMD
+U1NDEwOTgsLTUyODc3MDU3Nl19
 -->
