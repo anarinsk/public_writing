@@ -108,7 +108,7 @@ $$
 
 ![](https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png)
 
-
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 
 
@@ -129,6 +129,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMz
-A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbMTkwOTc1ODI4LC0xNTE5ODMzNTU3LC03OT
+I2MjkwMiwtMTMwNTU0MTA5OCwtNTI4NzcwNTc2XX0=
 -->
