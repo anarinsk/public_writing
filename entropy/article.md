@@ -45,7 +45,11 @@ $q$는 $p$의 추정이므로 직관적으로 $H(p,q) \geq H(p,p) = e$.  이를 
 예/아니오로 구별되는 이진 분류의 사례로 교차 엔트로피를 살펴보자. 
 
  $$
- =- \sum_{i=0}^1 p_i \log (q_i) = -( p_0 \log q_0 + p_1 \log q_1 ) = -\left( p_0 \log q_0 + (1-p_0) \log (1-q_0 ) \right)
+ \begin{aligned}
+ H(p,q) = & - \sum_{i=0}^1 p_i \log (q_i) 
+ = -( p_0 \log q_0 + p_1 \log q_1 ) \\
+ = & -\left( p_0 \log q_0 + (1-p_0) \log (1-q_0 ) \right) 
+ \end{aligned}
  $$
 
 # Decision tree에서 어떻게 활용되는가? 
@@ -124,6 +128,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mj
-g3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDYxNTQzMCwtNzkyNjI5MDIsLTEzMD
+U1NDEwOTgsLTUyODc3MDU3Nl19
 -->
