@@ -16,7 +16,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 # 엔트로피를 정의하기 위한 요소 
 
 ## 의외성(surprisal) 
-제임스 글릭의 책에서 surpirsal을 "의외성"으로 번역했으므로 우리도 따르도록 하자. 의외성이란 어떤 사건이 주는 놀라움이 정도다. 쉽게 생각하면 된다. 월드컵 축구에서 한국이 독일을 이길 확률은 높지 않다. 그런 사건이 발생했다면 이는 의외성의 값이 높은 사건이다. 유한한 전체 사건의 인덱스를 $1, \dotsc, n$이라고 하자. 이때 사건 $i$가 발생할 확률을 $p_i$라고 하자. 이때 이런 $p_i$가 지니는 의외성 $s$를 다음과 같이 정의하자. 
+제임스 글릭의 책에서 surpirsal을 "의외성"으로 번역했으므로 우리도 따르도록 하자. 의외성이란 어떤 사건이 주는 놀라움이 정도다. 쉽게 생각하면 된다. 월드컵 축구에서 한국이 독일을 이길 확률은 높지 않다. 그런 사건이 발생했다면 이는 의외성의 수준이 높은 사건이다. 유한한 전체 사건의 인덱스를 $1, \dotsc, n$이라고 하자. 이때 사건 $i$가 발생할 확률을 $p_i$라고 하자. 이때 이런 $p_i$가 지니는 의외성 $s$를 다음과 같이 정의하자. 
 
 $$
 s = -\log p_i
@@ -124,6 +124,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTE4NDM1MiwtMTMwNTU0MTA5OCwtNT
-I4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mj
+g3NzA1NzZdfQ==
 -->
