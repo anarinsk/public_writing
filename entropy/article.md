@@ -46,15 +46,15 @@ $q$는 $p$의 추정이므로 직관적으로 $H(p,q) \geq H(p,p) = e$.  이를 
 
  $$
  \begin{aligned}
- H(p,q) = & - \sum_{i=0}^1 p_i \log (q_i) 
- = -( p_0 \log q_0 + p_1 \log q_1 ) \\
+ H(p,q) = & - \sum_{i=0}^1 p_i \log (q_i) \\
+ = & -( p_0 \log q_0 + p_1 \log q_1 ) \\
  = & -\left( p_0 \log q_0 + (1-p_0) \log (1-q_0 ) \right) 
  \end{aligned}
  $$
 
 # Decision tree에서 어떻게 활용되는가? 
 
-앞서 보았듯이 섀넌이 가져다 쓴 엔트로피는 일종의 성능 지표(performance metric)로 활용될 수 있다. 다시다시피 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준으로 데이터를 나누는 것을 의미한다. 이때 분기에 사용되는 기준이 엔트로피를 얼마나 줄일 수 있는지는 좋은 판단의 지표가 될 것이다. 이를 정보 이득(information gain)이라고 부른다. 
+앞서 보았듯이 섀넌이 가져다 쓴 엔트로피는 일종의 성능 지표(performance metric)로 활용될 수 있다. 이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준으로 데이터를 나누는 것을 의미한다. 무엇을 기준으로 결정 나무의 가지를 나눌까? 나무의 결정 노드를 가르는 기준으로 엔트로피를 얼마나 줄일 수 있는지 좋은 판단의 지표가 될 것이다. 이를 정보 이득(information gain)이라고 부른다. 
 
 $$
 IG(S, A(v)) = e(S) - \sum_{v \in A(v)} \dfrac{|S_v|}{|S|} e(S_v) 
@@ -128,6 +128,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYxNTQzMCwtNzkyNjI5MDIsLTEzMD
-U1NDEwOTgsLTUyODc3MDU3Nl19
+eyJoaXN0b3J5IjpbLTEwOTczNzE1MTEsLTc5MjYyOTAyLC0xMz
+A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
 -->
