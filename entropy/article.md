@@ -78,7 +78,7 @@ $$
 \{ \text{No, No, Yes, Yes, Yes, , No, Yes, , No, Yes, Yes, Yes, Yes, Yes, No} \}
 $$
 
-이다. 그런데 우리에게 필요한 것은 단지 Yes, No의 숫자이므로 앞으로 이 집합을 단순화하여 [Y:9, N:5]으로 줄여서 표기하도록 하자. S의 엔트로피는 다음과 같다. 
+이다. S의 엔트로피는 다음과 같다. 
 
 $$
 e(S) = -(\dfrac{9}{14} \log_2 \frac{9}{14} + \dfrac{5}{14} \log_2 \frac{5}{14} ) = 0.94
@@ -129,6 +129,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODAzNjIyMSwtNzkyNjI5MDIsLTEzMD
-U1NDEwOTgsLTUyODc3MDU3Nl19
+eyJoaXN0b3J5IjpbLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMz
+A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
 -->
