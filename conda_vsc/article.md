@@ -59,7 +59,7 @@ conda update conda
 conda create -n 환경이름 python=3.6
 ```
 
-- 앞으로 사용자가 각자 지정해주는 부분은 한글로 표기하도록 한다. 
+- 앞으로 사용자가 각자 지정해주는 부분은 한글로 표기하도록 한다. 여기서는 "환경이름"이 이에 해당한다. 
 - `create` 명령어에 여러가지 옵션이 있지만 여기서는 Python 버전만 지정하도록 하겠다. 
 - 이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  `appdata\miniconda\envs` 에 설치되어 있다. appdata 폴더를 보려면 탐색기 옵션을 고쳐야 한다. [LINK1](https://support.microsoft.com/ko-kr/help/14201/windows-show-hidden-files), [LINK2](https://support.microsoft.com/ko-kr/help/4028316/windows-view-hidden-files-and-folders-in-windows-10)를 참고 하라. 
 
@@ -77,7 +77,7 @@ conda activate 환경이름
 conda install -c conda-forge numpy
 ```
  
- 사례로 numpy 패키지를 깔아 보았다. 위 명령어는 conda 명령어로 anaconda-forge 채널을 통해 numpy를 설치한 것이다. 통상적으로 pip 명령어를 써서 패키지를 인스톨해도 된다.
+ 사례로 numpy 패키지를 깔아 보았다. 위 명령어는 conda 명령어로 anaconda-forge 채널을 통해 numpy를 설치한 것이다. 통상적으로 pip 명령어를 써서 패키지를 인스톨해도 상관없다. 
 
 ## View env  
 
@@ -210,9 +210,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODI3Nzc2NTksMzU4MTcwMTAsLTExOT
-E3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0
-ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMT
-M3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgw
-NjgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzc0OTc1NDgyLDM1ODE3MDEwLC0xMTkxNz
+gzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0
+LDc1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5Njk3LDEzNz
+I5MjQ2MTYsLTU5MzQyNDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4
+MTE2XX0=
 -->
