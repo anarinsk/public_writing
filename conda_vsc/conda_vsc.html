@@ -134,13 +134,13 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><
 </ul>
 <p>pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다.</p>
 <p>이렇게 깔아 놓고 <code>*.py</code>을 불러오자. 에디터 창에서 매직코멘트로 <code>%##</code>을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면일 볼 수 있을 것이다.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true" alt="" width="600" height="350"></p>
+<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true" alt="" width="600" height="400"></p>
 <p>빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 번듯하다!</p>
 <p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" alt="" width="700" height="370"></p>
 <p>앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 보라색 맨 아래줄의 하단을 보자.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" alt="" width="600" height="140"></p>
+<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" alt="" width="450" height="180"></p>
 <p>저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 환경을 선택하면 된다.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true" alt="" width="600" height="350"></p>
+<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true" alt="" width="600" height="380"></p>
 <h2 id="주의-사항">주의 사항</h2>
 <p>가끔 환경을 세팅한 후 해당 환경이 VSC에서 안뜨는 상황을 맞이할 수 있다. 그럴 때에는 해당 환경에 pylint가 설치되어 있는지 확인한 후 설치되어 있다면 환경 선택 부분에 리로드 아이콘을 눌러주자. 그냥 에디터를 다시 실행해도 된다. 그러면 해당 환경을 확인할 수 있을 것이다.</p>
 <h1 id="nice-practice">Nice practice</h1>
@@ -153,7 +153,9 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><
 <li>필요한 <code>*.py</code> 생성 혹은 로딩</li>
 <li>VSC를 통해 작업</li>
 </ol>
-<h2 id="tips">Tips</h2>
+<h2 id="one-more-tip">One more tip</h2>
+<p>매번 이렇게 환경을 설치해서 쓰기 귀찮을 수 있다. 그렇다면 많이 쓰는 공통 세팅을 하나 만들어 두고 이 녀석을 복사해서 쓰면 되겠다. 앞서 보았듯이 <code>conda create</code>… 명령으로 환경을 복사해서 쓰거나 아니면 그냥 폴더/디렉토리로 들어가서 내용을 복사한 뒤 이름을 바꾸면 된다. 실은 나도 그렇게 쓰고 있다.</p>
+<p>아울러 코드를 배포할 일이 있을 때 실행 환경을 담보해야 할 것이다. 이럴 때는 yml을 쓰면 좋다.</p>
 <h3 id="yml-사용하기">yml 사용하기</h3>
 <p>매번 인스톨을 순서대로 하려면 지겨울지 모르겠다. yml 파일을 생성해서 한방에 패키지들을 설치하는 방법이 있다.</p>
 <pre class=" language-cmd"><code class="prism  language-cmd">conda env export &gt; 환경이름.yml
@@ -161,8 +163,12 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><
 <p>현재 환경을 yml 파일로 저장한다.</p>
 <pre class=" language-cmd"><code class="prism  language-cmd">conda env create -f 환경이름.yml
 </code></pre>
-<p>해당 yml 파일에서 환경을 복원한다.</p>
-<p>🐾Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineonomics.com</a></p>
+<p>해당 yml 파일에서 환경을 복원한다. 작업한 환경을 yml로 포팅해 두면 패키지의 버전까지 기억했다가 그대로 복원한다.<br>
+🐾<br>
+🐾<br>
+🐾<br>
+🐾<br>
+🐾Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineonomics.com</a></p>
 </div>
 </body>
 
