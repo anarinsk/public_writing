@@ -132,18 +132,18 @@ conda install -c conda 패키지이름
 
 # 무엇과 함께 쓸까? 
 
-이제 conda와 잘 어울리는 짝으로는 MS에서 무료로 배포하는 Visual Studio Code(VCS)를 권한다. 개인적으로 마소에서 낸 제품 중 최고의 걸작이 아닐까 싶다. VCS에 대한 자세한 설명은 생략하자. 
+이제 conda와 잘 어울리는 짝으로는 MS에서 무료로 배포하는 Visual Studio Code(VSC)를 권한다. 개인적으로 마소에서 낸 제품 중 최고의 걸작이 아닐까 싶다. VSC에 대한 자세한 설명은 생략하자. 
 
-Python을 VCS와 함께 쓸 때의 장점은 다음과 같다. 
+Python을 VSC와 함께 쓸 때의 장점은 다음과 같다. 
 
-- 여느 에디터의 장점들(예상 명령어 등등)
+- 여느 에디터의 장점들
 	- 다양한 테마
 	- 단축키 
-	- 탭으로 명령어 채우기 
+	- 탭으로 필요 명령어 채우기 
 	- 내부에서 터미널(cmd)를 실행 가능 
 - Git이 통합되어 있어서 git 관리가 편리
 - conda 환경을 지정해 실행 가능 
-- Jupyter의 환경을 그대로 가져와서 실행 결과 바로바로 보여주기 
+- Jupyter의 환경을 그대로 가져와서 실행 결과를 바로 보여주기 
 
 이런 것들을 구현해주기 위해서 작업 환경에 두가지 패키지를 깔면 된다. 
 
@@ -210,9 +210,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0OTc1NDgyLDM1ODE3MDEwLC0xMTkxNz
-gzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0
-LDc1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5Njk3LDEzNz
-I5MjQ2MTYsLTU5MzQyNDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTExMjM4NTk0OTIsMzU4MTcwMTAsLTExOT
+E3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0
+ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMT
+M3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgw
+NjgxMTZdfQ==
 -->
