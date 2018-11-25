@@ -185,7 +185,9 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 ## One more tip
 
-매번 이렇게 환경을 설치해서 쓰기 귀찮을 수 있다. 그렇다면 많이 쓰는 공통 세 
+매번 이렇게 환경을 설치해서 쓰기 귀찮을 수 있다. 그렇다면 많이 쓰는 공통 세팅을 하나 만들어 두고 이 녀석을 복사해서 쓰면 되겠다. 앞서 보았듯이 `conda create`.. 명령으로 환경을 복사해서 쓰거나 아니면 그냥 폴더/디렉토리로 들어가서 내용을 복사한 뒤 이름을 바꾸면 된다. 실은 나도 그렇게 쓰고 있다. 
+
+아울러 코드를 배포할 일이 있을 때 실행 환경을 담보해야 할 것이다. 이럴 때는 yml을 쓰면 좋다. 
 
 ### yml 사용하기 
 매번 인스톨을 순서대로 하려면 지겨울지 모르겠다. yml 파일을 생성해서 한방에 패키지들을 설치하는 방법이 있다. 
@@ -201,11 +203,14 @@ conda env create -f 환경이름.yml
 ```
 
 해당 yml 파일에서 환경을 복원한다. 작업한 환경을 yml로 포팅해 두면 패키지의 버전까지 기억했다가 그대로 복원한다. 
-
+:feet:
+:feet:
+:feet:
+:feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTAyNDgsLTIzMDIyODM2MywtMTY3Mz
-YzOTY5NywxMzcyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0Mjcz
-OCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2Nz
+M2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3
+MzgsLTE3OTgwNjgxMTZdfQ==
 -->
