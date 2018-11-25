@@ -12,7 +12,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지는 않다. 입문서들을 봐도 혹은 웹서핑을 해봐도 그렇다. 아울러 같은 오픈소스 언어라도 RStudio 같은 편리한 개발툴까지 손에 쥐어주는 R에 비해서 어딘가 불편하고 부족하다는 느낌도 받을 수 있다. Python을 쓰면서 불편하다고 느껴본 적 없다, 라는 분들은 여기서 이 글을 안 읽어도 좋겠다. 
 
-이 가이드는 거의 R + RStudio에 근접한 수준으로 Python을 쓰게 하는 데 필요한 작업을 담고 있다. 부디 이 글을 보는 분들에게 시간 단축의 축복 있으라! 가이드는 다음과 같은 세가지 영역을 다룬다. 
+이 가이드는 거의 R + RStudio에 근접한 수준으로 Python을 쓰게 하는 데 필요한 작업을 다룬다. 부디 이 글을 보는 분들에게 시간 단축의 축복 있으라! 가이드는 다음과 같은 세가지 영역을 다룬다. 
 
 1. 어떤 Python 배포판을 쓸까? 
 2. 어떻게 쓸까? 
@@ -20,7 +20,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 # 어떤 Python 배포판을 쓸까? 
 
-나는 하드코어하게 그냥 바닐라 Python을 쓰겠어, 라고 결심해도 좋겠다. 하지만 곧 여러가지 장애물을 만나게 될 것이다. 특히 윈도를 쓰는 이용자라면 더욱 그렇다. CLI를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 참 난감하다. 또한 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 아나콘다(Anaconda) 사에서 배포하는 아나콘다 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두 가지 정도다. 
+나는 하드코어하게 그냥 바닐라 Python을 쓰겠어, 라고 결심해도 좋겠다. 하지만 곧 여러가지 장애물을 만나게 될 것이다. 특히 윈도를 쓰는 이용자라면 더욱 그렇다. CLI(command line interface)를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 참 난감하다. 또한 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 아나콘다(Anaconda) 사에서 배포하는 아나콘다 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두 가지 정도다. 
 
 1. 아나콘다에서 패키지 관리를 성실하게 해준다. 
 	- 때로는 바닐라 버전보다 아나콘다 버전이 성능상 유리한 경우도 있다. 
@@ -210,8 +210,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNz
-cyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5
-LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNT
-kzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTk1MjkzMjU4MSwzNTgxNzAxMCwtMTE5MT
+c4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4
+NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMz
+cyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2
+ODExNl19
 -->
