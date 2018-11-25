@@ -178,7 +178,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 3. miniconda에 Python 작업 환경 설치 및 환경별 패키지 설치 
 4. VSC 실행 
 5. 필요한 `*.py` 생성 혹은 로딩 
-6. 작업 
+6. VSC를 통해 작업 
 
 ## Tips 
 
@@ -200,6 +200,6 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDk2MDk2OSwtNTkzNDI0MzEzLDIxMT
+eyJoaXN0b3J5IjpbMTE1NDQ2NjU5MiwtNTkzNDI0MzEzLDIxMT
 kwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
