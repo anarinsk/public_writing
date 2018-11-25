@@ -20,14 +20,14 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 # 어떤 Python 배포판을 쓸까? 
 
-나는 하드코어하게 그냥 바닐라 Python을 쓰겠어, 라고 결심해도 좋겠다. 하지만 곧 여러가지 장애물을 만나게 될 것이다. 특히 윈도를 쓰는 이용자라면 더욱 그렇다. CLI(command line interface)를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 참 난감하다. 또한 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 아나콘다(Anaconda) 사에서 배포하는 아나콘다 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두 가지 정도다. 
+나는 하드코어하게 그냥 바닐라 Python을 쓰겠어, 라고 결심해도 좋겠다. 하지만 곧 여러가지 장애물을 만나게 될 것이다. 특히 윈도를 쓰는 이용자라면 더욱 그렇다. CLI(command line interface)를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 꽤 난감하다. 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 아나콘다(Anaconda) 사에서 배포하는 아나콘다 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두 가지 정도다. 
 
 1. 아나콘다에서 패키지 관리를 성실하게 해준다. 
 	- 때로는 바닐라 버전보다 아나콘다 버전이 성능상 유리한 경우도 있다. 
 2. 아나콘다에서 제공하는 가상 환경이 편리하고 훌륭하다. 
 	- virtualenv 패키지를 써도 좋겠지만 패키지 관리까지 한방에 해결할 수 있는 아나콘다 가상환경이 조금 더 편리하다. 
 
-1이야 그렇다고 치고 2는 정말 중요하다. Python과 그 구성요소들은 대체로 가볍다. 여느 소프트웨어처럼 "Python + 필요 패키지"를 구축한 후 이 환경 내에서만 쓰면 여러가지 이점이 있다. 하지만 이렇게 여러 패키지를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 따로따로 관리한다면, 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 실행 속도 등에서도 약간의 이익을 볼 수 있다. 
+1이야 그렇다고 치고 2는 정말 중요하다. 보통 "Python + 필요 패키지"를 깔아서 쓰고 있을 것이다. 하지만 이렇게 여러 패키지를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 따로따로 관리한다면, 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 실행 속도 등에서도 약간의 이익을 볼 수 있다. 
 
 이제 아나콘다를 쓰기로 했다고 치자. 아나콘다도 두 가지로 배포판이 제공한다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)가 좋다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 패키지를 제공하는데, 이 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다. 
 
@@ -210,9 +210,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjkzMjU4MSwzNTgxNzAxMCwtMTE5MT
-c4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4
-NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMz
-cyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2
-ODExNl19
+eyJoaXN0b3J5IjpbODc3NjgyMTM3LDM1ODE3MDEwLC0xMTkxNz
+gzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0
+LDc1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5Njk3LDEzNz
+I5MjQ2MTYsLTU5MzQyNDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4
+MTE2XX0=
 -->
