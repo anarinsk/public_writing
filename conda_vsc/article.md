@@ -137,6 +137,7 @@ Python을 VCS와 함께 쓸 때의 장점은 다음과 같다.
 	- 다양한 테마
 	- 단축키 
 	- 탭으로 명령어 채우기 
+	- 내부에서 터미널(cmd)를 실행 가능 
 - Git이 통합되어 있어서 git 관리가 편리
 - conda 환경을 지정해 실행 가능 
 - Jupyter의 환경을 그대로 가져와서 실행 결과 바로바로 보여주기 
@@ -174,15 +175,14 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 1. miniconda 설치 
 2. VSC 설치 
-3. miniconda에 Python 작업 환경 설치 및 패키지 설치 
+3. miniconda에 Python 작업 환경 설치 및 환경별 패키지 설치 
 4. VSC 실행 
 5. 필요한 `*.py` 생성 혹은 로딩 
 6. 작업 
 
-# 참고한 글 
-
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTA0MjczOCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbMzMyMDgxNDAsMjExOTA0MjczOCwtMTc5OD
+A2ODExNl19
 -->
