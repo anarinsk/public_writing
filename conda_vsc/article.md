@@ -142,6 +142,7 @@ Python을 VSC와 함께 쓸 때의 장점은 다음과 같다.
 	- 탭으로 필요 명령어 채우기 
 	- 내부에서 터미널(cmd)를 실행 가능 
 - Git이 통합되어 있어서 git 관리가 편리
+- 다양한 익스텐션과 편리한 설치
 - conda 환경을 지정해 실행 가능 
 - Jupyter의 환경을 그대로 가져와서 실행 결과를 바로 보여주기 
 
@@ -170,7 +171,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 ## 주의 사항 
 
-가끔 콘다 환경을 세팅한 후 해당 환경이 VSC에서 안뜨는 상황이 발생할 수 있다. 그럴 때에는 해당 환경에 pylint가 설치되어 있는지 확인한 후 설치되어 있다면 환경 선택 부분에 리로드 아이콘을 눌러주자. 그냥 에디터를 다시 실행해도 된다. 그러면 해당 환경을 확인해 선태수 있을 것이다. 
+가끔 콘다 환경을 세팅한 후 해당 환경이 VSC에서 안뜨는 상황이 발생할 수 있다. 그럴 때에는 해당 환경에 pylint가 설치되어 있는지 확인한 후 설치되어 있다면 환경 선택 부분에 리로드 아이콘을 눌러주자. 그냥 에디터를 다시 실행해도 된다. 그러면 해당 환경을 확인해 선택할 수 있을 것이다. 
 
 # A nice practice 
 
@@ -210,9 +211,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDMyNzI2MSwzNTgxNzAxMCwtMTE5MT
-c4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4
-NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMz
-cyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2
-ODExNl19
+eyJoaXN0b3J5IjpbLTE3Mjc2MjM5MjksMzU4MTcwMTAsLTExOT
+E3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0
+ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMT
+M3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgw
+NjgxMTZdfQ==
 -->
