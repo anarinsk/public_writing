@@ -94,7 +94,7 @@ conda info --envs
 conda env remove -n 환경이름
 ```
 
-- 아니면 앞서 봤던 폴더에 가서 파일을 지워버려도 된다. 
+- 아니면 앞서 봤던 폴더에 환경 이름의 폴더를 지워도 된다. 
 - env의 이름을 바꾸고 싶으면 해당 폴더의 이름을 바꿔주면 된다. 
 
 ## Copy env 
@@ -211,9 +211,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc2MjM5MjksMzU4MTcwMTAsLTExOT
-E3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0
-ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMT
-M3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgw
-NjgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MT
+c4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4
+NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMz
+cyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2
+ODExNl19
 -->
