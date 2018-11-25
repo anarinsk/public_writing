@@ -1,4 +1,7 @@
-Python + Visual Studio Code 
+**Python + Visual Studio Code**
+
+2018-11-23
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # 들어가며 
 아마 각자 알아서 잘 쓰는 Python 설정이 있을 것이다. 그대로 잘 쓰면 되겠다. 하지만 막 Python으로 코딩을 시작하려는 사람이 있다면 이런 글도 조금은 도움이 되지 않을까 한다. 이 가이드의 목표는 다음과 같다. 
@@ -11,11 +14,12 @@ Python + Visual Studio Code
 
 이 가이드는 거의 R + RStudio에 근접한 수준으로 파이썬을 쓰게 하는 데 필요한 작업을 담고 있다. 부디 이 글을 보는 분들에게 시간 단축의 축복 있으라! 가이드는 다음과 같은 세가지 영역을 다룬다. 
 
-1. 어떤 Python 배포판을 쓸 것인가? 
-2. 어떻게 쓸 것인가? 
-3. 무엇과 함께 쓸 것인가? 
+1. 어떤 Python 배포판을 쓸까? 
+2. 어떻게 쓸까? 
+3. 무엇과 함께 쓸까? 
 
 # 어떤 Python 배포판을 쓸까? 
+
 나는 하드코어하게 그냥 바닐라 파이썬을 쓰겠어, 라고 결심해도 좋겠다. 하지만 곧 여러가지 장애물을 만나게 될 것이다. 특히 윈도를 쓰는 이용자라면 더욱 그렇다. CLI를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 참 난감하다. 또한 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 Anaconda사에서 배포하는 Anaconda 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두가지 정도다. 
 
 1. 아나콘다에서 패키지 관리를 성실하게 해준다. 
@@ -130,13 +134,10 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 5. 필요한 `*.py` 생성 혹은 로딩 
 6. 작업 
 
-참고한 글 
+# 참고한 글 
 
-- 
-- 
-- 
-
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDAyMzc1OCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbMTU1OTAxMTkzNCwtMTc5ODA2ODExNl19
 -->
