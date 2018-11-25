@@ -133,7 +133,7 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><
 <li>pylint</li>
 </ul>
 <p>pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다.</p>
-<p>이렇게 깔아 놓고 <code>*.py</code>을 불러오자. 에디터 창에서 매직코멘트로 <code>%##</code>을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면일 볼 수 있을 것이다.</p>
+<p>이렇게 깔아 놓고 <code>*.py</code>을 불러오자. 에디터 창에서 매직코멘트로 <code>#%%</code>을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면일 볼 수 있을 것이다.</p>
 <p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true" alt="" width="600" height="400"></p>
 <p>빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 번듯하다!</p>
 <p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" alt="" width="700" height="370"></p>
