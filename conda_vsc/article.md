@@ -111,7 +111,13 @@ conda create -n 클론될환경 -c 클론되는환경
 conda activate 환경이름
 ```
 
-환경에서 나가
+환경에서 나가기 위해서는 
+
+```cmd 
+conda deactivate 환경이름
+```
+
+- 윈도에서는 이렇게 하면 된다. 
 
 # 무엇과 함께 쓸까? 
 
@@ -170,5 +176,5 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0ODU2MTM0LC0xNzk4MDY4MTE2XX0=
+eyJoaXN0b3J5IjpbMzk5ODExMTAsLTE3OTgwNjgxMTZdfQ==
 -->
