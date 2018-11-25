@@ -5,7 +5,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # 엔트로피? 
 
-나의 문송한 상식으로 엔트로피는 '무질서도' 쯤 된다. 열역학의 개념 말이다. 그런데 기계학습에서 이 녀석이 왜 나오지? 결론부터 말하면 내가 몹시도 과문 했다. 사실 이 둘 사이에 내밀한 연관 관계가 존재했다. 이는 제임스 글릭이 쓴 "정보" 9장에 자세하게 소개되어 있고 참고하시면 되겠다. 간략하게 마음대로 요약해 보자. 
+나의 문송한 상식으로 엔트로피는 '무질서도' 쯤 된다. 열역학의 개념 말이다. 그런데 기계학습에서 이 녀석이 왜 나오지? 결론부터 말하면 내가 몹시도 과문 했다. 사실 이 둘 사이에 내밀한 연관 관계가 존재했다. 이는 제임스 글릭이 쓴 [인포메이션](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=56868821) 9장에 자세하게 소개되어 있고 참고하시면 되겠다. 간략하게 마음대로 요약해 보자. 
 
 이른바 열역학 제2법칙으로 알려진 내용에서 "엔트로피의 증가"는 통계적인 경향성이다. 즉 경향적으로 증가한다. 그렇다면 이 경향성을 파악할 수만 있다면 엔트로피의 증가를 막는 영구 운동이 가능하지 않겠는가! 이러한 경향성을 미리 알 수 있는 이른바 맥스웰의 도깨비라는 유비가 이런 발상을 낳았다. 이것이 이른바 "영구기관"이라는 미몽의 이론적 시작이다. 
 
@@ -135,7 +135,7 @@ Referene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTcyMDA0NiwxOTA5NzU4MjgsLTE1MT
+eyJoaXN0b3J5IjpbLTg5OTkyMjc4OCwxOTA5NzU4MjgsLTE1MT
 k4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mjg3NzA1
 NzZdfQ==
 -->
