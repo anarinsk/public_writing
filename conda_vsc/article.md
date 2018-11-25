@@ -121,6 +121,12 @@ conda deactivate 환경이름
 
 ## Install packages 
 
+```cmd
+conda install -c conda 패키지이름
+```
+
+- 기본적으로 사용하는 `pip`를 써도 된다. 
+
 # 무엇과 함께 쓸까? 
 
 이제 conda와 잘 어울리는 짝으로는 MS에서 무료로 배포하는 Visual Studio Code(VCS)를 권한다. 개인적으로 마소에서 낸 제품 중 최고의 걸작이 아닐까 싶다. VCS에 대한 자세한 설명은 생략하자. 
@@ -178,5 +184,5 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NDU1ODA1LC0xNzk4MDY4MTE2XX0=
+eyJoaXN0b3J5IjpbMjExOTA0MjczOCwtMTc5ODA2ODExNl19
 -->
