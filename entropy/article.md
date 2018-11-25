@@ -102,7 +102,7 @@ $$
 e(S_v) = \dfrac{5}{14} e(S_{\text{Sunny}})  +  \dfrac{4}{14} e(S_{\text{Overcast}})   +  \dfrac{5}{14} e(S_{\text{Rain}}) 
 $$
 
-이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 
+이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 엔트로피가 0이 된다는 것은 무슨 뜻일까? 해당 분류에 속하는 개체의 목표 속성이 같다는 말이다. 
 
 ![](https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png)
 
@@ -133,7 +133,7 @@ Referene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MDU2MDUyLC04OTk5MjI3ODgsMTkwOT
-c1ODI4LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5
-OCwtNTI4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbLTM0MjU2NTczNywtODk5OTIyNzg4LDE5MD
+k3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5MDIsLTEzMDU1NDEw
+OTgsLTUyODc3MDU3Nl19
 -->
