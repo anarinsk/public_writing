@@ -103,6 +103,16 @@ conda create -n 클론될환경 -c 클론되는환경
 ```
 - 환경을 복제하고 싶으면 그냥 해당 폴더를 복사에 붙인 후 다른 이름을 붙여주면 된다. 
 
+## Install packages
+
+이제 필요한 패키지들을 깔아서 쓰면 된다. 그전에 잠깐! 필요한 패키지들은 해당 환경 안에 깔아줘야 의도한 대로 쓸 수 있다! 환경에 진입하도록 하자. 
+
+```cmd 
+conda activate 환경이름
+```
+
+환경에서 나가
+
 # 무엇과 함께 쓸까? 
 
 이제 conda와 잘 어울리는 짝으로는 MS에서 무료로 배포하는 Visual Studio Code(VCS)를 권한다. 개인적으로 마소에서 낸 제품 중 최고의 걸작이 아닐까 싶다. VCS에 대한 자세한 설명은 생략하자. 
@@ -160,6 +170,5 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUzNDkwODEsLTE3OTgwNjgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbNDU0ODU2MTM0LC0xNzk4MDY4MTE2XX0=
 -->
