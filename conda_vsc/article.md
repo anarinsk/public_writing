@@ -29,7 +29,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 1이야 그렇다고 치고 2는 정말 중요하다. Python과 그 구성요소들은 대체로 가볍다. 여느 소프트웨어처럼 "Python + 필요 패키지"를 구축한 후 이 환경 내에서만 쓰면 여러가지 이점이 있다. 하지만 이렇게 여러 패키지를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 따로따로 관리한다면, 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 실행 속도 등에서도 약간의 이익을 볼 수 있다. 
 
-이제 아나콘다를 쓰기로 했다고 치자. 아나콘다도 두 가지로 배포판이 제공한다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)가 좋다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 패키지를 제공하는데, 이 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 필요로 하지 않는다면 굳이 깔 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없지 않을까. 
+이제 아나콘다를 쓰기로 했다고 치자. 아나콘다도 두 가지로 배포판이 제공한다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)가 좋다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 패키지를 제공하는데, 이 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다. 
 
 # 어떻게 쓸까? 
 
@@ -210,7 +210,7 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTE1NzY4MiwtMTE5MTc4MzQxMSwzMT
+eyJoaXN0b3J5IjpbLTE3MTUyNTUxOCwtMTE5MTc4MzQxMSwzMT
 E3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NCw3NTI4ODIy
 NzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMzcyOTI0NjE2LC
 01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2ODExNl19
