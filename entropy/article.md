@@ -108,6 +108,12 @@ $$
 
 ![](https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png)
 
+Referene 
+
+https://en.wikipedia.org/wiki/Entropy_(information_theory)
+
+
+
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 
@@ -129,6 +135,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTc1ODI4LC0xNTE5ODMzNTU3LC03OT
-I2MjkwMiwtMTMwNTU0MTA5OCwtNTI4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbLTQxMzE5Nzk2MCwxOTA5NzU4MjgsLTE1MT
+k4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mjg3NzA1
+NzZdfQ==
 -->
