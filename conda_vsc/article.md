@@ -103,6 +103,8 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true)
 
+빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 여느 번듯한 개발툴과 
+
 # Nice practice 
 
 이렇게 쓰면 좋다,라는 모델 케이스를 정리해보자. 물론 "이게 최선"은 아니겠지만, 그래도 꽤 삽질을 거친 결과니 참고하면 좋을 듯 하다. 가장 번거롭고 난이도가 높은 윈도 기준이다. 
@@ -122,6 +124,6 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM2MzYwNjcsLTE3OTgwNjgxMTZdfQ
+eyJoaXN0b3J5IjpbLTE0NTY4MDYwMzgsLTE3OTgwNjgxMTZdfQ
 ==
 -->
