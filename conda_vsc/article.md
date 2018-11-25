@@ -162,7 +162,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 보라색 맨 아래줄의 하단을 보자. 
 
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true =450x180)
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true =450x160)
 
 저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 환경을 선택하면 된다. 
 
@@ -210,7 +210,8 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMz
-AyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0
-MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNz
+UyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3Mjky
+NDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMT
+ZdfQ==
 -->
