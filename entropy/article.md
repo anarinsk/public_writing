@@ -110,7 +110,9 @@ $$
 
 Referene 
 
-https://en.wikipedia.org/wiki/Entropy_(information_theory)
+[Wikipedia: Entropy_information](https://en.wikipedia.org/wiki/Entropy_(information_theory))
+[A Mathematical Theory of Communication](http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
+
 
 
 
@@ -135,7 +137,7 @@ https://en.wikipedia.org/wiki/Entropy_(information_theory)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzE5Nzk2MCwxOTA5NzU4MjgsLTE1MT
+eyJoaXN0b3J5IjpbMTM3NTg0ODE5MSwxOTA5NzU4MjgsLTE1MT
 k4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mjg3NzA1
 NzZdfQ==
 -->
