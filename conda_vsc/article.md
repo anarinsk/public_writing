@@ -38,9 +38,9 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true =300x500)
 
 
-일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 윈도우10이면 그면 command 창을 띄워서 쓰면 될 것이다. 다만 7버전 이라면 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
+일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
 
-아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.X 버전이 깔려 있다는 뜻한다. 
+아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.x 버전이 깔려 있고 녀석을 기본으로 쓰겠다는 의미다. 
 
 - conda의 활용법을 자세히 알고 싶다면 [LINK](https://conda.io/docs/user-guide/getting-started.html)를 참고하라. 
 - 가상 환경에 관한 자세한 내용은 [LINK](https://conda.io/docs/user-guide/tasks/manage-environments.html)를 참고하라. 
@@ -50,7 +50,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 ```cmd
 conda update conda
 ```
-- 항상 콘다를 실행하고 나면 먼저 실행해야 할 명령이다. 
+- 매번 콘다를 실행하고 실행해야 할 명령이다. 
 - 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을 업데이트하라는 뜻이다. 제 머리 깎는 중인 셈이다. 
 
 ## Create 
@@ -210,9 +210,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3MjUzOTIwLDM1ODE3MDEwLC0xMTkxNz
-gzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0
-LDc1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5Njk3LDEzNz
-I5MjQ2MTYsLTU5MzQyNDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTIwODI3Nzc2NTksMzU4MTcwMTAsLTExOT
+E3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0
+ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMT
+M3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgw
+NjgxMTZdfQ==
 -->
