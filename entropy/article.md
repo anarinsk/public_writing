@@ -110,11 +110,9 @@ $$
 
 Referene 
 
-[Wikipedia: Entropy_information](https://en.wikipedia.org/wiki/Entropy_(information_theory))
-[A Mathematical Theory of Communication](http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
-
-
-
+1. [Wikipedia: Entropy_information](https://en.wikipedia.org/wiki/Entropy_(information_theory))
+2. [A Mathematical Theory of Communication](http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
+3. [Decision tree example](https://becominghuman.ai/decision-trees-in-machine-learning-f362b296594a)
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
@@ -137,7 +135,7 @@ Referene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTg0ODE5MSwxOTA5NzU4MjgsLTE1MT
+eyJoaXN0b3J5IjpbMTM3MTcyMDA0NiwxOTA5NzU4MjgsLTE1MT
 k4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mjg3NzA1
 NzZdfQ==
 -->
