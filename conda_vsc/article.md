@@ -154,11 +154,11 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `%##`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면일 볼 수 있을 것이다. 
 
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true =600x300)
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true =600x350)
 
 빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 번듯하다! 
 
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true =600x300)
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true =700x370)
 
 앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 보라색 맨 아래줄의 하단을 보자. 
 
@@ -166,7 +166,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 환경을 선택하면 된다. 
 
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true =600x300)
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true =600x350)
 
 ## 주의 사항 
 
@@ -203,6 +203,6 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3Mzc4ODM1LDEzNzI5MjQ2MTYsLTU5Mz
-QyNDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNT
+kzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
