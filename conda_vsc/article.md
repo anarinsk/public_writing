@@ -35,7 +35,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 일단 미니콘다를  Python 3.X 버전으로 (전부 "NEXT"를 눌러) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
 
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true =300x600)
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true =300x500)
 
 
 일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 윈도우10이면 그면 command 창을 띄워서 쓰면 될 것이다. 다만 7버전 이라면 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
@@ -154,11 +154,11 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `%##`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면일 볼 수 있을 것이다. 
 
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true)
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true =400x200)
 
 빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 번듯하다! 
 
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true)
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true =400x)
 
 앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 보라색 맨 아래줄의 하단을 보자. 
 
@@ -203,6 +203,6 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTYzOTExNCwxMzcyOTI0NjE2LC01OT
-M0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbMzU0MzM5NjI5LDEzNzI5MjQ2MTYsLTU5Mz
+QyNDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4MTE2XX0=
 -->
