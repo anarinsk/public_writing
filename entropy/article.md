@@ -40,9 +40,7 @@ $$
 
 $q$는 $p$의 추정이므로 직관적으로 $H(p,q) \geq H(p,p) = e$.  이를 눈으로 확인해보고 싶다면 [LINK](https://www.desmos.com/calculator/zytm2sf56e)를 참고하시라. 
 
-교차 엔트로피의 의미는 무엇일까? Kraft-McMillan 정리에 따르면, 교차 엔트로피는 참인 분포가 $p$이고 이에 관한 불완전한 추정 분포 $q$가 있을 때, 개별 실현값을 맞추기 위해 필요한 질문기대값이 된다. 즉,$p_x$에 대한 추정치 $q_x$로 알$p_x$를 맞출 때까지 소모되는 정보의 크기다. 
-
-예/아니오로 구별되는 이진 분류의 사례로 교차 엔트로피를 살펴보자. 
+교차 엔트로피의 의미는 무엇일까? Kraft-McMillan 정리에 따르면, 교차 엔트로피는 참인 분포가 $p$이고 이에 관한 불완전한 추정 분포 $q$가 있을 때, 개별 실현값을 맞추기 위해 필요한 질문 수의 기대값이 된다. 즉,$p_x$에 대한 추정치 $q_x$로 참인 $p_x$를 맞출 때까지 소모되는 정보의 크기다. 쉽게 비유를 하자면 스무고개을 생각하면 되겠다. 예/아니오로 구별되는 이진 분류로 교차 엔트로피를 살펴보자. 
 
  $$
  \begin{aligned}
@@ -135,7 +133,7 @@ Referene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk2Njk3NDgsLTg5OTkyMjc4OCwxOT
-A5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQx
-MDk4LC01Mjg3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbMzY1NzUxOTg5LC04OTk5MjI3ODgsMTkwOT
+c1ODI4LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5
+OCwtNTI4NzcwNTc2XX0=
 -->
