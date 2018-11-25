@@ -58,7 +58,7 @@ conda create -n 환경이름 python=3.6
 
 - 앞으로 사용자가 각자 지정해주는 부분은 한글로 표기하도록 한다. 
 - `create` 명령어에 여러가지 옵션이 있지만 여기서는 Python 버전만 지정하도록 하겠다. 
-- 이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  `appdata\miniconda/envs` 에 설치되어 있다. 
+- 이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  `appdata\miniconda\envs` 에 설치되어 있다. appdata 폴더를 보려면 탐색기 옵션을 고쳐야 한다. [LINK1](https://helpx.adobe.com/kr/x-productkb/global/show-hidden-files-folders-extensions.html), [LINK2]()를 참고 하라. 
 
 ## Activate env, and...
 
@@ -200,6 +200,6 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE2Mjk1NzYsLTU5MzQyNDMxMywyMT
-E5MDQyNzM4LC0xNzk4MDY4MTE2XX0=
+eyJoaXN0b3J5IjpbMjA4ODI1MDk4NCwtNTkzNDI0MzEzLDIxMT
+kwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
