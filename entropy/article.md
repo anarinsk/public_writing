@@ -62,7 +62,7 @@ $$
 - $A(v)$ a set of an attribute where element is denoted by $v$. 
 - $e(X)$: entropy for the event set $X$
 
-즉, 현재 아무런 feature도 활용하지 않은 상태의 엔트로피에서 feature를 통해 분류를 한번 거쳤을 때의 엔트로피를 뺀다. 분류를 거친다는 것은 질문을 추가적으로 하는 것과 같은 의미다. 따라서 이런 정보를 획득함에 따라서 전체의 엔트로피는 적어도 늘어나지는 않을 것이다. 둘 사이의 차이를 해당 feature의 정보적 성능으로 이해할 수 있겠다. 
+즉, 현재 아무런 feature도 활용하지 않은 상태의 엔트로피에서 feature를 통해 분류를 한번 거쳤을 때의 엔트로피를 뺀다. 분류를 거친다는 것은 질문을 추가적으로 하는 것과 같은 의미다. 따라서 이런 정보를 획득함에 따라서 전체의 엔트로피는 적어도 늘어나지는 않을 것이다. 둘 사이의 차이를 해당 feature가 지닌 정보 품질로 이해할 수 있겠다. 
 
 ![](https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/data.png)
 
@@ -82,7 +82,7 @@ $$
 e(S) = -(\dfrac{9}{14} \log_2 \frac{9}{14} + \dfrac{5}{14} \log_2 \frac{5}{14} ) = 0.94
 $$
 
-이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 하나의 날씨, 하나에 대해서만 계산하도록 하겠다. 날씨(outlook)라는 feature의 집합은 
+이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 날씨(outlook)라는 하나의 feature에 대해서만 계산하도록 하겠다. 날씨 feature의 집합은 
 
 $$
 \{ \text{Sunny, Overcast, Rain} \}
@@ -133,7 +133,7 @@ Referene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTgxNDgzNzcsLTg5OTkyMjc4OCwxOT
-A5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQx
-MDk4LC01Mjg3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbNTQ5MDU2MDUyLC04OTk5MjI3ODgsMTkwOT
+c1ODI4LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5
+OCwtNTI4NzcwNTc2XX0=
 -->
