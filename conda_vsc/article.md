@@ -190,7 +190,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 아울러 코드를 배포할 일이 있을 때 실행 환경을 담보해야 할 것이다. 이럴 때는 yml을 쓰면 좋다. 
 
 ### yml 사용하기 
-매번 인스톨을 순서대로 하려면 지겨울지 모르겠다. yml 파일을 생성해서 한방에 패키지들을 설치하는 방법이 있다. 
+yml 파일을 생성해서 한방에 패키지들을 설치하는 방법d. 
 
 ```cmd
 conda env export > 환경이름.yml
@@ -210,7 +210,7 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2Nz
-M2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3
-MzgsLTE3OTgwNjgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMzk3MTkxLDc1Mjg4MjI3OSwtMjMwMj
+I4MzYzLC0xNjczNjM5Njk3LDEzNzI5MjQ2MTYsLTU5MzQyNDMx
+MywyMTE5MDQyNzM4LC0xNzk4MDY4MTE2XX0=
 -->
