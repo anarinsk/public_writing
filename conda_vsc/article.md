@@ -152,11 +152,11 @@ Python을 VSC와 함께 쓸 때의 장점은 다음과 같다.
 
 pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다. 
 
-이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `#%%`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면을 보게 될 것이다. 
+이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `#%%`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 매직 코멘트 위로 다음과 같은 화면을 보게 될 것이다. 
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true =600x400)
 
-빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다. 
+빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 제법 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다. 
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true =700x370)
 
@@ -170,7 +170,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 ## 주의 사항 
 
-가끔 환경을 세팅한 후 해당 환경이 VSC에서 안뜨는 상황을 맞이할 수 있다. 그럴 때에는 해당 환경에 pylint가 설치되어 있는지 확인한 후 설치되어 있다면 환경 선택 부분에 리로드 아이콘을 눌러주자. 그냥 에디터를 다시 실행해도 된다. 그러면 해당 환경을 확인할 수 있을 것이다. 
+가끔 콘다 환경을 세팅한 후 해당 환경이 VSC에서 안뜨는 상황이 발생할 수 있다. 그럴 때에는 해당 환경에 pylint가 설치되어 있는지 확인한 후 설치되어 있다면 환경 선택 부분에 리로드 아이콘을 눌러주자. 그냥 에디터를 다시 실행해도 된다. 그러면 해당 환경을 확인해 선태수 있을 것이다. 
 
 # A nice practice 
 
@@ -210,9 +210,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM4NTk0OTIsMzU4MTcwMTAsLTExOT
-E3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0
-ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMT
-M3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgw
-NjgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTk4NDMyNzI2MSwzNTgxNzAxMCwtMTE5MT
+c4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4
+NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMz
+cyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2
+ODExNl19
 -->
