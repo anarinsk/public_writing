@@ -156,7 +156,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true =600x400)
 
-빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 번듯하다! 화면의 오른쪽 창은 
+빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다. 
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true =700x370)
 
@@ -210,8 +210,8 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTQwOTAzMCwzMTE3NzI4OCwtMTc5Nz
-M0MjMyNiwtMTAxODM3ODQ4NCw3NTI4ODIyNzksLTIzMDIyODM2
-MywtMTY3MzYzOTY5NywxMzcyOTI0NjE2LC01OTM0MjQzMTMsMj
-ExOTA0MjczOCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbLTExOTE3ODM0MTEsMzExNzcyODgsLTE3OT
+czNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMzAyMjgz
+NjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLD
+IxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
