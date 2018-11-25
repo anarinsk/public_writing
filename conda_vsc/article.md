@@ -73,13 +73,16 @@ conda install -c conda-forge numpy
  
  사례로 numpy 패키지를 깔아 보았다. 위 명령어는 conda 명령어로 anaconda-forge 채널을 통해 numpy를 설치한 것이다. 통상적으로 pip 명령어를 써서 패키지를 인스톨해도 된다.
  
- ## Remove env 
+## Remove env 
  
 환경에 문제가 생겼을 경우 이렇게 지우면 된다. 
 
 ```cmd
 conda env remove -n 환경이름
 ```
+
+- 아니면 앞서 봤던 폴더에 가서 파일을 지워버려도 된다. 
+- env의 이름을 바꾸고 싶으면 해당 폴더의 이름을 바꿔주면 된다. 
 
 ## Copy env 
 
@@ -88,6 +91,7 @@ conda env remove -n 환경이름
 ```cmd
 conda create -n 클론될환경 -c 클론되는환경
 ```
+- 환경을 복제하고 싶으면 그냥 해당 폴더를 복사에 붙인 후 다른 이름을 붙여주면 된다. 
 
 # 무엇과 함께 쓸까? 
 
@@ -146,5 +150,5 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzU1NDcwMSwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbLTE5MDA0ODE5MywtMTc5ODA2ODExNl19
 -->
