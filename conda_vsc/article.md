@@ -152,7 +152,7 @@ Python을 VCS와 함께 쓸 때의 장점은 다음과 같다.
 
 pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다. 
 
-이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `%##`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면일 볼 수 있을 것이다. 
+이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `#%%`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 다음과 같은 화면일 볼 수 있을 것이다. 
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true =600x400)
 
@@ -210,8 +210,8 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNz
-UyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3Mjky
-NDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMT
-ZdfQ==
+eyJoaXN0b3J5IjpbMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMT
+gzNzg0ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLTE2NzM2Mzk2
+OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3MzgsLT
+E3OTgwNjgxMTZdfQ==
 -->
