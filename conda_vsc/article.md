@@ -180,9 +180,14 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 5. 필요한 `*.py` 생성 혹은 로딩 
 6. 작업 
 
+## Tips 
+
+### yml 사용하기 
+매번 인스톨을 순서대로 하려면 지겨울지 모르겠다. yml 파일을 생성해서 한방에 패키지들을 설치하는 방법이 있다. 
+
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMDgxNDAsMjExOTA0MjczOCwtMTc5OD
-A2ODExNl19
+eyJoaXN0b3J5IjpbLTU5MzQyNDMxMywyMTE5MDQyNzM4LC0xNz
+k4MDY4MTE2XX0=
 -->
