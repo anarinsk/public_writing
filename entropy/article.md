@@ -25,7 +25,7 @@ $$
 $p_i$가 낮을수록 높을 값을 지니게 되기 때문에 앞에 마이너스를 붙였다고 생각해도 좋다. 아니면, $p_i$가 0과 1사이의 값이기 때문에 log의 값이 마이너스가 되고 여기에 다시 마이너스를 붙여주면 플러스 값이 된다. 
 
 ## Entropy
-우리가 관심을 두는 것은 개별 사건이 아니라 현재의 불확실한 상태이다. 따라서 앞서 정의한 개별 사건의 의외성을 뭔가 전체를 대표하는 값으로 바꿔야 한다. 기대값을 구하면 된다. 앞서 정의한 $s$가 확률변수이기 때문에 기대값 역시 다음과 같이 쉽게 정의할 수 있다. 이 기대값이 바로 정보의 엔트로피다. 
+우리가 수량화하고 픈 것은 개별 사건이 아니라 현재의 불확실한 상태 전반이다. 따라서앞서 정의한 개별 사건의 의외성을 뭔가 전체를 대표하는 값으로 바꿔야 한다. 기대값을 구하면 된다. 앞서 정의한 $s$가 확률변수이기 때문에 기대값 역시 다음과 같이 쉽게 정의할 수 있다. 이 기대값이 바로 정보의 엔트로피다. 
 
 $$
 e = - \sum_{i=0}^{n} p_i \log p_i
@@ -135,7 +135,7 @@ Referene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDY4Nzk5NDQsLTg5OTkyMjc4OCwxOT
-A5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQx
-MDk4LC01Mjg3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbMTEyODk3ODA5LC04OTk5MjI3ODgsMTkwOT
+c1ODI4LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5
+OCwtNTI4NzcwNTc2XX0=
 -->
