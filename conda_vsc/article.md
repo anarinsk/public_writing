@@ -183,7 +183,9 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 5. 필요한 `*.py` 생성 혹은 로딩 
 6. VSC를 통해 작업 
 
-## Tips 
+## One more tip
+
+매번 이렇게 환경을 설치해서 쓰기 귀찮을 수 있다. 그렇다면 많이 쓰는 공통 세 
 
 ### yml 사용하기 
 매번 인스톨을 순서대로 하려면 지겨울지 모르겠다. yml 파일을 생성해서 한방에 패키지들을 설치하는 방법이 있다. 
@@ -203,7 +205,7 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2OTU5NzUxLC0yMzAyMjgzNjMsLTE2Nz
-M2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkwNDI3
-MzgsLTE3OTgwNjgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM4MTAyNDgsLTIzMDIyODM2MywtMTY3Mz
+YzOTY5NywxMzcyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0Mjcz
+OCwtMTc5ODA2ODExNl19
 -->
