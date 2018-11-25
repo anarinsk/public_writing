@@ -33,7 +33,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 # 어떻게 쓸까? 
 
-일단 미니콘다를  Python 3.X 버전으로 (전부 디폴트로) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
+일단 미니콘다를  Python 3.X 버전으로 (전부 "NEXT"를 눌러) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true)
 
@@ -202,6 +202,6 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTAyODM3NywtNTkzNDI0MzEzLDIxMT
+eyJoaXN0b3J5IjpbMTM3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMT
 kwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
