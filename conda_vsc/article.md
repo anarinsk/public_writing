@@ -39,6 +39,9 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.X 버전이 깔려 있다는 뜻한다. 
 
+- conda의 활용법을 자세히 알고 싶다면 [LINK]를 참고하라. 
+
+
 ## Update Conda 
 
 ```cmd
@@ -157,5 +160,5 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTY0NzUzOCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbLTU4NzAyNTg0NiwtMTc5ODA2ODExNl19
 -->
