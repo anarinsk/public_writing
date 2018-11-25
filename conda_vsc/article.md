@@ -37,7 +37,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 일단, 탐색기에 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 윈도우10이면 그면 command 창을 띄워서 쓰면 될 것이다. 다만 7버전 이라면 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
 
-아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.X 버전이 깔려 있음을 뜻한다. 
+아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.X 버전이 깔려 있다는 뜻한다. 
 
 ## Update Conda 
 
@@ -72,6 +72,13 @@ conda install -c conda-forge numpy
 ```
  
  사례로 numpy 패키지를 깔아 보았다. 위 명령어는 conda 명령어로 anaconda-forge 채널을 통해 numpy를 설치한 것이다. 통상적으로 pip 명령어를 써서 패키지를 인스톨해도 된다.
+
+## 환경 조회하기 
+
+```cmd
+conda info --envs 
+```
+ - 현재 콘다 내에서 사용할 수 있는 환경을 보여준다. 
  
 ## Remove env 
  
@@ -150,5 +157,5 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA0ODE5MywtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbLTMyMTY0NzUzOCwtMTc5ODA2ODExNl19
 -->
