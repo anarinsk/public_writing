@@ -35,7 +35,9 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 일단 미니콘다를  Python 3.X 버전으로 (전부 디폴트로) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
 
-일단, 탐색기에 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 윈도우10이면 그면 command 창을 띄워서 쓰면 될 것이다. 다만 7버전 이라면 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true)
+
+일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 윈도우10이면 그면 command 창을 띄워서 쓰면 될 것이다. 다만 7버전 이라면 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
 
 아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.X 버전이 깔려 있다는 뜻한다. 
 
@@ -200,6 +202,6 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNTM5MzkzLC01OTM0MjQzMTMsMjExOT
-A0MjczOCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbLTY4NTAyODM3NywtNTkzNDI0MzEzLDIxMT
+kwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
