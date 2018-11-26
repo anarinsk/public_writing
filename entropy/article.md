@@ -54,7 +54,7 @@ $q$는 $p$의 추정이므로 직관적으로 $H(p,q) \geq H(p,p) = e$.  이를 
 
 앞서 보았듯이 섀넌은 물리학의 엔트로피 개념을 가져와 정보에 관한 품질 지표를 만들어 냈다. 이런 섀넌의 엔트로피가 가장 잘 활용된 사례가 바로 의사결정 나무다. 
 
-이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준으로 데이터를 나누는 것을 의미한다. 각광 받는 기계학습 기법의 하나인  Random Forest, 
+이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준으로 데이터를 나누는 것을 의미한다. 각광 받는 기계학습 기법들인  CART(Classification and Regression Tree), Random Forest 등이 의사 결정 나무를 기본 단위로 삼고 있다. 
 
 무엇을 기준으로 결정 나무의 가지를 나눌까? 나무의 결정 노드를 가르는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정 노드의 판별 기준을 정보 이득(information gain)이라고 하고 그 정의는 아래와 같다. 
 
@@ -140,7 +140,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4Mjg1OTkyLDQ3NzY5NzgwOCwtODk5OT
-IyNzg4LDE5MDk3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5MDIs
-LTEzMDU1NDEwOTgsLTUyODc3MDU3Nl19
+eyJoaXN0b3J5IjpbLTMzMjE0OTYwNyw0Nzc2OTc4MDgsLTg5OT
+kyMjc4OCwxOTA5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAy
+LC0xMzA1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
 -->
