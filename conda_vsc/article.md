@@ -2,6 +2,7 @@
 
 2018-11-23
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
+
 also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)
 
 # 들어가며 
@@ -205,9 +206,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2MDc3MDg0LC0xNTYxNTYwNDg0LDE5MT
-g1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgs
-LTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMz
-AyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0
-MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTM0MTk1NDUwNiwtMTU2MTU2MDQ4NCwxOT
+E4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3Mjg4
+LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0LDc1Mjg4MjI3OSwtMj
+MwMjI4MzYzLC0xNjczNjM5Njk3LDEzNzI5MjQ2MTYsLTU5MzQy
+NDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4MTE2XX0=
 -->
