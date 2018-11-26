@@ -2,6 +2,7 @@
 
 2018-11-23
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
+also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)
 
 # 들어가며 
 아마 각자 알아서 잘 쓰는 Python 설정이 있을 것이다. 그대로 잘 쓰면 되겠다. 하지만 막 Python으로 코딩을 시작하려는 사람이 있다면 이런 글도 조금은 도움이 되지 않을까 한다. 이 가이드의 목표는 다음과 같다. 
@@ -120,15 +121,8 @@ conda activate 환경이름
 conda deactivate 환경이름
 ```
 
-- 윈도에서는 이렇게 하면 된다. 맥OS나 Linux라면 `conda`  대신 `source`를 치면 된다. 
-
-## Install packages 
-
-```cmd
-conda install -c conda 패키지이름
-```
-
-- 기본적으로 사용하는 `pip`를 써도 된다. 
+- 윈도에서는 이렇게 하면 된다. 요즘 miniconda 윈도 버전에서는 conda 명령어를 생략해도 환경에 잘 진입된다. 
+- 맥OS나 Linux라면 `conda`  대신 `source`를 치면 된다. 
 
 # 무엇과 함께 쓸까? 
 
@@ -211,9 +205,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNT
-gxNzAxMCwtMTE5MTc4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMy
-NiwtMTAxODM3ODQ4NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMT
-Y3MzYzOTY5NywxMzcyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0
-MjczOCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbNDk2MDc3MDg0LC0xNTYxNTYwNDg0LDE5MT
+g1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgs
+LTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMz
+AyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0
+MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
