@@ -144,6 +144,13 @@ Python을 VSC와 함께 쓸 때의 장점은 다음과 같다.
 - Jupyter or Jupyerlab 
 - pylint 
 
+생성한 작업환경 내에서 아래와 같이 두 개의 패키지를 설치한다. 
+
+```cmd 
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge pylint
+```
+
 pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다. 
 
 이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `#%%`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 매직 코멘트 위로 다음과 같은 화면을 보게 될 것이다. 
@@ -204,9 +211,10 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1MzEyODkwLC0xNTYxNTYwNDg0LDE5MT
-g1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgs
-LTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMz
-AyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0
-MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1Nj
+E1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQx
+MSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NCw3NT
+I4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMzcyOTI0
+NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2ODExNl
+19
 -->
