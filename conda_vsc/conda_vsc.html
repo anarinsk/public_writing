@@ -11,7 +11,8 @@
 <body class="stackedit">
   <div class="stackedit__html"><p><strong>Python + Visual Studio Code</strong></p>
 <p>2018-11-23<br>
-Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a></p>
+Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><br>
+also posted at <a href="https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html">LINK</a></p>
 <h1 id="들어가며">들어가며</h1>
 <p>아마 각자 알아서 잘 쓰는 Python 설정이 있을 것이다. 그대로 잘 쓰면 되겠다. 하지만 막 Python으로 코딩을 시작하려는 사람이 있다면 이런 글도 조금은 도움이 되지 않을까 한다. 이 가이드의 목표는 다음과 같다.</p>
 <ol start="0">
@@ -64,7 +65,7 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><
 <ul>
 <li>앞으로 사용자가 각자 지정해주는 부분은 한글로 표기하도록 한다. 여기서는 "환경이름"이 이에 해당한다.</li>
 <li><code>create</code> 명령어에 여러가지 옵션이 있지만 여기서는 Python 버전만 지정하도록 하겠다.</li>
-<li>이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  <code>appdata\miniconda\envs</code> 에 설치되어 있다. appdata 폴더를 보려면 탐색기 옵션을 고쳐야 한다. <a href="https://support.microsoft.com/ko-kr/help/14201/windows-show-hidden-files">LINK1</a>, <a href="https://support.microsoft.com/ko-kr/help/4028316/windows-view-hidden-files-and-folders-in-windows-10">LINK2</a>를 참고 하라.</li>
+<li>이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  <code>ProgramData\Miniconda3\envs</code> 에 설치되어 있다. ProgramData가 보통 숨은 폴더 처리가 되어 있다. 이 폴더를 보려면 탐색기 옵션을 고쳐야 한다. <a href="https://support.microsoft.com/ko-kr/help/14201/windows-show-hidden-files">LINK1</a>, <a href="https://support.microsoft.com/ko-kr/help/4028316/windows-view-hidden-files-and-folders-in-windows-10">LINK2</a>를 참고 하라.</li>
 </ul>
 <h2 id="activate-env-and...">Activate env, and…</h2>
 <p>다음으로 환경으로 진입해야 한다.</p>
@@ -103,13 +104,8 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><
 <pre class=" language-cmd"><code class="prism  language-cmd">conda deactivate 환경이름
 </code></pre>
 <ul>
-<li>윈도에서는 이렇게 하면 된다. 맥OS나 Linux라면 <code>conda</code>  대신 <code>source</code>를 치면 된다.</li>
-</ul>
-<h2 id="install-packages">Install packages</h2>
-<pre class=" language-cmd"><code class="prism  language-cmd">conda install -c conda 패키지이름
-</code></pre>
-<ul>
-<li>기본적으로 사용하는 <code>pip</code>를 써도 된다.</li>
+<li>윈도에서는 이렇게 하면 된다. 요즘 miniconda 윈도 버전에서는 conda 명령어를 생략해도 환경에 잘 진입된다.</li>
+<li>맥OS나 Linux라면 <code>conda</code>  대신 <code>source</code>를 치면 된다.</li>
 </ul>
 <h1 id="무엇과-함께-쓸까">무엇과 함께 쓸까?</h1>
 <p>이제 conda와 잘 어울리는 짝으로는 MS에서 무료로 배포하는 Visual Studio Code(VSC)를 권한다. 개인적으로 마소에서 낸 제품 중 최고의 걸작이 아닐까 싶다. VSC에 대한 자세한 설명은 생략하자.</p>
