@@ -61,7 +61,7 @@ conda create -n 환경이름 python=3.6
 
 - 앞으로 사용자가 각자 지정해주는 부분은 한글로 표기하도록 한다. 여기서는 "환경이름"이 이에 해당한다. 
 - `create` 명령어에 여러가지 옵션이 있지만 여기서는 Python 버전만 지정하도록 하겠다. 
-- 이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  `appdata\miniconda\envs` 에 설치되어 있다. appdata 폴더를 보려면 탐색기 옵션을 고쳐야 한다. [LINK1](https://support.microsoft.com/ko-kr/help/14201/windows-show-hidden-files), [LINK2](https://support.microsoft.com/ko-kr/help/4028316/windows-view-hidden-files-and-folders-in-windows-10)를 참고 하라. 
+- 이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  `ProgramData\Miniconda3\envs` 에 설치되어 있다. ProgramData가 보통 숨은 폴더 처리가 되어 있다. 이 폴더를 보려면 탐색기 옵션을 고쳐야 한다. [LINK1](https://support.microsoft.com/ko-kr/help/14201/windows-show-hidden-files), [LINK2](https://support.microsoft.com/ko-kr/help/4028316/windows-view-hidden-files-and-folders-in-windows-10)를 참고 하라. 
 
 ## Activate env, and...
 
@@ -211,9 +211,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MT
-c4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4
-NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMz
-cyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2
-ODExNl19
+eyJoaXN0b3J5IjpbLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNT
+gxNzAxMCwtMTE5MTc4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMy
+NiwtMTAxODM3ODQ4NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMT
+Y3MzYzOTY5NywxMzcyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0
+MjczOCwtMTc5ODA2ODExNl19
 -->
