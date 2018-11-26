@@ -1,9 +1,7 @@
 **Python + Visual Studio Code**
 
 2018-11-23
-Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
-
-also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)
 
 # 들어가며 
 아마 각자 알아서 잘 쓰는 Python 설정이 있을 것이다. 그대로 잘 쓰면 되겠다. 하지만 막 Python으로 코딩을 시작하려는 사람이 있다면 이런 글도 조금은 도움이 되지 않을까 한다. 이 가이드의 목표는 다음과 같다. 
@@ -206,9 +204,9 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTk1NDUwNiwtMTU2MTU2MDQ4NCwxOT
-E4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3Mjg4
-LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0LDc1Mjg4MjI3OSwtMj
-MwMjI4MzYzLC0xNjczNjM5Njk3LDEzNzI5MjQ2MTYsLTU5MzQy
-NDMxMywyMTE5MDQyNzM4LC0xNzk4MDY4MTE2XX0=
+eyJoaXN0b3J5IjpbNTQ1MzEyODkwLC0xNTYxNTYwNDg0LDE5MT
+g1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgs
+LTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMz
+AyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0
+MzEzLDIxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
