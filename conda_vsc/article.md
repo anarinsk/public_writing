@@ -35,6 +35,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 일단 미니콘다를  Python 3.x 버전으로 (전부 "Next"를 눌러) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
 
+<kbd>
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true =300x500)
 
 
@@ -211,10 +212,10 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1Nj
-E1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQx
-MSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NCw3NT
-I4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMzcyOTI0
-NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2ODExNl
-19
+eyJoaXN0b3J5IjpbMTI1NjA2OTk4MywxODkzMzUzMzQ2LDU0NT
+MxMjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEw
+LC0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMD
+E4Mzc4NDg0LDc1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5
+Njk3LDEzNzI5MjQ2MTYsLTU5MzQyNDMxMywyMTE5MDQyNzM4LC
+0xNzk4MDY4MTE2XX0=
 -->
