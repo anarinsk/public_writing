@@ -35,7 +35,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 일단 미니콘다를  Python 3.x 버전으로 (전부 "Next"를 눌러) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
 
-<img src https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true =300x500)
+<kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true width=300"></kbd>
 
 일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
 
@@ -216,7 +216,7 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM0MDAxOTMsMjEzNDk2NjI4MywxOD
+eyJoaXN0b3J5IjpbLTExODI3ODE2MjksMjEzNDk2NjI4MywxOD
 kzMzUzMzQ2LDU0NTMxMjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1
 MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNz
 k3MzQyMzI2LC0xMDE4Mzc4NDg0LDc1Mjg4MjI3OSwtMjMwMjI4
