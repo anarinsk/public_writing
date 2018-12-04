@@ -37,7 +37,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 
 <kbd>
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true =300x500)
-
+</kbd>
 
 일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
 
@@ -156,15 +156,21 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `#%%`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 매직 코멘트 위로 다음과 같은 화면을 보게 될 것이다. 
 
+<kbd>
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true =600x400)
+</kbd>
 
 빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 제법 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다. 
 
+<kbd>
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true =700x370)
+</kbd>
 
 앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 보라색 맨 아래줄의 하단을 보자. 
 
+<kbd>
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true =450x160)
+</kbd>
 
 저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 환경을 선택하면 된다. 
 
@@ -212,7 +218,7 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjA2OTk4MywxODkzMzUzMzQ2LDU0NT
+eyJoaXN0b3J5IjpbMTMzNzYyOTc4NCwxODkzMzUzMzQ2LDU0NT
 MxMjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEw
 LC0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMD
 E4Mzc4NDg0LDc1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5
