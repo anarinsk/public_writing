@@ -162,13 +162,13 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" width="700">
 </kbd>
 
-앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 아래 보라색 줄 보자. 
+앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 아래 보라색 줄을 보자. 
 
 <kbd>
 <img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" width=450>
 </kbd>
 
-저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 환경을 선택하면 된다. 
+저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 conda 환경을 선택하면 된다. 
 
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true" width=600></kbd>
 
@@ -214,10 +214,10 @@ conda env create -f 환경이름.yml
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ1NzcxNjAsMjEzNDk2NjI4MywxOD
-kzMzUzMzQ2LDU0NTMxMjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1
-MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNz
-k3MzQyMzI2LC0xMDE4Mzc4NDg0LDc1Mjg4MjI3OSwtMjMwMjI4
-MzYzLC0xNjczNjM5Njk3LDEzNzI5MjQ2MTYsLTU5MzQyNDMxMy
-wyMTE5MDQyNzM4LC0xNzk4MDY4MTE2XX0=
+eyJoaXN0b3J5IjpbMTI4ODY2MDYwMSwyMTM0OTY2MjgzLDE4OT
+MzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwNDg0LDE5MTg1ODUx
+MDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgsLTE3OT
+czNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMzAyMjgz
+NjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLD
+IxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
 -->
