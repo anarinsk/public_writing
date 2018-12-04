@@ -44,7 +44,7 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a>,
 <p>이제 아나콘다를 쓰기로 했다고 치자. 아나콘다도 두 가지로 배포판이 제공한다. 종합 배포판인 아나콘다 보다 핵심 만을 발라낸 <a href="https://conda.io/miniconda.html">Miniconda</a>가 좋다. 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다.</p>
 <h1 id="어떻게-쓸까">어떻게 쓸까?</h1>
 <p>일단 미니콘다를  Python 3.x 버전으로 (전부 "Next"를 눌러) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true" alt="" width="300" height="500"></p>
+<p><kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true" width="200"></kbd></p>
 <p>일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.</p>
 <p>아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.x 버전이 깔려 있고 녀석을 기본으로 쓰겠다는 의미다.</p>
 <ul>
@@ -128,15 +128,23 @@ Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a>,
 <li>Jupyter or Jupyerlab</li>
 <li>pylint</li>
 </ul>
+<p>생성한 작업환경 내에서 아래와 같이 두 개의 패키지를 설치한다.</p>
+<pre class=" language-cmd"><code class="prism  language-cmd">conda install -c conda-forge jupyterlab
+conda install -c conda-forge pylint
+</code></pre>
 <p>pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다.</p>
 <p>이렇게 깔아 놓고 <code>*.py</code>을 불러오자. 에디터 창에서 매직코멘트로 <code>#%%</code>을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 매직 코멘트 위로 다음과 같은 화면을 보게 될 것이다.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true" alt="" width="600" height="400"></p>
+<p><kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true" width="500"><br>
+</kbd></p>
 <p>빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 제법 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" alt="" width="700" height="370"></p>
-<p>앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 보라색 맨 아래줄의 하단을 보자.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" alt="" width="450" height="160"></p>
-<p>저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 환경을 선택하면 된다.</p>
-<p><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true" alt="" width="600" height="380"></p>
+<p><kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" width="700"><br>
+</kbd></p>
+<p>앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 아래 보라색 줄을 보자.</p>
+<kbd>
+<img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" width="450">
+</kbd>
+<p>저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 conda 환경을 선택하면 된다.</p>
+<p><kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true" width="600"></kbd></p>
 <h2 id="주의-사항">주의 사항</h2>
 <p>가끔 콘다 환경을 세팅한 후 해당 환경이 VSC에서 안뜨는 상황이 발생할 수 있다. 그럴 때에는 해당 환경에 pylint가 설치되어 있는지 확인한 후 설치되어 있다면 환경 선택 부분에 리로드 아이콘을 눌러주자. 그냥 에디터를 다시 실행해도 된다. 그러면 해당 환경을 확인해 선택할 수 있을 것이다.</p>
 <h1 id="a-nice-practice">A nice practice</h1>
