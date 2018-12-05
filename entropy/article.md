@@ -85,13 +85,12 @@ $$
 e(S) = -(\dfrac{9}{14} \log_2 \frac{9}{14} + \dfrac{5}{14} \log_2 \frac{5}{14} ) = 0.94
 $$
 
-이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 Outlook(s라는 하나의 feature에 대해서만 계산하도록 하겠다. 나머지 feature에 대해서는 각자 연습해보시기 바란다. Outlook(날씨) feature가 지닌 속성은 "Sunny", "Overcast", "Rain" 세 가지다. 이 각각의 속성에 대한 $e(S_v)$는 다음 다.  
-
+이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 Outlook(날씨)라는 하나의 feature에 대해서 계산하도록 하겠다. 나머지 feature에 대해서는 각자 연습해보시기 바란다. Outlook(날씨) feature가 지닌 속성은 "Sunny", "Overcast", "Rain" 세 가지다. 이 각각의 속성에 대한 $e(S_v)$는 다음 같다.  
 $$
 \begin{aligned}
-e(S_{   tetSunny}}) &= -( \dfrac{2}{5} \log_2 \dfrac{2}{5} + \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
-e(S_{\text{Overcast}}) & = 0 \\
-e((S_{\text{Rain}}) & =  -( \dfrac{3}{5} \log_2 \dfrac{3}{5} + \dfrac{2}{5} \log_2 \dfrac{2}{5}) 
+e(S_{ Sunny}) &= -( \dfrac{2}{5} \log_2 \dfrac{2}{5} + \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
+e(S_{\text{Overcast}) & = 0 \\
+e((S_{\text{Rain}) & =  -( \dfrac{3}{5} \log_2 \dfrac{3}{5} + \dfrac{2}{5} \log_2 \dfrac{2}{5}) 
 \end{aligned}
 $$
 
@@ -121,9 +120,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkxNjE4ODAsMTE3OTA3MTk5MiwtNT
-Q0MTY1MDA5LC0xMjQ0NjAwNTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5
-NjA3LDQ3NzY5NzgwOCwtODk5OTIyNzg4LDE5MDk3NTgyOCwtMT
-UxOTgzMzU1NywtNzkyNjI5MDIsLTEzMDU1NDEwOTgsLTUyODc3
-MDU3Nl19
+eyJoaXN0b3J5IjpbMjA4Nzc2OTc1NSwxMTc5MDcxOTkyLC01ND
+QxNjUwMDksLTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMzIxNDk2
+MDcsNDc3Njk3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4LC0xNT
+E5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNTI4Nzcw
+NTc2XX0=
 -->
