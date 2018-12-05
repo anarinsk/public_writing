@@ -43,7 +43,7 @@ $$
 
 # 의사결정 나무에서 어떻게 활용되는가? 
 
-앞서 보았듯이 섀넌은 물리학의 엔트로피 개념을 가져와 정보에 관한 일종의 품질 지표를 만들다. 섀넌의 엔트로피가 가장 잘 활용된 사례가 바로 의사결정 나무(decision tree)다. 의사결정 나무라는 게 결국 위에서 내려오면서 스무고개를 묻는 셈이고, 섀넌의 엔트로피 개념과 잘 맞는다. 기계학습의 기초 기법들인  CART(Classification and Regression Tree), Random Forest 등이 의사 결정 나무를 기본 단위로 삼고 있다. 
+앞서 보았듯이 섀넌은 물리학의 엔트로피 개념을 가져와 정보에 관한 일종의 품질 지표를 만들다. 섀넌의 엔트로피가 가장 잘 활용된 사례가 바로 의사결정 나무(decision tree)다. 이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준 혹은 속성으로 자료를 나누는 것을 의미한다. 의사결정 나무라는 게 결국 위에서 내려오면서 스무고개를 묻는 셈이고, 섀넌의 엔트로피 개념과 잘 맞는다. 
 
 무엇을 기준으로 결정 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정 노드의 판별 기준을 정보 이득(information gain)이라고 하고 그 정의는 아래와 같다. 
 
@@ -109,7 +109,7 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODg2MzY4MSwtMTI0NDYwMDU0Nyw4Nj
+eyJoaXN0b3J5IjpbLTU0NDE2NTAwOSwtMTI0NDYwMDU0Nyw4Nj
 I5NjcyMTksLTMzMjE0OTYwNyw0Nzc2OTc4MDgsLTg5OTkyMjc4
 OCwxOTA5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMz
 A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
