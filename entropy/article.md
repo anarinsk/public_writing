@@ -71,8 +71,13 @@ $$
 <img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/data.png" width=500>
 </kbd></p>
 <br>
-위와 같은 학습 자료가 주어졌다고 하자. 예측하고 싶은 목표 대상은 테니스는 칠 것인지 말 것인지의 여부(PLAY?)다. Feature 통한 분류를 거치지 않았을 때 학습 자료 전체의 엔트로피는 다음과 같다. 전체에서 플레이를 한 횟수는 9번 하지 않은 횟수는 5번이다. { \text{No, No, Yes, Yes, Yes, , No, Yes, , No, Yes, Yes, Yes, Yes, Yes, No} \}
+위와 같은 학습 자료가 주어졌다고 하자. 예측하고 싶은 목표 대상은 테니스는 칠 것인지 말 것인지의 여부(PLAY?)다. Feature 통한 분류를 거치지 않았을 때 학습 자료 전체의 엔트로피는 다음과 같다. 전체에서 플레이를 한 횟수는 9번 하지 않은 횟수는 5번이다. 
+
 $$
+\lbrace \text{No, No, Yes, Yes, Yes, , No, Yes, , No, Yes, Yes, Yes, Yes, Yes, No} \rblace
+$$
+
+
 
 이  엔트로피는 다음과 같다. 
 
@@ -116,9 +121,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMzY2NTYyLDExNzkwNzE5OTIsLTU0ND
-E2NTAwOSwtMTI0NDYwMDU0Nyw4NjI5NjcyMTksLTMzMjE0OTYw
-Nyw0Nzc2OTc4MDgsLTg5OTkyMjc4OCwxOTA5NzU4MjgsLTE1MT
-k4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mjg3NzA1
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjQzNzUxMzgsMTE3OTA3MTk5MiwtNT
+Q0MTY1MDA5LC0xMjQ0NjAwNTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5
+NjA3LDQ3NzY5NzgwOCwtODk5OTIyNzg4LDE5MDk3NTgyOCwtMT
+UxOTgzMzU1NywtNzkyNjI5MDIsLTEzMDU1NDEwOTgsLTUyODc3
+MDU3Nl19
 -->
