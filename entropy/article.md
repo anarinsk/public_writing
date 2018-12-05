@@ -2,9 +2,9 @@
 
 문송한 사람들은 대체로 새로운 개념을 접하면 머리가 멍해진다. 글쓴이의 문송한 상식으로 엔트로피는 '무질서도'  된다. 열역학의 개념 말이다. 그런데 기계학습에서 이 녀석이 왜 나오지? 
 
-결론부터 말하면 배움이 짧았다. 엔트로피라는 개념을 놓고 물리학과 정보학 사이에 한 연관이임스 글릭이 쓴 [인포메이션](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=56868821) 9장에 관련된 내용이 자세하게 소개되어 있 참고하시면 되겠다. 간략하게 마음대로 요약해 보. 
+결론부터 말하면 배움이 짧았다. 엔트로피라는 개념을 놓고 물리학과 정보학 사이에 관련이 있더라. 제임스 글릭이 쓴 [인포메이션](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=56868821) 9장에 관련된 내용이 자세하게 소개되어 있으니 관심이 있으시다면 참고하시라. 간략하게 마음대로 요약해 보겠다. 
 
-"역학 제2법칙"으로 알려진 내용에서 "엔트로피의 증가"는 통계적인 경향성이다. 즉 경향적으로 증가한다. 만일 어떤 존재가 이 경향성을 파악할 수 있다면, 엔트로피의 증가를 막는 영구 운동 가능하. 이러한 경향성을 미리 알 수 있는 존재 이른바 맥스웰의 도깨비라는 비유가 이런 발상을 낳았다. 이것이 "영구기관"이라는 인류의 이 작  
+"열역학 제2법칙"으로 알려진 내용에서 "엔트로피의 증가"는 통계적인 경향성이다. 즉 경향적으로 엔트로피가 증가한다. 만일 어떤 존재가 이 경향성을 파악할 수 있다면, 엔트로피의 증가를 막는 영구 운동도 가능할 것이다. 이런 스마트한 존재를 맥스웰은 도깨비라고 불렀다. 비유가 이런 발상을 낳았다. 이것이 "영구기관"이라는 인류의 이 작  
 
 좋다. 일단 그런 깜찍한 도깨비가 있다고 치자. 이 도깨비는 어떻게  정보를 얻게 되는가? 도깨비라면 0에 가까운 비용으로 이런 정보를 얻을 수 있겠지만 그런 도깨비는 실존하지 않는다. 물질의 상태에 관한 정보를 얻기 위해서는 그에 상응하는 가를 치러야 한다. 도깨비가 정보를 알게 되면 알게 될수록 (도깨비가 없는 세상에서) 엔트로피는 높아진다. 
 
@@ -109,8 +109,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTA3MTk5MiwtNTQ0MTY1MDA5LC0xMj
-Q0NjAwNTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5NjA3LDQ3NzY5Nzgw
-OCwtODk5OTIyNzg4LDE5MDk3NTgyOCwtMTUxOTgzMzU1NywtNz
-kyNjI5MDIsLTEzMDU1NDEwOTgsLTUyODc3MDU3Nl19
+eyJoaXN0b3J5IjpbMTM4NzM1MDEwMCwxMTc5MDcxOTkyLC01ND
+QxNjUwMDksLTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMzIxNDk2
+MDcsNDc3Njk3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4LC0xNT
+E5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNTI4Nzcw
+NTc2XX0=
 -->
