@@ -105,7 +105,6 @@ $$
 \sum_{f \in \text{Overlook}} \dfrac{|S_f|}{|S|} e(S_f)  = \dfrac{5}{14} e(S_{\text{Sunny}})  +  \dfrac{4}{14} e(S_{\text{Overcast}})   +  \dfrac{5}{14} e(S_{\text{Rain}}) 
 $$
 
-
 이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 하위 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더 이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 
 
 엔트로피가 0이 된다는 것은 무슨 뜻일까? 해당 분류에 속하는 개체의 속성이 모두 동일하다는 뜻이다. 앞서 Outlook이라는 feature에서 Overacast는 엔트로피가 0이었다. 그래서 이 결정 지점에 도달하면 엔트로피를 낮추기 위한 더 이상의 분류가 필요하지 않다. 아래 의사결정 나무에서 보듯이 나무의 최종 결정 지점에 속한 개체들의 목표 결정 사항은 모두 동일하다.  
@@ -126,9 +125,10 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2MDA3NTEzLC02ODU4MTk1NCwtNTIxOT
-c1NzAsLTYyMjM2ODI3OCwxMTc5MDcxOTkyLC01NDQxNjUwMDks
-LTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMzIxNDk2MDcsNDc3Nj
-k3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4LC0xNTE5ODMzNTU3
-LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNTI4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbLTE2MjMyMzQ2ODEsMjM2MDA3NTEzLC02OD
+U4MTk1NCwtNTIxOTc1NzAsLTYyMjM2ODI3OCwxMTc5MDcxOTky
+LC01NDQxNjUwMDksLTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMz
+IxNDk2MDcsNDc3Njk3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4
+LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNT
+I4NzcwNTc2XX0=
 -->
