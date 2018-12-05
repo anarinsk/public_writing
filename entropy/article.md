@@ -70,7 +70,7 @@ $$
 
 <br>
 <p align="center"><kbd>
-<img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/data.png" style="width:3in"> 
+<img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/data.png" width=500> 
 </kbd></p>
 <br>
 
@@ -111,7 +111,7 @@ $$
 
 <br>
 <p align="center"><kbd>
-<img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png" style="width:4in"> 
+<img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png" width=500> 
 </kbd></p>
 <br>
 
@@ -145,8 +145,8 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjUyMTk1NCw4NjI5NjcyMTksLTMzMj
-E0OTYwNyw0Nzc2OTc4MDgsLTg5OTkyMjc4OCwxOTA5NzU4Mjgs
-LTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mj
-g3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbLTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMz
+IxNDk2MDcsNDc3Njk3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4
+LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNT
+I4NzcwNTc2XX0=
 -->
