@@ -41,11 +41,9 @@ $$
  \end{aligned}
  $$
 
-# Decision tree에서 어떻게 활용되는가? 
+# 의사결정 나무에서 어떻게 활용되는가? 
 
-앞서 보았듯이 섀넌은 물리학의 엔트로피 개념을 가져와 정보에 관한 일종의 품질 지표를 만들다. 섀넌의 엔트로피가 가장 잘 활용된 사례가 바로 의사 결정 나무다. 의사결정 나무라는 게 결국 상단부터 내려오면서 스무고개를 하는 것인 셈이고, 그 점에서 섀넌의 엔트로피 개념과 잘 맞는다. 
-
-이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준으로 데이터를 나누는 것을 의미한다. 기계학습의 기초 기법들인  CART(Classification and Regression Tree), Random Forest 등이 의사 결정 나무를 기본 단위로 삼고 있다. 
+앞서 보았듯이 섀넌은 물리학의 엔트로피 개념을 가져와 정보에 관한 일종의 품질 지표를 만들다. 섀넌의 엔트로피가 가장 잘 활용된 사례가 바로 의사결정 나무(decision tree)다. 의사결정 나무라는 게 결국 위에서 내려오면서 스무고개를 묻는 셈이고, 섀넌의 엔트로피 개념과 잘 맞는다. 기계학습의 기초 기법들인  CART(Classification and Regression Tree), Random Forest 등이 의사 결정 나무를 기본 단위로 삼고 있다. 
 
 무엇을 기준으로 결정 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정 노드의 판별 기준을 정보 이득(information gain)이라고 하고 그 정의는 아래와 같다. 
 
@@ -93,7 +91,7 @@ $$
 
 이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 하위 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더 이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 
 
-엔트로피가 0이 된다는 것은 무슨 뜻일까? 해당 분류에 속하는 개체의 속성이 모두 동일하다는 뜻이다. 앞서 Outlook이라는 feature에서 Overacast는 엔트로피가 0이었다. 그래서 이 결정 지점에 도달하면 분류는 끝난다. 아래 의사결정 나무에서 보듯이 나무의 최종 결정 지점에 속한 개체들의 목표 결정 사항은 모두 동일하다.  
+엔트로피가 0이 된다는 것은 무슨 뜻일까? 해당 분류에 속하는 개체의 속성이 모두 동일하다는 뜻이다. 앞서 Outlook이라는 feature에서 Overacast는 엔트로피가 0이었다. 그래서 이 결정 지점에 도달하면 엔트로피를 낮추기 위한 더 이상의 분류가 필요하지 않다. 아래 의사결정 나무에서 보듯이 나무의 최종 결정 지점에 속한 개체들의 목표 결정 사항은 모두 동일하다.  
 <br>
 <p align="center"><kbd>
 <img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png" width=500>
@@ -111,8 +109,8 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU4MDg2MDcsLTEyNDQ2MDA1NDcsOD
-YyOTY3MjE5LC0zMzIxNDk2MDcsNDc3Njk3ODA4LC04OTk5MjI3
-ODgsMTkwOTc1ODI4LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMT
-MwNTU0MTA5OCwtNTI4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbLTM0ODg2MzY4MSwtMTI0NDYwMDU0Nyw4Nj
+I5NjcyMTksLTMzMjE0OTYwNyw0Nzc2OTc4MDgsLTg5OTkyMjc4
+OCwxOTA5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMz
+A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
 -->
