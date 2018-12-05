@@ -1,3 +1,8 @@
+**Claude Shannon's Entropy**
+
+2018-11-25
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
+
 # 엔트로피? 
 
 문송한 사람들은 대체로 새로운 개념을 접하면 머리가 멍해진다. 글쓴이의 문송한 상식으로 엔트로피는 '무질서도'  된다. 열역학의 개념 말이다. 그런데 기계학습에서 이 녀석이 왜 나오지? 
@@ -121,9 +126,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjM2ODI3OCwxMTc5MDcxOTkyLC01ND
-QxNjUwMDksLTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMzIxNDk2
-MDcsNDc3Njk3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4LC0xNT
-E5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNTI4Nzcw
-NTc2XX0=
+eyJoaXN0b3J5IjpbLTUyMTk3NTcwLC02MjIzNjgyNzgsMTE3OT
+A3MTk5MiwtNTQ0MTY1MDA5LC0xMjQ0NjAwNTQ3LDg2Mjk2NzIx
+OSwtMzMyMTQ5NjA3LDQ3NzY5NzgwOCwtODk5OTIyNzg4LDE5MD
+k3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5MDIsLTEzMDU1NDEw
+OTgsLTUyODc3MDU3Nl19
 -->
