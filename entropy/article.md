@@ -64,8 +64,8 @@ IG(S, F) = e(S) - \sum_{v \in A(v)} \dfrac{|S_v|}{|S|} e(S_v)
 $$
 
 - $S$: 전체 사건의 집합
-- $F)$ Feature 
-- v
+- $F$: Feature, $v$: $F$의 속성  
+- $S_v$: $v$ 속성을 지닌 사건의 집합  
 -  $|\cdot|$: 집합의 크기 (원소의 갯수)
 - $e(X)$: X라는 사건 집합이 지닌 엔트로피 
 
@@ -127,9 +127,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDI2Nzg1MTIsLTUyMTk3NTcwLC02Mj
-IzNjgyNzgsMTE3OTA3MTk5MiwtNTQ0MTY1MDA5LC0xMjQ0NjAw
-NTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5NjA3LDQ3NzY5NzgwOCwtOD
-k5OTIyNzg4LDE5MDk3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5
-MDIsLTEzMDU1NDEwOTgsLTUyODc3MDU3Nl19
+eyJoaXN0b3J5IjpbLTYyOTQzOTA5MSwtNTIxOTc1NzAsLTYyMj
+M2ODI3OCwxMTc5MDcxOTkyLC01NDQxNjUwMDksLTEyNDQ2MDA1
+NDcsODYyOTY3MjE5LC0zMzIxNDk2MDcsNDc3Njk3ODA4LC04OT
+k5MjI3ODgsMTkwOTc1ODI4LC0xNTE5ODMzNTU3LC03OTI2Mjkw
+MiwtMTMwNTU0MTA5OCwtNTI4NzcwNTc2XX0=
 -->
