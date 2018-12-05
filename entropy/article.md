@@ -109,8 +109,11 @@ $$
 
 이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더 이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 엔트로피가 0이 된다는 것은 무슨 뜻일까? 해당 분류에 속하는 개체의 목표 속성이 같다는 말이다. 더 분류할 것이 없어질 때 분류가 멈춘다. 
 
-
-![](https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png)
+<br>
+<p align="center"><kbd>
+<img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/tree.png" style="width:4in"> 
+</kbd></p>
+<br>
 
 ### Reference 
 
@@ -142,7 +145,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTQzNzkyMiw4NjI5NjcyMTksLTMzMj
+eyJoaXN0b3J5IjpbLTQzNjUyMTk1NCw4NjI5NjcyMTksLTMzMj
 E0OTYwNyw0Nzc2OTc4MDgsLTg5OTkyMjc4OCwxOTA5NzU4Mjgs
 LTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mj
 g3NzA1NzZdfQ==
