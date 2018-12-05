@@ -60,12 +60,13 @@ $q$는 $p$의 추정치이므로 직관적으로 (그리고 수학적으로) $H(
 무엇을 기준으로 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 나누는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정지점의 판별 기준을 정보 이득(information gain)이라고 부르는데, 그 정의는 아래와 같다. 
 
 $$
-IG(S, A(v)) = e(S) - \sum_{v \in A(v)} \dfrac{|S_v|}{|S|} e(S_v) 
+IG(S, F) = e(S) - \sum_{v \in A(v)} \dfrac{|S_v|}{|S|} e(S_v) 
 $$
 
 - $S$: 전체 사건의 집합
-- $A(v)$ 어떤 feature가 지닌 $v$ 속성을 나타냄 
-- $|\cdot|$: 집합의 크기 (원소의 갯수)
+- $F)$ Feature 
+- v
+-  $|\cdot|$: 집합의 크기 (원소의 갯수)
 - $e(X)$: X라는 사건 집합이 지닌 엔트로피 
 
 식이 좀 복잡해 보이지만 취지는 간단하다. 마이너스 뒤의 합의 의미는 이렇다. 어떤 속성에 기반해 결정 지점을 나눈다고 할 때, 그 결정 지점에 도달할 무작위 확률에 그 집합이 지닌 엔트로피를 곱한 값을 해당 속성에 대해서 전부 더해준 값이다. 현재 아무런 feature도 활용하지 않은 상태의 엔트로피에서 feature가 지닌 속성들을 통해 통해 분류를 한번 거쳤을 때의 엔트로피를 뺀다. 분류를 거친다는 것은 질문을 추가적으로 하는 것과 같다. 이런 정보를 획득함에 따라서 전체의 엔트로피는 적어도 늘어나지는 않을 것이다. 둘 사이의 차이를 해당 feature가 지닌 정보 품질(혹은 엔트로피 감소의 기여분)로 이해할 수 있겠다. 
@@ -126,9 +127,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTk3NTcwLC02MjIzNjgyNzgsMTE3OT
-A3MTk5MiwtNTQ0MTY1MDA5LC0xMjQ0NjAwNTQ3LDg2Mjk2NzIx
-OSwtMzMyMTQ5NjA3LDQ3NzY5NzgwOCwtODk5OTIyNzg4LDE5MD
-k3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5MDIsLTEzMDU1NDEw
-OTgsLTUyODc3MDU3Nl19
+eyJoaXN0b3J5IjpbLTEyNDI2Nzg1MTIsLTUyMTk3NTcwLC02Mj
+IzNjgyNzgsMTE3OTA3MTk5MiwtNTQ0MTY1MDA5LC0xMjQ0NjAw
+NTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5NjA3LDQ3NzY5NzgwOCwtOD
+k5OTIyNzg4LDE5MDk3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5
+MDIsLTEzMDU1NDEwOTgsLTUyODc3MDU3Nl19
 -->
