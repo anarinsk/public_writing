@@ -1,45 +1,45 @@
 **Python + Visual Studio Code**
 
 2018-11-23
-Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)설정하기 
 
 # 들어가며 
 아마 각자 알아서 잘 쓰는 Python 설정이 있을 것이다. 그대로 잘 쓰면 되겠다. 하지만 막 Python으로 코딩을 시작하려는 사람이 있다면 이런 글도 조금은 도움이 되지 않을까 한다. 이 가이드의 목표는 다음과 같다. 
 
-0. 되도록 꼬이지 않게 Python 쓰기 (사실 쓰다보면 종종 꼬인다)
+0. 되도록 꼬이지 않게 Python 쓰기 (사실 쓰다보면 종종 꼬인다)파이썬 쓰기 
 1. 되도록 편리하게 쓰기 
 2. OS를 가리지 않고 쓰기 
 
-Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지는 않다. 입문서들을 봐도 혹은 웹서핑을 해봐도 그렇다. 아울러 같은 오픈소스 언어라도 RStudio 같은 편리한 개발툴까지 손에 쥐어주는 R에 비해서 어딘가 불편하고 부족하다는 느낌도 받을 수 있다. Python을 쓰면서 불편하다고 느껴본 적 없다, 라는 분들은 여기서 이 글을 안 읽어도 좋겠다. 
+Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지는 않다. 입문서들을 봐도 혹은 웹서핑을 해봐도 그렇다. 아울러 같은 오픈소스 언어라도 RStudio와 같은 편리한 개발툴까지 손에 쥐어주는 R에 비해서 어딘가 불편하고 부족하다는한 느낌도 받을 수 있다. Python을 쓰면서 불편하다고 느껴본 적 없다, 라는 분들은 여기서 이 글을 안 읽어도 좋겠다. 
 
-이 가이드는 거의 R + RStudio에 근접한 수준으로 Python을 쓰게 하는 데 필요한 작업을 다룬다. 부디 이 글을 보는 분들에게 시간 단축의 축복 있으라! 가이드는 다음과 같은 세가지 영역을 다룬다. 
+이 가이드는 거의 R + RStudio에 근접한 수준으로 Python을 쓰게 하는 데 필요한 작업을 다룬이 가이드를 통해서 거의 R + RStudio에 근접한 수준으로 파이썬을 쓰게 되기까지 개인적으로 삽질한 내용의 핵심만을 제시하고자 한다. 부디 이 글을 보는 분들에게 시간 단축의 축복 있으라! 가이드는 다음과 같은 세가지 영역을 다룬다. 
 
-1. 어떤 Python 배포판을 쓸까? 
-2. 어떻게 쓸까? 
-3. 무엇과 함께 쓸까? 
+1. 어떤 Python 배포판을 쓸까 것인가? 
+2. 어떻게 쓸까 것인가? 
+3. 무엇과 함께 쓸까 것인가? 
 
-# 어떤 Python 배포판을 쓸까? 
+# 어떤 Python 배포판을 쓸까 것인가? 
 
-나는 하드코어하게 그냥 바닐라 Python을 쓰겠어, 라고 결심해도 좋겠다. 하지만 곧 여러가지 장애물을 만나게 될 것이다. 특히 윈도를 쓰는 이용자라면 더욱 그렇다. CLI(command line interface)를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 꽤 난감하다. 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 아나콘다(Anaconda) 사에서 배포하는 아나콘다 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두 가지 정도다. 
+나는 하드코어하게 그냥 바닐라 Python파이썬을 쓰겠어, 라고 결심해도 좋겠다. 하지만 곧 여러가지 장애물을 만나게 될 것이다. 특히 윈도를 쓰는 이용자라면 더욱 그렇다. CLI(command line interface)를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 꽤참 난감하다. 또한 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 아나콘다(Anaconda) 사에서 배포하는 아나콘다Anaconda 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두 가지 정도다. 
 
 1. 아나콘다에서 패키지 관리를 성실하게 해준다. 
 	- 때로는 바닐라 버전보다 아나콘다 버전이 성능상 유리한 경우도 있다. 
 2. 아나콘다에서 제공하는 가상 환경이 편리하고 훌륭하다. 
-	- virtualenv 패키지를 써도 좋겠지만 패키지 관리까지 한방에 해결할 수 있는 아나콘다 가상환경이 조금 더 편리하다. 
+	- virtualenv 패키지를 써도 좋겠지만 패키지 관리까지 한방에 해결할 수 있는 아나콘다 가상환경이 조금 더 편리2. 아나콘다에서 제공하는 가상 환경이 편리하고 훌륭하다. 
 
-1이야 그렇다고 치고 2는 정말 중요하다. 보통 "Python + 필요 패키지"를 깔아서 쓰고 있을 것이다. 하지만 이렇게 여러 패키지를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 필요에 따라서 분리해 관리한다면, 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 다른 측면에서도 약간의 이익을 볼 수 있다. 
+1이야 그렇다고 치고 2는 정말 중요하다. 보통 "Python + 필요은 핵심을 이루는 프로그램이 가볍다. 대신 필요에 따라서 여러가지 패키지"를들을 깔아서 쓰고 있을 것이다. 하지만 이렇게 여러쓴다. "Python + 패키지"를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 필요에 따라서 분리해 관리한다면,구축한 후 이 환경 내에서만 쓰면 여러가지 이점이 있다. 일단 뭔가 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 다른 측면실행 속도 등에서도 약간의 이익을 볼 수 있다. 
 
-이제 아나콘다를 쓰기로 했다고 치자. 아나콘다도 두 가지로 배포판이 제공한다. 종합 배포판인 아나콘다 보다 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)가 좋다. 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다. 
+이제 아나콘다를 쓰기로 했다고 치자. 아나콘다도에서는 두 가지로 배포판이을 제공한다. 종합 배포판인 아나콘다 보다대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)가 좋다.가 좋다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도는 없다. 
 
-# 어떻게 쓸까? 
+# 어떻게 쓸까 것인가? 
 
-일단 미니콘다를  Python 3.x 버전으로 (전부 "Next"를 눌러) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
+일단 미니콘다를  Python 3.xX 버전으로 (전부 "Next"를 눌러디폴트로) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
 
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true" width="200"></kbd>
 
-일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋다.  
+일단, 탐색창에서기에 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋되겠다.  
 
-아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python 3.x 버전이 깔려 있고 녀석을 기본으로 쓰겠다는 의미다. 
+아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python파이썬 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python파이썬 3.xX 버전이 깔려 있고 녀석을 기본으로 쓰겠다는 의미다. 
 
 - conda의 활용법을 자세히 알고 싶다면 [LINK](https://conda.io/docs/user-guide/getting-started.html)를 참고하라. 
 - 가상 환경에 관한 자세한 내용은 [LINK](https://conda.io/docs/user-guide/tasks/manage-environments.html)를 참고하라. 
@@ -50,7 +50,7 @@ Python이 무척 훌륭한 언어지만 사실 가이드가 아주 친절하지�
 conda update conda
 ```
 - 매번 콘다를 실행하고 실행해야 할 명령이다. 
-- 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을 업데이트하라는 뜻이다. 제 머리 깎는 중인 셈이다. 
+-음을 뜻한다. 항상 콘다를 실행하고 나면 먼저 실행해야 할 명령어는 `conda update conda`이다. 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을얘를 업데이트하라는 뜻이다. 제 머리 깎는 중인 셈이다. 
 
 ## Create 
 
@@ -211,13 +211,22 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:
 :feet:
-:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)겠다는 명령어다.
+
+다음으로 환경을 설치해야 한다. 
+
+``
+
+이렇게 설치된 환경은 윈도우 기준으로 ... 에 설치되어 있다. 
+
+다음으로 환경으로 진입해야 한다. 
+그리고 원하는 패키지를 깔면 된다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODY2MDYwMSwyMTM0OTY2MjgzLDE4OT
-MzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwNDg0LDE5MTg1ODUx
-MDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgsLTE3OT
-czNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMzAyMjgz
-NjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLD
-IxMTkwNDI3MzgsLTE3OTgwNjgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMz
+Q5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1NjE1NjA0
+ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQxMSwzMT
+E3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NCw3NTI4ODIy
+NzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMzcyOTI0NjE2LC
+01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2ODExNl19
 -->
