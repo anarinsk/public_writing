@@ -71,6 +71,11 @@ $$
 
 ![](https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/data.png)
 
+<br>
+<p align="center"><kbd>
+<img src="/public_writing/raw/master/entropy/imgs/data.png)" style="width:2.5in">
+</kbd></p>
+<br>
 
 위와 같은 학습 자료가 주어졌다고 하자. 예측하고 싶은 것은 정보는 테니스는 칠 것인지 말 것인지의 여부(PLAY?)다. Feature를 통한 분류를 거치지 않았을 때 위 학습 자료의 엔트로피는 다음과 같다. 전체에서 플레이를 한 횟수는 9번 하지 않은 횟수는 5번이다. 즉, $S$는 
 
@@ -118,8 +123,8 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjMyMDc0NCwtMTI0NDYwMDU0Nyw4Nj
-I5NjcyMTksLTMzMjE0OTYwNyw0Nzc2OTc4MDgsLTg5OTkyMjc4
-OCwxOTA5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMz
-A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
+eyJoaXN0b3J5IjpbNTMxNTEzNDc4LC0xMjQ0NjAwNTQ3LDg2Mj
+k2NzIxOSwtMzMyMTQ5NjA3LDQ3NzY5NzgwOCwtODk5OTIyNzg4
+LDE5MDk3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5MDIsLTEzMD
+U1NDEwOTgsLTUyODc3MDU3Nl19
 -->
