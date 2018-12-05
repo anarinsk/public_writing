@@ -83,15 +83,13 @@ $$
 S \equiv \left\lbrace \text{No, No, Yes, Yes, Yes, , No, Yes, , No, Yes, Yes, Yes, Yes, Yes, No} \right\rbrace
 $$
 
-
-
 $S$의 엔트로피는 다음과 같다. 
 
 $$
 e(S) = -(\dfrac{9}{14} \log_2 \frac{9}{14} + \dfrac{5}{14} \log_2 \frac{5}{14} ) = 0.94
 $$
 
-이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 Outlook(날씨)라는 하나의 feature에 대해서 계산하도록 하겠다. 나머지 feature에 대해서는 각자 연습해보시기 바란다. Outlook(날씨) feature가 지닌 속성은 "Sunny", "Overcast", "Rain" 세 가지다. 이 각각의 속성에 대한 $e(S_v)$는 다음 같다.  
+이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 Outlook(날씨)라는 하나의 feature에 대해서 계산하도록 하겠다. 나머지 feature에 대해서는 각자 연습해보시기 바란다. Outlook(날씨) feature가 지닌 속성은 "Sunny", "Overcast", "Rain" 세 가지다. 아래의 식에서 Outlook은 Sunny, Overcast, Rain을 원소로 하는 집합의 의미로 사용한다. 이 각각의 속성에 대한 $e(S_f)$는 다음 같다.  
 
 $$  
 \begin{aligned}  
@@ -128,7 +126,7 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwODYyMDcxLC01MjE5NzU3MCwtNjIyMz
+eyJoaXN0b3J5IjpbLTY4NTgxOTU0LC01MjE5NzU3MCwtNjIyMz
 Y4Mjc4LDExNzkwNzE5OTIsLTU0NDE2NTAwOSwtMTI0NDYwMDU0
 Nyw4NjI5NjcyMTksLTMzMjE0OTYwNyw0Nzc2OTc4MDgsLTg5OT
 kyMjc4OCwxOTA5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAy
