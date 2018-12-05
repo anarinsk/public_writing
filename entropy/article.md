@@ -1,7 +1,7 @@
 **Claude Shannon's Entropy**
 
 2018-11-25
-Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com) also posted [LINK](https://danbi-ncsoft.github.io/etc/2018/12/06/entropy.html)
 
 # 엔트로피? 
 
@@ -125,10 +125,10 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMyMzQ2ODEsMjM2MDA3NTEzLC02OD
-U4MTk1NCwtNTIxOTc1NzAsLTYyMjM2ODI3OCwxMTc5MDcxOTky
-LC01NDQxNjUwMDksLTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMz
-IxNDk2MDcsNDc3Njk3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4
-LC0xNTE5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNT
-I4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbMTQ5OTc5OTc5NSwtMTYyMzIzNDY4MSwyMz
+YwMDc1MTMsLTY4NTgxOTU0LC01MjE5NzU3MCwtNjIyMzY4Mjc4
+LDExNzkwNzE5OTIsLTU0NDE2NTAwOSwtMTI0NDYwMDU0Nyw4Nj
+I5NjcyMTksLTMzMjE0OTYwNyw0Nzc2OTc4MDgsLTg5OTkyMjc4
+OCwxOTA5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAyLC0xMz
+A1NTQxMDk4LC01Mjg3NzA1NzZdfQ==
 -->
