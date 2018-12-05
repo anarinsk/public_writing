@@ -38,7 +38,7 @@ $$
 
 $q$는 $p$의 추정치이므로 직관적으로 (그리고 수학적으로) $H(p,q) \geq H(p,p) = e$가 성립한다.  이를 눈으로 직접 확인해보고 싶다면 [LINK](https://www.desmos.com/calculator/zytm2sf56e)를 참고하시라. 
 
-교차 엔트로피 무엇을 뜻할까? Kraft-McMillan 정리에 따르면, 교차 엔트로피는 참인 분포가 $p$이고 이에 관한 불완전한 추정 분포 $q$가 있을 때, 개별 실현값을 맞추기 위해 필요한 질문 수의 기댓값이다. 즉, $p_x$에 대한 추정치 $q_x$로 참인 $p_x$를 맞출 때까지 소모되는 정보의 크기다. 쉽게 답을 맞출 때까지 진행하는 스무고개를 생각하면 되겠다. 연습 삼아서, 예/아니오로 구별되는 이진 분류의 교차 엔트로피를 예로 적어보자. "아니오"가 될 확률은 "예"일 확률을 1에서 뺀 값이므로 결국 필요한 값은 $p_0$, $q_0$ 두 개이다. 
+교차 엔트로피 무엇을 뜻할까? Kraft-McMillan 정리에 따르면, 교차 엔트로피는 참인 분포가 $p$이고 이에 관한 불완전한 추정 분포 $q$가 있을 때, 개별 실현값을 맞추기 위해 필요한 질문 수의 기댓값이다. 즉, $p_x$에 대한 추정치 $q_x$로 참인 $p_x$를 맞출 때까지 소모해야 하는 정보의 크기다. 답을 맞출 때까지 진행하는 스무고개를 떠올리면 되겠다. 연습 삼아서, 예/아니오로 구별되는 이진 분류의 교차 엔트로피를 적어보자. "아니오"가 될 확률은 "예"일 확률을 1에서 뺀 값이므로 결국 필요한 값은 $p_0$, $q_0$ 두 개이다. 
 
  $$
  \begin{aligned}
@@ -52,7 +52,7 @@ $q$는 $p$의 추정치이므로 직관적으로 (그리고 수학적으로) $H(
 
 앞서 보았듯이 섀넌은 물리학의 엔트로피 개념을 가져와 정보에 관한 일종의 품질 지표를 만들다. 섀넌의 엔트로피가 가장 잘 활용된 사례가 바로 의사결정 나무(decision tree)다. 이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준 혹은 속성으로 자료를 나누는 것을 의미한다. 의사결정 나무라는 게 결국 위에서 내려오면서 스무고개를 묻는 셈이고, 섀넌의 엔트로피 개념과 잘 맞는다. 
 
-무엇을 기준으로 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정 노드의 판별 기준을 정보 이득(information gain)이라고 하고 그 정의는 아래와 같다. 
+무엇을 기준으로 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 나누는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정지점의 판별 기준을 정보 이득(information gain)이라고 부르는데, 그 정의는 아래와 같다. 
 
 $$
 IG(S, A(v)) = e(S) - \sum_{v \in A(v)} \dfrac{|S_v|}{|S|} e(S_v) 
@@ -116,7 +116,7 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MTM5MjY1LDExNzkwNzE5OTIsLTU0ND
+eyJoaXN0b3J5IjpbNDMxMzY2NTYyLDExNzkwNzE5OTIsLTU0ND
 E2NTAwOSwtMTI0NDYwMDU0Nyw4NjI5NjcyMTksLTMzMjE0OTYw
 Nyw0Nzc2OTc4MDgsLTg5OTkyMjc4OCwxOTA5NzU4MjgsLTE1MT
 k4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mjg3NzA1
