@@ -60,7 +60,7 @@ $q$는 $p$의 추정치이므로 직관적으로 (그리고 수학적으로) $H(
 무엇을 기준으로 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 나누는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정지점의 판별 기준을 정보 이득(information gain)이라고 부르는데, 그 정의는 아래와 같다. 
 
 $$
-IG(S, F) = e(S) - \sum_{f \in F} \dfrac{|S_v|}{|S|} e(S_f) 
+IG(S, F) = e(S) - \sum_{f \in F} \dfrac{|S_f|}{|S|} e(S_f) 
 $$
 
 - $S$: 전체 사건의 집합
@@ -104,7 +104,7 @@ $$
 따라서, 
 
 $$
-\sum_{f \in \text{Overlook}} \dfrac{|S_v|}{|S|} e(S_f)  = \dfrac{5}{14} e(S_{\text{Sunny}})  +  \dfrac{4}{14} e(S_{\text{Overcast}})   +  \dfrac{5}{14} e(S_{\text{Rain}}) 
+\sum_{f \in \text{Overlook}} \dfrac{|S_f|}{|S|} e(S_f)  = \dfrac{5}{14} e(S_{\text{Sunny}})  +  \dfrac{4}{14} e(S_{\text{Overcast}})   +  \dfrac{5}{14} e(S_{\text{Rain}}) 
 $$
 
 
@@ -128,7 +128,7 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTA1MjA3LC01MjE5NzU3MCwtNjIyMz
+eyJoaXN0b3J5IjpbOTIwODYyMDcxLC01MjE5NzU3MCwtNjIyMz
 Y4Mjc4LDExNzkwNzE5OTIsLTU0NDE2NTAwOSwtMTI0NDYwMDU0
 Nyw4NjI5NjcyMTksLTMzMjE0OTYwNyw0Nzc2OTc4MDgsLTg5OT
 kyMjc4OCwxOTA5NzU4MjgsLTE1MTk4MzM1NTcsLTc5MjYyOTAy
