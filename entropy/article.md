@@ -60,12 +60,12 @@ $q$는 $p$의 추정치이므로 직관적으로 (그리고 수학적으로) $H(
 무엇을 기준으로 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 나누는 기준으로 엔트로피를 활용하면 좋지 않을까? 정보 엔트로피를 기준으로 삼은 결정지점의 판별 기준을 정보 이득(information gain)이라고 부르는데, 그 정의는 아래와 같다. 
 
 $$
-IG(S, F) = e(S) - \sum_{v \in A(v)} \dfrac{|S_v|}{|S|} e(S_v) 
+IG(S, F) = e(S) - \sum_{f \in F} \dfrac{|S_v|}{|S|} e(S_f) 
 $$
 
 - $S$: 전체 사건의 집합
-- $F$: Feature, $v$: $F$의 속성  
-- $S_v$: $v$ 속성을 지닌 사건의 집합  
+- $F$: feature, $f$: feature 속성  
+- $S_f$: $f$ 속성을 지닌 사건의 집합  
 -  $|\cdot|$: 집합의 크기 (원소의 갯수)
 - $e(X)$: X라는 사건 집합이 지닌 엔트로피 
 
@@ -104,7 +104,7 @@ $$
 따라서, 
 
 $$
-e(S_v) = \dfrac{5}{14} e(S_{\text{Sunny}})  +  \dfrac{4}{14} e(S_{\text{Overcast}})   +  \dfrac{5}{14} e(S_{\text{Rain}}) 
+\sum_{f \in \text{Overlook}} \dfrac{|S_v|}{|S|} e(S_f)  = \dfrac{5}{14} e(S_{\text{Sunny}})  +  \dfrac{4}{14} e(S_{\text{Overcast}})   +  \dfrac{5}{14} e(S_{\text{Rain}}) 
 $$
 
 이렇게 각 4개의 feature에 대해서 IG을 구하면 어떤 feature가 엔트로피를 더 낮추는지를 비교할 수 있다. 계산을 해보면 Outlook이 제일 높은  IG를 지니고 있다. 따라서 Outlook이 의사결정 나무에서 가장 상단에 위치하게 된다. 이제 1차 분류를 거친 후 각각 분류된 하위 집합에 대해서 같은 방식의 분류를 반복한다. 분류는 더 이상 분류될 것이 없을 때까지, 즉 주어진 집합의 엔트로피가 0이 될 때까지 반복한다. 
@@ -127,9 +127,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTQzOTA5MSwtNTIxOTc1NzAsLTYyMj
-M2ODI3OCwxMTc5MDcxOTkyLC01NDQxNjUwMDksLTEyNDQ2MDA1
-NDcsODYyOTY3MjE5LC0zMzIxNDk2MDcsNDc3Njk3ODA4LC04OT
-k5MjI3ODgsMTkwOTc1ODI4LC0xNTE5ODMzNTU3LC03OTI2Mjkw
-MiwtMTMwNTU0MTA5OCwtNTI4NzcwNTc2XX0=
+eyJoaXN0b3J5IjpbLTE4OTE1MjA5ODcsLTUyMTk3NTcwLC02Mj
+IzNjgyNzgsMTE3OTA3MTk5MiwtNTQ0MTY1MDA5LC0xMjQ0NjAw
+NTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5NjA3LDQ3NzY5NzgwOCwtOD
+k5OTIyNzg4LDE5MDk3NTgyOCwtMTUxOTgzMzU1NywtNzkyNjI5
+MDIsLTEzMDU1NDEwOTgsLTUyODc3MDU3Nl19
 -->
