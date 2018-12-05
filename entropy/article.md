@@ -57,7 +57,7 @@ $q$는 $p$의 추정치이므로 직관적으로 (그리고 수학적으로) $H(
 
 앞서 보았듯이 섀넌은 물리학의 엔트로피 개념을 가져와 정보에 관한 일종의 품질 지표를 만들다. 섀넌의 엔트로피가 가장 잘 활용된 사례가 바로 의사결정 나무(decision tree)다. 이른바 의사결정 나무(decision tree)란 판단을 해야 하는 어떤 분기에서 어떤 기준 혹은 속성으로 자료를 나누는 것을 의미한다. 의사결정 나무라는 게 결국 위에서 내려오면서 스무고개를 묻는 셈이고, 섀넌의 엔트로피 개념과 잘 맞는다. 
 
-무엇을 기준으로 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 나누는 기준으로 엔트로피를 활용하면 좋지 않을까? 특정 피쳐의 결정지점이 지닌 정보 엔트로피 기반의 정보 이득(information gain)이라고 부르는데, 그 정의는 아래와 같다. 
+무엇을 기준으로 나무의 가지를 나눌까? 나무의 결정 지점(노드)에서 가지를 나누는 기준으로 엔트로피를 활용하면 좋지 않을까? 특정 피쳐의 결정지점이 지닌 정보 이득(information gain)을 정의해보면 아래와 같다. 
 
 $$
 IG(S, F) = e(S) - \sum_{f \in F} \dfrac{|S_f|}{|S|} e(S_f) 
@@ -126,9 +126,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzM0OTMwNiwtNjg1ODE5NTQsLTUyMT
-k3NTcwLC02MjIzNjgyNzgsMTE3OTA3MTk5MiwtNTQ0MTY1MDA5
-LC0xMjQ0NjAwNTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5NjA3LDQ3Nz
-Y5NzgwOCwtODk5OTIyNzg4LDE5MDk3NTgyOCwtMTUxOTgzMzU1
-NywtNzkyNjI5MDIsLTEzMDU1NDEwOTgsLTUyODc3MDU3Nl19
+eyJoaXN0b3J5IjpbMjM2MDA3NTEzLC02ODU4MTk1NCwtNTIxOT
+c1NzAsLTYyMjM2ODI3OCwxMTc5MDcxOTkyLC01NDQxNjUwMDks
+LTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMzIxNDk2MDcsNDc3Nj
+k3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4LC0xNTE5ODMzNTU3
+LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNTI4NzcwNTc2XX0=
 -->
