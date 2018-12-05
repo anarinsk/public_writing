@@ -24,14 +24,21 @@ $$
 
 ## Entropy
 우리가 엔트로피를 통해 수량으로 요약하고 싶은 정보는 개별 사건이 아니라 사건 전체 아우르는 현재의 불확실한 상태다. 따라서 앞서 정의한 개별 사건의 의외성을 전체를 대표하는 값으로 바꿔야 한다. 쉽다. 기댓값을 구하면 된다. 앞서 정의한 $s$가 확률 변수이기 때문에 기댓값을 다음과 같이 쉽게 정의할 수 있다.  이 기댓값 다름 아닌 정보의 엔트로피다. 
+
 $$
 e = - \sum_{i=0}^{n} p_i \log p_i
 $$
 
 ## Cross entropy 
-이제 교차 엔트로피의 개념을 살펴보자. 섀넌이 정의한 크로스 엔트로피는 다음과 같다. 동일한 배후 사건들에 관해서 두 개의 확률 분포를 $p$, $q$라고 하자. 이때 $p$를 편의상 배후 사건들에 관한 참 확률 분포라고 하고 $q$를 이에 대한 추정치라고 하자. $p$, $q$가 이산 확률 분포라면 교차 엔트로피는 다음과 같이 정의한다. $q$는 $p$의 추정이므로 직관적으로 (그리고 수학적으로) $H(p,q) \geq H(p,p) = e$가 성립한다.  이를 눈으로 확인해보고 싶다면 [LINK](https://www.desmos.com/calculator/zytm2sf56e)를 참고하시라. 
+이제 교차 엔트로피의 개념을 살펴보자. 섀넌이 정의한 크로스 엔트로피는 다음과 같다. 동일한 배후 사건들에 관해서 두 개의 확률 분포를 $p$, $q$라고 하자. 이때 $p$를 편의상 배후 사건들에 관한 참 확률 분포라고 하고 $q$를 이에 대한 추정치라고 하자. $p$, $q$가 이산 확률 분포라면 교차 엔트로피는 다음과 같이 정의한다. 
 
-교차 엔트로피 무엇을 뜻할까? Kraft-McMillan 정리에 따르면, 교차 엔트로피는 참인 분포가 $p$이고 이에 관한 불완전한 추정 분포 $q$가 있을 때, 개별 실현값을 맞추기 위해 필요한 질문 수의 기값이. 즉, $p_x$에 대한 추정치 $q_x$로 참인 $p_x$를 맞출 때까지 소모되는 정보의 크기다. 쉽게 답을 맞출 때까지 진행하는 스무고개를 생각하면 되겠다. 연습 삼아서, 예/아니오로 구별되는 이진 분류의 교차 엔트로피를 예로 적어보자. "아니오"가 될 확률은 "예"일 확률을 1에서 뺀 값이므로 결국 필요한 값은 $p_0$, $q_0$ 두 개이다. 
+$$  
+H(p, q) = -\sum_{i=0}^n p_i \log q_i  
+$$  
+
+$q$는 $p$의 추정치이므로 직관적으로 (그리고 수학적으로) $H(p,q) \geq H(p,p) = e$가 성립한다.  이를 눈으로 직접 확인해보고 싶다면 [LINK](https://www.desmos.com/calculator/zytm2sf56e)를 참고하시라. 
+
+교차 엔트로피 무엇을 뜻할까? Kraft-McMillan 정리에 따르면, 교차 엔트로피는 참인 분포가 $p$이고 이에 관한 불완전한 추정 분포 $q$가 있을 때, 개별 실현값을 맞추기 위해 필요한 질문 수의 기댓값이다. 즉, $p_x$에 대한 추정치 $q_x$로 참인 $p_x$를 맞출 때까지 소모되는 정보의 크기다. 쉽게 답을 맞출 때까지 진행하는 스무고개를 생각하면 되겠다. 연습 삼아서, 예/아니오로 구별되는 이진 분류의 교차 엔트로피를 예로 적어보자. "아니오"가 될 확률은 "예"일 확률을 1에서 뺀 값이므로 결국 필요한 값은 $p_0$, $q_0$ 두 개이다. 
 
  $$
  \begin{aligned}
@@ -109,9 +116,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTkzODcxNSwxMTc5MDcxOTkyLC01ND
-QxNjUwMDksLTEyNDQ2MDA1NDcsODYyOTY3MjE5LC0zMzIxNDk2
-MDcsNDc3Njk3ODA4LC04OTk5MjI3ODgsMTkwOTc1ODI4LC0xNT
-E5ODMzNTU3LC03OTI2MjkwMiwtMTMwNTU0MTA5OCwtNTI4Nzcw
-NTc2XX0=
+eyJoaXN0b3J5IjpbNTM2MTM5MjY1LDExNzkwNzE5OTIsLTU0ND
+E2NTAwOSwtMTI0NDYwMDU0Nyw4NjI5NjcyMTksLTMzMjE0OTYw
+Nyw0Nzc2OTc4MDgsLTg5OTkyMjc4OCwxOTA5NzU4MjgsLTE1MT
+k4MzM1NTcsLTc5MjYyOTAyLC0xMzA1NTQxMDk4LC01Mjg3NzA1
+NzZdfQ==
 -->
