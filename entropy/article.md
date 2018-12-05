@@ -71,21 +71,21 @@ $$
 <img src="https://github.com/anarinsk/public_writing/raw/master/entropy/imgs/data.png" width=500>
 </kbd></p>
 <br>
-위와 같은 학습 자료가 주어졌다고 하자. 예측하고 싶은 목표 대상은 테니스는 칠 것인지 말 것인지의 여부(PLAY?)다. Feature 통한 분류를 거치지 않았을 때 학습 자료 전체의 엔트로피는 다음과 같다. 전체에서 플레이를 한 횟수는 9번 하지 않은 횟수는 5번이다. 
+위와 같은 학습 자료가 주어졌다고 하자. 예측하고 싶은 목표 대상은 테니스는 칠 것인지 말 것인지의 여부(PLAY?)다. Feature 통한 분류를 거치지 않았을 때 학습 자료 전체의 엔트로피는 다음과 같다. 전체에서 플레이를 한 횟수는 9번 하지 않은 횟수는 5번이다. 즉. 
 
 $$
-\lbrace \text{No, No, Yes, Yes, Yes, , No, Yes, , No, Yes, Yes, Yes, Yes, Yes, No} \rblace
+S \equiv \left\lbrace \text{No, No, Yes, Yes, Yes, , No, Yes, , No, Yes, Yes, Yes, Yes, Yes, No} \right\rbrace
 $$
 
 
 
-이  엔트로피는 다음과 같다. 
+$S$의 엔트로피는 다음과 같다. 
 
 $$
 e(S) = -(\dfrac{9}{14} \log_2 \frac{9}{14} + \dfrac{5}{14} \log_2 \frac{5}{14} ) = 0.94
 $$
 
-이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 날씨(outlook)라는 하나의 feature에 대해서만 계산하도록 하겠다. 나머지 feature에 대해서는 각자 연습해보시기 바란다. Outlook(날씨) feature가 지닌 속성은 "Sunny", "Overcast", "Rain" 세 가지다. 이 각각의 속성에 대한 $e(S_v)$는 다음 다.  
+이제 위의 자료에서 주어진 feature를 활용해서 IG를 구해보도록 하자. 여기서는 참고로 Outlook(s라는 하나의 feature에 대해서만 계산하도록 하겠다. 나머지 feature에 대해서는 각자 연습해보시기 바란다. Outlook(날씨) feature가 지닌 속성은 "Sunny", "Overcast", "Rain" 세 가지다. 이 각각의 속성에 대한 $e(S_v)$는 다음 다.  
 
 $$
 \begin{aligned}
@@ -121,7 +121,7 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQzNzUxMzgsMTE3OTA3MTk5MiwtNT
+eyJoaXN0b3J5IjpbLTE0ODkxNjE4ODAsMTE3OTA3MTk5MiwtNT
 Q0MTY1MDA5LC0xMjQ0NjAwNTQ3LDg2Mjk2NzIxOSwtMzMyMTQ5
 NjA3LDQ3NzY5NzgwOCwtODk5OTIyNzg4LDE5MDk3NTgyOCwtMT
 UxOTgzMzU1NywtNzkyNjI5MDIsLTEzMDU1NDEwOTgsLTUyODc3
