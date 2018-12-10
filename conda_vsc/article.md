@@ -211,22 +211,13 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:
 :feet:
-:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)겠다는 명령어다.
-
-다음으로 환경을 설치해야 한다. 
-
-``
-
-이렇게 설치된 환경은 윈도우 기준으로 ... 에 설치되어 있다. 
-
-다음으로 환경으로 진입해야 한다. 
-그리고 원하는 패키지를 깔면 된다. 
-
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMz
-Q5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1NjE1NjA0
-ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQxMSwzMT
-E3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NCw3NTI4ODIy
-NzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMzcyOTI0NjE2LC
-01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5ODA2ODExNl19
+eyJoaXN0b3J5IjpbLTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMj
+g4NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4
+OTAsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMT
+E5MTc4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3
+ODQ4NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5Ny
+wxMzcyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5
+ODA2ODExNl19
 -->
