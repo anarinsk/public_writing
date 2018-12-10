@@ -1,3 +1,8 @@
+**Causality part 1**
+
+2018-12-10
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
+
 # 도대체 인과관계란 무엇인가? 
 
 "상관관계와 인과관계가 다르다," 는 말은 이 업계에서 너무 흔하다. "Orange is new black"과 비슷한 느낌이랄까? 둘은 다루죠? 그렇죠? 솔직히 이렇게 말하는 분들 보면 멱살이라도 잡고 묻고 싶은 심정이다. 인과관계는 뭐죠? 둘이 다르다고 강조하는 분들 중에서 정작 인과관계를 명확하게 정의하는 분들은 드물다. 
@@ -51,5 +56,5 @@ $$
 이런 상황을 구원해주는 것이 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 등호로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄까? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODczNzMwNl19
+eyJoaXN0b3J5IjpbOTYyODk5MTY0LDExNjg3MzczMDZdfQ==
 -->
