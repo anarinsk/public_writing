@@ -55,6 +55,12 @@ $$
 
 이런 상황을 구원해주는 것이 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 등호로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄까? 
 
+:feet:
+:feet:
+:feet:
+:feet:
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyODk5MTY0LDExNjg3MzczMDZdfQ==
+eyJoaXN0b3J5IjpbLTE1MzM3MzE3NTksMTE2ODczNzMwNl19
 -->
