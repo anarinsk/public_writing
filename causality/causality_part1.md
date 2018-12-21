@@ -51,13 +51,11 @@ $$
  \end{aligned}
 $$
 
-이러한 근본 문제를 "선택 편의(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 같지 않다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 그렇지 않다. 이왕 이렇게 된 것, 수식으로 좀 더 자세하게 보자. 우리가 일반적으로 효과, 차이 이런 것이라고 측정하는 것은 $E\left[Y$ 
+이러한 근본 문제를 "선택 편의(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 같지 않다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 그렇지 않다. 이왕 이렇게 된 것, 수식으로 좀 더 자세하게 보자. 우리가 일반적으로 효과, 차이 이런 것이라고 측정하는 것은 $E\left[Y^1 | D=1\right] - E\left[Y^0 | D=0\right]$이다. 이를 위에 적은 수식을 염두해두면서 다음과 같이 분해해보자. 
 
 $$
 \begin{aligned}
- E\left[ Y | D=1 \right] = E\left[ Y ^1| D=1 \right] &\neq E[Y^1] \\
- E\left[ Y | D=0 \right] = E\left[ Y ^0| D=0 \right] &\neq E[Y^0] \\
- E\left[ Y | D=1 \right] -  E\left[ Y ^1| D=0 \right] & \neq E[Y^1 - Y^0] = ATE
+ E\left[Y^1 | D=1\right] - E\left[Y^0 | D=0\right] = \left( E\left[Y^1 | D=1\right]  \right) -  E\left[Y^1 | D=1\right]
  \end{aligned}
 $$
 
@@ -71,6 +69,6 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDgwODU5NCwtMTcwMzg3MjU1MiwtNT
-Q5NzUzOTI2LC0xNTMzNzMxNzU5LDExNjg3MzczMDZdfQ==
+eyJoaXN0b3J5IjpbMTg2MjkyNzg4LC0xNzAzODcyNTUyLC01ND
+k3NTM5MjYsLTE1MzM3MzE3NTksMTE2ODczNzMwNl19
 -->
