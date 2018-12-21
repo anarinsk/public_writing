@@ -55,7 +55,8 @@ $$
 
 $$
 \begin{aligned}
- E\left[Y^1 | D=1\right] - E\left[Y^0 | D=0\right] = \left( E\left[Y^1 | D=1\right]  \right) -  E\left[Y^1 | D=1\right]
+ E \left[Y^1 | D=1\right] - E \left[Y^0 | D=0 \right] & = \\
+& \left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right) + \left( E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right] \right) 
  \end{aligned}
 $$
 
@@ -69,6 +70,6 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjkyNzg4LC0xNzAzODcyNTUyLC01ND
-k3NTM5MjYsLTE1MzM3MzE3NTksMTE2ODczNzMwNl19
+eyJoaXN0b3J5IjpbLTE2MDk4MTExNzgsLTE3MDM4NzI1NTIsLT
+U0OTc1MzkyNiwtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX0=
 -->
