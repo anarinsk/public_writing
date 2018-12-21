@@ -61,7 +61,7 @@ $$
  \end{aligned}
 $$
 
-위 식에서 $\left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right)$ 항목은 ATE로 볼 수 있다. 즉, 같은 집단에 대해서 실현된 사실과 반사실을 비교하고 있다. 문제는 두번째 항목이다. $\left( E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right] \right)$, 이 식을 가만히 들여다보자. 이는 처치집단에 속한 사람들이 처치를 받지 않았을 때의 스코어와 처치집단에 들지 못한 사람들의 스코어의 차이다. 예를 들면 쉬울 것이다. 많은 과외를 받은 고3 학생들이 만일 과외를 받지 않았을 받았을 점수와 과외를 받지 않은 학생들의 점수의 차이다. 만일 많은 과외를 받은 학생들이 원래 뛰어난 학생들이라면 그들은 과외를 받지 않았을 때에도 좋은 성적을 거둘 것이다. 즉, 우리는 과외과 고3의 성적에 미친느
+위 식에서 $\left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right)$ 항목은 ATE로 볼 수 있다. 즉, 같은 집단에 대해서 실현된 사실과 반사실을 비교하고 있다. 문제는 두번째 항목이다. $\left( E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right] \right)$, 이 식을 가만히 들여다보자. 이는 처치집단에 속한 사람들이 처치를 받지 않았을 때의 스코어와 처치집단에 들지 못한 사람들의 스코어의 차이다. 예를 들면 쉬울 것이다. 많은 과외를 받은 고3 학생들이 만일 과외를 받지 않았을 받았을 점수와 과외를 받지 않은 학생들의 점수의 차이다. 만일 많은 과외를 받은 학생들이 원래 뛰어난 학생들이라면 그들은 과외를 받지 않았을 때에도 좋은 성적을 거둘 것이다. 즉, 우리는 과외과 고3의 성적에 미치는 영향을 알고 싶은데, 이 두 번째 항목이 관찰에 기반한 비교를 방해한다. 이 악당 노릇을 하는 두 번째 항목을 선택 편향(selection bias)라고 부른다. 즉, 관찰 대상이 알아서 선택한 사항에 대해서는 관찰에만 의지해서는 파악할 수 없다는 뜻을 담고 있다. 
 
 이런 상황을 구원해주는 것이 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 등호로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄까? 
 
@@ -72,6 +72,6 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY4MTkyNDQsLTE3MDM4NzI1NTIsLT
-U0OTc1MzkyNiwtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX0=
+eyJoaXN0b3J5IjpbMTE1NTMxMjk1MCwtMTcwMzg3MjU1MiwtNT
+Q5NzUzOTI2LC0xNTMzNzMxNzU5LDExNjg3MzczMDZdfQ==
 -->
