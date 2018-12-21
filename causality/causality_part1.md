@@ -51,7 +51,16 @@ $$
  \end{aligned}
 $$
 
-이러한 근본 문제를 "선택 편의(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 같지 않다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 그렇지 않다. 
+이러한 근본 문제를 "선택 편의(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 같지 않다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 그렇지 않다. 이왕 이렇게 된 것, 수식으로 좀 더 자세하게 보자. 우리가 일반적으로 효과, 차이 이런 것이라고 측정하는 것은 $E\left[Y$ 
+
+$$
+\begin{aligned}
+ E\left[ Y | D=1 \right] = E\left[ Y ^1| D=1 \right] &\neq E[Y^1] \\
+ E\left[ Y | D=0 \right] = E\left[ Y ^0| D=0 \right] &\neq E[Y^0] \\
+ E\left[ Y | D=1 \right] -  E\left[ Y ^1| D=0 \right] & \neq E[Y^1 - Y^0] = ATE
+ \end{aligned}
+$$
+
 
 이런 상황을 구원해주는 것이 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 등호로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄까? 
 
@@ -62,6 +71,6 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM4NzI1NTIsLTU0OTc1MzkyNiwtMT
-UzMzczMTc1OSwxMTY4NzM3MzA2XX0=
+eyJoaXN0b3J5IjpbLTg3MDgwODU5NCwtMTcwMzg3MjU1MiwtNT
+Q5NzUzOTI2LC0xNTMzNzMxNzU5LDExNjg3MzczMDZdfQ==
 -->
