@@ -56,10 +56,12 @@ $$
 $$
 \begin{aligned}
  E \left[Y^1 | D=1\right] - E \left[Y^0 | D=0 \right] & = \\
-& \left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right) + \left( E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right] \right) 
+& \left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right) + \\
+& \left( E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right] \right) 
  \end{aligned}
 $$
 
+위 식에서 $\left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right)$ 항목은 ATE로 볼 수 있다. 즉, 같은 집단에 대해서 
 
 이런 상황을 구원해주는 것이 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 등호로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄까? 
 
@@ -70,6 +72,6 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk4MTExNzgsLTE3MDM4NzI1NTIsLT
-U0OTc1MzkyNiwtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX0=
+eyJoaXN0b3J5IjpbMjA3MTA0OTUyMCwtMTcwMzg3MjU1MiwtNT
+Q5NzUzOTI2LC0xNTMzNzMxNzU5LDExNjg3MzczMDZdfQ==
 -->
