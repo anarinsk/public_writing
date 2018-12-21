@@ -61,7 +61,7 @@ $$
  \end{aligned}
 $$
 
-위 식에서 $\left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right)$ 항목은 ATE로 볼 수 있다. 즉, 같은 집단에 대해서 
+위 식에서 $\left( E \left[Y^1 | D=1\right]  -  E\left[Y^0 | D=1\right] \right)$ 항목은 ATE로 볼 수 있다. 즉, 같은 집단에 대해서 실현된 사실과 반사실을 비교하고 있다. 문제는 두번째 항목이다. $\left( E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right] \right)$, 이 식을 가만히 들여다보자. 이는 처치집단에 속한 사람들이 처치를 받지 않았을 때의 스코어와 처치집단에 들지 못한 사람들의 효과를 
 
 이런 상황을 구원해주는 것이 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 등호로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄까? 
 
@@ -72,6 +72,6 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTA0OTUyMCwtMTcwMzg3MjU1MiwtNT
-Q5NzUzOTI2LC0xNTMzNzMxNzU5LDExNjg3MzczMDZdfQ==
+eyJoaXN0b3J5IjpbLTE2NTg5NDUyMDQsLTE3MDM4NzI1NTIsLT
+U0OTc1MzkyNiwtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX0=
 -->
