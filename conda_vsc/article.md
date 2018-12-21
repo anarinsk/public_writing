@@ -189,7 +189,9 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 
 ## One more tip
 
-매번 이렇게 환경을 설치해서 쓰기 귀찮을 수 있다. 그렇다면 많이 쓰는 공통 세팅을 하나 만들어 두고 이 녀석을 복사해서 쓰면 되겠다. 앞서 보았듯이 `conda create`.. 명령으로 환경을 복사해서 쓰거나 아니면 그냥 폴더/디렉토리로 들어가서 내용을 복사한 뒤 이름을 바꾸면 된다. 실은 나도 그렇게 쓰고 있다. 
+매번 이렇게 환경을 설치해서 쓰기 귀찮을 수 있다. 그렇다면 많이 쓰는 공통 세팅을 하나 만들어 두고 이 녀석을 복사해서 쓰면 되겠다. 앞서 보았듯이 `conda create`.. 명령으로 환경을 복사해서 쓰거나 아니면 그냥 폴더/디렉토리로 들어가서 내용을 복사한 뒤 이름을 바꾸면 된다. 실은 나도 그렇게 쓰고 있다.[^1]
+
+[^1]: 
 
 아울러 코드를 배포할 일이 있을 때 실행 환경을 담보해야 할 것이다. 이럴 때는 yml을 쓰면 좋다. 
 
@@ -213,11 +215,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMj
-g4NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4
-OTAsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMT
-E5MTc4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3
-ODQ4NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5Ny
-wxMzcyOTI0NjE2LC01OTM0MjQzMTMsMjExOTA0MjczOCwtMTc5
-ODA2ODExNl19
+eyJoaXN0b3J5IjpbMTM0MTQ5MDY5OCwtMTg3OTA4NDY1MiwtOT
+k5MTgzOTQ5LDEyODg2NjA2MDEsMjEzNDk2NjI4MywxODkzMzUz
+MzQ2LDU0NTMxMjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1MTAyLD
+M1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNzk3MzQy
+MzI2LC0xMDE4Mzc4NDg0LDc1Mjg4MjI3OSwtMjMwMjI4MzYzLC
+0xNjczNjM5Njk3LDEzNzI5MjQ2MTYsLTU5MzQyNDMxMywyMTE5
+MDQyNzM4XX0=
 -->
