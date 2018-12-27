@@ -86,6 +86,7 @@ $$
 E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right] =0
 $$
 
+즉, 인강을 들을 집단과 듣지 않은 집단이 같은 모집단에서 무작위적으로 추출되었다면, 둘은 기본적으로 같은 집단이다. 그리고 이 집단이 인강을 듣지 않았을 때 
 쉽게 말해 RCT가 선택 편의를 제거하는 셈이다. 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄 수 있을까? 
 
 :feet:
@@ -95,7 +96,7 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjkwODI1NCw5NjIwNTI1MzAsLTEwOD
+eyJoaXN0b3J5IjpbLTEwMTU5Mzc5Myw5NjIwNTI1MzAsLTEwOD
 UyOTQwNDEsLTEwOTk5NTIxODIsLTE3MTMzMTkyMiwtMTE5ODM3
 NzE0NywtNDk3MzkzMjIwLC0xNTY3OTIwMDcxLC00Njk4OTA3OT
 AsNzEwNzkxMzYxLDE4NzY0ODc4MDcsLTE3MDM4NzI1NTIsLTU0
