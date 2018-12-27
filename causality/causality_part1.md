@@ -78,7 +78,7 @@ $$
 * $E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right]$
 이는 처치군에 속한 사람들이 처치를 받지 않았을 때의 스코어와 처치에 들지 못한 사람들의 스코어의 차이다. 이 항목이 선택 편향(selection bias)다. 
 
-편향 효과의 사례를 통해 살펴보자. 지금 검증하고 싶은 인과관계는 인강을 듣는 것이 고3 학생의 점수가 높이는지 여부이다. 이때 선택 편향은 인강을 수강한 고3 학생들이 인강을 듣지 않았을 때 받았을 평균 점수와 인강을 듣지 않은 학생들의 평균 점수의 차이다. 만일 인간을 들은 학생들이 원래 공부에 관심이 많은 학생들이라면 그? 이 학생들은 인강을 듣지 않았다 하더라어도 괜찮은 성적을 거둘 것이다. 즉, 우리는 인간인강이 고3의 성적에 미치는 영향을 알고 싶은데, 이 편향 효과가 순수한선택 편의가 데이터 관찰에 기반한 비교를 방해한다. 관찰 대상이 알아서 선택한 무엇(공부에 관심이 많은 학생이 인강도 듣는다!)이 관찰에 포함될 때 관찰에만 의지해서는 인과관계를 파악할 수 없다는 뜻이다. 
+편향 효과의 사례를 통해 살펴보자. 지금 검증하고 싶은 인과관계는 인강을 듣는 것이 고3 학생의 점수가 높이는지 여부이다. 이때 선택 편향은 인강을 수강한 고3 학생들이 인강을 듣지 않았을 때 받았을 평균 점수와 인강을 듣지 않은 학생들의 평균 점수의 차이다. 만일 인강을 들은 학생들이 원래 공부에 관심이 많은 학생들이라면? 이 학생들은 인강이 없더라도 괜찮은 성적을 거둘 것이다. 즉, 우리는 인강이 고3의 성적에 미치는 영향을 알고 싶은데, 이 편향 효과가 단순한 데이터 관찰에 기반한 비교를 방해한다. 관찰 대상이 알아서 선택한 무엇(공부에 관심이 많은 학생이 인강도 듣는다!)이 관찰에 포함될 때 관찰에만 의지해서는 인과관계를 파악할 수 없다는 뜻이다. 
 
 이런 상황에서 인과관계를 구원하는 존재가 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 등호로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄까? 
 
@@ -89,9 +89,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDc5NzA3NiwtMTA5OTk1MjE4MiwtMT
-cxMzMxOTIyLC0xMTk4Mzc3MTQ3LC00OTczOTMyMjAsLTE1Njc5
-MjAwNzEsLTQ2OTg5MDc5MCw3MTA3OTEzNjEsMTg3NjQ4NzgwNy
-wtMTcwMzg3MjU1MiwtNTQ5NzUzOTI2LC0xNTMzNzMxNzU5LDEx
-Njg3MzczMDZdfQ==
+eyJoaXN0b3J5IjpbMjkxMDM4MzcxLC0xMDk5OTUyMTgyLC0xNz
+EzMzE5MjIsLTExOTgzNzcxNDcsLTQ5NzM5MzIyMCwtMTU2Nzky
+MDA3MSwtNDY5ODkwNzkwLDcxMDc5MTM2MSwxODc2NDg3ODA3LC
+0xNzAzODcyNTUyLC01NDk3NTM5MjYsLTE1MzM3MzE3NTksMTE2
+ODczNzMwNl19
 -->
