@@ -13,7 +13,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # 인과관계의 정의
 
-일단 인과관계라는 게 꽤 과학적인 용어인 듯 싶지만, 순수 통계 이론에서는 없는 개념이다. 통계 이론에서는 오직 불확실성을 지닌 사건들의 결합 분포(joint distribution)만이 존재할 뿐이다. 그렇다면 자연 과학에서 이야기하는 인과성이란 무엇인가? 자연과학의 인과성은 (좁은 의미의) 재현성(reproducibility)과 관련되어 있다. 어떤 실험을 동일한 조건에서 반복해서 수행할 수 있어야 한다. 그래서 내가 측정하고자 하는 결과가 같은 조건이라면 동일한 값이 나와야 한다. 이런 재현성이 보장된다면, 다른 모든 것을 동일하게 유지하고 단 하나의 실험 조건을 바꿀 때 이 변화가 가져올 결과를 기대할 수 있다. 인과관계란 재현성이 충족 될 때 하나 하나의 실험 조건을 변화시켰을 때 이것이 낳는 결과를 뜻한다. 
+일단 인과관계라는 게 꽤 과학적인 용어인 듯 싶지만, 순수 통계 이론에서는 없는 개념이다. 통계 이론에서는 오직 불확실성을 지닌 사건들의 결합 분포(joint distribution)만이 존재할 뿐이다. 그렇다면 자연 과학에서 이야기하는 인과성이란 무엇인가? 자연과학의 인과성은 (좁은 의미의) 재현성(reproducibility)과 관련되어 있다. 정당한 실험은 동일한 조건에서 반복해서 수행할 수 있어야 한다. 그래서 같은 조건이라면 동일한 결과를 얻어야 한다. 이런 재현성이 보장된다면, 다른 모든 것을 동일하게 유지하고 단 하나의 실험 조건을 바꿀 때 이 변화가 가져올 결과를 파악할 수 있다. 인과관계란 재현성이 충족 될 때 하나 하나의 실험 조건을 변화시켰을 때 이것이 낳는 결과를 뜻한다. 
 
 사회적 현상, 사건의 영역에서 인과관계란 무엇일까? 사실 대부분의 사회적 현상은 근본적으로 재현이 불가능하다. 2002년 월드컵 4강 신화가 히딩크 감독 때문인지 아닌지 어떻게 알 수 있을까? 만일 타임머신이 있다면 현재 시점에서 2002년 히딩크가 부임하는 시점으로 거슬러 올라가, 어떤 영화적인 방법을 써서 그의 부임을 막는다고 하자. 그렇다면 이로부터 분기한 얼터너티브 유니버스에서 한국 월드컵 대표팀에게 벌어지는 일을 관찰하면 우리는 자연과학의 인과성을 얻게 될 것이다.  물론 이러한 관찰이 가능하기 위해서는 얼터너티브 유니버스 사이의 여행도 가능해야 하고, 나의 여행이 각 유니버스의 결과에 영화을 주어서는 안될 것이다(불확정성의 원리!). 헛소리는 이쯤에서 집어치우겠다. 
 
@@ -82,8 +82,8 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMzMTkyMiwtMTE5ODM3NzE0NywtND
-k3MzkzMjIwLC0xNTY3OTIwMDcxLC00Njk4OTA3OTAsNzEwNzkx
-MzYxLDE4NzY0ODc4MDcsLTE3MDM4NzI1NTIsLTU0OTc1MzkyNi
-wtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX0=
+eyJoaXN0b3J5IjpbLTY5MzU2MzYsLTE3MTMzMTkyMiwtMTE5OD
+M3NzE0NywtNDk3MzkzMjIwLC0xNTY3OTIwMDcxLC00Njk4OTA3
+OTAsNzEwNzkxMzYxLDE4NzY0ODc4MDcsLTE3MDM4NzI1NTIsLT
+U0OTc1MzkyNiwtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX0=
 -->
