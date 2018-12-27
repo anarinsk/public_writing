@@ -17,7 +17,9 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 사회적 현상, 사건의 영역에서 인과관계란 무엇일까? 사실 대부분의 사회적 현상은 근본적으로 재현이 불가능하다. 2002년 월드컵 4강 신화가 히딩크 감독 때문인지 아닌지 어떻게 알 수 있을까? 만일 타임머신이 있다면 현재 시점에서 2002년 히딩크가 부임하는 시점으로 거슬러 올라가, 어떤 방법을 써서 그의 감독 부임을 막을 수 있다고 하자. 여기서 분기한 얼터너티브 유니버스에서 한국 월드컵 대표팀에게 벌어지는 일을 관찰하면 우리는 자연과학적 의미의 인과성을 얻게 될 것이다.  물론 이러한 관찰이 가능하기 위해서는 얼터너티브 유니버스 사이의 여행도 가능해야 하고, 나의 여행이 각 유니버스가 낳을 결과에 영향을 주어서는 안될 것이다(불확정성의 원리!). 헛소리는 이쯤에서 접도록 하자. 
 
-결국 사회적 현상에서 재현성은 기본적으로 달성하기 힘들다. 그래서 과학자들이 재현성을 구현할 수 있는 가장 비슷한 조건을 고민했다. 집단으로 구별된 실험 대상에서 관심 변수의 기대값이 동일하다면 최소한의 실험 조건은 갖춘 셈이다. 즉, 완전히 동일한 재현은 불가능하지만 A와 B라는 두 개의 표본 집단이 있다고 할 때 인과에서 '과'에 해당하는 변수의 기대값을 얼추 맞추는 것이다. 이게 바로 무작위 실험이다. 즉, 두 개의 집단이 모집단에서 무작위로 뽑혔다고 두 집단은 차이가 없는 집단이라고 생각할 수 있다는 것이다. 이 상황에서 A 집단에는 아무 조치를 취하지 않고 B집단에 어떤 조치를 취할 경우, A를 대조군(control group), B를 처치군(treatement group)이라고 부른다. 무작위 실험을 통해 두 집단이 얼추 비슷하다고 가정할 수 있으므로 A와 B 사이의 차이가 있다면 이를 처치 유무에서 통계학적으로 판단할 수 있다. 이러한 방법론에 입각한 유사-실험연구(quasi experiments)를 통칭해서 RCT(Randomized control trial)이라고 부르기도 한다. 
+결국 사회적 현상에서 재현성은 기본적으로 달성하기 힘들다. 그래서 과학자들이 재현성을 구현할 수 있는 가장 비슷한 조건을 고민했다. 집단으로 구별된 실험 대상에서 관심 변수의 기대값이 동일하다면 최소한의 실험 조건은 갖춘 셈이다. 즉, 완전히 동일한 재현은 불가능하지만 A와 B라는 두 개의 표본 집단이 있다고 할 때 인과에서 '과'에 해당하는 변수의 기대값을 얼추 맞추자는 것이다. 
+
+이게 바로 무작위 실험(random trial)이다. 두 개의 표본 집단이 어떤 모 집단에서 무작위로 뽑혔다면 두 표본은 기본적으로 같다. 이 상황에서 A 집단에는 아무 조치를 취하지 않고 B집단에 어떤 조치를 취할 경우, A를 대조군(control group), B를 처치군(treatement group)이라고 부른다. 무작위 실험을 통해 두 집단이 얼추 비슷하다고 가정할 수 있으므로 A와 B 사이의 차이가 있다면 이를 처치 유무에서 통계학적으로 판단할 수 있다. 이러한 방법론에 입각한 유사-실험연구(quasi experiments)를 통칭해서 RCT(Randomized control trial)이라고 부르기도 한다. 
 
 이제 더 안 좋은 상황을 가정해보자. 관심 모집단에서 두 집단을 선택해 실험을 할 수 있다면 이것 역시 행복한 경우다. 예를 들어, 대입에서 학종의 비율이 얼마나 되어야 할까, 가 현재의 관심 사항이다. RCT의 방법론을 따른다면, 무작위로 고3 수험생을 1,000 정도씩 5집단을 골라서 각각 학종비율을 30%, 40%, 50%, 60%, 70%로 대학 진학을 실험해본다. 그리고 한 10년 쯤 지난 후 이 학생들의 이력을 보면서 어떤 학종 비율이 가장 "좋았는지"(좋다에 관한 정의에 따라 "과"가 달라질 것이므로 별도로 특정해 언급하지는 않겠다)를 판단할 수 있을 것이다. 역시 얼터너티브 유니버스 만큼이나 말이 안된다! 사실 대부분의 사회적 현상에서 RCT가 가능하지 않다. 그렇다면 우리를 인과관계의 저주에서 구해줄 것은 없다는 말인가? 
 
@@ -82,9 +84,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk5NTIxODIsLTE3MTMzMTkyMiwtMT
-E5ODM3NzE0NywtNDk3MzkzMjIwLC0xNTY3OTIwMDcxLC00Njk4
-OTA3OTAsNzEwNzkxMzYxLDE4NzY0ODc4MDcsLTE3MDM4NzI1NT
-IsLTU0OTc1MzkyNiwtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX0=
-
+eyJoaXN0b3J5IjpbNzgwOTcxMDc2LC0xMDk5OTUyMTgyLC0xNz
+EzMzE5MjIsLTExOTgzNzcxNDcsLTQ5NzM5MzIyMCwtMTU2Nzky
+MDA3MSwtNDY5ODkwNzkwLDcxMDc5MTM2MSwxODc2NDg3ODA3LC
+0xNzAzODcyNTUyLC01NDk3NTM5MjYsLTE1MzM3MzE3NTksMTE2
+ODczNzMwNl19
 -->
