@@ -57,7 +57,7 @@ $$
  \end{aligned}
 $$
 
-이러한 근본 문제를 "선택 편향(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 일반적으로 같을 수 없다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 아니다. 
+이러한 근본 문제를 "선택 편의(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 일반적으로 같을 수 없다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 아니다. 
 
 수식으로 좀 더 자세하게 보자. 우리가 효과 혹은 차이라고 흔히 측정하게 되는 것은 $E\left[Y^1 | D=1\right] - E\left[Y^0 | D=0\right]$이다. 이를 위에 적은 수식을 고려하면서 아래처럼 분해해보자. 
 
@@ -76,9 +76,9 @@ $$
 이 항목은 ATE로 볼 수 있다. 즉, 같은 집단에 대해서 실현된 사실과 반사실을 비교하고 있다.
 
 * $E\left[Y^0 | D=1\right] - E \left[Y^0 | D=0\right]$
-이는 처치군에 속한 사람들이 처치를 받지 않았을 때의 스코어와 처치에 들지 못한 사람들의 스코어의 차이다. 이 항목이 선택 편향(selection bias)다. 
+이는 처치군에 속한 사람들이 처치를 받지 않았을 때의 스코어와 처치에 들지 못한 사람들의 스코어의 차이다. 이 항목이 선택 편의다. 
 
-편향 효과의 사례를 통해 살펴보자. 지금 검증하고 싶은 인과관계는 인강을 듣는 것이 고3 학생의 점수가 높이는지 여부이다. 이때 선택 편향은 인강을 수강한 고3 학생들이 인강을 듣지 않았을 때 받았을 평균 점수와 인강을 듣지 않은 학생들의 평균 점수의 차이다. 만일 인강을 들은 학생들이 원래 공부에 관심이 많은 학생들이라면? 이 학생들은 인강이 없더라도 괜찮은 성적을 거둘 것이다. 즉, 우리는 인강이 고3의 성적에 미치는 영향을 알고 싶은데, 이 편향 효과가 단순한 데이터 관찰에 기반한 비교를 방해한다. 관찰 대상이 알아서 선택한 무엇(공부에 관심이 많은 학생이 인강도 듣는다!)이 관찰에 포함될 때 관찰에만 의지해서는 인과관계를 알 수 없다.  
+편의 효과의 사례를 통해 살펴보자. 지금 검증하고 싶은 인과관계는 인강을 듣는 것이 고3 학생의 점수가 높이는지 여부이다. 이때 선택 편의는 인강을 수강한 고3 학생들이 인강을 듣지 않았을 때 받았을 평균 점수와 인강을 듣지 않은 학생들의 평균 점수의 차이다. 만일 인강을 들은 학생들이 원래 공부에 관심이 많은 학생들이라면? 이 학생들은 인강이 없더라도 괜찮은 성적을 거둘 것이다. 즉, 우리는 인강이 고3의 성적에 미치는 영향을 알고 싶은데, 이 편의 효과가 단순한 데이터 관찰에 기반한 비교를 방해한다. 관찰 대상이 알아서 선택한 무엇(공부에 관심이 많은 학생이 인강도 듣는다!)이 관찰에 포함될 때 관찰에만 의지해서는 인과관계를 알 수 없다.  
 
 이런 상황에서 인과관계를 구원하는 존재가 무작위화(randomization)다. 만일 $D$를 개체의 자발적인 혹은 무의식적인 선택이 아니라 관찰자가 임의로 할당할 수 있다면, 앞서 살펴 봤던 $\neq$를 전부 $=$로 만들 수 있다! 하지만 무작위화가 불가능하다면 무엇이 우리를 구원해줄 수 있을까? 
 
@@ -89,9 +89,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUyOTQwNDEsLTEwOTk5NTIxODIsLT
-E3MTMzMTkyMiwtMTE5ODM3NzE0NywtNDk3MzkzMjIwLC0xNTY3
-OTIwMDcxLC00Njk4OTA3OTAsNzEwNzkxMzYxLDE4NzY0ODc4MD
-csLTE3MDM4NzI1NTIsLTU0OTc1MzkyNiwtMTUzMzczMTc1OSwx
-MTY4NzM3MzA2XX0=
+eyJoaXN0b3J5IjpbOTYyMDUyNTMwLC0xMDg1Mjk0MDQxLC0xMD
+k5OTUyMTgyLC0xNzEzMzE5MjIsLTExOTgzNzcxNDcsLTQ5NzM5
+MzIyMCwtMTU2NzkyMDA3MSwtNDY5ODkwNzkwLDcxMDc5MTM2MS
+wxODc2NDg3ODA3LC0xNzAzODcyNTUyLC01NDk3NTM5MjYsLTE1
+MzM3MzE3NTksMTE2ODczNzMwNl19
 -->
