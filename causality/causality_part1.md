@@ -29,9 +29,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 앞서 이야기했던 유사-실험 연구의 내용을 약간의 수식으로 다시 표현해보겠다. 특별히 어려운 것이므로 미리 겁먹을 필요는 없다. 수식을 굳이 쓰는 이유는 이렇게 해두어야 사고가 명료해지기 때문이다. 적어도 필자는 그렇다. 
 
-앞서 말했던 처치($D$)가 0과 1로 구별된다고 하자. 즉, $D=0$ or $D=1$ 이고 편의상 $D=$
-
-관찰 대상 $i$에 대해서, 만일 이 대상이 $D=0$였다면  그 결과는 $Y_i^0$가 된다. 마찬가지로 $D=1$이었다면 $Y_i^1$ 이 된다. 이 대상에 관한 처치 효과는 다음과 같다. 
+앞서 말했던 처치($D$)가 0과 1로 구별된다고 하자. 즉, $D=0$ or $D=1$ 이고 편의상 $D=1$ 이 어떤 처치가 가해진 상태라고 하자. 관찰 대상 $i$가 있을 때 이 대상이 $D=0$였다면  그 결과는 $Y_i^0$가 된다. 마찬가지로 $D=1$이었다면 $Y_i^1$ 이 된다. 이 대상에 관한 이론적인 처치 효과는 다음과 같다. 
 
 $$
 Y_i^1 - Y_i^0
@@ -43,7 +41,7 @@ $$
 ATE = E \left[ Y^1 - Y^0 \right]
 $$
 
-앞서 말해듯이 이상적인 상황에서는 같은 개체에 대해서 1도 해보고 0도 해보고 할 수 있다. 즉, 자연과학적 의미의 실험 상황이다. 하지만 많은 사회적 현실에서는 그것이 불가능하고 어느 한쪽만 보게 된다. 
+앞서 보았듯이 이상적인 실험 상황에서는 같은 개체에 대해서 1도 해보고 0도 해보고 할 수 있다. 즉, 자연과학적 의미의 실험 상황에서는 이것이 가능하다. 하지만 많은 사회적 현실에서는 그것이 불가능하고 어느 한쪽만을 관찰하게 된다. 
 
 $$
 Y = D \cdot Y^1 + (1-D) \cdot Y^0
@@ -88,9 +86,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4Mjk2Mjk1LC0xMDk5OTUyMTgyLC0xNz
-EzMzE5MjIsLTExOTgzNzcxNDcsLTQ5NzM5MzIyMCwtMTU2Nzky
-MDA3MSwtNDY5ODkwNzkwLDcxMDc5MTM2MSwxODc2NDg3ODA3LC
-0xNzAzODcyNTUyLC01NDk3NTM5MjYsLTE1MzM3MzE3NTksMTE2
-ODczNzMwNl19
+eyJoaXN0b3J5IjpbNjYzMDcxMiwtMTA5OTk1MjE4MiwtMTcxMz
+MxOTIyLC0xMTk4Mzc3MTQ3LC00OTczOTMyMjAsLTE1Njc5MjAw
+NzEsLTQ2OTg5MDc5MCw3MTA3OTEzNjEsMTg3NjQ4NzgwNywtMT
+cwMzg3MjU1MiwtNTQ5NzUzOTI2LC0xNTMzNzMxNzU5LDExNjg3
+MzczMDZdfQ==
 -->
