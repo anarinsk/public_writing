@@ -47,7 +47,7 @@ $$
 Y = D \cdot Y^1 + (1-D) \cdot Y^0
 $$
 
-만일 우리가 각각의 $D$들만 모아서 기댓값을 구했다고 하자. 
+즉, $D=1$이든 $D=0$이든 그 $Y$만을 보게 된다. 이러한 상황에서 우리가 각각의 $D$들만 모아서 기댓값을 구했다고 하자. 
 
 $$
 \begin{aligned}
@@ -86,9 +86,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMDcxMiwtMTA5OTk1MjE4MiwtMTcxMz
-MxOTIyLC0xMTk4Mzc3MTQ3LC00OTczOTMyMjAsLTE1Njc5MjAw
-NzEsLTQ2OTg5MDc5MCw3MTA3OTEzNjEsMTg3NjQ4NzgwNywtMT
-cwMzg3MjU1MiwtNTQ5NzUzOTI2LC0xNTMzNzMxNzU5LDExNjg3
-MzczMDZdfQ==
+eyJoaXN0b3J5IjpbMzAwMDA5NzIzLC0xMDk5OTUyMTgyLC0xNz
+EzMzE5MjIsLTExOTgzNzcxNDcsLTQ5NzM5MzIyMCwtMTU2Nzky
+MDA3MSwtNDY5ODkwNzkwLDcxMDc5MTM2MSwxODc2NDg3ODA3LC
+0xNzAzODcyNTUyLC01NDk3NTM5MjYsLTE1MzM3MzE3NTksMTE2
+ODczNzMwNl19
 -->
