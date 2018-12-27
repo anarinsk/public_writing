@@ -57,7 +57,9 @@ $$
  \end{aligned}
 $$
 
-이러한 근본 문제를 "선택 편의(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 같지 않다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 그렇지 않다. 이왕 이렇게 된 것, 수식으로 좀 더 자세하게 보자. 우리가 일반적으로 효과, 차이 이런 것이라고 측정하는 것은 $E\left[Y^1 | D=1\right] - E\left[Y^0 | D=0\right]$이다. 이를 위에 적은 수식을 염두해두면서 다음과 같이 분해해보자. 
+이러한 근본 문제를 "선택 편의(selection bias)"라고 부른다. 즉, 같은 개체에 대해서 두 개의 상황을 모두 겪게 한 차이와 원래 그렇게 선택한 집단만 모아서 평균을 낸 값은 일반적으로 같을 수 없다. 전자는 이른바 반사실(counterfactual)를 고려한, 즉 이상적인 실험 조건을 충족하는 상황이고 후자는 아니다. 
+
+수식으로 좀 더 자세하게 보자. 우리가 효과 혹은 차이라고 흔히 측정하게 되는 것은 $E\left[Y^1 | D=1\right] - E\left[Y^0 | D=0\right]$이다. 이를 위에 적은 수식을 고려하면서 다음과 같이 분해해보자. 
 
 $$
 \begin{aligned}
@@ -86,9 +88,9 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwMDA5NzIzLC0xMDk5OTUyMTgyLC0xNz
-EzMzE5MjIsLTExOTgzNzcxNDcsLTQ5NzM5MzIyMCwtMTU2Nzky
-MDA3MSwtNDY5ODkwNzkwLDcxMDc5MTM2MSwxODc2NDg3ODA3LC
-0xNzAzODcyNTUyLC01NDk3NTM5MjYsLTE1MzM3MzE3NTksMTE2
-ODczNzMwNl19
+eyJoaXN0b3J5IjpbMTU1OTYzODA5NSwtMTA5OTk1MjE4MiwtMT
+cxMzMxOTIyLC0xMTk4Mzc3MTQ3LC00OTczOTMyMjAsLTE1Njc5
+MjAwNzEsLTQ2OTg5MDc5MCw3MTA3OTEzNjEsMTg3NjQ4NzgwNy
+wtMTcwMzg3MjU1MiwtNTQ5NzUzOTI2LC0xNTMzNzMxNzU5LDEx
+Njg3MzczMDZdfQ==
 -->
