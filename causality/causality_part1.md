@@ -21,7 +21,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 이게 바로 무작위 실험(random trial)이다. 두 개의 표본 집단이 어떤 모 집단에서 무작위로 뽑혔다면 두 표본은 기본적으로 같다. 이 상황에서 A 집단에는 아무 조치를 취하지 않고 B집단에 어떤 조치를 취할 경우, A를 대조군(control group), B를 처치군(treatement group)이라고 부른다. 무작위 실험을 통해 두 집단이 같다고 간주할 수 있으므로 A와 B 사이의 차이가 있다면 이를 처치의 효과라고 통계학적으로 볼 수 있다. 이러한 방법론에 입각한 유사-실험 연구(quasi experiments)를 통칭해서 RCT(Randomized control trial)이라고 부른다. 
 
-이제 한층 안 좋은 상황을 가정해보자. 관심 모 집단에서 두 표본 집단을 선택해 실험을 할 수 있다는 것 역시 무척 행복한 경우다. 예를 들어, 대입에서 학종의 비율이 얼마나 되어야 할까, 가 현재의 관심 사항이다. RCT의 방법론을 따른다면, 무작위로 고3 수험생을 1,000 정도씩 5집단을 골라서 각각 학종비율을 30%, 40%, 50%, 60%, 70%로 대학 진학을 실험해본다. 그리고 한 10년 쯤 지난 후 이 학생들의 이력을 보면서 어떤 학종 비율이 가장 "좋았는지"(좋다에 관한 정의에 따라 "과"가 달라질 것이므로 별도로 특정해 언급하지는 않겠다)를 판단할 수 있을 것이다. 역시 얼터너티브 유니버스 만큼이나 말이 안된다! 사실 대부분의 사회적 현상에서 RCT가 가능하지 않다. 그렇다면 우리를 인과관계의 저주에서 구해줄 것은 없다는 말인가? 
+이제 한층 안 좋은 상황을 가정해보자. 관심 모 집단에서 두 표본 집단을 선택해 실험을 할 수 있다는 것 역시 무척 행복한 경우다. 예를 들어, 대입에서 학종의 비율이 얼마나 되어야 할까, 가 연구의 관심 사항이다. RCT의 방법론을 따른다면, 무작위로 고등학생에 입학하는 학생들 1,000 정도씩 5개 정도의 표본으로 골라서 각각 학종비율을 30%, 40%, 50%, 60%, 70%로 정해 이들의 대학 진학을 실험해본다. 그리고 대학 졸업 후 한 10년 쯤 지난 후 이 학생들의 이력을 보면서 어떤 학종 비율이 가장 "괜찮았는지"를 판단할 수 있을 것이다. 역시 얼터너티브 유니버스 만큼이나 말이 안된다! 사실 대부분의 사회적 현상에서 RCT가 가능하지 않다. 그렇다면 우리를 인과관계의 저주에서 구해줄 것은 없다는 말인가? 
 
 # 약간 수학적인 정의 
 
@@ -84,7 +84,7 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDg4NjExNSwtMTA5OTk1MjE4MiwtMT
+eyJoaXN0b3J5IjpbMTU3OTE5MjYzOSwtMTA5OTk1MjE4MiwtMT
 cxMzMxOTIyLC0xMTk4Mzc3MTQ3LC00OTczOTMyMjAsLTE1Njc5
 MjAwNzEsLTQ2OTg5MDc5MCw3MTA3OTEzNjEsMTg3NjQ4NzgwNy
 wtMTcwMzg3MjU1MiwtNTQ5NzUzOTI2LC0xNTMzNzMxNzU5LDEx
