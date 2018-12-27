@@ -7,7 +7,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 "상관관계와 인과관계는 다르다," 는 말은 이 업계에서 너무 흔하게 들을 수 있다. "Orange is new black"과 비슷한 느낌이랄까? 둘은 다르잖아요! 그렇죠? 
 
-솔직히 이렇게 말하는 분들 보면 멱살이라도 잡고 묻고 싶은 심정이다. 인과관계는 뭐죠? 둘이 서로 다르다고 강조하는 분들 중에서 정작 인과관계를 명확하게 정의하거나 설명하는 분들은 드물다.
+솔직히 이렇게 말하는 분들 보면 바지자락을 잡고 이렇게 묻고 싶다. 그래서 인과관계는 뭡니까? 둘이 서로 다르다고 강조하는 분들 중에서 정작 인과관계를 명확하게 정의하거나 설명하는 분들은 드물다.
 
 사실 인과관계라는 말 자체가 다소 모호하다. 말 그대로 풀면 원인과 결과라는 말인데, 생각해보면 다소 사후 정당화를 당한 것 같은 기분이 든다. 요즘 언론 기사에서 "방탄 소년단의 성공 요인" 류를 많이 접하게 된다. 방탄이 왜 세계적인 성공을 거두었는가? 방탄의 성공을 결과라고 놓고 원인이 무엇인지를 (감히?) 진단하겠다는 것이다. 누구나 원인이라고 주장은 할 수 있다. 하지만 그것이 (적어도 그럴듯한 수준에서) 원인인지 어떻게 아는가? 다시 말하면 주장하는 그 원인이 상관관계가 아닌지 어떻게 알 수 있을까? 원인이 단일하지 않다면 서로 단일하지 않은 원인이 어느 정도나 결과에 영향을 미쳤는지 어떻게 무엇으로 잴 수 있을까? 이쯤 되면 이제 "상관관계와 인과관계는 다르죠" 따위의 말을 쉽게 하기는 힘들 것이다. 그래서 흄 같은 철학자는 "네가 인과관계라고 주장하는 것이 진짜 인과관계라고 말할 수 있는 자 누구인가"라고 협박조로 물었을 것이다. (참고로 데이비드 흄은 글쓴이의 최애 철학자다.) 
 
@@ -82,8 +82,8 @@ $$
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDczMjUxLC0xNTY3OTIwMDcxLC00Nj
-k4OTA3OTAsNzEwNzkxMzYxLDE4NzY0ODc4MDcsLTE3MDM4NzI1
-NTIsLTU0OTc1MzkyNiwtMTUzMzczMTc1OSwxMTY4NzM3MzA2XX
-0=
+eyJoaXN0b3J5IjpbLTQ5NzM5MzIyMCwtMTU2NzkyMDA3MSwtND
+Y5ODkwNzkwLDcxMDc5MTM2MSwxODc2NDg3ODA3LC0xNzAzODcy
+NTUyLC01NDk3NTM5MjYsLTE1MzM3MzE3NTksMTE2ODczNzMwNl
+19
 -->
