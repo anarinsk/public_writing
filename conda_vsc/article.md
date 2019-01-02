@@ -53,7 +53,7 @@ VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 
 - VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 그러면 아래 스크린 샷과 같은 설정화면이 나타난다. 
   - 검색창에 "terminal"을 치면  Features 아래 Terminal을 고르고 우측 창에서 "Edit in settings.json"을 선택한다. 
   - 그리고 아래 스크린샷처럼 세팅 아래 위의 주소를 넣는다. 
-- 여기까지 오나
+- 이제 VSC에서 terminal을 실행하면 conda prompt와 동일한 환경이 뜬다. 
 
 ## Update Conda 
 
@@ -226,11 +226,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODgxNDk0LDE2MzQxNDIyNzAsLTQ0MT
-gxNzQyOCwtODAwODYzODQsLTE4NzkwODQ2NTIsLTk5OTE4Mzk0
-OSwxMjg4NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1ND
-UzMTI4OTAsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAx
-MCwtMTE5MTc4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMT
-AxODM3ODQ4NCw3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYz
-OTY5N119
+eyJoaXN0b3J5IjpbMTc2OTQ0NzcyOCwtMjA4ODE0OTQsMTYzND
+E0MjI3MCwtNDQxODE3NDI4LC04MDA4NjM4NCwtMTg3OTA4NDY1
+MiwtOTk5MTgzOTQ5LDEyODg2NjA2MDEsMjEzNDk2NjI4MywxOD
+kzMzUzMzQ2LDU0NTMxMjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1
+MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNz
+k3MzQyMzI2LC0xMDE4Mzc4NDg0LDc1Mjg4MjI3OSwtMjMwMjI4
+MzYzXX0=
 -->
