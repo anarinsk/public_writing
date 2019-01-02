@@ -29,7 +29,7 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 
 1이야 그렇다고 치고 2는 정말 중요하다. 보통 "Python + 필요은 핵심을 이루는 프로그램이 가볍다. 대신 필요에 따라서 여러가지 패키지"를들을 깔아서 쓰고 있을 것이다. 하지만 이렇게 여러쓴다. "Python + 패키지"를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 필요에 따라서 분리해 관리한다면,구축한 후 이 환경 내에서만 쓰면 여러가지 이점이 있다. 일단 뭔가 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 다른 측면실행 속도 등에서도 약간의 이익을 볼 수 있다. 
 
-이제 아나콘다를 쓰기로 했다고 치자. 아나콘다도에서는 두 가지로 배포판이을 제공한다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)가 좋다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도는 없다. 
+이제 아나콘다를 쓰기로 했다고 치자. 아나콘다는 두 가지로 배포판이 제공된다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)를 권한다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다. 
 
 # 어떻게 쓸까 것인가? 
 
@@ -37,9 +37,9 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true" width="200"></kbd>
 
-일단, 탐색창에서기에 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 전용창이라고 생각하면 되겠다. 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 좋되겠다.  
+일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 터미널이라고 생각하면 되겠다. 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 된다.  
 
-아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python파이썬 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python파이썬 3.xX 버전이 깔려 있고 녀석을 기본으로 쓰겠다는 의미다. 
+아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 
 
 - conda의 활용법을 자세히 알고 싶다면 [LINK](https://conda.io/docs/user-guide/getting-started.html)를 참고하라. 
 - 가상 환경에 관한 자세한 내용은 [LINK](https://conda.io/docs/user-guide/tasks/manage-environments.html)를 참고하라. 
@@ -219,11 +219,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTgxNzQyOCwtODAwODYzODQsLTE4Nz
-kwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMzQ5NjYy
-ODMsMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1NjE1NjA0ODQsMT
-kxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQxMSwzMTE3NzI4
-OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NCw3NTI4ODIyNzksLT
-IzMDIyODM2MywtMTY3MzYzOTY5NywxMzcyOTI0NjE2LC01OTM0
-MjQzMTNdfQ==
+eyJoaXN0b3J5IjpbLTU4MzU3MDQ1NSwtNDQxODE3NDI4LC04MD
+A4NjM4NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LDEyODg2NjA2
+MDEsMjEzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMxMjg5MCwtMT
+U2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgz
+NDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0LD
+c1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5Njk3LDEzNzI5
+MjQ2MTZdfQ==
 -->
