@@ -44,6 +44,10 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 - conda의 활용법을 자세히 알고 싶다면 [LINK](https://conda.io/docs/user-guide/getting-started.html)를 참고하라. 
 - 가상 환경에 관한 자세한 내용은 [LINK](https://conda.io/docs/user-guide/tasks/manage-environments.html)를 참고하라. 
 
+## For Windows 
+
+VSC 안에는 사실 터미널도 들어 있다. conda 
+
 ## Update Conda 
 
 ```cmd
@@ -215,11 +219,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDg2Mzg0LC0xODc5MDg0NjUyLC05OT
-kxODM5NDksMTI4ODY2MDYwMSwyMTM0OTY2MjgzLDE4OTMzNTMz
-NDYsNTQ1MzEyODkwLC0xNTYxNTYwNDg0LDE5MTg1ODUxMDIsMz
-U4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgsLTE3OTczNDIz
-MjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC0yMzAyMjgzNjMsLT
-E2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkzNDI0MzEzLDIxMTkw
-NDI3MzhdfQ==
+eyJoaXN0b3J5IjpbLTIwMjc1NzMxNjksLTgwMDg2Mzg0LC0xOD
+c5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMTM0OTY2
+MjgzLDE4OTMzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwNDg0LD
+E5MTg1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcy
+ODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgyMjc5LC
+0yMzAyMjgzNjMsLTE2NzM2Mzk2OTcsMTM3MjkyNDYxNiwtNTkz
+NDI0MzEzXX0=
 -->
