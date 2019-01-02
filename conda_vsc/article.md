@@ -49,7 +49,9 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 한번에 실행할 수 있다면 좋지 않을까? 메뉴를 뒤져 터미널을 실행시키고 콘다 명령어를 실행시켜보자. 아마 에러가 뜰 것이다. 현재 VSC가 호출한 터미널은 윈도 기본 터미날이고, 여기에는 conda가 세팅되어 있지 않기 때문에 생기는 일이다. 어떻게 해야 할까? 
 
 - conda prompt의 실행 환경을 바꾸자. 녀석이 각종 패키지를 깔고 하드를 조작할 수 있으려면 관리자 권한이 부여되어야 한다. "바로가기" 탭에 고급에서 설정할 수 있다. 
-- 두번째로 "바로가기" 탭에 대상 항목의 내용을 복사해두자. 여기 내용은 conda prompt를 실행할 수 있는 구
+- 두번째로 "바로가기" 탭에 대상 항목의 내용을 복사해두자. 여기 내용은 conda prompt를 실행할 수 있는 구체적인 명령어가 담겨 있다. 
+- VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 그러면 아래 스크린 샷과 같은 설정화면이 나타난다. 
+  - 검색창에 
 
 ## Update Conda 
 
@@ -222,11 +224,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDc3ODQyMCwtNDQxODE3NDI4LC04MD
-A4NjM4NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LDEyODg2NjA2
-MDEsMjEzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMxMjg5MCwtMT
-U2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgz
-NDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0LD
-c1Mjg4MjI3OSwtMjMwMjI4MzYzLC0xNjczNjM5Njk3LDEzNzI5
-MjQ2MTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMjAxNzIxODcsLTQ0MTgxNzQyOCwtOD
+AwODYzODQsLTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4NjYw
+NjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OTAsLT
+E1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4
+MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NC
+w3NTI4ODIyNzksLTIzMDIyODM2MywtMTY3MzYzOTY5NywxMzcy
+OTI0NjE2XX0=
 -->
