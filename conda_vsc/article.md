@@ -25,7 +25,7 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 1. 아나콘다에서 패키지 관리를 성실하게 해준다. 
 	- 때로는 바닐라 버전보다 아나콘다 버전이 성능상 유리한 경우도 있다. 
 2. 아나콘다에서 제공하는 가상 환경이 편리하고 훌륭하다. 
-	- virtualenv 패키지를 써도 좋겠지만 패키지 관리까지 한방에 해결할 수 있는 아나콘다 가상환경이 조금 더 편리하다. 서 제공하는 가상 환경이 편리하고 훌륭하다. 
+	- virtualenv 패키지를 써도 좋겠지만 패키지 관리까지 한방에 해결할 수 있는 아나콘다 가상환경이 조금 더 편리하다.  
 
 1이야 그렇다고 치고 2는 정말 중요하다. 보통 "Python + 필요은 핵심을 이루는 프로그램이 가볍다. 대신 필요에 따라서 여러가지 패키지"를들을 깔아서 쓰고 있을 것이다. 하지만 이렇게 여러쓴다. "Python + 패키지"를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 필요에 따라서 분리해 관리한다면,구축한 후 이 환경 내에서만 쓰면 여러가지 이점이 있다. 일단 뭔가 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 다른 측면실행 속도 등에서도 약간의 이익을 볼 수 있다. 
 
@@ -249,11 +249,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzI3NzMyNSwxNzY5NDQ3NzI4LC0yMD
-g4MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0
-LC0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMT
-M0OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYw
-NDg0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMz
-ExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgy
-Mjc5XX0=
+eyJoaXN0b3J5IjpbLTE5MzkzMzcyMDksMTc2OTQ0NzcyOCwtMj
+A4ODE0OTQsMTYzNDE0MjI3MCwtNDQxODE3NDI4LC04MDA4NjM4
+NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LDEyODg2NjA2MDEsMj
+EzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMxMjg5MCwtMTU2MTU2
+MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLD
+MxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0LDc1Mjg4
+MjI3OV19
 -->
