@@ -68,7 +68,7 @@ VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 
   - 검색창에 "terminal"을 치면  Features 아래 Terminal을 고르고 우측 창에서 "Edit in settings.json"을 선택한다. 
   - 그리고 아래 스크린샷처럼 세팅 아래 위에서 복사한 주소를 넣는다. 주의할 점은 아래와 같이 되도록 넣어야 한다. 
 
-![]()
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win-vsc_2.PNG?raw=true)
 
 ```cmd
 "terminal.integrated.shellArgs.windows": [
@@ -249,7 +249,7 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTI1MDcyOSwxNzY5NDQ3NzI4LC0yMD
+eyJoaXN0b3J5IjpbMTY3NTU4NTIwMiwxNzY5NDQ3NzI4LC0yMD
 g4MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0
 LC0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMT
 M0OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYw
