@@ -54,13 +54,21 @@ VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 
 
 - 두번째로 "바로가기" 탭에 대상 항목의 내용을 복사해두자. 여기 내용은 conda prompt를 실행할 수 있는 구체적인 명령어가 담겨 있다. 이 글을 쓰는 컴퓨터의 세팅에서는 아래와 같다. 
 
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win_anaconda-prompt_2.PNG?raw=true)
+
 ```cmd
 %windir%\System32\cmd.exe "/K" C:\ProgramData\Miniconda3\Scripts\activate.bat C:\ProgramData\Miniconda3
 ```
 
 - VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 그러면 아래 스크린 샷과 같은 설정화면이 나타난다. 
+
+![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win-vsc.PNG?raw=true)
+
+
   - 검색창에 "terminal"을 치면  Features 아래 Terminal을 고르고 우측 창에서 "Edit in settings.json"을 선택한다. 
   - 그리고 아래 스크린샷처럼 세팅 아래 위에서 복사한 주소를 넣는다. 주의할 점은 아래와 같이 되도록 넣어야 한다. 
+
+![]()
 
 ```cmd
 "terminal.integrated.shellArgs.windows": [
@@ -241,11 +249,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjE4MjM0LDE3Njk0NDc3MjgsLTIwOD
-gxNDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQyOCwtODAwODYzODQs
-LTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMz
-Q5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1NjE1NjA0
-ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQxMSwzMT
-E3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3ODQ4NCw3NTI4ODIy
-NzldfQ==
+eyJoaXN0b3J5IjpbLTc3NTI1MDcyOSwxNzY5NDQ3NzI4LC0yMD
+g4MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0
+LC0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMT
+M0OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYw
+NDg0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMz
+ExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgzNzg0ODQsNzUyODgy
+Mjc5XX0=
 -->
