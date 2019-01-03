@@ -39,7 +39,7 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 
 일단, 탐색창에서 anaconda prompt를 검색하면 다음과 같이 뜬다. 윈도우에서 발생할 수 있는 각종 문제를 해결한 아나콘다 터미널이라고 생각하면 되겠다. 앞으로 아나콘다 관련 명령어들은 이 녀석을 띄우고 실행시키면 된다.  
 
-아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python파이썬 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python파이썬 3.xX 버전이 깔려 있고 녀석을 기본으로 쓰겠다는 의미다. 
+아나콘다의 각종 명령어에 대한 자세한 해설은 링크와 같다. 하지만 엑기스만 뽑아서 간단히 설명하도록 하자. 창을 실행하면 "(base)"라는 문구가 보일 것이다. 이는 현재 아나콘다가 실행되고 있는 환경을 뜻한다. 이미 Python파이썬 가상환경이 들어와 있다! Miniconda의 클라이언트와 함께 Python파이썬 3.x 버전이 깔려 있고 녀석을 기본으로 쓰겠다는 의미다. 
 
 - conda의 활용법을 자세히 알고 싶다면 [LINK](https://conda.io/docs/user-guide/getting-started.html)를 참고하라. 
 - 가상 환경에 관한 자세한 내용은 [LINK](https://conda.io/docs/user-guide/tasks/manage-environments.html)를 참고하라. 
@@ -246,11 +246,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDA4NDU0MiwtMTkzOTMzNzIwOSwxNz
-Y5NDQ3NzI4LC0yMDg4MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0
-MjgsLTgwMDg2Mzg0LC0xODc5MDg0NjUyLC05OTkxODM5NDksMT
-I4ODY2MDYwMSwyMTM0OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEy
-ODkwLC0xNTYxNTYwNDg0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLT
-ExOTE3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgz
-Nzg0ODRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDUzODY5NzgsLTk1NDA4NDU0MiwtMT
+kzOTMzNzIwOSwxNzY5NDQ3NzI4LC0yMDg4MTQ5NCwxNjM0MTQy
+MjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0LC0xODc5MDg0NjUyLC
+05OTkxODM5NDksMTI4ODY2MDYwMSwyMTM0OTY2MjgzLDE4OTMz
+NTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwNDg0LDE5MTg1ODUxMD
+IsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgsLTE3OTcz
+NDIzMjZdfQ==
 -->
