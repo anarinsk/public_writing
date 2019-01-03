@@ -83,8 +83,7 @@ VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 
 ```cmd
 conda update conda
 ```
-- 매번 콘다를 실행할 때마다 챙기면 좋을 명령이다. 
--음을 뜻한다. 항상 콘다를 실행하고 나면 먼저 실행해야 할 명령어는 `conda update conda`이다. 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을얘를 업데이트하라는 뜻이다. 제 머리 깎는 중인 셈이다. 
+- 항상 콘다를 실행하고 나면 먼저 실행해야 할 명령어는 `conda update conda`이다. 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을 업데이트하라는 명령이다. 제 머리 깎는 중인 셈이다. 
 
 ## Create 
 
@@ -92,7 +91,7 @@ conda update conda
 conda create -n 환경이름 python=3.6
 ```
 
-- 앞으로 사용자가 각자 지정해주는 부분은 한글로 표기하도록 한다. 여기서는 "환경이름"이 이에 해당한다. 
+- 앞으로 사용자가 각자 지정해야 부분은 한글로 표기하도록 한다. 여기서는 "환경이름"이 여기 속한다. 
 - `create` 명령어에 여러가지 옵션이 있지만 여기서는 Python 버전만 지정하도록 하겠다. 
 - 이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  `ProgramData\Miniconda3\envs` 에 설치되어 있다. ProgramData가 보통 숨은 폴더 처리가 되어 있다. 이 폴더를 보려면 탐색기 옵션을 고쳐야 한다. [LINK1](https://support.microsoft.com/ko-kr/help/14201/windows-show-hidden-files), [LINK2](https://support.microsoft.com/ko-kr/help/4028316/windows-view-hidden-files-and-folders-in-windows-10)를 참고 하라. 
 
@@ -249,11 +248,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY2MjEyMTIsLTE5MzkzMzcyMDksMT
-c2OTQ0NzcyOCwtMjA4ODE0OTQsMTYzNDE0MjI3MCwtNDQxODE3
-NDI4LC04MDA4NjM4NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LD
-EyODg2NjA2MDEsMjEzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMx
-Mjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC
-0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4
-Mzc4NDg0XX0=
+eyJoaXN0b3J5IjpbLTQ0NzkzNTM5MiwtMTkzOTMzNzIwOSwxNz
+Y5NDQ3NzI4LC0yMDg4MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0
+MjgsLTgwMDg2Mzg0LC0xODc5MDg0NjUyLC05OTkxODM5NDksMT
+I4ODY2MDYwMSwyMTM0OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEy
+ODkwLC0xNTYxNTYwNDg0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLT
+ExOTE3ODM0MTEsMzExNzcyODgsLTE3OTczNDIzMjYsLTEwMTgz
+Nzg0ODRdfQ==
 -->
