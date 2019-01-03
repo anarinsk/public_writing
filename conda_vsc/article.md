@@ -27,9 +27,9 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 2. 아나콘다에서 제공하는 가상 환경이 편리하고 훌륭하다. 
 	- virtualenv 패키지를 써도 좋겠지만 패키지 관리까지 한방에 해결할 수 있는 아나콘다 가상환경이 조금 더 편리하다.  
 
-1이야 그렇다고 치고 2는 정말 중요하다. 보통 "Python + 필요은 핵심을 이루는 프로그램이 가볍다. 대신 필요에 따라서 여러가지 패키지"를들을 깔아서 쓰고 있을 것이다. 하지만 이렇게 여러쓴다. "Python + 패키지"를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 필요에 따라서 분리해 관리한다면,구축한 후 이 환경 내에서만 쓰면 여러가지 이점이 있다. 일단 뭔가 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 다른 측면실행 속도 등에서도 약간의 이익을 볼 수 있다. 
+1이야 그렇다고 치고 2는 정말 중요하다. 보통 Python 자체는 가볍다. 대신 필요에 따라서 여러가지 패키지"를 깔아서 쓰고 있을 것이다. 하지만 이렇게 "Python + 패키지"를 깔면 깔수록 무거워지고 문제가 발생할 소지가 높다. 만일 작업 환경을 필요에 따라서 분리해 관리한다면, 문제가 생겼을 때 이 환경만 날려버리면 된다. 패키지 하나 잘못 깔았다고 낙담할 필요가 없다. 아울러 필요한 구성만 갖추기 때문에 실행 속도 등에서도 약간의 이익을 볼 수 있다. 
 
-이제 아나콘다를 쓰기로 했다고 치자. 아나콘다는 두 가지로 배포판이 제공된다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)를 권한다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다. 
+아나콘다는 두 가지로 배포판이 제공된다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)를 권한다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다. 
 
 # 어떻게 쓸까 것인가? 
 
@@ -249,11 +249,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkzMzcyMDksMTc2OTQ0NzcyOCwtMj
-A4ODE0OTQsMTYzNDE0MjI3MCwtNDQxODE3NDI4LC04MDA4NjM4
-NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LDEyODg2NjA2MDEsMj
-EzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMxMjg5MCwtMTU2MTU2
-MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLD
-MxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4Mzc4NDg0LDc1Mjg4
-MjI3OV19
+eyJoaXN0b3J5IjpbLTExNjk0MDgwNjYsLTE5MzkzMzcyMDksMT
+c2OTQ0NzcyOCwtMjA4ODE0OTQsMTYzNDE0MjI3MCwtNDQxODE3
+NDI4LC04MDA4NjM4NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LD
+EyODg2NjA2MDEsMjEzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMx
+Mjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC
+0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4
+Mzc4NDg0XX0=
 -->
