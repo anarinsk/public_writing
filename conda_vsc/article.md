@@ -31,7 +31,7 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 
 아나콘다는 두 가지로 배포판이 제공된다. 종합 배포판인 아나콘다 대신 핵심 만을 발라낸 [Miniconda](https://conda.io/miniconda.html)를 권한다. 미니콘다가 왜 좋을까? 보통 아나콘다를 풀 버전을 깔면 (내 기준으로는) 쓸 데 없는 것들이 같이 깔린다. 일종의 합집합 개념의 여러 소프트웨어를 제공하는데, 아나콘다 회사에서 권장하는 방식에 꼭 적응해야 할 필요는 없다. 예를 들어, 개발 환경으로 Spyder를 쓰지 않는데 깔 필요는 없지 않을까? 하드 디스크의 용량이 부족한 시대는 아니지만, 잘 쓰지 않는 것을 갖고 있을 필요도 없다. 
 
-# 어떻게 쓸까 것인가? 
+# 어떻게 쓸까? 
 
 일단 미니콘다를  Python 3.xX 버전으로 (전부 "Next"를 눌러디폴트로) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
 
@@ -249,11 +249,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk0MDgwNjYsLTE5MzkzMzcyMDksMT
-c2OTQ0NzcyOCwtMjA4ODE0OTQsMTYzNDE0MjI3MCwtNDQxODE3
-NDI4LC04MDA4NjM4NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LD
-EyODg2NjA2MDEsMjEzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMx
-Mjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC
-0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4
-Mzc4NDg0XX0=
+eyJoaXN0b3J5IjpbNTAzMjE0MDg5LC0xOTM5MzM3MjA5LDE3Nj
+k0NDc3MjgsLTIwODgxNDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQy
+OCwtODAwODYzODQsLTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMj
+g4NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4
+OTAsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMT
+E5MTc4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3
+ODQ4NF19
 -->
