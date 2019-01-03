@@ -33,7 +33,7 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 
 # 어떻게 쓸까? 
 
-일단 미니콘다를  Python 3.xX 버전으로 (전부 "Next"를 눌러디폴트로) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 윈도 기준으로 설명하겠다. 
+일단 미니콘다를  Python 3.x 버전으로 (전부 "Next"를 눌러 디폴트로) 깔았다고 가정하자. 대신 미니콘다를 쓰려면 약간의 CLI를 활용할 줄 알아야 한다. 맥OS나 리눅스에서는 그냥 터미널을 열고 쓰면 되니, 가장 난해한(?) 윈도를 기준으로 설명하겠다. 
 
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/conda_prompt.png?raw=true" width="200"></kbd>
 
@@ -48,7 +48,7 @@ Python파이썬이 무척 훌륭한 언어지만 사실 가이드가 아주 친�
 
 VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 한번에 실행할 수 있다면 좋지 않을까? 메뉴를 뒤져 터미널을 실행시키고 콘다 명령어를 실행시켜보자. 아마 에러가 뜰 것이다. 현재 VSC가 호출한 터미널은 윈도 기본 터미날이고, 여기에는 conda가 세팅되어 있지 않기 때문에 생기는 일이다. 어떻게 해야 할까? 
 
-- conda prompt의 실행 환경을 바꾸자. 녀석이 각종 패키지를 깔고 하드를 조작할 수 있으려면 관리자 권한이 부여되어야 한다. "바로가기" 탭에 고급에서 설정할 수 있다. 
+- conda prompt의 실행 환경을 바꾸자. 위 스크린 샷의 실행 환경에서 마우스 우클릭을 한 후 속성 창을 열어보자. 녀석이 각종 패키지를 깔고 하드를 조작할 수 있으려면 관리자 권한이 부여되어야 한다. "바로가기" 탭에 고급에서 설정할 수 있다. 
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win_anaconda-prompt.PNG?raw=true)
 
@@ -83,7 +83,7 @@ VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 
 ```cmd
 conda update conda
 ```
-- 매번 콘다를 실행하고 실행해야 할 명령이다. 
+- 매번 콘다를 실행할 때마다 챙기면 좋을 명령이다. 
 -음을 뜻한다. 항상 콘다를 실행하고 나면 먼저 실행해야 할 명령어는 `conda update conda`이다. 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을얘를 업데이트하라는 뜻이다. 제 머리 깎는 중인 셈이다. 
 
 ## Create 
@@ -249,11 +249,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMjE0MDg5LC0xOTM5MzM3MjA5LDE3Nj
-k0NDc3MjgsLTIwODgxNDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQy
-OCwtODAwODYzODQsLTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMj
-g4NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4
-OTAsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMT
-E5MTc4MzQxMSwzMTE3NzI4OCwtMTc5NzM0MjMyNiwtMTAxODM3
-ODQ4NF19
+eyJoaXN0b3J5IjpbLTE3ODY2MjEyMTIsLTE5MzkzMzcyMDksMT
+c2OTQ0NzcyOCwtMjA4ODE0OTQsMTYzNDE0MjI3MCwtNDQxODE3
+NDI4LC04MDA4NjM4NCwtMTg3OTA4NDY1MiwtOTk5MTgzOTQ5LD
+EyODg2NjA2MDEsMjEzNDk2NjI4MywxODkzMzUzMzQ2LDU0NTMx
+Mjg5MCwtMTU2MTU2MDQ4NCwxOTE4NTg1MTAyLDM1ODE3MDEwLC
+0xMTkxNzgzNDExLDMxMTc3Mjg4LC0xNzk3MzQyMzI2LC0xMDE4
+Mzc4NDg0XX0=
 -->
