@@ -60,7 +60,7 @@ VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 
 %windir%\System32\cmd.exe "/K" C:\ProgramData\Miniconda3\Scripts\activate.bat C:\ProgramData\Miniconda3
 ```
 
-- VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 그러면 아래 스크린 샷과 같은 설정화면이 나타난다. 
+- VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 검색창에 "terminal"을 넣고 엔터를 치면 아래 스크린 샷과 같은 설정화면이 나타난다. 
 
 ![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win-vsc.PNG?raw=true)
 
@@ -246,11 +246,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUzODY5NzgsLTk1NDA4NDU0MiwtMT
-kzOTMzNzIwOSwxNzY5NDQ3NzI4LC0yMDg4MTQ5NCwxNjM0MTQy
-MjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0LC0xODc5MDg0NjUyLC
-05OTkxODM5NDksMTI4ODY2MDYwMSwyMTM0OTY2MjgzLDE4OTMz
-NTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwNDg0LDE5MTg1ODUxMD
-IsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzExNzcyODgsLTE3OTcz
-NDIzMjZdfQ==
+eyJoaXN0b3J5IjpbMjA4NzAwMzEyMywtMTkwNTM4Njk3OCwtOT
+U0MDg0NTQyLC0xOTM5MzM3MjA5LDE3Njk0NDc3MjgsLTIwODgx
+NDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQyOCwtODAwODYzODQsLT
+E4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMzQ5
+NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1NjE1NjA0OD
+QsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQxMSwzMTE3
+NzI4OF19
 -->
