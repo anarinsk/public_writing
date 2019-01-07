@@ -163,19 +163,23 @@ conda install -c conda-forge pylint
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" width="700">
 </kbd>
 
-
+앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 창 하단의 보라색 줄을 보자. 
 
 <kbd>
 <img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" width=450>
 </kbd>
 
-앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 창 하단의 보라색 줄을 보자. 
+저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 환경을 선택하면 된다. 
 
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true" width=600></kbd>
 
 ## 주의 사항 
 
+### Python 환경이 제대로 뜨지 않을 때 
 가끔 콘다 환경을 세팅한 후 해당 환경이 VSC에서 안뜨는 상황이 발생할 수 있다. 그럴 때에는 해당 환경에 pylint가 설치되어 있는지 확인한 후 설치되어 있다면 환경 선택 부분에 리로드 아이콘을 눌러주자. 그냥 에디터를 다시 실행해도 된다. 그러면 해당 환경을 확인해 선택할 수 있을 것이다. 
+
+### Jupyter 환경이 로딩되지 않을 때 
+이 글을 위해서 새로 깔린 윈도우에서 위의 환경을 테스트해 봤다. 다 괜찮았는데 Jupyter notebook이 없다는 메시지가 뜨기도 하더라. 이때는 File &rarr; Preferences &rarr; Extensions로 가서 필요한 확장팩을 깔아 주자. 옆에 뜬 검색창에 Python이라고 치면 설치 가능한 VSC 확장팩들이 뜬다. Windows 10에서 "Anaconda Extension Pack"을 깔아서 문제가 해결되었다. VSC의 매력 중 하나는 광범위한 확장팩에 있다. 패기 있게 다른 패키지들도 실험해보시면 좋겠다. 
 
 # A nice practice 
 
@@ -214,7 +218,7 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY4NzI4MzYsLTE5MDUzODY5NzgsLT
+eyJoaXN0b3J5IjpbLTIxMDM4MDY4NTIsLTE5MDUzODY5NzgsLT
 k1NDA4NDU0MiwtMTkzOTMzNzIwOSwxNzY5NDQ3NzI4LC0yMDg4
 MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0LC
 0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMTM0
