@@ -45,46 +45,12 @@ Python이 무척 훌륭한 언어지만 가이드가 아주 친절하지는 않�
 - 가상 환경에 관한 자세한 내용은 [LINK](https://conda.io/docs/user-guide/tasks/manage-environments.html)를 참고하라. 
 
 ## Update Conda 
-## For Windows 
-
-VSC 안에는 사실 터미널도 들어 있다. conda prompt를  VSC 안에서 한번에 실행할 수 있다면 좋지 않을까? 메뉴를 뒤져 터미널을 실행시키고 콘다 명령어를 실행시켜보자. 아마 에러가 뜰 것이다. 현재 VSC가 호출한 터미널은 윈도 기본 터미날이고, 여기에는 conda가 세팅되어 있지 않기 때문에 생기는 일이다. 어떻게 해야 할까? 
-
-- conda prompt의 실행 환경을 바꾸자. 위 스크린 샷의 실행 환경에서 마우스 우클릭을 한 후 속성 창을 열어보자. 녀석이 각종 패키지를 깔고 하드를 조작할 수 있으려면 관리자 권한이 부여되어야 한다. "바로가기" 탭에 고급에서 설정할 수 있다. 
-
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win_anaconda-prompt.PNG?raw=true)
-
-- 두번째로 "바로가기" 탭에 대상 항목의 내용을 복사해두자. 여기 내용은 conda prompt를 실행할 수 있는 구체적인 명령어가 담겨 있다. 이 글을 쓰는 컴퓨터의 세팅에서는 아래와 같다. 
-
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win_anaconda-prompt_2.PNG?raw=true)
-
-```cmd
-%windir%\System32\cmd.exe "/K" C:\ProgramData\Miniconda3\Scripts\activate.bat C:\ProgramData\Miniconda3
-```
-
-- VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 검색창에 "terminal"을 넣고 엔터를 치면 아래 스크린 샷과 같은 설정화면이 나타난다. 
-
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win-vsc.PNG?raw=true)
-
-
-  - 검색창에 "terminal"을 치면  Features 아래 Terminal을 고르고 우측 창에서 "Edit in settings.json"을 선택한다. 
-  - 그리고 아래 스크린샷처럼 세팅 아래 위에서 복사한 주소를 넣는다. 주의할 점은 아래와 같이 되도록 넣어야 한다. 
-
-![](https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win-vsc_2.PNG?raw=true)
-
-```cmd
-"terminal.integrated.shellArgs.windows": [
-"/K", "C:\\ProgramData\\Miniconda3\\Scripts\\activate.bat C:\\ProgramData\\Miniconda3"
-]
-```
-
-- 이제 VSC에서 terminal을 실행하면 conda prompt와 동일한 환경이 뜬다. 
-
-## Update Conda 
 
 ```cmd
 conda update conda
 ```
-- 항상 콘다를 실행하고 나면 먼저 실행해야 할 명령어는 `conda update conda`이다. 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을 업데이트하라는 명령이다. 제 머리 깎는 중인 셈이다. 
+- 매번 콘다를 실행하고 실행해야 할 명령이다. 
+- 아나콘다 배포판을 관리하는 메타툴이 conda이고 이 녀석을 업데이트하라는 뜻이다. 제 머리 깎는 중인 셈이다. 
 
 ## Create 
 
@@ -92,7 +58,7 @@ conda update conda
 conda create -n 환경이름 python=3.6
 ```
 
-- 앞으로 사용자가 각자 지정해야 부분은 한글로 표기하도록 한다. 여기서는 "환경이름"이 여기 속한다. 
+- 앞으로 사용자가 각자 지정해주는 부분은 한글로 표기하도록 한다. 여기서는 "환경이름"이 이에 해당한다. 
 - `create` 명령어에 여러가지 옵션이 있지만 여기서는 Python 버전만 지정하도록 하겠다. 
 - 이렇게 설치된 아나콘다의 환경은 윈도우 기준으로  `ProgramData\Miniconda3\envs` 에 설치되어 있다. ProgramData가 보통 숨은 폴더 처리가 되어 있다. 이 폴더를 보려면 탐색기 옵션을 고쳐야 한다. [LINK1](https://support.microsoft.com/ko-kr/help/14201/windows-show-hidden-files), [LINK2](https://support.microsoft.com/ko-kr/help/4028316/windows-view-hidden-files-and-folders-in-windows-10)를 참고 하라. 
 
@@ -110,7 +76,7 @@ conda activate 환경이름
 conda install -c conda-forge numpy
 ```
  
- 사례로 numpy 패키지를 깔아 보았다. 위 명령어는 conda 명령어로 anaconda-forge 채널을 통해 numpy를 설치한 것이다. 통상적으로 pip 명령어를 써서 패키지를 인스톨해도 상관없다. 
+ 사례로 numpy 패키지를 깔아 보았다. 위 명령어는 conda 명령어로 conda-forge 채널을 통해 numpy를 설치한 것이다. 통상적으로 pip 명령어를 써서 패키지를 인스톨해도 상관없다. 
 
 ## View env  
 
@@ -144,17 +110,18 @@ conda create -n 클론될환경 -c 클론되는환경
 이제 필요한 패키지들을 깔아서 쓰면 된다. 그전에 잠깐! 필요한 패키지들은 해당 환경 안에 깔아줘야 의도한 대로 쓸 수 있다! 환경에 진입하도록 하자. 
 
 ```cmd 
-conda activate 환경이름
+[conda] activate 환경이름
 ```
 
 환경에서 나가기 위해서는 
 
 ```cmd 
-conda deactivate 환경이름
+[conda] deactivate 환경이름
 ```
 
-- 윈도에서는 이렇게 하면 된다. 요즘 miniconda 윈도 버전에서는 conda 명령어를 생략해도 환경에 잘 진입된다. 
+- 윈도우에서는 이렇게 하면 된다. 요즘 miniconda 윈도우 버전에서는 conda 명령어를 생략해도 환경에 잘 진입된다. 
 - 맥OS나 Linux라면 `conda`  대신 `source`를 치면 된다. 
+
 
 # 무엇과 함께 쓸까? 
 
@@ -247,7 +214,7 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTIzMzgxNiwtMTkwNTM4Njk3OCwtOT
+eyJoaXN0b3J5IjpbMTk5NjI1MDkwNiwtMTkwNTM4Njk3OCwtOT
 U0MDg0NTQyLC0xOTM5MzM3MjA5LDE3Njk0NDc3MjgsLTIwODgx
 NDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQyOCwtODAwODYzODQsLT
 E4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMzQ5
