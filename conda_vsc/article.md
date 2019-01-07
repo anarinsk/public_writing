@@ -158,18 +158,18 @@ conda install -c conda-forge pylint
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/pylint.png?raw=true" width="500">
 </kbd>
 
-빨간색 박스에너 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 제법 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다. 
+위 그림의 빨간색 박스에서 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 제법 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다.  
 
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" width="700">
 </kbd>
 
-위 그림의 빨간색 박스에서 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 제법 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다.  
+
 
 <kbd>
 <img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" width=450>
 </kbd>
 
-저 위치를 클릭하면 에디터 위쪽으로 아래 같은 화면이 뜬다. 화면에서 해당 conda 환경을 선택하면 된다. 
+앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 창 하단의 보라색 줄을 보자. 
 
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_3.png?raw=true" width=600></kbd>
 
@@ -214,11 +214,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODM3OTQzOSwtMTkwNTM4Njk3OCwtOT
-U0MDg0NTQyLC0xOTM5MzM3MjA5LDE3Njk0NDc3MjgsLTIwODgx
-NDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQyOCwtODAwODYzODQsLT
-E4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMzQ5
-NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OTAsLTE1NjE1NjA0OD
-QsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5MTc4MzQxMSwzMTE3
-NzI4OF19
+eyJoaXN0b3J5IjpbLTEwMDY4NzI4MzYsLTE5MDUzODY5NzgsLT
+k1NDA4NDU0MiwtMTkzOTMzNzIwOSwxNzY5NDQ3NzI4LC0yMDg4
+MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0LC
+0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMTM0
+OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwND
+g0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzEx
+NzcyODhdfQ==
 -->
