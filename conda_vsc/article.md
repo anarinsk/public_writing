@@ -139,19 +139,19 @@ Python을 VSC와 함께 쓸 때의 장점은 다음과 같다.
 - conda 환경을 지정해 실행 가능 
 - Jupyter의 환경을 그대로 가져와서 실행 결과를 바로 보여주기 
 
-이런 것들을 구현해주기 위해서 작업 환경에 두가지 패키지를 깔면 된다. 
+이런 것들을 구현해주기 위해서 작업 환경에 두 가지 Python 패키지를 깔면 된다. 
 
 - Jupyter or Jupyerlab 
 - pylint 
 
 생성한 작업환경 내에서 아래와 같이 두 개의 패키지를 설치한다. 
 
-```cmd 
+```cmd
 conda install -c conda-forge jupyterlab
 conda install -c conda-forge pylint
 ```
 
-pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다. 
+위에서 Jupyterlab 대신에 Jupyter를 깔아도 무방하겠다. pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 않겠느냐고 물어보고, conda로 깔지 pip로 깔지까지 물어본다. 혹시 생략했다면 VSC안에서 처리가 가능하다. 
 
 이렇게 깔아 놓고 `*.py`을 불러오자. 에디터 창에서 매직코멘트로 `#%%`을 쓴다. 매직 코멘트는 pylint 패키지가 해당 명령어를 Jupyter로 넘길 수 있도록 지정한다. VSC에서 pylint가 제대로 작동한다면 매직 코멘트 위로 다음과 같은 화면을 보게 될 것이다. 
 
@@ -163,7 +163,7 @@ pylint의 경우 해당 conda 환경에 안 깔려 있으면 VSC에서 깔지 �
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_1.png?raw=true" width="700">
 </kbd>
 
-앞서 conda를 통해서 다양한 가상 환경을 설치했다면 이 환경을 선택해 VSC에서 실행할 수 있어야 할 것이다. 위의 창에서 맨 아래 보라색 줄을 보자. 
+위 그림의 빨간색 박스에서 "Run Call"은 해당 매직코멘트 블록을 실행하라는 의미다. Jupyter 내에서 한 블록으로 이해하면 된다. pylint의 작동원리는 해당 코멘트를 Jupyter로 넘겨 실행한 후 이를 받아서 다시 VSC 내에 뿌려준다. 결과는 아래와 같이 제법 번듯하다! 화면의 오른쪽 창은 jupyter의 실행 결과와 동일하다.  
 
 <kbd>
 <img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/vsc_2.png?raw=true" width=450>
@@ -214,7 +214,7 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjI1MDkwNiwtMTkwNTM4Njk3OCwtOT
+eyJoaXN0b3J5IjpbLTg5ODM3OTQzOSwtMTkwNTM4Njk3OCwtOT
 U0MDg0NTQyLC0xOTM5MzM3MjA5LDE3Njk0NDc3MjgsLTIwODgx
 NDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQyOCwtODAwODYzODQsLT
 E4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMzQ5
