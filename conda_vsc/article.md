@@ -1,7 +1,9 @@
 **Python + Visual Studio Code**
 
+
 2018-11-23
-Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)설정하기 
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), also posted at [LINK](https://danbi-ncsoft.github.io/etc/2018/11/26/conda_vsc.html)
+
 
 # 들어가며 
 아마 각자 알아서 잘 쓰는 Python 설정이 있을 것이다. 그대로 잘 쓰면 되겠다. 하지만 막 Python으로 코딩을 시작하려는 사람이 있다면 이런 글도 조금은 도움이 되지 않을까 한다. 이 가이드의 목표는 다음과 같다. 
@@ -190,14 +192,8 @@ VSC 안에는 사실 터미널도 들어 있다. 즉, 외부 터미널 실행 �
 <kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win_anaconda-prompt.PNG?raw=true" width=500></kbd>
 
 - 두번째로 "바로가기" 탭에 대상 항목의 내용을 복사해두자. 여기 내용은 conda prompt를 실행할 수 있는 구체적인 명령어가 담겨 있다. 이 글을 쓰는 컴퓨터의 세팅에서는 아래와 같다. 
-- 
-<br>
-<p align="center"><kbd>
-<img src="/assets/etc/conda_vsc/win_anaconda-prompt_2.PNG" style="width:5in"> 
-</kbd></p>
-<br>
 
-
+<kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win_anaconda-prompt_2.PNG?raw=true" width=500></kbd>
 
 ```cmd
 %windir%\System32\cmd.exe "/K" C:\ProgramData\Miniconda3\Scripts\activate.bat C:\ProgramData\Miniconda3
@@ -205,20 +201,12 @@ VSC 안에는 사실 터미널도 들어 있다. 즉, 외부 터미널 실행 �
 
 - VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. - VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 검색창에 "terminal"을 넣고 엔터를 치면 아래 스크린 샷과 같은 설정화면이 나타난다. 
 
-<br>
-<p align="center"><kbd>
-<img src="/assets/etc/conda_vsc/win-vsc.PNG" style="width:8in"> 
-</kbd></p>
-<br>
+<kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win-vsc.PNG?raw=true" width=700></kbd>
 
   - 검색창에 "terminal"을 치면  Features 아래 Terminal을 고르고 우측 창에서 "Edit in settings.json"을 선택한다. 
   - 그리고 아래 스크린샷처럼 세팅 아래 위에서 복사한 주소를 넣는다. 주의할 점은 아래와 같이 되도록 넣어야 한다. 
 
-<br>
-<p align="center"><kbd>
-<img src="/assets/etc/conda_vsc/win-vsc_2.PNG" style="width:8in"> 
-</kbd></p>
-<br>
+<kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win-vsc_2.PNG?raw=true" width=700></kbd>
 
 ```cmd
 "terminal.integrated.shellArgs.windows": [
@@ -265,11 +253,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTE5ODQxLC0xOTA1Mzg2OTc4LC05NT
-QwODQ1NDIsLTE5MzkzMzcyMDksMTc2OTQ0NzcyOCwtMjA4ODE0
-OTQsMTYzNDE0MjI3MCwtNDQxODE3NDI4LC04MDA4NjM4NCwtMT
-g3OTA4NDY1MiwtOTk5MTgzOTQ5LDEyODg2NjA2MDEsMjEzNDk2
-NjI4MywxODkzMzUzMzQ2LDU0NTMxMjg5MCwtMTU2MTU2MDQ4NC
-wxOTE4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3
-Mjg4XX0=
+eyJoaXN0b3J5IjpbLTEwOTYwOTA0NDIsLTE5MDUzODY5NzgsLT
+k1NDA4NDU0MiwtMTkzOTMzNzIwOSwxNzY5NDQ3NzI4LC0yMDg4
+MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0LC
+0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMTM0
+OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwND
+g0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzEx
+NzcyODhdfQ==
 -->
