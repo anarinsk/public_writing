@@ -181,6 +181,53 @@ conda install -c conda-forge pylint
 ### Jupyter 환경이 로딩되지 않을 때 
 이 글을 위해서 새로 깔린 윈도우에서 위의 환경을 테스트해 봤다. 다 괜찮았는데 Jupyter notebook이 없다는 메시지가 뜨기도 하더라. 이때는 File &rarr; Preferences &rarr; Extensions로 가서 필요한 확장팩을 깔아 주자. 옆에 뜬 검색창에 Python이라고 치면 설치 가능한 VSC 확장팩들이 뜬다. Windows 10에서 "Anaconda Extension Pack"을 깔아서 문제가 해결되었다. VSC의 매력 중 하나는 광범위한 확장팩에 있다. 패기 있게 다른 패키지들도 실험해보시면 좋겠다. 
 
+##  VSC에서 터미널 쓰기 
+
+VSC 안에는 사실 터미널도 들어 있다. 즉, 외부 터미널 실행 없이도  VSC 안에서 다 해결 가능하다는 뜻이다. 메뉴를 뒤져 터미널을 실행시키고 콘다 명령어를 실행시켜보자. 아마 에러가 뜰 것이다. 현재 VSC가 호출한 터미널은 윈도우 기본 터미날이고, 여기에는 conda가 세팅되어 있지 않기 때문에 생기는 일이다. 어떻게 해야 할까? 
+
+- conda prompt의 실행 환경을 바꾸자. 위 스크린 샷의 실행 환경에서 마우스 우클릭을 한 후 속성 창을 열어보자. 녀석이 각종 패키지를 깔고 하드를 조작할 수 있으려면 관리자 권한이 부여되어야 한다. "바로가기" 탭에 고급에서 설정할 수 있다. 
+
+<kbd><img src="https://github.com/anarinsk/public_writing/blob/master/conda_vsc/imgs/win_anaconda-prompt.PNG?raw=true" width=500></kbd>
+
+- 두번째로 "바로가기" 탭에 대상 항목의 내용을 복사해두자. 여기 내용은 conda prompt를 실행할 수 있는 구체적인 명령어가 담겨 있다. 이 글을 쓰는 컴퓨터의 세팅에서는 아래와 같다. 
+- 
+<br>
+<p align="center"><kbd>
+<img src="/assets/etc/conda_vsc/win_anaconda-prompt_2.PNG" style="width:5in"> 
+</kbd></p>
+<br>
+
+
+
+```cmd
+%windir%\System32\cmd.exe "/K" C:\ProgramData\Miniconda3\Scripts\activate.bat C:\ProgramData\Miniconda3
+```
+
+- VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. - VSC에서 File &rarr; Perefrences &rarr; Settings로 간다. 검색창에 "terminal"을 넣고 엔터를 치면 아래 스크린 샷과 같은 설정화면이 나타난다. 
+
+<br>
+<p align="center"><kbd>
+<img src="/assets/etc/conda_vsc/win-vsc.PNG" style="width:8in"> 
+</kbd></p>
+<br>
+
+  - 검색창에 "terminal"을 치면  Features 아래 Terminal을 고르고 우측 창에서 "Edit in settings.json"을 선택한다. 
+  - 그리고 아래 스크린샷처럼 세팅 아래 위에서 복사한 주소를 넣는다. 주의할 점은 아래와 같이 되도록 넣어야 한다. 
+
+<br>
+<p align="center"><kbd>
+<img src="/assets/etc/conda_vsc/win-vsc_2.PNG" style="width:8in"> 
+</kbd></p>
+<br>
+
+```cmd
+"terminal.integrated.shellArgs.windows": [
+"/K", "C:\\ProgramData\\Miniconda3\\Scripts\\activate.bat C:\\ProgramData\\Miniconda3"
+]
+```
+
+- 이제 VSC에서 terminal을 실행하면 conda prompt와 동일한 환경이 뜬다. 
+
 # A nice practice 
 
 이렇게 쓰면 좋다,라는 모델 케이스를 정리해보자. 물론 "이게 최선"은 아니겠지만, 그래도 꽤 삽질을 거친 결과니 참고하면 좋을 듯 하다. 가장 번거롭고 난이도가 높은 윈도 기준이다. 
@@ -218,11 +265,11 @@ conda env create -f 환경이름.yml
 :feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM4MDY4NTIsLTE5MDUzODY5NzgsLT
-k1NDA4NDU0MiwtMTkzOTMzNzIwOSwxNzY5NDQ3NzI4LC0yMDg4
-MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0MjgsLTgwMDg2Mzg0LC
-0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4ODY2MDYwMSwyMTM0
-OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEyODkwLC0xNTYxNTYwND
-g0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLTExOTE3ODM0MTEsMzEx
-NzcyODhdfQ==
+eyJoaXN0b3J5IjpbMTYwOTE5ODQxLC0xOTA1Mzg2OTc4LC05NT
+QwODQ1NDIsLTE5MzkzMzcyMDksMTc2OTQ0NzcyOCwtMjA4ODE0
+OTQsMTYzNDE0MjI3MCwtNDQxODE3NDI4LC04MDA4NjM4NCwtMT
+g3OTA4NDY1MiwtOTk5MTgzOTQ5LDEyODg2NjA2MDEsMjEzNDk2
+NjI4MywxODkzMzUzMzQ2LDU0NTMxMjg5MCwtMTU2MTU2MDQ4NC
+wxOTE4NTg1MTAyLDM1ODE3MDEwLC0xMTkxNzgzNDExLDMxMTc3
+Mjg4XX0=
 -->
