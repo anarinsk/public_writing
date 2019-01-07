@@ -248,17 +248,13 @@ conda env create -f 환경이름.yml
 
 해당 yml 파일에서 환경을 복원한다. 작업한 환경을 yml로 포팅해 두면 패키지의 버전까지 기억했다가 그대로 복원한다. 
 
-:feet:
-:feet:
-:feet:
-:feet:
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg5MjE0MzYsLTEwOTYwOTA0NDIsLT
-E5MDUzODY5NzgsLTk1NDA4NDU0MiwtMTkzOTMzNzIwOSwxNzY5
-NDQ3NzI4LC0yMDg4MTQ5NCwxNjM0MTQyMjcwLC00NDE4MTc0Mj
-gsLTgwMDg2Mzg0LC0xODc5MDg0NjUyLC05OTkxODM5NDksMTI4
-ODY2MDYwMSwyMTM0OTY2MjgzLDE4OTMzNTMzNDYsNTQ1MzEyOD
-kwLC0xNTYxNTYwNDg0LDE5MTg1ODUxMDIsMzU4MTcwMTAsLTEx
-OTE3ODM0MTFdfQ==
+eyJoaXN0b3J5IjpbLTUxODUzMjU1NiwtMTA5NjA5MDQ0MiwtMT
+kwNTM4Njk3OCwtOTU0MDg0NTQyLC0xOTM5MzM3MjA5LDE3Njk0
+NDc3MjgsLTIwODgxNDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQyOC
+wtODAwODYzODQsLTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4
+NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OT
+AsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5
+MTc4MzQxMV19
 -->
