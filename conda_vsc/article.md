@@ -8,11 +8,11 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), also po
 # 들어가며 
 아마 각자 알아서 잘 쓰는 Python 설정이 있을 것이다. 그대로 잘 쓰면 되겠다. 하지만 막 Python으로 코딩을 시작하려는 사람이 있다면 이런 글도 조금은 도움이 되지 않을까 한다. 이 가이드의 목표는 다음과 같다. 
 
-0. 되도록 꼬이지 않게 Python 쓰기 (모든 것이 그렇듯이 쓰다 보면 이 녀석도 꼬인다.)
+0. 되도록 꼬이지 않게 Python 쓰기 (모든 것이 그렇듯이사실 쓰다 보면  녀 
 1. 되도록 편리하게 쓰기 
 2. OS를 가리지 않고 쓰기 
 
-Python이 무척 훌륭한 언어지만 가이드가 아주 친절하지는 않다. 입문서들을 봐도 혹은 웹서핑을 해봐도 그렇다. 아울러 같은 오픈소스 언어라도 RStudio 같은 편리한 개발툴까지 손에 쥐어주는 R에 비해서 어딘가 불편하고 부족하다는 느낌을 받을 때도 있다. Python을 쓰면서 불편하다고 느껴본 적 없다, 라는 분들은 더 이상 글을 안 읽어도 된다. 
+Python이 무척 훌륭한 언어지만 가이드가 아주 친절하지는 않다. 입문서들을 봐도 혹은 웹서핑을 해봐도 그렇다. 아울러 같은 오픈소스 언어라도 RStudio 같은 편리한 개발툴까지 손에 쥐어주는 R에 비해서 어딘가 불편하고 부족하다는 느낌 받을 때수 있다. Python을 쓰면서 불편하다고 느껴본 적 없다, 라는 분들은 더 이상 글을 안 읽어도 된다. 
 
 이 가이드는 거의 R + RStudio에 근접한 수준으로 Python을 쓰게 하는 데 필요한 작업을 다룬다. 부디 이 글을 보는 분들에게 시간 단축의 축복 있으라! 가이드는 다음과 같은 세가지 영역을 다룬다. 
 
@@ -25,7 +25,7 @@ Python이 무척 훌륭한 언어지만 가이드가 아주 친절하지는 않�
 나는 하드코어하게 그냥 바닐라(생짜) Python을 쓰겠어, 라고 결심해도 좋겠다. 하지만 초심자라면 곧 여러 장애물을 만나게 될 것이다. 특히 윈도우를 쓰는 이용자라면 더욱 그렇다. CLI(command line interface)를 맥OS나 리눅스 만큼 자유롭게 쓸 수 없기에 답답할 때가 많다. 게다가 PATH 걸기 등에서 문제가 생기면 꽤 난감하다. 각종 패키지 또한 누가 한번 더 걸러서 잘 관리를 해주고 그 녀석들을 끌어다 쓰면 조금 더 편리하게 쓸 수 있지 않을까 싶다. 이러한 목적에 딱 맞는 것이 아나콘다(Anaconda) 사에서 배포하는 아나콘다 배포판이다. 아마도 Python을 쓰는 사람이라면 아나콘다를 한번쯤은 깔아보았을 터다. 우리도 아나콘다를 쓸 것이다. 아나콘다 배포판이 좋은 이유는 두 가지 정도다. 
 
 1. 아나콘다에서 패키지 관리를 성실하게 해준다. 
-	- 때로는 바닐라 버전보다 아나콘다 버전의 성능이 뛰어난 경우도 있다. 
+	- 때로는 바닐라 버전보다 아나콘다 버전의 성능한 경우도 있다. 
 2. 아나콘다에서 제공하는 가상 환경이 편리하고 훌륭하다. 
 	- 아래 가상 환경을 다시 설명할 것이다. 가상 환경을 쓰기 위해 virtualenv 패키지를 써도 좋겠지만 패키지 관리까지 한방에 해결할 수 있는 아나콘다의 가상환경이 조금 더 편리하다. 
 
@@ -250,11 +250,11 @@ conda env create -f 환경이름.yml
 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODUzMjU1NiwtMTA5NjA5MDQ0MiwtMT
-kwNTM4Njk3OCwtOTU0MDg0NTQyLC0xOTM5MzM3MjA5LDE3Njk0
-NDc3MjgsLTIwODgxNDk0LDE2MzQxNDIyNzAsLTQ0MTgxNzQyOC
-wtODAwODYzODQsLTE4NzkwODQ2NTIsLTk5OTE4Mzk0OSwxMjg4
-NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1MzM0Niw1NDUzMTI4OT
-AsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwzNTgxNzAxMCwtMTE5
-MTc4MzQxMV19
+eyJoaXN0b3J5IjpbLTE2MDUzNjIyMTgsLTUxODUzMjU1NiwtMT
+A5NjA5MDQ0MiwtMTkwNTM4Njk3OCwtOTU0MDg0NTQyLC0xOTM5
+MzM3MjA5LDE3Njk0NDc3MjgsLTIwODgxNDk0LDE2MzQxNDIyNz
+AsLTQ0MTgxNzQyOCwtODAwODYzODQsLTE4NzkwODQ2NTIsLTk5
+OTE4Mzk0OSwxMjg4NjYwNjAxLDIxMzQ5NjYyODMsMTg5MzM1Mz
+M0Niw1NDUzMTI4OTAsLTE1NjE1NjA0ODQsMTkxODU4NTEwMiwz
+NTgxNzAxMF19
 -->
