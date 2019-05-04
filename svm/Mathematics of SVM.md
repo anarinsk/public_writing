@@ -153,7 +153,7 @@ $$
 
 ## Metrics to compare hyperplanes 
 
-### Define with $y$ and $\bf x$
+### Defining functional margin
 
 $f_i = y_i({\bf w} \cdot {\bf x}_i + b)$가 있다고 하자. 이때 분류가 제대로 이루어졌다면, $f_i$의 부호는 언제나 양수다. 위의 분류의 정의에 따르면 그렇다. 데이터 셋 $D$의 정의는 다음과 같다. 
 
@@ -198,7 +198,7 @@ $$
 \max_{{\bf w}, b} M\hspace{1em}\text{s.t.}\hspace{1em}f_i \geq F \hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
 $$
 
-위 극대화 문제에서 모든 변수는 상대값으로 정의할 수 있으므로 $F$를 1로 제한해도 해는 바뀌지 않는다. 그리고 아래와 같은 문제로 정식화된다. 
+위 극대화 문제에서 모든 변수는 상대값으로 정의할 수 있으므로 $F$를 1로 제한해도 해는 바뀌지 않는다. 그리고 아래와 같은 차례로 정식화할 수 있다. 
 
 $$
 \max_{{\bf w}, b} \dfrac{1}{\Vert w \Vert}\hspace{1em}\text{s.t.}\hspace{1em}f_i \geq 1\hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
@@ -339,7 +339,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc0Mzc1NjMsLTE5NDMxMDU3MjksLT
-E3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTcz
-OTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbLTcyNzE2NzI4MywtMTk0MzEwNTcyOSwtMT
+c0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1ODA1NjU3LDQxNzM5
+ODUwMiw5NTA1ODk4NTcsLTE1MTI2MTk3MDBdfQ==
 -->
