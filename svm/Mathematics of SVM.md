@@ -1,0 +1,325 @@
+﻿# Resource 
+
+* Basic: [LINK](https://shuzhanfan.github.io/2018/05/understanding-mathematics-behind-support-vector-machines/)
+* Illustration: [LINK](https://towardsdatascience.com/understanding-support-vector-machine-part-1-lagrange-multipliers-5c24a52ffc5e)
+
+# Key Synopsis 
+
+* Support Vector Machine (SVM) 은 기본적으로 최소화(minimize)를 한 후 이를 다시 극대화(maximize)를 하는 최대최소(maxmin) 형태의 최적화 문제이다. 
+	+ 최소화: 분류의 기준이 되는 두 영역을 나누는 하이퍼플레인을 찾은 후 이 하이퍼플레인과 가장 가깝게 위치하는 두 영역의 벡터(서포트 벡터)를 찾는다. 
+	+ 최대화: 분류 기준이 되는 하이퍼플레인과 평행한 두 서포트벡터를 지나는 하이플레인의 거리를 최대화 한다. 
+* 이 maxmin 문제를 풀면 목적함수에는 training set에 속한 벡터들의 닷 프로덕트만 남게 되고, 덕분에 최적화 문제가 단순해진다. 
+* 이 닷 프로덕트들로 구성된 부분을 다른 함수 형태로 바꿔서 SVM 분류기의 '커널'을 유연하게 바꿀 수 있다. 이것이 커널 트릭 (Kernel trick)이다. 
+  
+# SVM Mathematically 
+
+## Preliminary concepts
+
+### Length of a vector 
+
+ 벡터 ${\bf x} = (x_1, x_2, \dotsc, x_n)$ 의 벡터의 길이, 즉 유클리드 노름(norm), 은 다음과 같이 정의된다. 
+
+$$
+\Vert {\bf x} \Vert = \sqrt{x_1^2 + x_2^2 + \dotsc + x_n^2}
+$$
+
+### Direction of a vector 
+
+벡터 $\bf x$의 방향성 $\bf w$는 다음과 같이 정의할 수 있다.  
+
+$$
+{\bf w} = \left( \dfrac{x_1}{ \Vert \bf x \Vert }, \dfrac{x_2}{ \Vert \bf x \Vert } \right)
+$$
+
+그림으로 나타내보자. 
+
+![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.JPG?raw=true)
+
+이는 다음과 같이 삼각함수로 표시할 수 있다. 
+$$
+{\bf w} = \left(  \cos~\theta, \cos~\alpha  \right)
+$$
+
+### Dot product (inner product) 
+
+내적은 **벡터 연산**의 일종으로, 이는 두 벡터를 스칼라 값으로 바꿔주는 일종의 함수다. 
+
+![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/beta.JPG?raw=true)
+$$
+\begin{aligned}
+\cos \theta & = \rm \cos (\beta -\alpha) \\\\
+& = \cos  \beta \cos \alpha + \sin \beta  \ \sin \alpha \\\\
+& = \dfrac{x_1}{\Vert \rm x \Vert} \dfrac{y_1}{\Vert \rm y \Vert} + \dfrac{x_2}{\Vert \rm x \Vert} \dfrac{y_2}{\Vert \rm y \Vert} \\\\
+& = \dfrac{x_1 y_1 + x_2 y_2}{\Vert \rm x \Vert \Vert \rm y \Vert}
+\end{aligned}
+$$
+
+이를 아래와 같이 정리할 수도 있다. 
+ 
+ $$
+ \rm x \cdot \rm y = \Vert \rm x \Vert \Vert \rm y \Vert \cos \theta
+ $$
+
+### Hyperplane 
+![figure 4](https://cdn-images-1.medium.com/freeze/max/1000/1*q7Tr-GNbm5HM7T3d1HR-Uw.png)
+
+ n 공간을 가를 수 있는 해당 공간의 차원보다 하나 낮은 수학적 관계라고 풀어서 쓸 수 있다. 
+	
+* 즉, $x_1$이나 $x_2$ 중 하나만 주어지면 나머지 위치가 주어진다.  
+* 쉽게 $y = x + 1$의 직선을 생각하면 된다. 2차원 펴연에서 $x$의 값이 주어지면 y값이 정해진다. 이 직선은 2차원 평면에 위치하지만 사실상 1차원의 속석을 지니게 된다. 
+
+${\bf x} = (x_1, x_2)$의 벡터가 있다고 할 때, 하이퍼플레인은 벡터 $\bf w$와 $b$에 의해 정의된다. 즉, 
+
+$$
+{\bf w} \cdot {\bf x} + b = 0 
+$$
+
+### Classifier 
+
+하이퍼플레인을 기준으로 클래시파이어를 다음과 같이 정의한다. 특정한 관찰 벡터 $\bf x$가 있다고 하자. 이때 분류기 $h$의 정의는 아래와 같다. 
+
+$$
+h({\bf x})  = 
+\begin{cases}
++1\hspace{3em} & \text{if} \hspace{1em} {\bf w}\cdot{\bf x} + b \geq 0 \\\\
+-1 \hspace{3em} & \text{if} \hspace{1em} {\bf w}\cdot{\bf x} + b < 0
+\end{cases}
+$$
+
+# Visually 
+
+그림으로 보다 직관적으로 이해해보자. 
+
+![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_1.JPG?raw=true)
+
+어떤 원점을 기준으로  training example까지의 벡터를 ${\bf x}_i$라고 하자. 이때 둘을 가르는 하이퍼플레인이 있을 때 이와 직교하는 벡터 (orthogonal vector) ${\bf w}$를 생각해보자. 왜 orthogonal해야 하는가? 잠시 후 그 이유를 알 수 있다. 하이퍼플레인은 기본적으로는 두 벡터 사이의 닷 프로덕트다. 닷 프로덕트를 그림으로 나타낼 수 있는 방법은 이를 projection으로 생각해보는 것이다. 
+
+즉, ${\bf x}_i$를 ${\bf w}$로 프로젝션을 한다면(projection of ${\bf x}_i$ on ${\bf w}$), 이는 
+
+$$
+\rm Proj_{\bf w} {\bf x}_i = \dfrac{{\bf w} \cdot {\bf x}_i }{\Vert \bf w \Vert}
+$$
+
+닷 프로덕트의 부분이 시각적으로는 projection 결과 곱하기 $\Vert \bf w \Vert$로 나타난다. 즉, ${\bf x}_i$에서 $\bf w$를 향해 내린 선분이 프로젝션이고 이를 $\Vert \bf w \Vert$로 스케일링 한 $\bf w$ 위에서의 길이가 닷 프로덕트를 시각적으로 나타낸 것이다. 이 프로젝션의 길이에 따라서 해당 트레이닝 샘플이 어떤 것으로 분류될지에 관해서 파악할 수 있다. $\bf \Vert w \Vert$가 고정되어 있다고 하면, 프로젝션의 크기가 일정 숫자보다 크면 분류의 오른쪽에 작으면 분류의 왼쪽에 위치하는 것이다. 이를 아래와 같이 표시해보자. 
+
+$${\bf w} \cdot {\bf x}_{\mathrm r} + b \geq 1$$
+
+$${\bf w} \cdot {\bf x}_{\mathrm l} + b \leq 1$$
+
+프로젝션의 길이가 일정한 기준보다 길면 오른쪽에 짧으면 왼쪽에 위치한 것으로 분류할 수 있다. 이 조건을 $y_i$와 함께 나타내보자. 즉, 
+
+$$
+y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1  \geq 0
+$$
+
+앞서 분류기에서 해당 값이 0보다 크면 $y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1 \geq 0$가 성립한다. 반면, 해당 값이 0보다 작으면 음수를 곱하는 것이 되어 부등호가 바뀌게 되고, 이 경우 역시 위의 식이 성립한다. 
+
+
+![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_2.JPG?raw=true)
+
+
+이제 $\cos \theta$를 벡터 $\bf x_{\rm svr} - \bf x _{\rm svl}$와 ${\mathbf w}$가 이루는 각이라고 생각하자. 이때 ${\mathbf w}$는 하이퍼플레인과 orthogonal하며 적절한 training sample 즉, 적절한 하나의  support vector를 지난다. 이때 $\cos \theta$는 다음과 같이 쉽게 정의된다. 
+
+![](images/theta.png)
+
+$$\cos \theta = \dfrac{({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot \bf w}{\Vert {\bf x} _ {\rm svr} - {\bf x} _ {\rm svl} \Vert \Vert {\bf w} \Vert}$$
+
+한편, 하이퍼플레인과 평행하면서  서포트 벡터를 지나가는 하이퍼플레인의 거리 $\Delta_{\bf x}$는 다음과 같다. 
+
+$$\dfrac{ \Delta _ {\bf x} }{\Vert {\bf x} _ {\rm svr} -  {\bf x} _ {\rm svl} \Vert } = \cos \theta = \dfrac{({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot \bf w}{\Vert {\bf x} _ {\rm svr} - {\bf x} _ {\rm svl} \Vert \Vert {\bf w} \Vert}$$
+
+따라서 
+
+$$\Delta _ {\bf x}  = \dfrac{({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot \bf w}{\Vert {\bf w} \Vert}$$
+
+앞서의 관계를 이용하면, $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$가 성립함을 보일 수 있다. 따라서, 두 서포트 벡터 사이의 거리는 $\Vert w \Vert$를 최소화하는 문제가 된다. 
+
+# Optimization for SVM
+
+## Metrics to compare hyperplanes 
+
+### Define with $y$ and $\bf x$
+
+$f_i = y_i({\bf w} \cdot {\bf x}_i + b)$가 있다고 하자. 이때 분류가 제대로 이루어졌다면, $f_i$의 부호는 언제나 양수다. 위의 분류의 정의에 따르면 그렇다. 데이터 셋 $D$의 정의는 다음과 같다. 
+
+$$
+D = \left\lbrace ({\bf x}_i, y_i) \mid {\bf x}_ i \in \mathbb R^n,~y_ i \in \lbrace -1, 1\rbrace  \right\rbrace_{i=1}^m
+$$
+
+펑셔널 마진(functional margin)이라고 불리는 $F$ 는 다음과 같다. 
+
+$$
+F = \min_{i = 1, \dotsc, m} y_i( {\bf w} \cdot {\bf x} _i + b )
+$$
+
+${\bf w}$와 $b$로 정의되는 하이퍼플레인이 모든 트레이닝 셋을 잘 분류했다면, $f_i > 0$가 성립한다. 이 $f_i$ 중 가장 작은 값이 functional margin이다. 그리고 두 번째로 서로 다른 하이퍼플레인 중에서 가장 큰 $F$를 지니는 하이퍼플레인이 최적이 하이퍼플레인이다. 
+
+1. $F$를 얻기 위한 과정에서 최소화 로직이 들어간다. 즉, 해당 하이퍼플레인과 가장 가깝게 위치한 관측치를 얻어내는 과정 
+2. 이렇게 얻어낸 $F$들을 서로 다른 하이퍼플레인들 사이에 비교하고, 가장 큰 $F$를 주는 하이퍼플레인을 채택한다. 
+
+표준화를 위해서 $\bf w$의 norm으로 $f_i$ 값을 나눈다.  For each training example $i = 1,2, \dotsc, m$
+
+## Derivation of SVM optimization problem 
+
+표준화를 위해서 $\Vert \bf w \Vert$로 목적함수와 제약을 나누자. 
+
+$$
+\max_{{\bf w}, b} M\hspace{1em}\text{s.t.}\hspace{1em}\gamma_i \geq M\hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
+$$
+
+where 
+
+$$
+\gamma_i = y_i \left( \dfrac{{\bf w}}{\Vert {\bf w} \Vert} \cdot {\bf x}_i + \dfrac{b}{\Vert {\bf w} \Vert} \right)
+$$
+
+$$
+M = \min_{i=1, \dotsc, m} \gamma_i
+$$
+
+표준화된 펑셔널 마진을 최대화하되, 트레이닝 샘플들이 이것보다 커야 한다는 조건(최소화)이 제약으로 들어간다. 다시 제약만 원래 형태로 돌려보자. 
+
+$$
+\max_{{\bf w}, b} M\hspace{1em}\text{s.t.}\hspace{1em}f_i \geq F \hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
+$$
+
+위 극대화 문제에서 모든 변수는 상대값으로 정의할 수 있으므로 $F$를 1로 제한해도 해는 바뀌지 않는다. 그리고 아래와 같은 문제로 정식화된다. 
+
+$$
+\max_{{\bf w}, b} \dfrac{1}{\Vert w \Vert}\hspace{1em}\text{s.t.}\hspace{1em}f_i \geq 1\hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
+$$
+
+$$
+\min_{{\bf w}, b} {\Vert w \Vert}\hspace{1em}\text{s.t.}\hspace{1em}f_i \geq 1\hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
+$$
+
+$$
+\min_{{\bf w}, b} \dfrac{1}{2}{\Vert w \Vert}^2\hspace{1em}\text{s.t.}\hspace{1em}f_i \geq 1\hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
+$$
+ 
+## Optimization by Wolfe duality 
+
+제약 하의 극대화 문제이므로 라그랑주 최적화로 바뀌서 볼 수 있다. 다음과 같이 라그랑주 방정식을 정의하자. 
+
+$$
+{\mathcal L}({\bf w}, b, {\boldsymbol \alpha}) = \frac{1}{2} {\bf w} \cdot {\bf w} - \sum_{i=1}^m \alpha_i \left [ y_i ({\bf w} \cdot {\bf x}  + b) -1 \right]
+$$
+
+여기서 벡터 $\boldsymbol \alpha$는 라그랑주 최적화의 라그랑주 승수로 제약식을 반영하는 부분이다.  
+일단, $\alpha_i$를 무시하고 두 최적화 변수인 $\bf w$와 $b$ 에 대해서면 1계 조건을 풀면 다음과 같다. 
+
+$$
+\begin{aligned}
+\nabla_{\bf w} {\mathcal L}({\bf w}, b, {\boldsymbol \alpha}) =& {\bf w} - \sum_{i}^{m} \alpha_i y_i x_i = 0 \\\\
+\nabla_{b} {\mathcal L}({\bf w}, b, {\boldsymbol \alpha}) =& - \sum_{i}^{m} \alpha_i y_i = 0
+\end{aligned}
+$$
+
+이 녀석들을 다시 라그랑주 방정식에 넣으로만 $\boldsymbol \alpha$로만 된 일종의 maximal function 혹은 라그랑주 방정식의 하한(infimum)을 만들 수 있다.  
+
+$$
+W(\boldsymbol \alpha)  = \sum_{i=1}^m \alpha_i - \dfrac{1}{2}\sum_{i=1}^{m} \sum_{j=1}^m \alpha_i \alpha_j y_i y_j {\bf x}_i \cdot {\bf y}_j
+$$
+
+이제 문제는 $\boldsymbol \alpha$에 관해서 극대화 문제를 푸는 것으로 바뀐다. 즉, 
+
+$$
+\max_{\boldsymbol \alpha} W( {\boldsymbol \alpha} )\hspace{1em}\text{s.t.}\hspace{1em}{\alpha_i} \geq 0, \sum_{i=1}^m \alpha_i { \left( y_i ( {\bf w} \cdot {\bf x}^* + b) -1 \right)} = 0
+$$
+
+제약 부분이 부등식이므로 KKT 조건에 따라서 풀면 된다. 
+
+$$
+\alpha_i \left[ y_i ({\bf w} \cdot {\bf x}^* + b) -1 \right] = 0
+$$
+
+이때 $\alpha_i >0$의 제약이 걸리면, $y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0$이 만족해야 한다. 이 제약이 걸리는 vector를 support vector라고 부른다. 반면, $\alpha_i =0$는 제약이 등호로 걸리지 않는 트레이닝 샘플들이다. 이들은 분류 하이퍼플레인까지의 길이가 서포트 벡터의 길이보다 크다.  
+
+## Compute $\bf w$  and $b$
+
+$\bf w$ 의 경우 1계 조건에서 쉽게 얻을 수 있다. 
+
+$$
+{\bf w} - \sum_{i=1}^m \alpha_i y_i {\bf x} _i = 0 
+$$
+
+한편, $b$의 경우 support vector의 경우 위에서 본 것 같이 제약 식의 등호가 성립한다. 즉, support vector를 $x^*$라고 할 때, 
+
+$$
+y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0
+$$
+
+* 양변에 $y_i$를 곱하면, $y_i^2 = 1$이므로, 
+
+$$
+b = y_i - {\bf w} \cdot {\bf x}^*
+$$
+
+* support vector가 S개 존재할 경우라면, 
+
+$$
+b = \dfrac{1}{S} \sum_{i=1}^S \left( y_i - {\bf w} \cdot {\bf x}^*_i \right)
+$$
+
+## Limitation 
+
+앞서 본 것을 이른바 hard margin SVM이다. 즉, 마진을 획일적으로 적용하는 분류 알고리듬이다. 하드 마진 SVM은 다음의 두가지 경우에 취약하다. 
+
+## 데이터에 노이즈가 있을 경우
+하드 마진의 큰 문제는 아웃라이어에 취약할 수 밖에 없다는 것이다. 풀어서 말하면 제약이 선형이고 그 제약이 강력하다는 데 있다. 트레이닝 데이터에 이런 저런 노이즈가 있을 경우 하드 마진은 아예 계산이 불가능할 수 있다. 이때 사용하는 기법이 soft margin SVM이다. 
+
+## 데이터 자체가 선형으로 분리되지 않을 경우 
+애초부터 데이터 자체가 선형을 통한 분류를 허용하지 않을 경우에는 비선형 분류기를 택해야 한다. 이때 사용할 수 있는 방법이 kernel trick이다. 
+
+# Soft Margin SVM 
+
+제약을 약간 풀어주는 $\zeta$를 도입한다. 즉, 
+
+$$
+\min_{{\bf w}, b, {\boldsymbol \zeta}} \dfrac{1}{2} \Vert {\bf w} \Vert^2 + \sum_{i=1}^m \zeta_i~\text{s.t}~ y_i ( {\bf w} \cdot {\bf x}_i + b) \geq 1 - \zeta_i~\text{for}~ i = 1,2,\dotsc, m
+$$
+
+문제를 풀면 
+
+$$
+\max_{\boldsymbol \alpha} \sum_{i=1}^m \alpha_i - \dfrac{1}{2} \sum_{i=1}^m \sum_{j=1}^{m} \alpha_i \alpha_j {y_i} {y_j} {\bf x}_i \cdot {\bf x}_j \hspace{1em} \text{s.t.}
+$$
+
+$$
+ 0 \leq \alpha_i \leq C\hspace{1em}\text{for}\hspace{1em}i=1,2,\dotsc, m
+$$
+
+$$
+\sum_{i=1}^m \alpha_i y_i = 0
+$$
+
+## What is $C$
+
+정규화 파라미터인 $C$를 어떻게 이해할까? 식 그대로 보면, $\boldsymbol \zeta$를 얼마나 중요하게 최적화 문제에 반영할 것인지가 중요하다. 다시 말하면 이는 에러를 어떻게 볼 것인가와 연결되어 있다. 만일 $C$가 양의 무한대 값이라면 이는 하드 마진과 동일하다. 만일 $C=0$ 이라면 $\alpha_i=0$가 된다. 이는 사실상 선형 제약이 사라지게 되는 결과가 된다. 따라서 하이퍼플레인이 어떤 것도 분류하기 못하게 될 것이다. 즉, C는 하드 마진과 소프트 마진 사이를 적절하게 조절하는 역할을 수행한다. 
+
+## Kernel Trick 
+
+마지막에 얻은 극대화 문제를 살펴보면, training set이 관련된 부분이 딱 하나 밖에 없다. ${\bf x}_i \cdot {\bf x}_j$ 뿐이다. 따라서 이 부분을 유연하게 조정해줌으로써 비선형적 형태의 classifier를 만들 수 있는 것이다. 앞서 봤던 하드 마진 SVM은 선형 커널을 사용한다. 즉, 
+
+$$
+K({\bf x}_i, {\bf x}_j) = {\bf x}_i \cdot {\bf x}_j
+$$
+
+이런 커널만 있을 형태는 없다. 여러가지 함수를 커널로 취할 수 있을 것이다. 가장 많이 사용되는 커널은 RBF(Radial Basis Function) 혹은 가우시안이라고 한다. 
+
+$$
+K({\bf x}_i, {\bf x}_j) = \exp \left( -\gamma \Vert {\bf x}_i - {\bf x}_j \Vert \right)
+$$
+
+- $\gamma$ 값이 충분히 작으면 linear 커널과 비슷하게 작동한다. 
+- $\gamma$가 크면 support vector에게 크게 영향 받는다. 
+
+
+
+
+
+
+
+
+
+
