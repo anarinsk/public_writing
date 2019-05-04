@@ -33,7 +33,8 @@ $$
 
 그림으로 나타내보자. 
 
-![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.JPG?raw=true)
+<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true)
+</kbd>
 
 이는 다음과 같이 삼각함수로 표시할 수 있다. 
 $$
@@ -44,7 +45,8 @@ $$
 
 내적은 **벡터 연산**의 일종으로, 이는 두 벡터를 스칼라 값으로 바꿔주는 일종의 함수다. 
 
-![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/beta.png?raw=true)
+<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/beta.png?raw=true)
+</kbd>
 
 $$
 \begin{aligned}
@@ -62,6 +64,7 @@ $$
  $$
 
 ### Hyperplane 
+
 ![figure 4](https://cdn-images-1.medium.com/freeze/max/1000/1*q7Tr-GNbm5HM7T3d1HR-Uw.png)
 
  n 공간을 가를 수 있는 해당 공간의 차원보다 하나 낮은 수학적 관계라고 풀어서 쓸 수 있다. 
@@ -325,5 +328,5 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI2MTk3MDBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzkxOTk4OCwtMTUxMjYxOTcwMF19
 -->
