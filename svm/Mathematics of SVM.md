@@ -44,7 +44,7 @@ $$
 
 내적은 **벡터 연산**의 일종으로, 이는 두 벡터를 스칼라 값으로 바꿔주는 일종의 함수다. 
 
-![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/beta.JPG?raw=true)
+![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/beta.JPGpng?raw=true)
 $$
 \begin{aligned}
 \cos \theta & = \rm \cos (\beta -\alpha) \\\\
@@ -323,3 +323,6 @@ $$
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTU2MjE2MzUyMV19
+-->
