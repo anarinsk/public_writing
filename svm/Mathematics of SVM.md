@@ -142,8 +142,8 @@ $y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1  = 0$의 양변에 $y_i$를 곱하면, 
 
 $$
 \begin{aligned}
-{\bf w} \cdot {\bf x}_ {\mathrm svr} + b  & = 1  \\
-{\bf w} \cdot {\bf x}_ {\mathrm svr} + b  & = -1
+{\bf w} \cdot {\bf x}_ {\rm svr} + b  & = 1  \\
+{\bf w} \cdot {\bf x}_ {\rm svl} + b  & = -1
 \end{aligned}
 $$
 
@@ -339,6 +339,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MT
-czOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLT
+M1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5
+NzAwXX0=
 -->
