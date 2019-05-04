@@ -192,7 +192,7 @@ $$
 M = \min_{i=1, \dotsc, m} \gamma_i
 $$
 
-표준화된 펑셔널 마진을 최대화하되, 트레이닝 샘플들이 이것보다 커야 한다는 조건(최소화)이 제약으로 들어간다. 
+표준화된 펑셔널 마진을 최대화하되, 트레이닝 샘플들이 이것보다 커야 한다는 조건(최소화)이 제약으로 들어간다. 즉, 아래의 식은 최소화 제약 하에서 $F$를 최대화한다는 이중 최적화 과정을  보여 준다. 
 
 $$
 \max_{{\bf w}, b} \dfrac{F}{\Vert w \Vert}\hspace{1em}\text{s.t.}\hspace{1em}f_i \geq F \hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
@@ -339,8 +339,8 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1ODU5MjM5LC0xNTU5NTA5ODk5LC0xOT
-QzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4
-MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF
-19
+eyJoaXN0b3J5IjpbLTE0ODIxODA0MjcsLTE1NTk1MDk4OTksLT
+E5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1
+NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5Nz
+AwXX0=
 -->
