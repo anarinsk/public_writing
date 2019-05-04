@@ -126,8 +126,6 @@ $$
 
 이제 $\cos \theta$를 벡터 $\bf x_{\rm svr} - \bf x _{\rm svl}$와 ${\mathbf w}$가 이루는 각이라고 생각하자. 이때 ${\mathbf w}$는 하이퍼플레인과 orthogonal하며 적절한 training sample 즉, 적절한 하나의  support vector를 지난다. 이때 $\cos \theta$는 다음과 같이 쉽게 정의된다. 
 
-![](images/theta.png)
-
 $$\cos \theta = \dfrac{({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot \bf w}{\Vert {\bf x} _ {\rm svr} - {\bf x} _ {\rm svl} \Vert \Vert {\bf w} \Vert}$$
 
 한편, 하이퍼플레인과 평행하면서  서포트 벡터를 지나가는 하이퍼플레인의 거리 $\Delta_{\bf x}$는 다음과 같다. 
@@ -339,8 +337,8 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOT
-QzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4
-MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF
-19
+eyJoaXN0b3J5IjpbLTE5ODkwMDc3NjksODk1MjgwMjMzLC0xNT
+U5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgy
+NDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1Ny
+wtMTUxMjYxOTcwMF19
 -->
