@@ -52,7 +52,7 @@ $$
 
 $$
 \begin{aligned}
-\cos \theta & = \rm \cos (\beta -\alpha) \\\\
+\cos \theta & = \cos (\beta -\alpha) \\\\
 & = \cos  \beta \cos \alpha + \sin \beta  \ \sin \alpha \\\\
 & = \dfrac{x_1}{\Vert \rm x \Vert} \dfrac{y_1}{\Vert \rm y \Vert} + \dfrac{x_2}{\Vert \rm x \Vert} \dfrac{y_2}{\Vert \rm y \Vert} \\\\
 & = \dfrac{x_1 y_1 + x_2 y_2}{\Vert \rm x \Vert \Vert \rm y \Vert}
@@ -337,8 +337,8 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkwMDc3NjksODk1MjgwMjMzLC0xNT
-U5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgy
-NDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1Ny
-wtMTUxMjYxOTcwMF19
+eyJoaXN0b3J5IjpbODM2NTg0ODcwLC0xOTg5MDA3NzY5LDg5NT
+I4MDIzMywtMTU1OTUwOTg5OSwtMTk0MzEwNTcyOSwtMTc0NTM1
+NjIxNSwtMTk4MjQ3MTgwNSwtMzU1ODA1NjU3LDQxNzM5ODUwMi
+w5NTA1ODk4NTcsLTE1MTI2MTk3MDBdfQ==
 -->
