@@ -1,13 +1,15 @@
-﻿# Resource 
+# Resource 
 
+이 자료는 아래 내용을 바탕으로 만들어졌습니다. 
+﻿
 * Basic: [LINK](https://shuzhanfan.github.io/2018/05/understanding-mathematics-behind-support-vector-machines/)
 * Illustration: [LINK](https://towardsdatascience.com/understanding-support-vector-machine-part-1-lagrange-multipliers-5c24a52ffc5e)
 
 # Key Synopsis 
 
 * Support Vector Machine (SVM) 은 기본적으로 최소화(minimize)를 한 후 이를 다시 극대화(maximize)를 하는 최대최소(maxmin) 형태의 최적화 문제이다. 
-	+ 최소화: 분류의 기준이 되는 두 영역을 나누는 하이퍼플레인을 찾은 후 이 하이퍼플레인과 가장 가깝게 위치하는 두 영역의 벡터(서포트 벡터)를 찾는다. 
-	+ 최대화: 분류 기준이 되는 하이퍼플레인과 평행한 두 서포트벡터를 지나는 하이플레인의 거리를 최대화 한다. 
+	+ **최소화**: 분류의 기준이 되는 두 영역을 나누는 하이퍼플레인을 찾은 후 이 하이퍼플레인과 가장 가깝게 위치하는 두 영역의 벡터(서포트 벡터)를 찾는다. 
+	+ **최대화**: 분류 기준이 되는 하이퍼플레인과 평행한 두 서포트벡터를 지나는 하이플레인의 거리를 최대화 한다. 
 * 이 maxmin 문제를 풀면 목적함수에는 training set에 속한 벡터들의 닷 프로덕트만 남게 되고, 덕분에 최적화 문제가 단순해진다. 
 * 이 닷 프로덕트들로 구성된 부분을 다른 함수 형태로 바꿔서 SVM 분류기의 '커널'을 유연하게 바꿀 수 있다. 이것이 커널 트릭 (Kernel trick)이다. 
   
@@ -328,5 +330,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbNDE3Mzk4NTAyLDk1MDU4OTg1NywtMTUxMj
+YxOTcwMF19
 -->
