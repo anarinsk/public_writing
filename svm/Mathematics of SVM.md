@@ -280,10 +280,10 @@ $$
 
 앞서 본 것을 이른바 hard margin SVM이다. 즉, 마진을 획일적으로 적용하는 분류 알고리듬이다. 하드 마진 SVM은 다음의 두가지 경우에 취약하다. 
 
-## 데이터에 노이즈가 있을 경우
+### 데이터에 노이즈가 있을 경우
 하드 마진의 큰 문제는 아웃라이어에 취약할 수 밖에 없다는 것이다. 풀어서 말하면 제약이 선형이고 그 제약이 강력하다는 데 있다. 트레이닝 데이터에 이런 저런 노이즈가 있을 경우 하드 마진은 아예 계산이 불가능할 수 있다. 이때 사용하는 기법이 soft margin SVM이다. 
 
-## 데이터 자체가 선형으로 분리되지 않을 경우 
+### 데이터 자체가 선형으로 분리되지 않을 경우 
 애초부터 데이터 자체가 선형을 통한 분류를 허용하지 않을 경우에는 비선형 분류기를 택해야 한다. 이때 사용할 수 있는 방법이 kernel trick이다. 
 
 # Soft Margin SVM 
@@ -339,7 +339,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDMxMDU3MjksLTE3NDUzNTYyMTUsLT
-E5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5
-ODU3LC0xNTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbODUzMjkxNTAzLC0xOTQzMTA1NzI5LC0xNz
+Q1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4
+NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
 -->
