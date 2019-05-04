@@ -138,10 +138,11 @@ $$\dfrac{ \Delta _ {\bf x} }{\Vert {\bf x} _ {\rm svr} -  {\bf x} _ {\rm svl} \V
 
 $$\Delta _ {\bf x}  = \dfrac{({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot \bf w}{\Vert {\bf w} \Vert}$$
 
-앞서의 관계를 이용하면, $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$가 성립함을 보일 수 있다. 즉, $y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1  = 0$의 양변에 $y_i$를 곱해보자. 
+앞서의 관계를 이용하면, $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$가 성립함을 보일 수 있다. 즉, $y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1  = 0$의 양변에 $y_i$를 곱하면, $y_i^2 ( {\bf w} \cdot {\bf x}_ i + b)  = y_i $가 된다. $y_$
 
 $$
-y_i^2 ( {\bf w} \cdot {\bf x}_ i + b) - 1  = 0
+y_i^2 ( {\bf w} \cdot {\bf x}_ {\mathrm svr} + b)  & = 1 \\
+y_i^2 ( {\bf w} \cdot {\bf x}_ {\mathrm svr} + b)  = -1
 $$
 
 따라서, 두 서포트 벡터 사이의 거리는 $\Vert w \Vert$를 최소화하는 문제가 된다. 
@@ -336,6 +337,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDg5MzYyNiw0MTczOTg1MDIsOTUwNT
+eyJoaXN0b3J5IjpbMjAzODQzMDkyNiw0MTczOTg1MDIsOTUwNT
 g5ODU3LC0xNTEyNjE5NzAwXX0=
 -->
