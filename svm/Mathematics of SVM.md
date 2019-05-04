@@ -230,8 +230,7 @@ $$
 \end{aligned}
 $$
 
-이 녀석들을 다시 라그랑주 방정식에 넣으로만 $\boldsymbol \alpha$로만 된 일종의 maximal function 혹은 라그랑주 방정식의 하한(infimum)을 만들 수 있다.  
-
+이 녀석들을 다시 라그랑주 방정식에 넣으로만 $\boldsymbol \alpha$로만 된 일종의 maximal function 혹은 라그랑주 방정식의 하한(infimum)을 만들 수 있다.  Wolfe duality에 따르먼, 최소화 최대화를 한 번에 푸는 것과 한 가지 문제를 먼저 푼 후 해당 결과를 목적 함수에 넣고 두 번째 문제를 순차적으로 푸는 것은 동일하다. 따라서 
 $$
 W(\boldsymbol \alpha)  = \sum_{i=1}^m \alpha_i - \dfrac{1}{2}\sum_{i=1}^{m} \sum_{j=1}^m \alpha_i \alpha_j y_i y_j {\bf x}_i \cdot {\bf y}_j
 $$
@@ -339,8 +338,8 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIxODA0MjcsLTE1NTk1MDk4OTksLT
-E5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1
-NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5Nz
-AwXX0=
+eyJoaXN0b3J5IjpbLTMyOTExOTk4NiwtMTU1OTUwOTg5OSwtMT
+k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
+ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4NTcsLTE1MTI2MTk3MD
+BdfQ==
 -->
