@@ -35,8 +35,10 @@ $$
 
 그림으로 나타내보자. 
 
-<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
-</kbd>
+
+<div style="text-align: center">
+![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
+</div></kbd>
 
 이는 다음과 같이 삼각함수로 표시할 수 있다. 
 $$
@@ -339,7 +341,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLT
-M1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5
-NzAwXX0=
+eyJoaXN0b3J5IjpbMTE1NjI2MTg5OSwtMTc0NTM1NjIxNSwtMT
+k4MjQ3MTgwNSwtMzU1ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4
+NTcsLTE1MTI2MTk3MDBdfQ==
 -->
