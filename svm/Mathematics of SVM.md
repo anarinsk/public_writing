@@ -92,7 +92,7 @@ h({\bf x})  =
 \end{cases}
 $$
 
-# Visually 
+# Explained Visually 
 
 그림으로 보다 직관적으로 이해해보자. 
 
@@ -339,7 +339,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMjkxNTAzLC0xOTQzMTA1NzI5LC0xNz
-Q1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4
-NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
+eyJoaXN0b3J5IjpbLTE1ODc0Mzc1NjMsLTE5NDMxMDU3MjksLT
+E3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTcz
+OTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
 -->
