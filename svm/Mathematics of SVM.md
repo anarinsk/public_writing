@@ -64,10 +64,10 @@ $$
  $$
 
 ### Hyperplane 
+<kbd>![figure 4](https://cdn-images-1.medium.com/freeze/max/1000/1*q7Tr-GNbm5HM7T3d1HR-Uw.png)
+</kbd>
 
-![figure 4](https://cdn-images-1.medium.com/freeze/max/1000/1*q7Tr-GNbm5HM7T3d1HR-Uw.png)
-
- n 공간을 가를 수 있는 해당 공간의 차원보다 하나 낮은 수학적 관계라고 풀어서 쓸 수 있다. 
+$n$ 차원  공간을 가를 수 있는 해당 공간의 차원보다 하나 낮은 수학적 관계라고 풀어서 쓸 수 있다. 
 	
 * 즉, $x_1$이나 $x_2$ 중 하나만 주어지면 나머지 위치가 주어진다.  
 * 쉽게 $y = x + 1$의 직선을 생각하면 된다. 2차원 펴연에서 $x$의 값이 주어지면 y값이 정해진다. 이 직선은 2차원 평면에 위치하지만 사실상 1차원의 속석을 지니게 된다. 
@@ -94,7 +94,8 @@ $$
 
 그림으로 보다 직관적으로 이해해보자. 
 
-![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_1.JPG?raw=true)
+<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_1.png?raw=true)
+</kbd>
 
 어떤 원점을 기준으로  training example까지의 벡터를 ${\bf x}_i$라고 하자. 이때 둘을 가르는 하이퍼플레인이 있을 때 이와 직교하는 벡터 (orthogonal vector) ${\bf w}$를 생각해보자. 왜 orthogonal해야 하는가? 잠시 후 그 이유를 알 수 있다. 하이퍼플레인은 기본적으로는 두 벡터 사이의 닷 프로덕트다. 닷 프로덕트를 그림으로 나타낼 수 있는 방법은 이를 projection으로 생각해보는 것이다. 
 
@@ -118,9 +119,8 @@ $$
 
 앞서 분류기에서 해당 값이 0보다 크면 $y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1 \geq 0$가 성립한다. 반면, 해당 값이 0보다 작으면 음수를 곱하는 것이 되어 부등호가 바뀌게 되고, 이 경우 역시 위의 식이 성립한다. 
 
-
-![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_2.JPG?raw=true)
-
+<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_2.png?raw=true)
+</kbd>
 
 이제 $\cos \theta$를 벡터 $\bf x_{\rm svr} - \bf x _{\rm svl}$와 ${\mathbf w}$가 이루는 각이라고 생각하자. 이때 ${\mathbf w}$는 하이퍼플레인과 orthogonal하며 적절한 training sample 즉, 적절한 하나의  support vector를 지난다. 이때 $\cos \theta$는 다음과 같이 쉽게 정의된다. 
 
@@ -328,5 +328,5 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzkxOTk4OCwtMTUxMjYxOTcwMF19
+eyJoaXN0b3J5IjpbOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
 -->
