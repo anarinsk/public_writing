@@ -179,7 +179,7 @@ ${\bf w}$와 $b$로 정의되는 하이퍼플레인이 모든 트레이닝 셋�
 표준화를 위해서 $\Vert \bf w \Vert$로 목적함수와 제약을 나누자. 
 
 $$
-\max_{{\bf w}, b} M\hspace{1em}\text{s.t.}\hspace{1em}\gamma_i \geq M\hspace{1em}\text{for}\hspace{1em}i = 1,2, \dotsc, m
+\max_{{\bf w}, b} M\hspace{1em}\text{s.t.}\hspace{1em}\gamma_i \geq M\hspace{1em}\text{for}\hspace{1em}i = 1,\dotsc, m
 $$
 
 where 
@@ -339,7 +339,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzE2NzI4MywtMTk0MzEwNTcyOSwtMT
-c0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1ODA1NjU3LDQxNzM5
-ODUwMiw5NTA1ODk4NTcsLTE1MTI2MTk3MDBdfQ==
+eyJoaXN0b3J5IjpbLTE1NTk1MDk4OTksLTE5NDMxMDU3MjksLT
+E3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTcz
+OTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
 -->
