@@ -140,12 +140,12 @@ $y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1  = 0$의 양변에 $y_i$를 곱하면, 
 
 $$
 \begin{aligned}
-{\bf w} \cdot {\bf x}_ {\rm svr} + b  & = 1  \\
-{\bf w} \cdot {\bf x}_ {\rm svl} + b  & = -1
+{\bf x}_ {\rm svr} \cdot {\bf w} + b  & = 1  \\
+{\bf x}_ {\rm svl}  \cdot {\bf w} + b  & = -1
 \end{aligned}
 $$
 
-여기서,  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$의 결과를 얻을 수 있다. 결론적으로 두 서포트 벡터 사이의 거리는 $\Vert w \Vert$를 최소화하는 문제가 된다. 
+여기서,  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$의 결과를 얻을 수 있다. 결론적으로 두 서포트 벡터 사이의 거리를 최대화하는 문제는 $\Vert w \Vert$를 최소화하는 문제와 같다. 
 
 # Optimization for SVM
 
@@ -337,8 +337,9 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OT
-AwNzc2OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMDU3
-MjksLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Ny
-w0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NT
+g0ODcwLC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5
+OSwtMTk0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNS
+wtMzU1ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4NTcsLTE1MTI2
+MTk3MDBdfQ==
 -->
