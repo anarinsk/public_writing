@@ -286,7 +286,7 @@ $$
 
 # Soft Margin SVM 
 
-제약을 약간 풀어주는 $\zeta$를 도입한다. 즉, 
+제약을 약간 풀어주는 $\zeta$를 도입하여 최적화 문제를 정식화하면 아래와 같다. 
 
 $$
 \min_{{\bf w}, b, {\boldsymbol \zeta}} \dfrac{1}{2} \Vert {\bf w} \Vert^2 + C \sum_{i=1}^m \zeta_i~\text{s.t}~ y_i ( {\bf w} \cdot {\bf x}_i + b) \geq 1 - \zeta_i~\text{for}~ i = 1,2,\dotsc, m
@@ -337,8 +337,8 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzgwMTIyNSw4MzY1ODQ4NzAsLTE5OD
-kwMDc3NjksODk1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQzMTA1
-NzI5LC0xNzQ1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MDU2NT
-csNDE3Mzk4NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
+eyJoaXN0b3J5IjpbMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OT
+AwNzc2OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMDU3
+MjksLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Ny
+w0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
 -->
