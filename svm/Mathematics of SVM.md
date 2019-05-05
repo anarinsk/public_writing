@@ -1,3 +1,8 @@
+# Key Questions 
+
+* Support Vector Machine (SVM)의 알고리듬을 수학적으로 어떻게 도출할 수 있을까? 
+* 보다 직관적으로 이해할 수 있는 방법은 없을까? 
+
 # Resource 
 
 이 자료는 아래 내용을 바탕으로 만들어졌습니다. 
@@ -337,9 +342,9 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NT
-g0ODcwLC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5
-OSwtMTk0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNS
-wtMzU1ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4NTcsLTE1MTI2
-MTk3MDBdfQ==
+eyJoaXN0b3J5IjpbNTY2OTE4MjY3LC02OTgzODU3MTcsMTQ1OD
+YzODA2LDgzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMs
+LTE1NTk1MDk4OTksLTE5NDMxMDU3MjksLTE3NDUzNTYyMTUsLT
+E5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5
+ODU3LC0xNTEyNjE5NzAwXX0=
 -->
