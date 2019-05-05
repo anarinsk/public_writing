@@ -40,8 +40,8 @@ $$
 
 그림으로 나타내보자. 
 
-<center>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
-</center>
+<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
+</kbd>
 
 이는 다음과 같이 삼각함수로 표시할 수 있다. 
 $$
@@ -342,9 +342,9 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2OTE4MjY3LC02OTgzODU3MTcsMTQ1OD
-YzODA2LDgzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMs
-LTE1NTk1MDk4OTksLTE5NDMxMDU3MjksLTE3NDUzNTYyMTUsLT
-E5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5
-ODU3LC0xNTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbLTE5MjE0NTc2MTUsNTY2OTE4MjY3LC02OT
+gzODU3MTcsMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OTAwNzc2
+OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMDU3MjksLT
+E3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTcz
+OTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
 -->
