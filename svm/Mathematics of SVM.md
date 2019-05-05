@@ -289,7 +289,7 @@ $$
 제약을 약간 풀어주는 $\zeta$를 도입한다. 즉, 
 
 $$
-\min_{{\bf w}, b, {\boldsymbol \zeta}} \dfrac{1}{2} \Vert {\bf w} \Vert^2 + \sum_{i=1}^m \zeta_i~\text{s.t}~ y_i ( {\bf w} \cdot {\bf x}_i + b) \geq 1 - \zeta_i~\text{for}~ i = 1,2,\dotsc, m
+\min_{{\bf w}, b, {\boldsymbol \zeta}} \dfrac{1}{2} \Vert {\bf w} \Vert^2 + C \sum_{i=1}^m \zeta_i~\text{s.t}~ y_i ( {\bf w} \cdot {\bf x}_i + b) \geq 1 - \zeta_i~\text{for}~ i = 1,2,\dotsc, m
 $$
 
 문제를 풀면 
@@ -337,8 +337,8 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NTg0ODcwLC0xOTg5MDA3NzY5LDg5NT
-I4MDIzMywtMTU1OTUwOTg5OSwtMTk0MzEwNTcyOSwtMTc0NTM1
-NjIxNSwtMTk4MjQ3MTgwNSwtMzU1ODA1NjU3LDQxNzM5ODUwMi
-w5NTA1ODk4NTcsLTE1MTI2MTk3MDBdfQ==
+eyJoaXN0b3J5IjpbMTg0MzgwMTIyNSw4MzY1ODQ4NzAsLTE5OD
+kwMDc3NjksODk1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQzMTA1
+NzI5LC0xNzQ1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MDU2NT
+csNDE3Mzk4NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
 -->
