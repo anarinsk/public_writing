@@ -53,8 +53,9 @@ $$
 
 내적은 **벡터 연산**의 일종으로, 이는 두 벡터를 스칼라 값으로 바꿔주는 일종의 함수다. 
 
-<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/beta.png?raw=true =300x300)
-</kbd>
+<div class='mycenter'><kbd>
+<img src="https://github.com/anarinsk/public-images/blob/master/svm/beta.png?raw=true">
+</kbd></div>
 
 $$
 \begin{aligned}
@@ -72,8 +73,10 @@ $$
  $$
 
 ### Hyperplane 
-<kbd>![figure 4](https://cdn-images-1.medium.com/freeze/max/1000/1*q7Tr-GNbm5HM7T3d1HR-Uw.png =400x300)
-</kbd>
+
+<div class='mycenter'><kbd>
+<img src="https://cdn-images-1.medium.com/freeze/max/1000/1*q7Tr-GNbm5HM7T3d1HR-Uw.png">
+</kbd></div>
 
 $n$ 차원  공간을 가를 수 있는 해당 공간의 차원보다 하나 낮은 수학적 관계라고 풀어서 쓸 수 있다. 
 	
@@ -102,8 +105,9 @@ $$
 
 그림으로 보다 직관적으로 이해해보자. 
 
-<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_1.png?raw=true =400x300)
-</kbd>
+<div class='mycenter'><kbd>
+<img src="https://github.com/anarinsk/public-images/blob/master/svm/svm_1.png?raw=true ">
+</kbd></div>
 
 어떤 원점을 기준으로  training example까지의 벡터를 ${\bf x}_i$라고 하자. 이때 둘을 가르는 하이퍼플레인이 있을 때 이와 직교하는 벡터 (orthogonal vector) ${\bf w}$를 생각해보자. 왜 orthogonal해야 하는가? 잠시 후 그 이유를 알 수 있다. 하이퍼플레인은 기본적으로는 두 벡터 사이의 닷 프로덕트다. 닷 프로덕트를 그림으로 나타낼 수 있는 방법은 이를 projection으로 생각해보는 것이다. 
 
@@ -347,11 +351,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODA1MTc1MSwtMTk2MDk1MjA4OSwtMT
-I1MTkwMjQ4OSwyMDUwODI1NzA0LDIwNDUzMjcxMjAsLTE5MjE0
-NTc2MTUsNTY2OTE4MjY3LC02OTgzODU3MTcsMTQ1ODYzODA2LD
-gzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMsLTE1NTk1
-MDk4OTksLTE5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0Nz
-E4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0x
-NTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbLTE0MjI3ODIzNjUsLTE5NjA5NTIwODksLT
+EyNTE5MDI0ODksMjA1MDgyNTcwNCwyMDQ1MzI3MTIwLC0xOTIx
+NDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1NzE3LDE0NTg2MzgwNi
+w4MzY1ODQ4NzAsLTE5ODkwMDc3NjksODk1MjgwMjMzLC0xNTU5
+NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgyND
+cxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1Nywt
+MTUxMjYxOTcwMF19
 -->
