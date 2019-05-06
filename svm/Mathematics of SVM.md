@@ -251,7 +251,7 @@ $$
 \alpha_i \left[ y_i ({\bf w} \cdot {\bf x}^* + b) -1 \right] = 0
 $$
 
-KKT 조건이란 부등식 제약을 푸는 테크닉이다. 즉, $\alpha_i >0$의 제약이 유효하다면 제약을 만족시키기 위해서는 $y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0$이 만족해야 한다. 이렇게 제약 vector를 support vector라고 부른다. 반면, $\alpha_i =0$는 제약이 등호로 걸리지 않는 트레이닝 샘플들이다. 이들은 분류 하이퍼플레인까지의 길이가 서포트 벡터의 길이보다 크다.  
+KKT 조건이란 부등식 제약을 푸는 테크닉이다. 즉, $\alpha_i >0$의 제약이 유효하다면 제약을 만족시키기 위해서는 $y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0$이 만족해야 한다. 이렇게 제약이 걸리는 경우에 위치한 $x^*$가 바로 서포트벡터다. 반면, $\alpha_i =0$는 제약이 등호로 걸릴 필요가 없는 트레이닝 셋의 관찰들이다. 이들은 분류 하이퍼플레인까지의 길이가 서포트 벡터의 길이보다 크다.  
 
 ## Compute $\bf w$  and $b$
 
@@ -342,7 +342,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTc0NTkxMCwtMTkyMTQ1NzYxNSw1Nj
+eyJoaXN0b3J5IjpbLTE2NzcwMDcyNCwtMTkyMTQ1NzYxNSw1Nj
 Y5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0ODcw
 LC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwtMT
 k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
