@@ -1,3 +1,8 @@
+**Mathematics of Support Vector Machine**
+
+2019-05-06
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
+
 # Key Questions 
 
 * Support Vector Machine (SVM)의 알고리듬을 수학적으로 어떻게 도출할 수 있을까? 
@@ -342,7 +347,7 @@ $$
 
 [^1]: 내적이라고 번역되기도 하지만 여기서는 그냥 '닷 프로덕트'라고 쓰리고 하겠다. 
 
-
+:feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 
 
@@ -352,11 +357,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODA5MzQwNywtMTk2MDk1MjA4OSwtMT
-I1MTkwMjQ4OSwyMDUwODI1NzA0LDIwNDUzMjcxMjAsLTE5MjE0
-NTc2MTUsNTY2OTE4MjY3LC02OTgzODU3MTcsMTQ1ODYzODA2LD
-gzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMsLTE1NTk1
-MDk4OTksLTE5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0Nz
-E4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0x
-NTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbLTc2ODYzNTIyNywxOTg4MDkzNDA3LC0xOT
+YwOTUyMDg5LC0xMjUxOTAyNDg5LDIwNTA4MjU3MDQsMjA0NTMy
+NzEyMCwtMTkyMTQ1NzYxNSw1NjY5MTgyNjcsLTY5ODM4NTcxNy
+wxNDU4NjM4MDYsODM2NTg0ODcwLC0xOTg5MDA3NzY5LDg5NTI4
+MDIzMywtMTU1OTUwOTg5OSwtMTk0MzEwNTcyOSwtMTc0NTM1Nj
+IxNSwtMTk4MjQ3MTgwNSwtMzU1ODA1NjU3LDQxNzM5ODUwMiw5
+NTA1ODk4NTddfQ==
 -->
