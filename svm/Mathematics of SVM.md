@@ -40,7 +40,7 @@ $$
 
 그림으로 나타내보자. 
 
-<img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true"  alt="Paris" class="center">
+<img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true"  alt="Paris" class="mycenter">
 
 <kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
 </kbd>
@@ -348,10 +348,10 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDgyNTcwNCwyMDQ1MzI3MTIwLC0xOT
-IxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1NzE3LDE0NTg2Mzgw
-Niw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksODk1MjgwMjMzLC0xNT
-U5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgy
-NDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1Ny
-wtMTUxMjYxOTcwMF19
+eyJoaXN0b3J5IjpbLTE5NDExMzMxNjQsMjA1MDgyNTcwNCwyMD
+Q1MzI3MTIwLC0xOTIxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1
+NzE3LDE0NTg2MzgwNiw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksOD
+k1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1
+MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NT
+AyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
 -->
