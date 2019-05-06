@@ -13,10 +13,10 @@
 # Key Synopsis 
 
 * SVM은 기본적으로 최소화(minimize)를 한 후 이를 다시 극대화(maximize)를 하는 최대최소(maxmin) 형태의 최적화 문제이다. 
-	+ **최소화**: 분류의 기준이 되는 두 영역을 나누는 하이퍼플레인을 찾은 후 이 하이퍼플레인과 가장 가깝게 위치하는 두 영역의 벡터(서포트 벡터)를 찾는다. 
+	+ **최소화**: 분류(classification)의 기준이 되는 두 영역을 나누는 하이퍼플레인을 찾은 후 이 하이퍼플레인과 가장 가깝게 위치하는 두 영역의 벡터(서포트 벡터)를 찾는다. 
 	+ **최대화**: 분류 기준이 되는 하이퍼플레인과 평행한 두 서포트 벡터를 지나는 하이플레인의 거리를 최대화 한다. 
 * 이 maxmin 문제를 풀면 목적함수에는 training set에 속한 벡터들의 닷 프로덕트만 남게 되고, 덕분에 최적화 문제가 단순해진다. 
-* 이 닷 프로덕트들로 구성된 부분을 다른 함수 형태로 바꿔서 SVM 분류기의 '커널'을 유연하게 바꿀 수 있다. 이것이 커널 트릭 (Kernel trick)이다. 
+* 이 닷 프로덕트들로 구성된 부분을 다른 함수 형태로 바꿔서 SVM 알고리듬의 '커널'을 유연하게 바꿀 수 있다. 이것이 커널 트릭 (Kernel trick)이다. 
   
 # SVM Mathematically 
 
@@ -87,7 +87,7 @@ $$
 
 ### Classifier 
 
-하이퍼플레인을 기준으로 클래시파이어를 다음과 같이 정의한다. 특정한 관찰 벡터 $\bf x$가 있다고 하자. 이때 분류기 $h$의 정의는 아래와 같다. 
+하이퍼플레인을 기준으로 클래시파이어를 다음과 같이 정의한다. 특정한 관찰 벡터 $\bf x$가 있다고 하자. 이때 분류 $h$의 정의는 아래와 같다. 
 
 $$
 h({\bf x})  = 
@@ -112,7 +112,8 @@ $$
 \rm Proj_{\bf w} {\bf x}_i = \dfrac{{\bf w} \cdot {\bf x}_i }{\Vert \bf w \Vert}
 $$
 
-닷 프로덕트의 부분이 시각적으로는 projection 결과 곱하기 $\Vert \bf w \Vert$로 나타난다. 즉, ${\bf x}_i$에서 $\bf w$를 향해 내린 선분이 프로젝션이고 이를 $\Vert \bf w \Vert$로 스케일링 한 $\bf w$ 위에서의 길이가 닷 프로덕트를 시각적으로 나타낸 것이다. 이 프로젝션의 길이에 따라서 해당 트레이닝 샘플이 어떤 것으로 분류될지에 관해서 파악할 수 있다. $\bf \Vert w \Vert$가 고정되어 있다고 하면, 프로젝션의 크기가 일정 숫자보다 크면 분류의 오른쪽에 작으면 분류의 왼쪽에 위치하는 것이다. 이를 아래와 같이 표시해보자. 
+닷 프로덕트의 부분이 시각적으로는 projection 결과 곱하기 $\Vert \bf w \Vert$로 나타난다. 즉, ${\bf x}_i$에서 $\bf w$를 향해 내린 선분이 프로젝션이고 이를 $\Vert \bf w \Vert$로 스케일링 한 $\bf w$ 위에서의 길이가 닷 프로덕트[^1]를 시각적으로 나타낸 것이다. 이 프로젝션의 길이에 따라서 해당 트레이닝 샘플이 어떤 것으로 분류될지에 관해서 파악할 수 있다. $\bf \Vert w \Vert$가 고정되어 있다고 하면, 프로젝션의 크기가 일정 숫자보다 크면 분류의 오른쪽에 작으면 분류의 왼쪽에 위치하는 것이다. 이를 아래와 같이 표시해보자. 
+
 
 $${\bf w} \cdot {\bf x}_{\mathrm r} + b \geq 1$$
 
@@ -273,7 +274,7 @@ $$
 b = y_i - {\bf w} \cdot {\bf x}^*
 $$
 
-* 서포트벡터가 S개 존재할 경우라면, 
+* 서포트 벡터가 S개 존재할 경우라면, 
 
 $$
 b = \dfrac{1}{S} \sum_{i=1}^S \left( y_i - {\bf w} \cdot {\bf x}^*_i \right)
@@ -317,7 +318,7 @@ $$
 
 ## Kernel Trick 
 
-마지막에 얻은 극대화 문제를 살펴보면, training set이 관련된 부분이 딱 하나 밖에 없다. ${\bf x}_i \cdot {\bf x}_j$ 뿐이다. 따라서 이 부분을 유연하게 조정해줌으로써 비선형적 형태의 classifier를 만들 수 있는 것이다. 앞서 봤던 하드 마진 SVM은 선형 커널을 사용한다. 즉, 
+마지막에 얻은 극대화 문제를 살펴보면, training set이 관련된 부분이 딱 하나 밖에 없다. ${\bf x}_i \cdot {\bf x}_j$ 뿐이다. 따라서 이 부분을 유연하게 조정해줌으로써 비선형적 형태의 분류를 만들 수 있는 것이다. 앞서 봤던 하드 마진 SVM은 선형 커널을 사용한다. 즉, 
 
 $$
 K({\bf x}_i, {\bf x}_j) = {\bf x}_i \cdot {\bf x}_j
@@ -329,8 +330,8 @@ $$
 K({\bf x}_i, {\bf x}_j) = \exp \left( -\gamma \Vert {\bf x}_i - {\bf x}_j \Vert \right)
 $$
 
-- $\gamma$ 값이 충분히 작으면 linear 커널과 비슷하게 작동한다. 
-- $\gamma$가 크면 서포트벡터에게 크게 영향 받는다. 
+- $\gamma$ 값이 충분히 작으면 선형 커널과 비슷하게 작동한다. 
+- $\gamma$가 크면 서포트 벡터에게 크게 영향 받는다. 
 
 
 
@@ -342,7 +343,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzc1NzAyMSwtMTkyMTQ1NzYxNSw1Nj
+eyJoaXN0b3J5IjpbLTMyMzU1MTc2NCwtMTkyMTQ1NzYxNSw1Nj
 Y5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0ODcw
 LC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwtMT
 k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
