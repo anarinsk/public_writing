@@ -12,9 +12,9 @@
 
 # Key Synopsis 
 
-* Support Vector Machine (SVM) 은 기본적으로 최소화(minimize)를 한 후 이를 다시 극대화(maximize)를 하는 최대최소(maxmin) 형태의 최적화 문제이다. 
+* SVM은 기본적으로 최소화(minimize)를 한 후 이를 다시 극대화(maximize)를 하는 최대최소(maxmin) 형태의 최적화 문제이다. 
 	+ **최소화**: 분류의 기준이 되는 두 영역을 나누는 하이퍼플레인을 찾은 후 이 하이퍼플레인과 가장 가깝게 위치하는 두 영역의 벡터(서포트 벡터)를 찾는다. 
-	+ **최대화**: 분류 기준이 되는 하이퍼플레인과 평행한 두 서포트벡터를 지나는 하이플레인의 거리를 최대화 한다. 
+	+ **최대화**: 분류 기준이 되는 하이퍼플레인과 평행한 두 서포트 벡터를 지나는 하이플레인의 거리를 최대화 한다. 
 * 이 maxmin 문제를 풀면 목적함수에는 training set에 속한 벡터들의 닷 프로덕트만 남게 되고, 덕분에 최적화 문제가 단순해진다. 
 * 이 닷 프로덕트들로 구성된 부분을 다른 함수 형태로 바꿔서 SVM 분류기의 '커널'을 유연하게 바꿀 수 있다. 이것이 커널 트릭 (Kernel trick)이다. 
   
@@ -129,7 +129,7 @@ $$
 <kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_2.png?raw=true =400x300)
 </kbd>
 
-이제 $\cos \theta$를 벡터 $\bf x_{\rm svr} - \bf x _{\rm svl}$와 ${\mathbf w}$가 이루는 각이라고 생각하자. 이때 ${\mathbf w}$는 하이퍼플레인과 orthogonal하며 적절한 training sample 즉, 적절한 하나의  support vector를 지난다. 이때 $\cos \theta$는 다음과 같이 쉽게 정의된다. 
+이제 $\cos \theta$를 벡터 $\bf x_{\rm svr} - \bf x _{\rm svl}$와 ${\mathbf w}$가 이루는 각이라고 생각하자. 이때 ${\mathbf w}$는 하이퍼플레인과 orthogonal하며 적절한 training sample 즉, 적절한 하나의  서포트 벡터를 지난다. 이때 $\cos \theta$는 다음과 같이 쉽게 정의된다. 
 
 $$\cos \theta = \dfrac{({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot \bf w}{\Vert {\bf x} _ {\rm svr} - {\bf x} _ {\rm svl} \Vert \Vert {\bf w} \Vert}$$
 
@@ -251,7 +251,7 @@ $$
 \alpha_i \left[ y_i ({\bf w} \cdot {\bf x}^* + b) -1 \right] = 0
 $$
 
-KKT 조건이란 부등식 제약을 푸는 테크닉이다. 즉, $\alpha_i >0$의 제약이 유효하다면 제약을 만족시키기 위해서는 $y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0$이 만족해야 한다. 이렇게 제약이 걸리는 경우에 위치한 $x^*$가 바로 서포트벡터다. 반면, $\alpha_i =0$는 제약이 등호로 걸릴 필요가 없는 트레이닝 셋의 관찰들이다. 이들은 분류 하이퍼플레인까지의 길이가 서포트 벡터의 길이보다 크다.  
+KKT 조건이란 부등식 제약을 푸는 테크닉이다. 즉, $\alpha_i >0$의 제약이 유효하다면 제약을 만족시키기 위해서는 $y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0$이 만족해야 한다. 이렇게 제약이 걸리는 경우에 위치한 $x^*$가 바로 '서포트 벡터'다. 반면, $\alpha_i =0$는 제약이 등호로 걸릴 필요가 없는 트레이닝 셋의 관찰들이다. 이들은 분류 하이퍼플레인까지의 길이가 서포트 벡터의 길이보다 크다.  
 
 ## Compute $\bf w$  and $b$
 
@@ -261,7 +261,7 @@ $$
 {\bf w} - \sum_{i=1}^m \alpha_i y_i {\bf x} _i = 0 
 $$
 
-한편, $b$의 경우 support vector의 경우 위에서 본 것 같이 제약 식의 등호가 성립한다. 즉, support vector를 $x^*$라고 할 때, 
+한편, $b$의 경우 서포트 벡터의 경우 위에서 본 것 같이 제약 식의 등호가 성립한다. 즉, 서포트 벡터를 $x^*$라고 할 때, 
 
 $$
 y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0
@@ -273,7 +273,7 @@ $$
 b = y_i - {\bf w} \cdot {\bf x}^*
 $$
 
-* support vector가 S개 존재할 경우라면, 
+* 서포트벡터가 S개 존재할 경우라면, 
 
 $$
 b = \dfrac{1}{S} \sum_{i=1}^S \left( y_i - {\bf w} \cdot {\bf x}^*_i \right)
@@ -330,7 +330,7 @@ K({\bf x}_i, {\bf x}_j) = \exp \left( -\gamma \Vert {\bf x}_i - {\bf x}_j \Vert 
 $$
 
 - $\gamma$ 값이 충분히 작으면 linear 커널과 비슷하게 작동한다. 
-- $\gamma$가 크면 support vector에게 크게 영향 받는다. 
+- $\gamma$가 크면 서포트벡터에게 크게 영향 받는다. 
 
 
 
@@ -342,7 +342,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzcwMDcyNCwtMTkyMTQ1NzYxNSw1Nj
+eyJoaXN0b3J5IjpbMTQyNzc1NzAyMSwtMTkyMTQ1NzYxNSw1Nj
 Y5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0ODcw
 LC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwtMT
 k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
