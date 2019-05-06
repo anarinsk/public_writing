@@ -117,8 +117,6 @@ $$
 
 닷 프로덕트의 부분이 시각적으로는 projection 결과 곱하기 $\Vert \bf w \Vert$로 나타난다. 즉, ${\bf x}_i$에서 $\bf w$를 향해 내린 선분이 프로젝션이고 이를 $\Vert \bf w \Vert$로 스케일링 한 $\bf w$ 위에서의 길이가 닷 프로덕트[^1]를 시각적으로 나타낸 것이다. 이 프로젝션의 길이에 따라서 해당 트레이닝 샘플이 어떤 것으로 분류될지에 관해서 파악할 수 있다. $\bf \Vert w \Vert$가 고정되어 있다고 하면, 프로젝션의 크기가 일정 숫자보다 크면 분류의 오른쪽에 작으면 분류의 왼쪽에 위치하는 것이다. 이를 아래와 같이 표시해보자. 
 
-[^1]: 내적이라고 번역되기도 하지만 여기서는 그냥 '닷 프로덕트'라고 쓰리고 하겠다. 
-
 $${\bf w} \cdot {\bf x}_{\mathrm r} + b \geq 1$$
 
 $${\bf w} \cdot {\bf x}_{\mathrm l} + b \leq 1$$
@@ -339,6 +337,8 @@ $$
 - $\gamma$ 값이 충분히 작으면 선형 커널과 비슷하게 작동한다. 
 - $\gamma$가 크면 서포트 벡터에게 크게 영향 받는다. 
 
+[^1]: 내적이라고 번역되기도 하지만 여기서는 그냥 '닷 프로덕트'라고 쓰리고 하겠다. 
+
 
 
 
@@ -349,10 +349,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE5MDI0ODksMjA1MDgyNTcwNCwyMD
-Q1MzI3MTIwLC0xOTIxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1
-NzE3LDE0NTg2MzgwNiw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksOD
-k1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1
-MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NT
-AyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
+eyJoaXN0b3J5IjpbLTE5NjA5NTIwODksLTEyNTE5MDI0ODksMj
+A1MDgyNTcwNCwyMDQ1MzI3MTIwLC0xOTIxNDU3NjE1LDU2Njkx
+ODI2NywtNjk4Mzg1NzE3LDE0NTg2MzgwNiw4MzY1ODQ4NzAsLT
+E5ODkwMDc3NjksODk1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQz
+MTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MD
+U2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
+
 -->
