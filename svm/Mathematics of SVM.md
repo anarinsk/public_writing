@@ -40,6 +40,8 @@ $$
 
 그림으로 나타내보자. 
 
+<img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true"  alt="Paris" class="center">
+
 <kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
 </kbd>
 
@@ -346,10 +348,10 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTMyNzEyMCwtMTkyMTQ1NzYxNSw1Nj
-Y5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0ODcw
-LC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwtMT
-k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
-ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4NTcsLTE1MTI2MTk3MD
-BdfQ==
+eyJoaXN0b3J5IjpbMjA1MDgyNTcwNCwyMDQ1MzI3MTIwLC0xOT
+IxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1NzE3LDE0NTg2Mzgw
+Niw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksODk1MjgwMjMzLC0xNT
+U5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgy
+NDcxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1Ny
+wtMTUxMjYxOTcwMF19
 -->
