@@ -150,7 +150,7 @@ $$
 \end{aligned}
 $$
 
-여기서  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$의 결과를 얻을 수 있다. 결론적으로 두 서포트 벡터 사이의 거리를 최대화하는 문제는 $\Vert w \Vert$를 최소화하는 문제와 같다. 
+여기서  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$를 쉽게 도출할 수 있다. 결론적으로 두 서포트 벡터 사이의 거리를 최대화하는 문제는 $\Vert w \Vert$를 최소화하는 문제와 같다. 
 
 # Optimization for SVM
 
@@ -175,7 +175,7 @@ ${\bf w}$와 $b$로 정의되는 하이퍼플레인이 모든 트레이닝 셋�
 1. $F$를 얻기 위한 과정에서 최소화 로직이 들어간다. 즉, 해당 하이퍼플레인과 가장 가깝게 위치한 관측치를 얻어내는 과정 
 2. 이렇게 얻어낸 $F$들을 서로 다른 하이퍼플레인들 사이에 비교하고, 가장 큰 $F$를 주는 하이퍼플레인을 채택한다. 
 
-표준화를 위해서 $\bf w$의 norm으로 $f_i$ 값을 나눈다.  For each training example $i = 1,2, \dotsc, m$
+표준화를 위해서 $\bf w$의 norm으로 $f_i$ 값을 나누고 극대화 문제를 정식화하면 아래와 같다. 
 
 ## Derivation of SVM optimization problem 
 
@@ -342,10 +342,10 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzA3Nzg1NywtMTkyMTQ1NzYxNSw1Nj
-Y5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0ODcw
-LC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwtMT
-k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
-ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4NTcsLTE1MTI2MTk3MD
-BdfQ==
+eyJoaXN0b3J5IjpbLTE5MjcxMzUxODIsLTE5MjE0NTc2MTUsNT
+Y2OTE4MjY3LC02OTgzODU3MTcsMTQ1ODYzODA2LDgzNjU4NDg3
+MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLT
+E5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1
+NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5Nz
+AwXX0=
 -->
