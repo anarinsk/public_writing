@@ -40,7 +40,9 @@ $$
 
 그림으로 나타내보자. 
 
-<img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true"  alt="Paris" class="mycenter">
+<div class='mycenter'>
+<img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true"  alt="Paris">
+</div>
 
 <kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
 </kbd>
@@ -348,7 +350,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDExMzMxNjQsMjA1MDgyNTcwNCwyMD
+eyJoaXN0b3J5IjpbLTE0Nzg1OTM3NzcsMjA1MDgyNTcwNCwyMD
 Q1MzI3MTIwLC0xOTIxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1
 NzE3LDE0NTg2MzgwNiw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksOD
 k1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1
