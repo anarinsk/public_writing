@@ -131,8 +131,9 @@ $$
 
 앞서 분류기에서 해당 값이 0보다 크면 $y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1 \geq 0$가 성립한다. 반면, 해당 값이 0보다 작으면 음수를 곱하는 것이 되어 부등호가 바뀌게 되고, 이 경우 역시 위의 식이 성립한다. 
 
-<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/svm_2.png?raw=true =400x300)
-</kbd>
+<div class='mycenter'><kbd>
+<img src="https://github.com/anarinsk/public-images/blob/master/svm/svm_2.png?raw=true">
+</kbd></div>
 
 이제 $\cos \theta$를 벡터 $\bf x_{\rm svr} - \bf x _{\rm svl}$와 ${\mathbf w}$가 이루는 각이라고 생각하자. 이때 ${\mathbf w}$는 하이퍼플레인과 orthogonal하며 적절한 training sample 즉, 적절한 하나의  서포트 벡터를 지난다. 이때 $\cos \theta$는 다음과 같이 쉽게 정의된다.[^2]
 
@@ -351,11 +352,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI3ODIzNjUsLTE5NjA5NTIwODksLT
-EyNTE5MDI0ODksMjA1MDgyNTcwNCwyMDQ1MzI3MTIwLC0xOTIx
-NDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1NzE3LDE0NTg2MzgwNi
-w4MzY1ODQ4NzAsLTE5ODkwMDc3NjksODk1MjgwMjMzLC0xNTU5
-NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgyND
-cxODA1LC0zNTU4MDU2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1Nywt
-MTUxMjYxOTcwMF19
+eyJoaXN0b3J5IjpbMTk4ODA5MzQwNywtMTk2MDk1MjA4OSwtMT
+I1MTkwMjQ4OSwyMDUwODI1NzA0LDIwNDUzMjcxMjAsLTE5MjE0
+NTc2MTUsNTY2OTE4MjY3LC02OTgzODU3MTcsMTQ1ODYzODA2LD
+gzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMsLTE1NTk1
+MDk4OTksLTE5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0Nz
+E4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0x
+NTEyNjE5NzAwXX0=
 -->
