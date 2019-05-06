@@ -8,13 +8,6 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 * Support Vector Machine (SVM)의 알고리듬을 수학적으로 어떻게 도출할 수 있을까? 
 * 보다 직관적으로 이해할 수 있는 방법은 없을까? 
 
-# Resource 
-
-이 자료는 아래 내용을 바탕으로 만들어졌습니다. 
-﻿
-* Basic: [LINK](https://shuzhanfan.github.io/2018/05/understanding-mathematics-behind-support-vector-machines/)
-* Illustration: [LINK](https://towardsdatascience.com/understanding-support-vector-machine-part-1-lagrange-multipliers-5c24a52ffc5e)
-
 # Key Synopsis 
 
 * SVM은 기본적으로 최소화(minimize)를 한 후 이를 다시 극대화(maximize)를 하는 최대최소(maxmin) 형태의 최적화 문제이다. 
@@ -347,6 +340,13 @@ $$
 - $\gamma$ 값이 충분히 작으면 선형 커널과 비슷하게 작동한다. 
 - $\gamma$가 크면 서포트 벡터에게 크게 영향 받는다. 
 
+# Resource 
+
+이 자료는 아래 내용을 바탕으로 만들어졌습니다. 
+﻿
+* Basic: [LINK](https://shuzhanfan.github.io/2018/05/understanding-mathematics-behind-support-vector-machines/)
+* Illustration: [LINK](https://towardsdatascience.com/understanding-support-vector-machine-part-1-lagrange-multipliers-5c24a52ffc5e)
+ 
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 
@@ -357,7 +357,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAwODY3MzksMTk4ODA5MzQwNywtMT
+eyJoaXN0b3J5IjpbLTIwOTY3NjIzMjMsMTk4ODA5MzQwNywtMT
 k2MDk1MjA4OSwtMTI1MTkwMjQ4OSwyMDUwODI1NzA0LDIwNDUz
 MjcxMjAsLTE5MjE0NTc2MTUsNTY2OTE4MjY3LC02OTgzODU3MT
 csMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUy
