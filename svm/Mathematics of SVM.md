@@ -233,7 +233,7 @@ $$
 \end{aligned}
 $$
 
-이 녀석들을 다시 라그랑주 방정식에 넣으로만 $\boldsymbol \alpha$로만 된 일종의 maximal function 혹은 라그랑주 방정식의 하한(infimum)을 만들 수 있다.  Wolfe duality에 따르먼, 최소화 최대화를 한 번에 푸는 것과 한 가지 문제를 먼저 푼 후 해당 결과를 목적 함수에 넣고 두 번째 문제를 순차적으로 푸는 것은 동일하다. 따라서 위의 일계 조건을 목적 함수에 넣고 $\bf w$와 $b$를 통해 목적함수를 최소화 결과를 먼저 번역한 목적함수는 아래와 같다. 
+이 녀석들을 다시 라그랑주 방정식에 넣으로만 $\boldsymbol \alpha$로만 된 일종의 maximal function 혹은 라그랑주 방정식의 하한(infimum)을 만들 수 있다.  Wolfe duality에 따르먼, 최소화 최대화를 한 번에 푸는 것과 한 가지 문제를 먼저 푼 후 해당 결과를 목적 함수에 넣고 두 번째 문제를 순차적으로 푸는 것이 동일하다. 따라서 위의 일계 조건을 목적 함수에 넣고 $\bf w$와 $b$를 통해 목적함수를 최소화 결과를 먼저 번역한 목적함수는 아래와 같다. 
 
 $$
 W(\boldsymbol \alpha)  = \sum_{i=1}^m \alpha_i - \dfrac{1}{2}\sum_{i=1}^{m} \sum_{j=1}^m \alpha_i \alpha_j y_i y_j {\bf x}_i \cdot {\bf y}_j
@@ -251,7 +251,7 @@ $$
 \alpha_i \left[ y_i ({\bf w} \cdot {\bf x}^* + b) -1 \right] = 0
 $$
 
-이때 $\alpha_i >0$의 제약이 걸리면, $y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0$이 만족해야 한다. 이 제약이 걸리는 vector를 support vector라고 부른다. 반면, $\alpha_i =0$는 제약이 등호로 걸리지 않는 트레이닝 샘플들이다. 이들은 분류 하이퍼플레인까지의 길이가 서포트 벡터의 길이보다 크다.  
+KKT 조건이란 부등식 제약을 푸는 테크닉이다. 즉, $\alpha_i >0$의 제약이 유효하다면 제약을 만족시키기 위해서는 $y_i ({\bf w} \cdot {\bf x}^* + b) -1 = 0$이 만족해야 한다. 이렇게 제약 vector를 support vector라고 부른다. 반면, $\alpha_i =0$는 제약이 등호로 걸리지 않는 트레이닝 샘플들이다. 이들은 분류 하이퍼플레인까지의 길이가 서포트 벡터의 길이보다 크다.  
 
 ## Compute $\bf w$  and $b$
 
@@ -342,10 +342,10 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjcxMzUxODIsLTE5MjE0NTc2MTUsNT
-Y2OTE4MjY3LC02OTgzODU3MTcsMTQ1ODYzODA2LDgzNjU4NDg3
-MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLT
-E5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1
-NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5Nz
-AwXX0=
+eyJoaXN0b3J5IjpbLTg2NTc0NTkxMCwtMTkyMTQ1NzYxNSw1Nj
+Y5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0ODcw
+LC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwtMT
+k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
+ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4NTcsLTE1MTI2MTk3MD
+BdfQ==
 -->
