@@ -41,11 +41,10 @@ $$
 그림으로 나타내보자. 
 
 <div class='mycenter'>
-<img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true"  alt="Paris">
-</div>
-
-<kbd>![figure 1](https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true =300x300)
+<kbd>
+<img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true">
 </kbd>
+</div>
 
 이는 다음과 같이 삼각함수로 표시할 수 있다. 
 $$
@@ -350,7 +349,7 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg1OTM3NzcsMjA1MDgyNTcwNCwyMD
+eyJoaXN0b3J5IjpbLTEyNTE5MDI0ODksMjA1MDgyNTcwNCwyMD
 Q1MzI3MTIwLC0xOTIxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1
 NzE3LDE0NTg2MzgwNiw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksOD
 k1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1
