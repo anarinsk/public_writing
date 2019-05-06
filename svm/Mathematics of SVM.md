@@ -40,11 +40,9 @@ $$
 
 그림으로 나타내보자. 
 
-<div class='mycenter'>
-<kbd>
+<div class='mycenter'><kbd>
 <img src="https://github.com/anarinsk/public-images/blob/master/svm/alpha_delta.png?raw=true">
-</kbd>
-</div>
+</kbd></div>
 
 이는 다음과 같이 삼각함수로 표시할 수 있다. 
 $$
@@ -349,11 +347,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA5NTIwODksLTEyNTE5MDI0ODksMj
-A1MDgyNTcwNCwyMDQ1MzI3MTIwLC0xOTIxNDU3NjE1LDU2Njkx
-ODI2NywtNjk4Mzg1NzE3LDE0NTg2MzgwNiw4MzY1ODQ4NzAsLT
-E5ODkwMDc3NjksODk1MjgwMjMzLC0xNTU5NTA5ODk5LC0xOTQz
-MTA1NzI5LC0xNzQ1MzU2MjE1LC0xOTgyNDcxODA1LC0zNTU4MD
-U2NTcsNDE3Mzk4NTAyLDk1MDU4OTg1NywtMTUxMjYxOTcwMF19
-
+eyJoaXN0b3J5IjpbMTY3ODA1MTc1MSwtMTk2MDk1MjA4OSwtMT
+I1MTkwMjQ4OSwyMDUwODI1NzA0LDIwNDUzMjcxMjAsLTE5MjE0
+NTc2MTUsNTY2OTE4MjY3LC02OTgzODU3MTcsMTQ1ODYzODA2LD
+gzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUyODAyMzMsLTE1NTk1
+MDk4OTksLTE5NDMxMDU3MjksLTE3NDUzNTYyMTUsLTE5ODI0Nz
+E4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIsOTUwNTg5ODU3LC0x
+NTEyNjE5NzAwXX0=
 -->
