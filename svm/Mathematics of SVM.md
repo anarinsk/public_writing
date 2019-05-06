@@ -114,7 +114,9 @@ $$
 <img src="https://github.com/anarinsk/public-images/blob/master/svm/svm_1.png?raw=true ">
 </kbd></div>
 
-어떤 원점을 기준으로  training example까지의 벡터를 ${\bf x}_i$라고 하자. 이때 둘을 가르는 하이퍼플레인이 있을 때 이와 직교하는 벡터 (orthogonal vector) ${\bf w}$를 생각해보자. 왜 orthogonal해야 하는가? 잠시 후 그 이유를 알 수 있다. 하이퍼플레인은 기본적으로는 두 벡터 사이의 닷 프로덕트다. 닷 프로덕트를 그림으로 나타낼 수 있는 방법은 이를 projection으로 생각해보는 것이다. 
+어떤 원점을 기준으로  training example까지의 벡터를 ${\bf x}_i$라고 하자. 이때 둘을 가르는 하이퍼플레인이 있을 때 이와 직교하는 벡터 (orthogonal vector) ${\bf w}$를 생각해보자. 왜 orthogonal해야 하는가? 잠시 후 그 이유를 알 수 있다. 하이퍼플레인은 기본적으로는 두 벡터 사이의 닷 프로덕트다[^1]. 닷 프로덕트를 그림으로 나타낼 수 있는 방법은 이를 projection으로 생각해보는 것이다. 
+
+[^1]: 내적이라고 번역되기도 하지만 여기서는 그냥 '닷 프로덕트'라고 쓰리고 하겠다. 
 
 즉, ${\bf x}_i$를 ${\bf w}$로 프로젝션을 한다면(projection of ${\bf x}_i$ on ${\bf w}$), 이는 
 
@@ -122,7 +124,7 @@ $$
 \rm Proj_{\bf w} {\bf x}_i = \dfrac{{\bf w} \cdot {\bf x}_i }{\Vert \bf w \Vert}
 $$
 
-닷 프로덕트의 부분이 시각적으로는 projection 결과 곱하기 $\Vert \bf w \Vert$로 나타난다. 즉, ${\bf x}_i$에서 $\bf w$를 향해 내린 선분이 프로젝션이고 이를 $\Vert \bf w \Vert$로 스케일링 한 $\bf w$ 위에서의 길이가 닷 프로덕트[^1]를 시각적으로 나타낸 것이다. 이 프로젝션의 길이에 따라서 해당 트레이닝 샘플이 어떤 것으로 분류될지에 관해서 파악할 수 있다. $\bf \Vert w \Vert$가 고정되어 있다고 하면, 프로젝션의 크기가 일정 숫자보다 크면 분류의 오른쪽에 작으면 분류의 왼쪽에 위치하는 것이다. 이를 아래와 같이 표시해보자. 
+닷 프로덕트의 부분이 시각적으로는 projection 결과 곱하기 $\Vert \bf w \Vert$로 나타난다. 즉, ${\bf x}_i$에서 $\bf w$를 향해 내린 선분이 프로젝션이고 이를 $\Vert \bf w \Vert$로 스케일링 한 $\bf w$ 위에서의 길이가 닷 프로덕트를 시각적으로 나타낸 것이다. 이 프로젝션의 길이에 따라서 해당 트레이닝 샘플이 어떤 것으로 분류될지에 관해서 파악할 수 있다. $\bf \Vert w \Vert$가 고정되어 있다고 하면, 프로젝션의 크기가 일정 숫자보다 크면 분류의 오른쪽에 작으면 분류의 왼쪽에 위치하는 것이다. 이를 아래와 같이 표시해보자. 
 
 $${\bf w} \cdot {\bf x}_{\mathrm r} + b \geq 1$$
 
@@ -345,8 +347,6 @@ $$
 - $\gamma$ 값이 충분히 작으면 선형 커널과 비슷하게 작동한다. 
 - $\gamma$가 크면 서포트 벡터에게 크게 영향 받는다. 
 
-[^1]: 내적이라고 번역되기도 하지만 여기서는 그냥 '닷 프로덕트'라고 쓰리고 하겠다. 
-
 :feet:Jun Sok Huhh | :house:[lostineonomics.com](http://lostineconomics.com)
 
 
@@ -357,11 +357,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODYzNTIyNywxOTg4MDkzNDA3LC0xOT
-YwOTUyMDg5LC0xMjUxOTAyNDg5LDIwNTA4MjU3MDQsMjA0NTMy
-NzEyMCwtMTkyMTQ1NzYxNSw1NjY5MTgyNjcsLTY5ODM4NTcxNy
-wxNDU4NjM4MDYsODM2NTg0ODcwLC0xOTg5MDA3NzY5LDg5NTI4
-MDIzMywtMTU1OTUwOTg5OSwtMTk0MzEwNTcyOSwtMTc0NTM1Nj
-IxNSwtMTk4MjQ3MTgwNSwtMzU1ODA1NjU3LDQxNzM5ODUwMiw5
-NTA1ODk4NTddfQ==
+eyJoaXN0b3J5IjpbLTE5MDAwODY3MzksMTk4ODA5MzQwNywtMT
+k2MDk1MjA4OSwtMTI1MTkwMjQ4OSwyMDUwODI1NzA0LDIwNDUz
+MjcxMjAsLTE5MjE0NTc2MTUsNTY2OTE4MjY3LC02OTgzODU3MT
+csMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OTAwNzc2OSw4OTUy
+ODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMDU3MjksLTE3NDUzNT
+YyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTczOTg1MDIs
+OTUwNTg5ODU3XX0=
 -->
