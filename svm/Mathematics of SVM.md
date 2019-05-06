@@ -141,7 +141,7 @@ $$\dfrac{ \Delta _ {\bf x} }{\Vert {\bf x} _ {\rm svr} -  {\bf x} _ {\rm svl} \V
 
 $$\Delta _ {\bf x}  = \dfrac{({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot \bf w}{\Vert {\bf w} \Vert}$$
 
-$y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1  = 0$의 양변에 $y_i$를 곱하면, $y_i^2 ( {\bf w} \cdot {\bf x}_ i + b)  = y_i $가 된다. $y_i^2 =1$이므로, 
+$y_i ( {\bf w} \cdot {\bf x}_ i + b) - 1  = 0$의 양변에 $y_i$를 곱하면, $y_i^2 ( {\bf w} \cdot {\bf x}_ i + b)  = y_i$가 된다. $y_i^2 =1$이므로, 
 
 $$
 \begin{aligned}
@@ -150,7 +150,7 @@ $$
 \end{aligned}
 $$
 
-여기서,  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$의 결과를 얻을 수 있다. 결론적으로 두 서포트 벡터 사이의 거리를 최대화하는 문제는 $\Vert w \Vert$를 최소화하는 문제와 같다. 
+여기서  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$의 결과를 얻을 수 있다. 결론적으로 두 서포트 벡터 사이의 거리를 최대화하는 문제는 $\Vert w \Vert$를 최소화하는 문제와 같다. 
 
 # Optimization for SVM
 
@@ -281,13 +281,13 @@ $$
 
 ## Limitation 
 
-앞서 본 것을 이른바 hard margin SVM이다. 즉, 마진을 획일적으로 적용하는 분류 알고리듬이다. 하드 마진 SVM은 다음의 두가지 경우에 취약하다. 
+앞서 본 것을 이른바 hard margin SVM이다. 즉, 서포트 벡터 사이의 마진을 획일적으로 적용하는 분류 알고리듬이다. 하드 마진 SVM은 다음의 두가지 경우에 취약하다. 
 
 ### 데이터에 노이즈가 있을 경우
 하드 마진의 큰 문제는 아웃라이어에 취약할 수 밖에 없다는 것이다. 풀어서 말하면 제약이 선형이고 그 제약이 강력하다는 데 있다. 트레이닝 데이터에 이런 저런 노이즈가 있을 경우 하드 마진은 아예 계산이 불가능할 수 있다. 이때 사용하는 기법이 soft margin SVM이다. 
 
 ### 데이터 자체가 선형으로 분리되지 않을 경우 
-애초부터 데이터 자체가 선형을 통한 분류를 허용하지 않을 경우에는 비선형 분류기를 택해야 한다. 이때 사용할 수 있는 방법이 kernel trick이다. 
+애초부터 데이터 자체가 선형을 통한 분류를 허용하지 않을 경우에는 비선형 분류를 사용할 수 있다. 이때 동원하는 테크닉이 커널 트릭 (kernel trick)이다. 
 
 # Soft Margin SVM 
 
@@ -342,9 +342,10 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE0NTc2MTUsNTY2OTE4MjY3LC02OT
-gzODU3MTcsMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OTAwNzc2
-OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMDU3MjksLT
-E3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1Nyw0MTcz
-OTg1MDIsOTUwNTg5ODU3LC0xNTEyNjE5NzAwXX0=
+eyJoaXN0b3J5IjpbMjA5MzA3Nzg1NywtMTkyMTQ1NzYxNSw1Nj
+Y5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0ODcw
+LC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwtMT
+k0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgwNSwtMzU1
+ODA1NjU3LDQxNzM5ODUwMiw5NTA1ODk4NTcsLTE1MTI2MTk3MD
+BdfQ==
 -->
