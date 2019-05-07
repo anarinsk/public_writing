@@ -114,7 +114,7 @@ $$
 즉, ${\bf x}_i$를 ${\bf w}$로 프로젝션을 한다면(projection of ${\bf x}_i$ on ${\bf w}$), 이는 
 
 $$
-{\matrm Proj}_{\bf w} {\bf x}_i = \dfrac{{\bf w} \cdot {\bf x}_i }{\Vert \bf w \Vert}
+{\mathrm Proj}_{\bf w} {\bf x}_i = \dfrac{{\bf w} \cdot {\bf x}_i }{\Vert \bf w \Vert}
 $$
 
 닷 프로덕트의 부분이 시각적으로는 projection 결과 곱하기 $\Vert \bf w \Vert$로 나타난다. 즉, ${\bf x}_i$에서 $\bf w$를 향해 내린 선분이 프로젝션이고 이를 $\Vert \bf w \Vert$로 스케일링 한 $\bf w$ 위에서의 길이가 닷 프로덕트를 시각적으로 나타낸 것이다. 이 프로젝션의 길이에 따라서 해당 트레이닝 샘플이 어떤 것으로 분류될지에 관해서 파악할 수 있다. $\bf \Vert w \Vert$가 고정되어 있다고 하면, 프로젝션의 크기가 일정 숫자보다 크면 분류의 오른쪽에 작으면 분류의 왼쪽에 위치하는 것이다. 이를 아래와 같이 표시해보자. 
@@ -357,11 +357,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI2MjMzODMsLTIwOTY3NjIzMjMsMT
-k4ODA5MzQwNywtMTk2MDk1MjA4OSwtMTI1MTkwMjQ4OSwyMDUw
-ODI1NzA0LDIwNDUzMjcxMjAsLTE5MjE0NTc2MTUsNTY2OTE4Mj
-Y3LC02OTgzODU3MTcsMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4
-OTAwNzc2OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMD
-U3MjksLTE3NDUzNTYyMTUsLTE5ODI0NzE4MDUsLTM1NTgwNTY1
-Nyw0MTczOTg1MDJdfQ==
+eyJoaXN0b3J5IjpbMTA0MzE1ODI1NywtMTAwMjYyMzM4MywtMj
+A5Njc2MjMyMywxOTg4MDkzNDA3LC0xOTYwOTUyMDg5LC0xMjUx
+OTAyNDg5LDIwNTA4MjU3MDQsMjA0NTMyNzEyMCwtMTkyMTQ1Nz
+YxNSw1NjY5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2
+NTg0ODcwLC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOT
+g5OSwtMTk0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgw
+NSwtMzU1ODA1NjU3XX0=
 -->
