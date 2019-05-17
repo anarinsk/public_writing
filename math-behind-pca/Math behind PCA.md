@@ -138,7 +138,7 @@ $$
 $\Sigma$는 행렬로서 두 가지 특징을 만족한다. 우선, 분산-공분산 행렬이므로 대칭적이다. 행렬이 대칭일 경우 해당 행렬의 아이겐벡터들은 서로 직교한다. 
 
 $$
-i, j \in \{ 1, 2, \dotsc, k\}~\text{with}~i \neq j, w_i \cdot w_j = 0
+i, j \in \{ 1, 2, \dotsc, k\}~\text{with}~i \neq  j, w_i \cdot w_j = 0
 $$ 
 
 여러개의 프로젝션 스크린 벡터들이 존재할 경우 해당 벡터들이 서로 직교하면 분산값을 극대화하는 것이 RSS를 최소화하는 문제가 동일하다는 것을 보았다. 이 조건이 분산-공분산 행렬의 속성을 통해 성립한다. 
@@ -171,5 +171,5 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbMTI4MzAzOTkzNSwtMTk4NDE4Nzc1OV19
 -->
