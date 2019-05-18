@@ -160,7 +160,7 @@ $$
 
 이 경우 모든 아이겐밸류의 값은 음수가 될지 않는다. 앞서 아이겐밸류가 분산이 된다고 것을 보았는데, 아이겐밸류가 음수가 될 수 없고 따라서 분산이라는 결과에 부합한다. 
 
-이 두 조건에 따라서 개별 프로젝션 스크린 벡터에 따른 극대화 문제를 풀면 하나의 아이겐밸류와 아이겐벡터를 얻게 된다. 분산이 큰 순서대로 아이겐벡터를 정렬한다고 생각해보자. 이렇게 정렬해두면, 프로젝션 스크린 벡터 중에서 RSS를 더 줄일 수 있는 벡터 순으로 정렬하는 것이 된다. 
+이 두 조건에 따라서 개별 프로젝션 스크린 벡터에 따른 극대화 문제를 풀면 아이겐밸류와 아이겐벡터를 각각 하나씩 얻게 된다. 분산이 큰 순서대로 아이겐벡터를 정렬한다고 생각해보자. 이렇게 정렬하면 프로젝션 스크린 벡터 중에서 RSS를 더 줄일 수 있는 벡터 순으로 정렬하는 셈이다.  
 
 # 차원 축소 
 
@@ -180,6 +180,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc5MjA4NzUsODYxMTg5MjgyLDEyOD
-MwMzk5MzUsLTE5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbLTkzMzM1NTMxOSw4NjExODkyODIsMTI4Mz
+AzOTkzNSwtMTk4NDE4Nzc1OV19
 -->
