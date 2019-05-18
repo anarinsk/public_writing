@@ -20,7 +20,7 @@ $$
 \operatorname{Proj}_{w}(x_i) = \dfrac{w \cdot x_i}{\Vert w \Vert} = w \cdot x_i
 $$
 
-이 프로젝션의 벡터 공간에서의 좌표는 $(w \cdot x_i) w$가 된다. 그리고 이 프로젝션 스칼라 값 혹은 프로젝션 벡터의  기댓값은  아래와 같이 0이 된다. 물론 벡터의 겨
+이 프로젝션의 벡터 공간에서의 좌표는 $(w \cdot x_i) w$가 된다. 그리고 이 프로젝션 스칼라 값 혹은 프로젝션 벡터의  기댓값은  아래와 같이 0이 된다. 물론 벡터의 경우에는 스칼라 대신 $k \times 1$의 0 벡터가 된다. 
 
 $$
 \dfrac{1}{n} \sum^n_{i=1} (w \cdot x_i) = \left( \dfrac{1}{n} \sum_{i=1}^n x_i \right)\cdot w = 0
@@ -172,6 +172,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMDExMDA2LDEyODMwMzk5MzUsLTE5OD
+eyJoaXN0b3J5IjpbODYxMTg5MjgyLDEyODMwMzk5MzUsLTE5OD
 QxODc3NTldfQ==
 -->
