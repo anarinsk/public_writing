@@ -73,11 +73,12 @@ x_1^T}  \\ \\
 {x_2^T} \\ \\
 {\vdots} \\ \\
 {x_n^T} \end{array}\right) = 
-\left( \begin{array}{ccc}{
-x_1^1} & {x_1^1} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
-{\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
+\left( \begin{array}{ccc}
+{x_1^1} & {x_1^2} & {\cdots} & {x_1^k} \\ 
+{x_2^1} & {x_2^2} & {\cdots} & {x_2^k} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
-{\operatorname{cov}\left(x_{k}, x_{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}\end{array}\right) 
+{x_n^1} & {x_n^2} & {\cdots} & {x_n^k} 
+\end{array}\right) 
 $$
 
 $$
@@ -177,6 +178,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc5Mzk2MDksODYxMTg5MjgyLDEyOD
-MwMzk5MzUsLTE5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbLTc0OTUyMjE3LDg2MTE4OTI4MiwxMjgzMD
+M5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
