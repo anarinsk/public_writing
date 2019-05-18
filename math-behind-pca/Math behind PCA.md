@@ -35,7 +35,7 @@ $$
 \end{aligned}
 $$
 
-모든 관찰 수 $n$에 대해서 거리를 구해 더하면 다음과 같다. 
+모든 관찰 수 $n$에 대해서 거리를 구해 더하면 이것이 RSS (Residual Sum of Squares)가 된다.  
 
 $$
 \begin{aligned}
@@ -172,6 +172,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMTg5MjgyLDEyODMwMzk5MzUsLTE5OD
-QxODc3NTldfQ==
+eyJoaXN0b3J5IjpbLTgzNDIwMzUzMiw4NjExODkyODIsMTI4Mz
+AzOTkzNSwtMTk4NDE4Nzc1OV19
 -->
