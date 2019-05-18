@@ -50,13 +50,13 @@ $$
 \dfrac{1}{n} \sum_{i=1}^n (w \cdot x_i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x_i \right)^2 + Var[w \cdot x_i]
 $$
 
-이 식이 성립하는 이유는 ${\mathrm Var}(x) = E(x^2) - (E(x))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $E(w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $Var(\cdot)$을 극대화하는 것과 동일하다. 물론, 하나의 벡터로만 프로젝션 할리는 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w_1, w_2, \dotsc, w_k$라고 하자. 이 프로젝션을 통해 생성되는 벡터 공간의 벡터는 다음과 같다. 
+이 식이 성립하는 이유는 ${\mathrm Var}(x) = E(x^2) - (E(x))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $E(w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $Var(\cdot)$을 최대화하는 것과 같다. 물론 하나의 벡터로만 프로젝션 할리는 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w_1, w_2, \dotsc, w_k$라고 하자. 이 프로젝션을 통해 생성되는 벡터 공간의 벡터는 다음과 같다. 
 
 $$
 \sum_{i=1}^k (x_i \cdot w_i) w_i
 $$
 
-이 녀석의 RSS를 극소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이다.  결국 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
+이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이다.  결국 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 직교하게 선을 내리는 것이라는 점을 떠올리면 아래 그림의 오른쪽이 쉽게 이해가 갈 것이다. 
 
@@ -72,7 +72,12 @@ $$
 x_1^T}  \\ \\
 {x_2^T} \\ \\
 {\vdots} \\ \\
-{x_n^T} \end{array}\right)
+{x_n^T} \end{array}\right) = 
+\left( \begin{array}{ccc}{
+\operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
+{\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
+{\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
+{\operatorname{cov}\left(x_{k}, x_{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}\end{array}\right) 
 $$
 
 $$
@@ -172,6 +177,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDIwMzUzMiw4NjExODkyODIsMTI4Mz
-AzOTkzNSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbLTExNDI4NTMwNTAsODYxMTg5MjgyLDEyOD
+MwMzk5MzUsLTE5ODQxODc3NTldfQ==
 -->
