@@ -64,7 +64,7 @@ $$
 
 # 분산-공분산 행렬 
 
-이제 왜 분산이 등장하는지는 대충 이해가 될 것이라고 생각한다.  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. 
+이제 왜 분산이 등장하는지는 대충 이해가 될 것이라고 생각한다.  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. $x_i^j$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
 
 $$ 
 \underset{n \times k}{X} = 
@@ -178,6 +178,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTUyMjE3LDg2MTE4OTI4MiwxMjgzMD
+eyJoaXN0b3J5IjpbMTQ5NTIyNTMxLDg2MTE4OTI4MiwxMjgzMD
 M5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
