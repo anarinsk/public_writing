@@ -83,8 +83,8 @@ $$
 
 $$
 \begin{aligned}
-\dfrac{1}{n} \underset{k \times k}{X^{T} X}
-= \dfrac{1}{n}  \left( \begin{array}{ccc}{
+\dfrac{1}{n-1} \underset{k \times k}{X^{T} X}
+=  \left( \begin{array}{ccc}{
 \operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
 {\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
@@ -180,6 +180,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzM1NTMxOSw4NjExODkyODIsMTI4Mz
-AzOTkzNSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbLTE4MjAyNTc0NCwtOTMzMzU1MzE5LDg2MT
+E4OTI4MiwxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
