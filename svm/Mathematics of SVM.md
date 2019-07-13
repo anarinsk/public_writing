@@ -158,7 +158,7 @@ $$
 \end{aligned}
 $$
 
-여기서  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$를 쉽게 도출할 수 있다. 결론적으로 두 서포트 벡터 사이의 거리를 최대화하는 문제는 $\Vert w \Vert$를 최소화하는 문제와 같다. 
+여기서  $({\bf x} _ {\rm svr} - {\bf x} _ {\rm svl}) \cdot {\bf w} = 2$를 쉽게 도출할 수 있다. 결론적으로 두 서포트 벡터 사이의 거리를 최대화하는 문제는 $\Vert \bf w \Vert$를 최소화하는 문제와 같다. 
 
 # Optimization for SVM
 
@@ -357,11 +357,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzE4MTQ2MCwxMDQzMTU4MjU3LC0xMD
-AyNjIzMzgzLC0yMDk2NzYyMzIzLDE5ODgwOTM0MDcsLTE5NjA5
-NTIwODksLTEyNTE5MDI0ODksMjA1MDgyNTcwNCwyMDQ1MzI3MT
-IwLC0xOTIxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1NzE3LDE0
-NTg2MzgwNiw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksODk1MjgwMj
-MzLC0xNTU5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1
-LC0xOTgyNDcxODA1XX0=
+eyJoaXN0b3J5IjpbMjA0MDk0ODAzMCwtMjY3MTgxNDYwLDEwND
+MxNTgyNTcsLTEwMDI2MjMzODMsLTIwOTY3NjIzMjMsMTk4ODA5
+MzQwNywtMTk2MDk1MjA4OSwtMTI1MTkwMjQ4OSwyMDUwODI1Nz
+A0LDIwNDUzMjcxMjAsLTE5MjE0NTc2MTUsNTY2OTE4MjY3LC02
+OTgzODU3MTcsMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OTAwNz
+c2OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMDU3Mjks
+LTE3NDUzNTYyMTVdfQ==
 -->
