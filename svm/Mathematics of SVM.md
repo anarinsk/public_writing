@@ -241,7 +241,7 @@ $$
 \end{aligned}
 $$
 
-이 녀석들을 다시 라그랑주 방정식에 넣으로만 $\boldsymbol \alpha$로만 된 일종의 maximal function 혹은 라그랑주 방정식의 하한(infimum)을 만들 수 있다.  Wolfe duality에 따르먼, 최소화 최대화를 한 번에 푸는 것과 한 가지 문제를 먼저 푼 후 해당 결과를 목적 함수에 넣고 두 번째 문제를 순차적으로 푸는 것이 동일하다. 따라서 위의 일계 조건을 목적 함수에 넣고 $\bf w$와 $b$를 통해 목적함수를 최소화 결과를 먼저 번역한 목적함수는 아래와 같다. 
+이 녀석들을 다시 라그랑주 방정식에 넣으로만 $\boldsymbol \alpha$로만 된 일종의 maximal function 혹은 라그랑주 방정식의 하한(infimum)을 만들 수 있다.  Wolfe duality에 따르먼, 최소화 최대화를 한 번에 푸는 것과 한 가지 문제를 먼저 푼 후 해당 결과를 목적 함수에 넣고 두 번째 문제를 순차적으로 푸는 것이 동일하다. 따라서 위의 일계 조건을 목적 함수에 넣은 목적함수는 구해보자. 
 
 $$
 W(\boldsymbol \alpha)  = \sum_{i=1}^m \alpha_i - \dfrac{1}{2}\sum_{i=1}^{m} \sum_{j=1}^m \alpha_i \alpha_j y_i y_j {\bf x}_i \cdot {\bf y}_j
@@ -357,11 +357,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDk0ODAzMCwtMjY3MTgxNDYwLDEwND
-MxNTgyNTcsLTEwMDI2MjMzODMsLTIwOTY3NjIzMjMsMTk4ODA5
-MzQwNywtMTk2MDk1MjA4OSwtMTI1MTkwMjQ4OSwyMDUwODI1Nz
-A0LDIwNDUzMjcxMjAsLTE5MjE0NTc2MTUsNTY2OTE4MjY3LC02
-OTgzODU3MTcsMTQ1ODYzODA2LDgzNjU4NDg3MCwtMTk4OTAwNz
-c2OSw4OTUyODAyMzMsLTE1NTk1MDk4OTksLTE5NDMxMDU3Mjks
-LTE3NDUzNTYyMTVdfQ==
+eyJoaXN0b3J5IjpbLTM3NzE2MTMwOCwyMDQwOTQ4MDMwLC0yNj
+cxODE0NjAsMTA0MzE1ODI1NywtMTAwMjYyMzM4MywtMjA5Njc2
+MjMyMywxOTg4MDkzNDA3LC0xOTYwOTUyMDg5LC0xMjUxOTAyND
+g5LDIwNTA4MjU3MDQsMjA0NTMyNzEyMCwtMTkyMTQ1NzYxNSw1
+NjY5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2NTg0OD
+cwLC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOTg5OSwt
+MTk0MzEwNTcyOV19
 -->
