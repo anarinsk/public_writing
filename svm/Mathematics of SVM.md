@@ -79,7 +79,7 @@ $$
 $n$ 차원  공간을 가를 수 있는 해당 공간의 차원보다 하나 낮은 수학적 관계라고 풀어서 쓸 수 있다. 
 	
 * 즉, $x_1$이나 $x_2$ 중 하나만 주어지면 나머지 위치가 주어진다.  
-* 쉽게 $y = x + 1$의 직선을 생각하면 된다. 2차원 펴연에서 $x$의 값이 주어지면 y값이 정해진다. 이 직선은 2차원 평면에 위치하지만 사실상 1차원의 속석을 지니게 된다. 
+* 쉽게 $y = x + 1$의 직선을 생각하면 된다. 2차원 평면에서 $x$의 값이 주어지면 y값이 정해진다. 이 직선은 2차원 평면에 위치하지만 사실상 1차원의 속성을 지니게 된다. 
 
 ${\bf x} = (x_1, x_2)$의 벡터가 있다고 할 때, 하이퍼플레인은 벡터 $\bf w$와 $b$에 의해 정의된다. 즉, 
 
@@ -357,11 +357,11 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzE1ODI1NywtMTAwMjYyMzM4MywtMj
-A5Njc2MjMyMywxOTg4MDkzNDA3LC0xOTYwOTUyMDg5LC0xMjUx
-OTAyNDg5LDIwNTA4MjU3MDQsMjA0NTMyNzEyMCwtMTkyMTQ1Nz
-YxNSw1NjY5MTgyNjcsLTY5ODM4NTcxNywxNDU4NjM4MDYsODM2
-NTg0ODcwLC0xOTg5MDA3NzY5LDg5NTI4MDIzMywtMTU1OTUwOT
-g5OSwtMTk0MzEwNTcyOSwtMTc0NTM1NjIxNSwtMTk4MjQ3MTgw
-NSwtMzU1ODA1NjU3XX0=
+eyJoaXN0b3J5IjpbLTI2NzE4MTQ2MCwxMDQzMTU4MjU3LC0xMD
+AyNjIzMzgzLC0yMDk2NzYyMzIzLDE5ODgwOTM0MDcsLTE5NjA5
+NTIwODksLTEyNTE5MDI0ODksMjA1MDgyNTcwNCwyMDQ1MzI3MT
+IwLC0xOTIxNDU3NjE1LDU2NjkxODI2NywtNjk4Mzg1NzE3LDE0
+NTg2MzgwNiw4MzY1ODQ4NzAsLTE5ODkwMDc3NjksODk1MjgwMj
+MzLC0xNTU5NTA5ODk5LC0xOTQzMTA1NzI5LC0xNzQ1MzU2MjE1
+LC0xOTgyNDcxODA1XX0=
 -->
