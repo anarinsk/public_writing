@@ -128,8 +128,8 @@ $$
 
 $$
 \begin{aligned}
-\dfrac{\partial \lambda}{\partial w} & = 0 = 2 \Sigma w - 2\lambda w \\
-\dfrac{\partial \lambda}{\partial \lambda} & = 0 = w \cdot w - 1
+\dfrac{\partial \mathcal L}{\partial w} & = 0 = 2 \Sigma w - 2\lambda w \\
+\dfrac{\partial \mathcal L}{\partial \lambda} & = 0 = w \cdot w - 1
 \end{aligned}
 $$
 
@@ -183,8 +183,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDE3MDE3NiwtMTc1OTYzNTA5NCw3MT
-M5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OTM3NjI5
-MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNSwtMT
-k4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbLTE3NTQxNzk1MDgsLTE3NTk2MzUwOTQsNz
+EzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMzNjU0OTcsODkzNzYy
+OTAwLC05MzMzNTUzMTksODYxMTg5MjgyLDEyODMwMzk5MzUsLT
+E5ODQxODc3NTldfQ==
 -->
