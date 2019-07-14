@@ -22,8 +22,7 @@ $$
 x_i = \left[\begin{array}{c}{x'_{1} - \mu_1} \\ {x'_{2} - \mu_2} \\ {\vdots} \\ {x'_{k} - \mu_k}\end{array}\right]
 $$ 
 
-이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 벡터로 투영해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 $\mathbf X$라는 설명변수로 프로젝션해서 
-$x_i$를 $w$로 프로젝션 하면 다음과 같다.
+이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 벡터로 투영해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 $\mathbf X$라는 설명변수로 프로젝션해서 계수를 구하는 방법이다. 좌우간, $x_i$를 $w$로 프로젝션 하면 다음과 같다.
 
 $$
 \operatorname{Proj}_{w}(x_i) = \dfrac{w \cdot x_i}{\Vert w \Vert} = w \cdot x_i
@@ -193,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjUwNDQ1MjcsMjAxMTUzNDE4NSwtND
-Q4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5
-NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1ND
-k3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4MiwxMjgz
-MDM5OTM1LC0xOTg0MTg3NzU5XX0=
+eyJoaXN0b3J5IjpbLTQ1MTUzODgzMywyMDExNTM0MTg1LC00ND
+gxMTIzMTIsLTE0OTg0MjQzMDAsLTE3NTQxNzk1MDgsLTE3NTk2
+MzUwOTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMzNjU0OT
+csODkzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5MjgyLDEyODMw
+Mzk5MzUsLTE5ODQxODc3NTldfQ==
 -->
