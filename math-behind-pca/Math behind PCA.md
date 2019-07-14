@@ -110,7 +110,7 @@ $$
 $$
 \begin{aligned}
 \mathrm{Var}(X {w}) &= \frac{1}{n-1}(X {w})^{T}(X {w}) \\
-&=\frac{1}{n} {w}^{T} X^{T} X {w} =\frac{1}{n} {w}^{T}\left(X^{T} X\right) {w} \\
+&=\frac{1}{n-1} {w}^{T} X^{T} X {w} =\frac{1}{n-1} {w}^{T}\left(X^{T} X\right) {w} \\
 &={w}^{T}\left(\frac{X^{T} X}{n}\right) {w} \\
 &={w}^{T} \Sigma {w}
 \end{aligned}
@@ -180,7 +180,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OT
-M3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAzOTkz
-NSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbLTc0MTY5NDgxMSwtMTk5MTQ3MzU3MSwxMD
+IzMzY1NDk3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4
+MiwxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
