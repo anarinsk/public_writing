@@ -162,7 +162,7 @@ $$
 x^T \Sigma x > 0 ~\text{for any $x$.}
 $$
 
-이 경우 모든 아이겐밸류의 값은 음수가 될지 않는다. 앞서 아이겐밸류가 분산이 된다고 것을 보았는데, 아이겐밸류가 음수가 될 수 없고 따라서 분산이라는 결과에 부합한다. 
+이 경우 모든 아이겐밸류의 값은 음수가 되지 않는다. 앞서 아이겐밸류가 분산이 된다고 것을 보았는데, 아이겐밸류가 음수가 될 수 없고 따라서 분산이라는 결과에 부합한다. 
 
 이 두 조건에 따라서 개별 프로젝션 스크린 벡터에 따른 극대화 문제를 풀면 아이겐밸류와 아이겐벡터를 각각 하나씩 얻게 된다. 분산이 큰 순서대로 아이겐벡터를 정렬한다고 생각해보자. 이렇게 정렬하면 프로젝션 스크린 벡터 중에서 RSS를 더 줄일 수 있는 벡터 순으로 정렬하는 셈이다.  
 
@@ -187,10 +187,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgwMDk5NTEsMTMwNjA4Mjc3OSw2OD
-k0MTA3LDIwMTE1MzQxODUsLTQ0ODExMjMxMiwtMTQ5ODQyNDMw
-MCwtMTc1NDE3OTUwOCwtMTc1OTYzNTA5NCw3MTM5ODM1MDQsLT
-E5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1
-NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1OV
-19
+eyJoaXN0b3J5IjpbLTE2MDQ5NDU1MTEsLTIwMzgwMDk5NTEsMT
+MwNjA4Mjc3OSw2ODk0MTA3LDIwMTE1MzQxODUsLTQ0ODExMjMx
+MiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUwOCwtMTc1OTYzNTA5NC
+w3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OTM3
+NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNS
+wtMTk4NDE4Nzc1OV19
 -->
