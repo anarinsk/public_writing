@@ -66,7 +66,7 @@ $$
 \sum_{i=1}^k \underset{\mathrm{가중치}}{( x^i \cdot w_i) } w_i
 $$
 
-이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이다.  결국 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
+이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이다.  결국 스크린을 이루는 축들과 $x^i$의 크로스 프로덕트 값의 분산을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 직교하게 선을 내리는 것이라는 점을 떠올리면 아래 그림의 오른쪽이 쉽게 이해가 갈 것이다. 
 
@@ -79,7 +79,7 @@ $$
 $$ 
 \underset{n \times k}{X} = 
  \left( \begin{array}{ccc}{
-x_1^T}  \\ \\
+{x^1T}}  \\ \\
 {x_2^T} \\ \\
 {\vdots} \\ \\
 {x_n^T} \end{array}\right) = 
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczMTA5Mjc3LDIwMTE1MzQxODUsLTQ0OD
-ExMjMxMiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUwOCwtMTc1OTYz
-NTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Ny
-w4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAz
-OTkzNSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbMTQ0NDk0NDMxOSwyMDExNTM0MTg1LC00ND
+gxMTIzMTIsLTE0OTg0MjQzMDAsLTE3NTQxNzk1MDgsLTE3NTk2
+MzUwOTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMzNjU0OT
+csODkzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5MjgyLDEyODMw
+Mzk5MzUsLTE5ODQxODc3NTldfQ==
 -->
