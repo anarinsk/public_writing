@@ -99,7 +99,7 @@ $$
 
 임의의 단위 벡터 $w$와 그 프로젝션을 다시 적어보자. 이제 하나의 벡터가 아니라 $X$라는 매트릭스 전체에 대해서 프로젝션을 하면 아래와 같다.
 
-$$\operatorname{Proj}_{w} (X) = \dfrac{w \cdot X}{\Vert w \Vert} \in {\mathbb R}^{n \times 1}$$
+$$\operatorname{Proj}_{w} (X) = \dfrac{X w}{\Vert w \Vert} \in {\mathbb R}^{n \times 1}$$
 
 이제 극대화의 목적은 이렇게 프로젝션된 이미지의 분산을 가장 크게 만드는 것이다. 
 $$
@@ -184,8 +184,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg0MjQzMDAsLTE3NTQxNzk1MDgsLT
-E3NTk2MzUwOTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMz
-NjU0OTcsODkzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5MjgyLD
-EyODMwMzk5MzUsLTE5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbLTQ0ODExMjMxMiwtMTQ5ODQyNDMwMCwtMT
+c1NDE3OTUwOCwtMTc1OTYzNTA5NCw3MTM5ODM1MDQsLTE5OTE0
+NzM1NzEsMTAyMzM2NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1NTMxOS
+w4NjExODkyODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1OV19
 -->
