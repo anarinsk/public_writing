@@ -98,7 +98,7 @@ $$
 \operatorname{cov}\left(x^{1}, x^{1}\right)} & {\operatorname{cov}\left(x^{1}, x^{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{1}, x^{k}\right)} \\ 
 {\operatorname{cov}\left(x^{2}, x^{1}\right)} & {\operatorname{cov}\left(x^{2}, x^{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{2}, x^{k}\right)} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
-{\operatorname{cov}\left(x^{k}, x^{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}\end{array}\right) = \Sigma
+{\operatorname{cov}\left(x^{k}, x^{1}\right)} & {\operatorname{cov}\left(x^{k}, x^{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{k}, x^{k}\right)}\end{array}\right) = \Sigma
 \end{aligned}
 $$
 
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgzOTczLDY4OTQxMDcsMjAxMTUzND
-E4NSwtNDQ4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4
-LC0xNzU5NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMD
-IzMzY1NDk3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4
-MiwxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX0=
+eyJoaXN0b3J5IjpbLTQxMTIzNzA2MSw2ODk0MTA3LDIwMTE1Mz
+QxODUsLTQ0ODExMjMxMiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUw
+OCwtMTc1OTYzNTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMT
+AyMzM2NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODky
+ODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1OV19
 -->
