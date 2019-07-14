@@ -108,14 +108,7 @@ $$
 
 $$\operatorname{Proj}_{w} (X) = \dfrac{X w}{\Vert w \Vert} \in {\mathbb R}^{n \times 1}$$
 
-이제 극대화의 목적은 이렇게 프로젝션된 이미지의 분산을 가장 크게 만드는 것이다. 
-$$
-\begin{aligned}
-\mathrm{Var}(X {w})=\frac{1}{n-1} \sum_{i=1}^{n} \left( X {w} - \mathrm{E}(Xw) \right)^{2}=\frac{1}{n-1} \sum_{i=1}^{n}(X {w})^{2}
-\end{aligned}
-$$
-
-앞서의 가정에 따라서 $\mathrm{E}(X) = 0$가 성립함을 기억해두자. 
+이제 극대화의 목적은 이렇게 프로젝션된 이미지의 분산을 가장 크게 만드는 것이다.  앞서의 가정에 따라서 $\mathrm{E}(X) = 0$가 성립함을 기억해두자. 
 
 $$
 \begin{aligned}
@@ -192,9 +185,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjA4Mjc3OSw2ODk0MTA3LDIwMTE1Mz
-QxODUsLTQ0ODExMjMxMiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUw
-OCwtMTc1OTYzNTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMT
-AyMzM2NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODky
-ODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbLTkwMTI0MjgzNSwxMzA2MDgyNzc5LDY4OT
+QxMDcsMjAxMTUzNDE4NSwtNDQ4MTEyMzEyLC0xNDk4NDI0MzAw
+LC0xNzU0MTc5NTA4LC0xNzU5NjM1MDk0LDcxMzk4MzUwNCwtMT
+k5MTQ3MzU3MSwxMDIzMzY1NDk3LDg5Mzc2MjkwMCwtOTMzMzU1
+MzE5LDg2MTE4OTI4MiwxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX
+0=
 -->
