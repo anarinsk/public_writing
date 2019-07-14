@@ -85,7 +85,7 @@ $$
 {{x^n}^T} \end{array}\right) = 
 \left( \begin{array}{ccc}
 {x_1^1} & {x_2^1} & {\cdots} & {x_k^1} \\ 
-{x_2^1} & {x_2^2} & {\cdots} & {x_k^2} \\ 
+{x_1^2} & {x_2^2} & {\cdots} & {x_k^2} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
 {x_1^n} & {x_2^n} & {\cdots} & {x_k^n} 
 \end{array}\right) 
@@ -95,8 +95,8 @@ $$
 \begin{aligned}
 \dfrac{1}{n-1} \underset{k \times k}{X^{T} X}
 =  \left( \begin{array}{ccc}{
-\operatorname{cov}\left(x^{1}, x^{1}\right)} & {\operatorname{cov}\left(x^{1}, x^{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{1}, x^{k}\right)} \\ 
-{\operatorname{cov}\left(x^{2}, x^{1}\right)} & {\operatorname{cov}\left(x^{2}, x^{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{2}, x^{k}\right)} \\ 
+\operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
+{\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{2}, x^{k}\right)} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
 {\operatorname{cov}\left(x^{k}, x^{1}\right)} & {\operatorname{cov}\left(x^{k}, x^{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{k}, x^{k}\right)}\end{array}\right) = \Sigma
 \end{aligned}
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTIzNzA2MSw2ODk0MTA3LDIwMTE1Mz
-QxODUsLTQ0ODExMjMxMiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUw
-OCwtMTc1OTYzNTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMT
-AyMzM2NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODky
-ODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbNTYwNzYyMzMxLDY4OTQxMDcsMjAxMTUzND
+E4NSwtNDQ4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4
+LC0xNzU5NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMD
+IzMzY1NDk3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4
+MiwxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
