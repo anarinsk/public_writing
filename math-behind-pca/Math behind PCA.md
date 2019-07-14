@@ -93,7 +93,7 @@ $$
 
 $$
 \begin{aligned}
-\underset{k \times k}{X^{T} X}
+\dfrac{1}{n-1} \underset{k \times k}{X^{T} X}
 =  \left( \begin{array}{ccc}{
 \operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
 {\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
@@ -145,7 +145,7 @@ $\lambda$가 분산이 된다고 말했다. 잠깐, 분산이라면 항상 0보�
 
 # 분산-공분산 행렬의 속성 
 
-$\Sigma$는 행렬로서 두 가지 특징을 만족한다. 
+
 
 ## 대칭 행렬
 우선, 분산-공분산 행렬이므로 대칭적이다. 행렬이 대칭일 경우 해당 행렬의 아이겐벡터들은 서로 직교한다. 
@@ -189,7 +189,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTc5NjExOCwtMjAzODAwOTk1MSwxMz
+eyJoaXN0b3J5IjpbMTY2NTM0NTA5MCwtMjAzODAwOTk1MSwxMz
 A2MDgyNzc5LDY4OTQxMDcsMjAxMTUzNDE4NSwtNDQ4MTEyMzEy
 LC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5NjM1MDk0LD
 cxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1NDk3LDg5Mzc2
