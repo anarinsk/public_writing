@@ -170,7 +170,9 @@ $$
 
 이제 마지막으로 차원 축소를 다뤄보자. 만일 $k$ 개의 차원에서 의미 있는 차원이 $l (< k)$ 개였다면, 앞서의 식을 통해서 $l$ 개의 아이겐밸류-아이겐벡터를 얻고 나머지 아이겐밸류는 0이 될 것이다. 이 경우 우리는 $l$ 개로 축소된 차원을 얻게 된다.
 
-하지만 현실적으로 $(k-l)$ 개의 아이겐밸류가 0이 되는 경우는 드물다. 이때 0으로 간주한 아이겐밸류에 대한 기준값을 잡거나 혹은 임의로 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 취하는 것을 약속할 수 있겠다. 설명력이 크다는 것은 무엇일까? 분산이 크다는 것이다. 앞서 보았듯이 여러 개의 프로젝션 벡터가 있을 때 해당 분산값이 합이 큰 것이 좋다. 따라서 $l$ 개를 취할 때에는 분산이 큰 순서대로 취하면 된다. 
+하지만 현실적으로 $(k-l)$ 개의 아이겐밸류가 0이 되는 경우는 드물다. 이때 0으로 간주한 아이겐밸류에 대한 기준값을 잡거나 혹은 임의로 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 취하는 것을 미리 약속할 수 있겠다. 
+
+설명력이 크다는 것은 무엇일까? 앞서 극대화 문제에서 보았듯이 분산이 크다는 것이다. 앞서 보았듯이 여러 개의 프로젝션 벡터가 있을 때 해당 분산값이 합이 큰 것이 좋다. 임의의 갯수로 주성분을 취한다고 할 때, 최적화의 기준은 분산이 큰 것이다. 따라서 $l$ 개를 취할 때에는 분산이 큰 순서대로 취하면 된다. 
 
 # Resource 
 
@@ -185,10 +187,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODU0NTY5OSwxMzA2MDgyNzc5LDY4OT
-QxMDcsMjAxMTUzNDE4NSwtNDQ4MTEyMzEyLC0xNDk4NDI0MzAw
-LC0xNzU0MTc5NTA4LC0xNzU5NjM1MDk0LDcxMzk4MzUwNCwtMT
-k5MTQ3MzU3MSwxMDIzMzY1NDk3LDg5Mzc2MjkwMCwtOTMzMzU1
-MzE5LDg2MTE4OTI4MiwxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX
-0=
+eyJoaXN0b3J5IjpbLTIwMzgwMDk5NTEsMTMwNjA4Mjc3OSw2OD
+k0MTA3LDIwMTE1MzQxODUsLTQ0ODExMjMxMiwtMTQ5ODQyNDMw
+MCwtMTc1NDE3OTUwOCwtMTc1OTYzNTA5NCw3MTM5ODM1MDQsLT
+E5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1
+NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1OV
+19
 -->
