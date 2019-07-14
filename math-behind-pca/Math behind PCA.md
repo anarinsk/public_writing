@@ -50,7 +50,9 @@ $$
 \dfrac{1}{n} \sum_{i=1}^n (w \cdot x_i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x_i \right)^2 + \mathrm{Var}[w \cdot x_i]
 $$
 
-이 식이 성립하는 이유는 $\mathrm{Var}(x) = \mathrm{E}(x^2) - (\mathrm{E}(x))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $E(w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 물론 하나의 벡터로만 프로젝션 할리는 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w_1, w_2, \dotsc, w_k$라고 하자. 이 프로젝션을 통해 생성되는 벡터 공간의 벡터는 다음과 같다. 
+이 식이 성립하는 이유는 $\mathrm{Var}(x) = \mathrm{E}(x^2) - (\mathrm{E}(x))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $E(w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
+
+여기서 잠깐. 하나의 단일 벡터 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w_1, w_2, \dotsc, w_k$라고 하자. 이 프로젝션을 통해 생성되는 벡터 공간의 벡터는 다음과 같다. 
 
 $$
 \sum_{i=1}^k (x_i \cdot w_i) w_i
@@ -111,7 +113,7 @@ $$
 \begin{aligned}
 \mathrm{Var}(X {w}) &= \frac{1}{n-1}(X {w})^{T}(X {w}) \\
 &=\frac{1}{n-1} {w}^{T} X^{T} X {w} =\frac{1}{n-1} {w}^{T}\left(X^{T} X\right) {w} \\
-&={w}^{T}\left(\frac{X^{T} X}{n}\right) {w} \\
+&={w}^{T}\left(\frac{X^{T} X}{n-1}\right) {w} \\
 &={w}^{T} \Sigma {w}
 \end{aligned}
 $$
@@ -180,7 +182,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTY5NDgxMSwtMTk5MTQ3MzU3MSwxMD
-IzMzY1NDk3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4
-MiwxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX0=
+eyJoaXN0b3J5IjpbNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMj
+MzNjU0OTcsODkzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5Mjgy
+LDEyODMwMzk5MzUsLTE5ODQxODc3NTldfQ==
 -->
