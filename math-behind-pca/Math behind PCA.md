@@ -5,7 +5,8 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # Synopsis 
 
-* PCA에서 분산을 극대화 및 차원 축소의 수학적인 의미를 알아보자.  
+* PCA는 무엇을 최적화하는 것인가? 
+* PCA에서 왜 아이겐밸류, 아이겐벡터가 중요한가? 
 
 # PCA 
 
@@ -183,8 +184,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQxNzk1MDgsLTE3NTk2MzUwOTQsNz
-EzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMzNjU0OTcsODkzNzYy
-OTAwLC05MzMzNTUzMTksODYxMTg5MjgyLDEyODMwMzk5MzUsLT
-E5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbLTMxNjAxNDk3MiwtMTc1NDE3OTUwOCwtMT
+c1OTYzNTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2
+NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMT
+I4MzAzOTkzNSwtMTk4NDE4Nzc1OV19
 -->
