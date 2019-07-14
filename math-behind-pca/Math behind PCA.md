@@ -19,10 +19,10 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 대체로 통계학의 알고리듬은 목적 함수를 최적화하는 형태이다. PCA도 마찬가지다. $i$ 관찰 대상에 관한 $k$ 차원의 피처 벡터 $x_i$가 있다고 하자. 즉, $x_i$는 $k \times 1$의 칼럼 벡터이다. 앞으로 특별한 언급이 없는 이상 앞으로 $x_i$ 벡터는 $n$개의 관찰에 대한 평균으로 구성된 벡터 $\mu = [\mu_1~\mu_2~\dotsc~\mu_k]^T$를 뺀 값이라고 간주하자. 즉, $x_i'$가 평균을 빼지 않은 $i$ 관찰 대상이라고 할 때, 
 
 $$
-x_i = \left[\begin{array}{c}{x'_{1} =} \\ {x_{2}} \\ {\vdots} \\ {x_{m}}\end{array}\right]
+x_i = \left[\begin{array}{c}{x'_{1} - \mu_1} \\ {x'_{2} - \mu_2} \\ {\vdots} \\ {x'_{k} - \mu_k}\end{array}\right]
 $$ 
 
-이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. $x_i$를 $w$로 프로젝션 하면 다음과 같다.
+이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 벡ㅌ$x_i$를 $w$로 프로젝션 하면 다음과 같다.
 
 $$
 \operatorname{Proj}_{w}(x_i) = \dfrac{w \cdot x_i}{\Vert w \Vert} = w \cdot x_i
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUzMjMxMzksMjAxMTUzNDE4NSwtND
-Q4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5
-NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1ND
-k3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4MiwxMjgz
-MDM5OTM1LC0xOTg0MTg3NzU5XX0=
+eyJoaXN0b3J5IjpbNzYzMjA5ODMxLDIwMTE1MzQxODUsLTQ0OD
+ExMjMxMiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUwOCwtMTc1OTYz
+NTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Ny
+w4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAz
+OTkzNSwtMTk4NDE4Nzc1OV19
 -->
