@@ -55,15 +55,15 @@ $$
 RSS를 최소화하는 게 목표라고 하자. 조정 가능한 값인 $w$는 괄호를 제외한 부분에만 포함되어 있다. 이를 아래와 같이 고쳐써보자. 
 
 $$
-\dfrac{1}{n} \sum_{i=1}^n (w \cdot x_i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x_i \right)^2 + \mathrm{Var}[w \cdot x_i]
+\dfrac{1}{n} \sum_{i=1}^n (w \cdot x^i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x^i \right)^2 + \mathrm{Var}[w \cdot x^i]
 $$
 
-이 식이 성립하는 이유는 $\mathrm{Var}(x) = \mathrm{E}(x^2) - (\mathrm{E}(x))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $E(w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
+이 식이 성립하는 이유는 $\mathrm{Var}(x) = \mathrm{E}(x^2) - (\mathrm{E}(x))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $E(w \cdot x^i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
 
 여기서 잠깐. 하나의 벡터로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w_1, w_2, \dotsc, w_k$라고 하자. 이 프로젝션을 통해 생성되는 벡터 공간은 다음과 같이 나타낼 수 있다. 
 
 $$
-\sum_{i=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w_i) } w_i
+\sum_{i=1}^k \underset{\mathrm{가중치}}{( x^i \cdot w_i) } w_i
 $$
 
 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이다.  결국 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY1NTYyNjIsMjAxMTUzNDE4NSwtND
-Q4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5
-NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1ND
-k3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4MiwxMjgz
-MDM5OTM1LC0xOTg0MTg3NzU5XX0=
+eyJoaXN0b3J5IjpbMzczMTA5Mjc3LDIwMTE1MzQxODUsLTQ0OD
+ExMjMxMiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUwOCwtMTc1OTYz
+NTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Ny
+w4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAz
+OTkzNSwtMTk4NDE4Nzc1OV19
 -->
