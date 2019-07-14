@@ -101,15 +101,15 @@ $$\operatorname{Proj}_{w} (X) = \dfrac{w \cdot X}{\Vert w \Vert} \in {\mathbb R}
 이제 극대화의 목적은 이렇게 프로젝션된 이미지의 분산을 가장 크게 만드는 것이다. 
 $$
 \begin{aligned}
-Var(X {w})=\frac{1}{n-1} \sum_{i=1}^{n} \left( X {w} - E(Xw) \right)^{2}=\frac{1}{n-1} \sum_{i=1}^{n}(X {w})^{2}
+\mathrm{Var}(X {w})=\frac{1}{n-1} \sum_{i=1}^{n} \left( X {w} - \mathrm{E}(Xw) \right)^{2}=\frac{1}{n-1} \sum_{i=1}^{n}(X {w})^{2}
 \end{aligned}
 $$
 
-앞서의 가정에 따라서 $E(X) = 0$가 성립함을 기억해두자. 
+앞서의 가정에 따라서 $\mathrm{E}(X) = 0$가 성립함을 기억해두자. 
 
 $$
 \begin{aligned}
-Var(X {e}) &= \frac{1}{n-1}(X {w})^{T}(X {w}) \\
+\mathrm{Var}(X {w}) &= \frac{1}{n-1}(X {w})^{T}(X {w}) \\
 &=\frac{1}{n} {w}^{T} X^{T} X {w} =\frac{1}{n} {w}^{T}\left(X^{T} X\right) {w} \\
 &={w}^{T}\left(\frac{X^{T} X}{n}\right) {w} \\
 &={w}^{T} \Sigma {w}
@@ -180,7 +180,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzM2NTQ5Nyw4OTM3NjI5MDAsLTkzMz
-M1NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1
-OV19
+eyJoaXN0b3J5IjpbLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OT
+M3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAzOTkz
+NSwtMTk4NDE4Nzc1OV19
 -->
