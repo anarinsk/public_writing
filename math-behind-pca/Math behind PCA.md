@@ -5,8 +5,8 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # Synopsis 
 
-* PCA는 무엇을 최적화하는 것인가? 
-* PCA에서 왜 아이겐밸류, 아이겐벡터가 중요한가? 
+* PCA는 무엇을 최적화하는 것일까? 
+* PCA에서 왜 아이겐밸류, 아이겐벡터가 중요할까? 
 
 # PCA 
 
@@ -184,8 +184,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjAxNDk3MiwtMTc1NDE3OTUwOCwtMT
-c1OTYzNTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2
-NTQ5Nyw4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMT
-I4MzAzOTkzNSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbLTE0OTg0MjQzMDAsLTE3NTQxNzk1MDgsLT
+E3NTk2MzUwOTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMz
+NjU0OTcsODkzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5MjgyLD
+EyODMwMzk5MzUsLTE5ODQxODc3NTldfQ==
 -->
