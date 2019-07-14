@@ -38,8 +38,8 @@ $$
 
 $$
 \begin{aligned}
-\Vert x_i - (w \cdot x_i) w \Vert^2 & = \Vert x_i \Vert^2 - 2 (w \cdot x_i)(w \cdot x_i) +  \Vert w \Vert^2 \\
-& = \Vert x_i \Vert^2 - 2 (w \cdot x_i)^2 +  1
+\Vert x^i - (w \cdot x^i) w \Vert^2 & = \Vert x^i \Vert^2 - 2 (w \cdot x^i)(w \cdot x^i) +  \Vert w \Vert^2 \\
+& = \Vert x^i \Vert^2 - 2 (w \cdot x^i)^2 +  1
 \end{aligned}
 $$
 
@@ -47,8 +47,8 @@ $$
 
 $$
 \begin{aligned}
-\mathrm{RSS}(w) & = \sum_{i=1}^n \left( \Vert x_i \Vert^2 - 2(w \cdot x_i)^2 + 1 \right)  \\
-& = \left(  n +  \sum_{i=1}^n \Vert x_i \Vert^2 \right) - 2 \sum_{i=1}^n  (w \cdot x_i)^2
+\mathrm{RSS}(w) & = \sum_{i=1}^n \left( \Vert x^i \Vert^2 - 2(w \cdot x^i)^2 + 1 \right)  \\
+& = \left(  n +  \sum_{i=1}^n \Vert x^i \Vert^2 \right) - 2 \sum_{i=1}^n  (w \cdot x^i)^2
 \end{aligned}
 $$
 
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MzAyMzYxLDIwMTE1MzQxODUsLTQ0OD
-ExMjMxMiwtMTQ5ODQyNDMwMCwtMTc1NDE3OTUwOCwtMTc1OTYz
-NTA5NCw3MTM5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Ny
-w4OTM3NjI5MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAz
-OTkzNSwtMTk4NDE4Nzc1OV19
+eyJoaXN0b3J5IjpbLTEwMzY1NTYyNjIsMjAxMTUzNDE4NSwtND
+Q4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5
+NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1ND
+k3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4MiwxMjgz
+MDM5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
