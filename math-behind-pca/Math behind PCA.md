@@ -136,7 +136,7 @@ $$
 1계 조건에 따르면, $\Sigma w = \lambda w$가 성립해야 한다. 사실 이 조건은 상당히 신기하다. 1계 조건이 정확하게 아이겐밸류와 아이겐벡터를 구하는 방법과 동일하다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  게다가 아이겐밸류는 아래 식에서 보듯이 그 자체로 분산과 같다. 
 
 $$
-\operatorname{Var}(X w) = e^{\mathrm T} \Sigma w =  \lambda w \cdot w = \lambda$$ 
+\operatorname{Var}(X w) = w^{\mathrm T} \Sigma w =  \lambda w \cdot w = \lambda$$ 
 
 해당 아이겐벡터는 RSS를 최소화시켜주는 스크린의 벡터, 즉 좌표가 된다. 이는 $k \times 1$ 값을 지니게 될텐데 $k$ 개의 피쳐를 RSS를 최소화하는 방식으로 이 스크린 위에 투영시킬 때 각 피쳐가 어느 방향으로 움직여야 하는지에 관한 정보를 담고 있다. 
 그런데, 앞서 $\lambda$가 분산이 된다고 말했다. 잠깐, 분산이라면 항상 0보다 커야 하는데, $\lambda$가 0보다 크다는 보장이 있는가? 이 문제를 포함하여 앞에서 정리하지 못한 몇 가지 문제를 모아서 살펴보자. 
@@ -182,7 +182,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjI2NDczNywtMTc1OTYzNTA5NCw3MT
+eyJoaXN0b3J5IjpbMTUwMjg5OTIxMywtMTc1OTYzNTA5NCw3MT
 M5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OTM3NjI5
 MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNSwtMT
 k4NDE4Nzc1OV19
