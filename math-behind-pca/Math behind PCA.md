@@ -95,7 +95,7 @@ $$
 \begin{aligned}
 \dfrac{1}{n-1} \underset{k \times k}{X^{T} X}
 =  \left( \begin{array}{ccc}{
-\operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
+\operatorname{cov}\left(x^{1}, x^{1}\right)} & {\operatorname{cov}\left(x^{1}, x^{2}\right)} & {\cdots} & {\operatorname{cov}\left(x^{1}, x^{k}\right)} \\ 
 {\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
 {\operatorname{cov}\left(x_{k}, x_{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}\end{array}\right) = \Sigma
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5NDEwNywyMDExNTM0MTg1LC00NDgxMT
-IzMTIsLTE0OTg0MjQzMDAsLTE3NTQxNzk1MDgsLTE3NTk2MzUw
-OTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMzNjU0OTcsOD
-kzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5MjgyLDEyODMwMzk5
-MzUsLTE5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbLTExODQ3ODQwNjksNjg5NDEwNywyMDExNT
+M0MTg1LC00NDgxMTIzMTIsLTE0OTg0MjQzMDAsLTE3NTQxNzk1
+MDgsLTE3NTk2MzUwOTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLD
+EwMjMzNjU0OTcsODkzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5
+MjgyLDEyODMwMzk5MzUsLTE5ODQxODc3NTldfQ==
 -->
