@@ -23,7 +23,7 @@ $$
 이 프로젝션의 벡터 공간에서의 좌표는 $(w \cdot x_i) w$가 된다. 그리고 이 프로젝션 스칼라 값 혹은 프로젝션 벡터의  기댓값은  아래와 같이 0이 된다. 물론 벡터의 경우에는 스칼라 대신 $k \times 1$의 0 벡터가 된다. 
 
 $$
-\dfrac{1}{n} \sum^n_{i=1} (w \cdot x_i) = \left( \dfrac{1}{n} \sum_{i=1}^n x_i \right)\cdot w = 0
+\dfrac{1}{n} \sum^n_{i=1} (w \cdot x_i) = \left( \dfrac{1}{n} \sum_{i=1}^n x_i \right)\cdot w = 0 \cdot w
 $$
 
 원 자료 즉, 벡터 $x_i$와 이 프로젝션 좌표의의 유클리드 거리를 구해보자. 
@@ -180,6 +180,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNzYyOTAwLC05MzMzNTUzMTksODYxMT
-g5MjgyLDEyODMwMzk5MzUsLTE5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbMTY5MTE4NTMxNyw4OTM3NjI5MDAsLTkzMz
+M1NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNSwtMTk4NDE4Nzc1
+OV19
 -->
