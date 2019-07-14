@@ -52,10 +52,10 @@ $$
 
 이 식이 성립하는 이유는 $\mathrm{Var}(x) = \mathrm{E}(x^2) - (\mathrm{E}(x))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $E(w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
 
-여기서 잠깐. 하나의 벡터 위로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w_1, w_2, \dotsc, w_k$라고 하자. 이 프로젝션을 통해 생성되는 벡터 공간의 벡터는 다음과 같다. 
+여기서 잠깐. 하나의 벡터로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w_1, w_2, \dotsc, w_k$라고 하자. 이 프로젝션을 통해 생성되는 벡터 공간은 다음과 같이 나타낼 수 있다. 
 
 $$
-\sum_{i=1}^k (x_i \cdot w_i) w_i
+\sum_{i=1}^k \underscore{(x_i \cdot w_i)}_{} w_i
 $$
 
 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이다.  결국 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
@@ -182,8 +182,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk2MzUwOTQsNzEzOTgzNTA0LC0xOT
-kxNDczNTcxLDEwMjMzNjU0OTcsODkzNzYyOTAwLC05MzMzNTUz
-MTksODYxMTg5MjgyLDEyODMwMzk5MzUsLTE5ODQxODc3NTldfQ
-==
+eyJoaXN0b3J5IjpbLTMzNzIxNzA0NCwtMTc1OTYzNTA5NCw3MT
+M5ODM1MDQsLTE5OTE0NzM1NzEsMTAyMzM2NTQ5Nyw4OTM3NjI5
+MDAsLTkzMzM1NTMxOSw4NjExODkyODIsMTI4MzAzOTkzNSwtMT
+k4NDE4Nzc1OV19
 -->
