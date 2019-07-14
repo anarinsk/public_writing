@@ -79,13 +79,13 @@ $$
 $$ 
 \underset{n \times k}{X} = 
  \left( \begin{array}{ccc}{
-{x^1T}}  \\ \\
-{x_2^T} \\ \\
+{{x^1}^T}}  \\ \\
+{{x^2}^T} \\ \\
 {\vdots} \\ \\
-{x_n^T} \end{array}\right) = 
+{{x^n}^T} \end{array}\right) = 
 \left( \begin{array}{ccc}
-{x_1^1} & {x_1^2} & {\cdots} & {x_1^k} \\ 
-{x_2^1} & {x_2^2} & {\cdots} & {x_2^k} \\ 
+{x_1^1} & {x_1^2} & {\cdots} & {x_k^1} \\ 
+{x_2^1} & {x_2^2} & {\cdots} & {x_k^2} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
 {x_n^1} & {x_n^2} & {\cdots} & {x_n^k} 
 \end{array}\right) 
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDk0NDMxOSwyMDExNTM0MTg1LC00ND
-gxMTIzMTIsLTE0OTg0MjQzMDAsLTE3NTQxNzk1MDgsLTE3NTk2
-MzUwOTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMzNjU0OT
-csODkzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5MjgyLDEyODMw
-Mzk5MzUsLTE5ODQxODc3NTldfQ==
+eyJoaXN0b3J5IjpbLTE4NjE0MTU1ODksMjAxMTUzNDE4NSwtND
+Q4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5
+NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1ND
+k3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4MiwxMjgz
+MDM5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
