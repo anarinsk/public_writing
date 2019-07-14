@@ -84,10 +84,10 @@ $$
 {\vdots} \\ \\
 {{x^n}^T} \end{array}\right) = 
 \left( \begin{array}{ccc}
-{x_1^1} & {x_1^2} & {\cdots} & {x_k^1} \\ 
+{x_1^1} & {x_2^1} & {\cdots} & {x_k^1} \\ 
 {x_2^1} & {x_2^2} & {\cdots} & {x_k^2} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
-{x_n^1} & {x_n^2} & {\cdots} & {x_n^k} 
+{x_1^n} & {x_2^n} & {\cdots} & {x_k^n} 
 \end{array}\right) 
 $$
 
@@ -192,9 +192,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE0MTU1ODksMjAxMTUzNDE4NSwtND
-Q4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5
-NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1ND
-k3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4MiwxMjgz
-MDM5OTM1LC0xOTg0MTg3NzU5XX0=
+eyJoaXN0b3J5IjpbNjg5NDEwNywyMDExNTM0MTg1LC00NDgxMT
+IzMTIsLTE0OTg0MjQzMDAsLTE3NTQxNzk1MDgsLTE3NTk2MzUw
+OTQsNzEzOTgzNTA0LC0xOTkxNDczNTcxLDEwMjMzNjU0OTcsOD
+kzNzYyOTAwLC05MzMzNTUzMTksODYxMTg5MjgyLDEyODMwMzk5
+MzUsLTE5ODQxODc3NTldfQ==
 -->
