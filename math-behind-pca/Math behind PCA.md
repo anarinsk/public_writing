@@ -19,7 +19,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 대체로 통계학의 알고리듬은 목적 함수를 최적화하는 형태이다. PCA도 마찬가지다. $i$ 관찰 대상에 관한 $k$ 차원의 피처 벡터 $x^i$가 있다고 하자. 즉, $x^i$는 $k \times 1$의 칼럼 벡터이다. 앞으로 특별한 언급이 없는 이상 앞으로 $x_i$ 벡터는 $n$개의 관찰에 대한 평균으로 구성된 벡터 $\mu = [\mu_1~\mu_2~\dotsc~\mu_k]^T$를 뺀 값이라고 간주하자. 즉, $X^i$가 평균을 빼지 않은 $i$ 관찰 대상이라고 할 때, 
 
 $$
-x^i = \left[\begin{array}{c}{X^i_{1} - \mu_1} \\ {X^i_{2} - \mu_2} \\ {\vdots} \\ {X^i_{k} - \mu_k}\end{array}\right]
+\underset{k \times 1}{x^i} = \left[\begin{array}{c}{X^i_{1} - \mu_1} \\ {X^i_{2} - \mu_2} \\ {\vdots} \\ {X^i_{k} - \mu_k}\end{array}\right]
 $$ 
 
 이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 벡터로 투영해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 $\mathbf X$라는 설명변수로 프로젝션해서 계수를 구하는 방법이다. 좌우간, $x^i$를 $w$로 프로젝션 하면 다음과 같다.
@@ -66,7 +66,11 @@ $$
 \sum_{i=1}^k \underset{\mathrm{가중치}}{( x^i \cdot w_i) } w_i
 $$
 
-이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이다.  결국 스크린을 이루는 축들과 $x^i$의 크로스 프로덕트 값의 분산을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
+이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라질 것이
+
+1. 앞서 스크린이 하나였던 경우와 마친가지로 위 값의 분산을 최대화 해야 한다. 
+2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
+3. 스크린을 이루는 축들과 $x^i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x^i w_i)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 직교하게 선을 내리는 것이라는 점을 떠올리면 아래 그림의 오른쪽이 쉽게 이해가 갈 것이다. 
 
@@ -93,7 +97,7 @@ $$
 
 $$
 \begin{aligned}
-\dfrac{1}{n-1} \underset{k \times k}{X^{T} X}
+\dfrac{1}{n-1} \underset{(k \times kn) (n \times k)}{X^{T} X}
 =  \left( \begin{array}{ccc}{
 \operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
 {\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
@@ -145,10 +149,10 @@ $\lambda$가 분산이 된다고 말했다. 잠깐, 분산이라면 항상 0보�
 
 # 분산-공분산 행렬의 속성 
 
-
+분산-공분산 행렬은 아래와 같은 두 가지 특징을 지닌다. 
 
 ## 대칭 행렬
-우선, 분산-공분산 행렬이므로 대칭적이다. 행렬이 대칭일 경우 해당 행렬의 아이겐벡터들은 서로 직교한다. 
+우선, 분산-공분산 행렬이므로 대칭적이다. 행렬이 대칭일 경우 해당 행렬의 아이겐벡터들은 서로 직교**직교**(orthogonal)한다. 
 
 $$
 i, j \in \{ 1, 2, \dotsc, k\}~\text{with}~i \ne j, w_i \cdot w_j = 0
@@ -156,15 +160,22 @@ $$
 
 여러개의 프로젝션 스크린 벡터들이 존재할 경우 해당 벡터들이 서로 직교하면 분산값의 합을 최대화하는 것과 RSS를 최소화하는 것이 같음을 보았다. 이 조건이 분산-공분산 행렬의 속성을 통해 성립한다. 
 
+분산-공분산 행렬의 이 특징이 PCA의 흥미로운 점 하나를 드러난다. 2 차원 평면에서 사 분면을 떠올려보자. 사 분면을 구성하는 $x$, $y$ 축은 서로 직교한다. 2 차원 평면 위에 어떤 관찰에 대해서 PCA를 했다고 하자. PCA의 스크린으로 두 개를 사용했고, 해당 스크린이 아이겐벡터라면 이 두 벡터는 서로 직교한다. 즉, 원래 직교했던 두 축에서 직교하는 다른 두 축으로 좌표의 기준을 이동 시킨 셈이다. 즉 PCA는 분산을 가장 크게 하는 방식으로 좌표축을 이동하는 방법이라고 이해하면 좋다. 
+
 ## Positive-definite 
 
-$\Sigma$는 양정행렬이다. 
+$\Sigma$는 준양정행렬이다.부호(준 양의 정부호 positive semi-definite) 행렬이다.[^1] 즉, 
 
 $$
-x^T \Sigma x > 0 ~\text{for any $x$.}
+x^T \Sigma x >\geq 0 ~\text{for any $x$.}
 $$
 
-이 경우 모든 아이겐밸류의 값은 음수가 되지 않는다. 앞서 아이겐밸류가 분산이 된다고 것을 보았는데, 아이겐밸류가 음수가 될 수 없고 따라서 분산이라는 결과에 부합한다. 
+[^1]: 증명은 몹시 간단하다. $w^T \Sigma w$ 라고 하자. 
+$$
+w^T X^T X w = \underset{\text{dot product}}{ (Xw)^T (Xw) } \geq 0
+$$
+
+이 경우 모든 아이겐밸류의 값은 음수가 되지 않는다. 앞서 아이겐밸류가 분산이 된다고 것을 보았는데,지적했다. 아이겐밸류가 음수가 될 수 없고 따라서다면, 이것이 분산이라는 결과에도 부합한다. 
 
 이 두 조건에 따라서 개별 프로젝션 스크린 벡터에 따른 극대화 문제를 풀면 아이겐밸류와 아이겐벡터를 각각 하나씩 얻게 된다. 분산이 큰 순서대로 아이겐벡터를 정렬한다고 생각해보자. 이렇게 정렬하면 프로젝션 스크린 벡터 중에서 RSS를 더 줄일 수 있는 벡터 순으로 정렬하는 셈이다.  
 
@@ -189,10 +200,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTM0NTA5MCwtMjAzODAwOTk1MSwxMz
-A2MDgyNzc5LDY4OTQxMDcsMjAxMTUzNDE4NSwtNDQ4MTEyMzEy
-LC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC0xNzU5NjM1MDk0LD
-cxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIzMzY1NDk3LDg5Mzc2
-MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4MiwxMjgzMDM5OTM1LC
-0xOTg0MTg3NzU5XX0=
+eyJoaXN0b3J5IjpbLTE4MDExNDYzMDMsMTY2NTM0NTA5MCwtMj
+AzODAwOTk1MSwxMzA2MDgyNzc5LDY4OTQxMDcsMjAxMTUzNDE4
+NSwtNDQ4MTEyMzEyLC0xNDk4NDI0MzAwLC0xNzU0MTc5NTA4LC
+0xNzU5NjM1MDk0LDcxMzk4MzUwNCwtMTk5MTQ3MzU3MSwxMDIz
+MzY1NDk3LDg5Mzc2MjkwMCwtOTMzMzU1MzE5LDg2MTE4OTI4Mi
+wxMjgzMDM5OTM1LC0xOTg0MTg3NzU5XX0=
 -->
