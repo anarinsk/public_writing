@@ -65,11 +65,11 @@ ${\mathrm R}^2$는 회귀분석의 성과 지표로 어떤 의미가 있을까? 
 
 아울러 회귀분석이라는 이름을 지니고 있지만 사실 위에 설명한 전형적인 회귀분석의 방법을 따르지 않는 기법에서  $\textrm R^2$가 정의되지 않는 경우도 있다. 대표적으로 로지스틱 회귀가 그렇다. 이 분석에는 회귀분석이라는 이름이 붙어 있지만 엄밀하게 따지면 로지스틱 회귀는 회귀분석이 아니다. 로지스틱 회귀에서 추정을 위한 목적함수는 여기서 봤듯이 관찰과 col $\mathbf X$ 사이의 거리를 최소하하는 방식이 아니라 우도(likelihood)를 극대화하는 것이다. 따라서 피타고라스 정리에 기대고 있는 $\textrm R^2$는 정의되지 않는다.[^2]
 
-[^2]: 궁여지책으로 이와 유사한 지표를 만들어낼 수는 있겠다. 여기[https://thestatsgeek.com/2014/02/08/r-squared-in-logistic-regression/]를 참고하라. 
+[^2]: 궁여지책으로 이와 유사한 지표를 만들어낼 수는 있겠다. [여기](https://thestatsgeek.com/2014/02/08/r-squared-in-logistic-regression)를 참고하라. 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU4NTE3NDgsLTUwMzEzOTAxMCwtMT
+eyJoaXN0b3J5IjpbLTE1MDU3Mzk4MzIsLTUwMzEzOTAxMCwtMT
 IzNDIyNTE1LC01MzY5NzE3MzksLTMxMDgzNjY1MiwyMDIzMDE1
 MDk2LC0xMjg5Mzk0NjQ0LC03NDc3MDM0MDMsLTE5NjI5MzkzNT
 UsLTE1MTM4MjAzMTldfQ==
