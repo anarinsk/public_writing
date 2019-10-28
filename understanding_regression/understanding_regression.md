@@ -59,10 +59,12 @@ $$
   {\mathrm R}^2 = 1 - \dfrac{\text{RSS}}{\text{TSS}}
 $$
 
-$\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 있다. 그런데 이렇게 기하학적으로 보면 col $\mathbf X$ 내에 표현된 $\hat{\mathbf Y}$ 가 $\mathbf Y$와 얼마나 가깝게 있는지를 지표화한 방식의 하나에 불과하다. 
+$\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 있다. 그런데 이렇게 기하학적으로 보면 col $\mathbf X$ 내에 표현된 $\hat{\mathbf Y}$ 가 $\mathbf Y$와 얼마나 가깝게 있는지를 지표화한다. 
+
+${\mathrm R}^2$는 회귀분석의 성과 지표로 어떤 의미가 있을까? 이렇게 기하적으로 이해하면 좀 더 접근이 쉽다. 한마디로 원래 관찰값과 regressor가 생성하는 벡터 공간 사이가 얼마나 떨어져
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDQ2NjM2MCwtNzQ3NzAzNDAzLC0xOT
+eyJoaXN0b3J5IjpbMTIyMjE4ODcyMCwtNzQ3NzAzNDAzLC0xOT
 YyOTM5MzU1LC0xNTEzODIwMzE5XX0=
 -->
