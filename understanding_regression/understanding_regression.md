@@ -21,7 +21,7 @@ $$
 
 ![](https://miro.medium.com/max/1720/1*G1Y_-X14q2xMVHlUuaUUdA.png =500x)
 
-위 그림은 1개의 regressor가 존재할 때 이것과 regressand를 그대로 2차원 평면에 관찰수대로 찍은 것이다. 첫번째 그림에서 "Observed Y"는 $n$ 개의 regressand 전체 해당한다. 우리가 관찰한 데이터의 갯수가 $n$ 개라면 $\mathbf{Y}$는 $(n \times 1)$ 벡터, 즉 $n$ 차원 벡터다. 이 벡터 하나가 관찰값 전체를 나타낸다. 
+위 그림은 1개의 regressor가 존재할 때 이것과 regressand를 그대로 2차원 평면에 관찰 수만큼 찍은 것이다. 첫번째 그림에서 "Observed Y"는 $n$ 개의 regressand를 모두 포괄한다. $\mathbf{Y}$는 $(n \times 1)$ 벡터, 즉 $n$ 차원 벡터다. 이 벡터 하나가 식 관찰값 전체를 나타낸다. 
 
 regressor $\mathbf X$가 표현할 수 있는 공간의 최대 차원, 즉 $\mathbf X$의 랭크는 무엇일까? 회귀분석에서는 대체로 $n > k$가 일반적이고 이런 상황에서 $\mathbf X$의 랭크는 $k$를 넘을 수 없다. 다시 말하면, $\mathbf X$가 생성하는(span)하는 컬럼 스페이스(앞으로 col $\mathbf X$로 표기하자)의 차원은 $k$를 넘을 수 없다. 
 
@@ -57,6 +57,6 @@ $\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzc4NDgxNSwtMTk2MjkzOTM1NSwtMT
-UxMzgyMDMxOV19
+eyJoaXN0b3J5IjpbMTYxOTMwNjM4LC0xOTYyOTM5MzU1LC0xNT
+EzODIwMzE5XX0=
 -->
