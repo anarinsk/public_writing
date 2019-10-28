@@ -29,13 +29,13 @@ col $\mathbf X$를 통해 생성되는 공간의 최대 차원, 즉 $\mathbf X$�
 
 그림에서 색칠된 평면이 $\mathbf X$가 생성하는 컬럼 스페이스, 즉 col $\mathbf X$를 표현하고 있다. 앞서 보았듯이 $\mathbf Y$는 $n$ 차원 벡터다. 몹시 특별한 경우가 아니라면 $\mathbf Y$ 벡터가 col $\mathbf X$에 속할 가능성은 없다. 만일 속해 있다면 회귀분석이 필요 없을 것이다. col $\mathbf X$를 통해서 $\mathbf Y$를 완벽하게 예측할 수 있는데 무슨 걱정이 있겠는가? 대체로 우리가 마주하는 상황은 $n$ 차원 벡터를 $k$ 차원 공간에 끼워 넣기 힘든 상황이다. 
 
-회귀분석의 목표는 regressor를 통해서 regressand를 '가장' 잘 설명하는 것이다.[^1] 이를 기하를 통해 풀어보자. 회귀분석이란 regressand와 '닮은' 것을 col $\mathbf X$에서 찾는 것이다. 즉 $\mathbf Y$와 닮은 무엇을 $\mathbf X$의 컬럼 스페이스에 찾아야 한다. 직관적으로 쉽게 떠올릴 수 있는 것은 이 평면과 $\mathbf Y$의 (유클리드) 거리를 가장 짧게 만들어주는 벡터일 것이다. 그리고 이 최단거리는 $\mathbf Y$에서 $\mathbf X$ 컬럼 스페이스로 내린 수선의 발이 닿는 col $\mathbf X$의 지점이다. col $\mathbf X$ 내에 있는 수선의 발의 벡터를 계산하는  연산자(operator)가 회귀분석 계수 $\hat{\bm \beta}$이다. 즉, 
+회귀분석의 목표는 regressor를 통해서 regressand를 '가장' 잘 설명하는 것이다.[^1] 이를 기하를 통해 풀어보자. 회귀분석이란 regressand와 '닮은' 것을 col $\mathbf X$에서 찾는 것이다. 즉 $\mathbf Y$와 닮은 무엇을 $\mathbf X$의 컬럼 스페이스에 찾아야 한다. 직관적으로 쉽게 떠올릴 수 있는 것은 이 평면과 $\mathbf Y$의 (유클리드) 거리를 가장 짧게 만들어주는 벡터일 것이다. 그리고 이 최단거리는 $\mathbf Y$에서 $\mathbf X$ 컬럼 스페이스로 내린 수선의 발이 닿는 col $\mathbf X$의 지점이다. col $\mathbf X$ 내에 있는 수선의 발 벡터를 찾는 연산자(operator)가 회귀분석 계수 $\hat{\bm \beta}$이다. 즉, 
 
 $$
 \hat{\bm \beta} = ({\mathbf X}'{\mathbf X})^{-1} ({\mathbf X}' \mathbf Y)
 $$
 
-그리고 이 연산자를 regressor의  모음인 col $\mathbf X$에 적용하면 regressand $\mathbf Y$의 예측치 $\hat{\mathbf Y}$이 계산된다. 그림에서 보듯이 $\hat{\mathbf Y}$은 $\mathbf Y$와 $\mathbf X$의 컬럼 스페이스의 거리를 최소화하는 위치에 존재한다. 
+그리고 이 연산자를 regressor의  모음인 col $\mathbf X$에 적용하면 regressand $\mathbf Y$의 예측치 $\hat{\mathbf Y}$이 계산된다. 그림에서 보듯이 $\hat{\mathbf Y}$은 $\mathbf Y$와 $\mathbf X$의 컬럼 스페이스의 거리를 최소화하는 위치에 존재한다. $\hat{\mathbf Y}$는 어떤 벡터일까? $(n \times 1)$ 차원지만 이 벡터는   col $\mathbf X$ 내에 위치한 벡터다. 
 
 이제 이 그림을 머리에 넣고서 $\mathrm R^2$의 의미를 살펴보자. 결론부터 이야기하면  $\mathrm R^2$는 그림에서 $(\mathbf Y - \overline{\mathbf Y})$ 벡터와 $(\hat{\mathbf Y}-\overline{\mathbf Y})$ 벡터가 이루는 각의 코사인 값, 즉 $\cos \theta$다. $\overline{\mathbf Y}$는 무엇일까? 그림에서처럼 $\overline{Y} \mathbf{1}_n$로 표기할 수 있다. 즉, $\mathbf Y$의 평균값 $\overline{Y}$만으로 구성된 $(n \times 1)$ 벡터다. 이 벡터는 col $\mathbf X$ 안에 있을까? 당연히 그렇다. $\mathbf X$는 최대한 $k(<n)$ 차원의 벡터이고, $\overline{\mathbf Y}$는 1차원 벡터다. 다시 본론으로 돌아가자. 이 코사인 값의 의미는 무엇일까? 
 
@@ -59,6 +59,6 @@ $\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDg1NDU2NiwtNzQ3NzAzNDAzLC0xOT
+eyJoaXN0b3J5IjpbLTU1MTUzODI5OCwtNzQ3NzAzNDAzLC0xOT
 YyOTM5MzU1LC0xNTEzODIwMzE5XX0=
 -->
