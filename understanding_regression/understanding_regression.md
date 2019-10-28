@@ -9,7 +9,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 ![](https://i.stack.imgur.com/rDYMh.png =500x)
 
-여기서 회귀분석을 해설할 생각은 없다. 이미 너무나 많은 그리고 매우 훌륭한 내용들이 책, 웹, 강의로 넘쳐날테니까. 이 글의 용도는 그림 하나로 놓치기 쉬운 회귀분석의 핵심을 한 눈에 보는 것이다. 나는 [crossvalidated](https://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient)에서 이 그림을 보는 순간 일종의 '돈오돈수'가 찾아 왔다. 이렇게 이해하면 쉬웠을 것을... 먼저 우리에게 익숙한 회귀분석 모델을 매트릭스로 적어보자. 
+여기서 회귀분석을 해설할 생각은 없다. 이미 너무나 많은 그리고 매우 훌륭한 내용들이 책, 웹, 강의로 넘쳐날테니까. 이 글의 용도는 그림 하나로 지나치게 쉬운 회귀분석의 '핵심'을 살피는 것이다. [crossvalidated](https://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient)에서 이 그림을 보는 순간 일종의 '돈오돈수'가 강림했다. 이렇게 이해하면 쉬웠을 것을... 먼저 우리에게 익숙한 회귀분석 모델을 매트릭스로 적어보자. 
 
 $$
 \underset{n \times 1}{\mathbf{Y}} = \underset{n \times k}{\phantom{\bm \gamma} \mathbf{X} \phantom{\bm \gamma} }\underset{k \times 1}{\bm \beta} + \underset{n \times 1}{\phantom{\bm \beta} \bm \varepsilon \phantom{\bm \gamma} }
@@ -56,5 +56,5 @@ $\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM4MjAzMTldfQ==
+eyJoaXN0b3J5IjpbMTgzNDA1MDcwMywtMTUxMzgyMDMxOV19
 -->
