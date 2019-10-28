@@ -15,9 +15,12 @@ $$
 \underset{n \times 1}{\phantom{\bm \gamma}\mathbf{Y}\phantom{\bm \gamma}} = \underset{n \times k}{\phantom{\bm \gamma} \mathbf{X} \phantom{\bm \gamma} }\underset{k \times 1}{\bm \beta} + \underset{n \times 1}{\phantom{\bm \beta} \bm \varepsilon \phantom{\bm \gamma} }
 $$
 
-식에 관한 자세한 설명 역시 생략한다. 대충 $n$ 개의 관찰 수과 $k$ 개의 리그레서를 지닌 중회귀분석 모형이라고 생각하면 되겠다.  앞서 본 그림은 보통 회귀분석의 예시로 많이 활용되는 아래 그림과는 다르다. 
+식에 관한 자세한 설명 역시 생략한다. 대충 $n$ 개의 관찰 수과 $k$ 개의 regressor를 지닌 중회귀분석 모형이라고 생각하면 되겠다.  앞서 본 그림은 보통 회귀분석의 예시로 많이 활용되는 아래 그림과는 다르다.[^1]
+
+[^1]: 흔히 $\mathbf Y$를 종속변수, $\mathbf X$를 독립변수로 부르기도 한다. 하지만 이러한 이름에는 혼란의 여지가 있다. 여기서는 regressor, regressand라는 영어 표현을 그대로 쓰도록 하겠다. 
 
 ![](https://miro.medium.com/max/1720/1*G1Y_-X14q2xMVHlUuaUUdA.png =500x)
+
 위 그림은 1개의 regressor가 존재할 때 이것과 regressand를 그대로 2차원 평면에 관찰수대로 찍은 것이다. 첫번째 그림에서 "Observed Y"는 $n$ 개의 regressand 전체 해당한다. 우리가 관찰한 데이터의 갯수가 $n$ 개라면 $\mathbf{Y}$는 $(n \times 1)$ 벡터, 즉 $n$ 차원 벡터다. 이 벡터 하나가 관찰값 전체를 나타낸다. 
 
 regressor $\mathbf X$가 표현할 수 있는 공간의 최대 차원, 즉 $\mathbf X$의 랭크는 무엇일까? 회귀분석에서는 대체로 $n > k$가 일반적이고 이런 상황에서 $\mathbf X$의 랭크는 $k$를 넘을 수 없다. 다시 말하면, $\mathbf X$가 생성하는(span)하는 컬럼 스페이스(앞으로 col $\mathbf X$로 표기하자)의 차원은 $k$를 넘을 수 없다. 
@@ -25,8 +28,6 @@ regressor $\mathbf X$가 표현할 수 있는 공간의 최대 차원, 즉 $\mat
 그림에서 색칠된 평면이 $\mathbf X$가 생성하는 컬럼 스페이스, 즉 col $\mathbf X$를 표현하고 있다. 앞서 보았듯이 $\mathbf Y$는 $n$ 차원 벡터다. 특별한 경우가 아니라면 $\mathbf Y$ 벡터가 col $\mathbf X$에 속할 가능성은 거의 없다. 만일 속해 있다면 회귀분석이 필요 없을 것이다. col $\mathbf X$를 통해서 $\mathbf Y$를 완벽하게 예측할 수 있는데, $\mathbf Y$와 col $\mathbf X$의 거리를 왜 최소화해야 할까. 
 
 회귀분석의 목표는 regressor를 통해서 regressand를 '가장' 잘 설명하는 것이다.[^1] 이를 기하적으로 풀어보자. 회귀분석이란 regressand와 닮은 어떤 것을 col $\mathbf X$에서 찾는 것이다. 즉 $\mathbf Y$와 닮은 무엇을 $\mathbf X$의 컬럼 스페이스에 찾아야 한다. 직관적으로 쉽게 떠올릴 수 있는 것은 이 평면과 $\mathbf Y$의 (유클리드) 거리를 가장 짧게 만들어주는 벡터일 것이다. 그리고 이 최단거리는 $\mathbf Y$에서 $\mathbf X$ 컬럼 스페이스로 내린 수선의 발이 닿는 col $\mathbf X$의 지점이다. 이 위치를 구해주는 연산자(operator)가 회귀분석 계수 $\hat{\bm \beta}$이다. 즉, 
-
-[^1]: 회귀분석에서 $\mathbf Y$를 종속변수, $\mathbf X$를 독립변수로 부르기도 한다. 하지만 이러한 명명은 혼란의 여지가 있다. 그래서 여기서는 regressor, regressand라는 영어 표현을 그대로 쓰도록 하겠다. 
 
 $$
 \hat{\bm \beta} = ({\mathbf X}'{\mathbf X})^{-1} ({\mathbf X}' \mathbf Y)
@@ -56,6 +57,6 @@ $\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI5MzkzNTUsLTE1MTM4MjAzMTldfQ
-==
+eyJoaXN0b3J5IjpbMTgxNzc4NDgxNSwtMTk2MjkzOTM1NSwtMT
+UxMzgyMDMxOV19
 -->
