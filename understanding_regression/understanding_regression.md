@@ -9,13 +9,13 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 ![](https://i.stack.imgur.com/rDYMh.png =500x)
 
-여기서 회귀분석을 해설할 생각은 없다. 이미 너무나 많은 그리고 매우 훌륭한 내용들이 책, 웹, 강의로 넘쳐날테니까. 이 글의 용도는 그림 하나로 지나치게 쉬운 회귀분석의 '핵심'을 살피는 것이다. [crossvalidated](https://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient)에서 이 그림을 보는 순간 일종의 '돈오돈수'가 강림했다. 이렇게 이해하면 쉬웠을 것을... 먼저 우리에게 익숙한 회귀분석 모델을 매트릭스로 적어보자. 
+여기서 회귀분석을 해설할 생각은 없다. 이미 너무나 많은 그리고 매우 훌륭한 내용들이 책, 웹, 강의로 넘쳐날테니까. 이 글의 용도는 그림 하나로 지나치게 쉬운 회귀분석의 '핵심'을 살피는 것이다. [crossvalidated](https://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient)에서 이 그림을 보는 순간 일종의 '돈오돈수'가 강림했다. (이렇게 이해하면 쉬웠을 것을...) 먼저 우리에게 익숙한 회귀분석 모델을 매트릭스로 적어보자. 
 
 $$
-\underset{n \times 1}{\mathbf{Y}} = \underset{n \times k}{\phantom{\bm \gamma} \mathbf{X} \phantom{\bm \gamma} }\underset{k \times 1}{\bm \beta} + \underset{n \times 1}{\phantom{\bm \beta} \bm \varepsilon \phantom{\bm \gamma} }
+\underset{n \times 1}{\phantom{\bm \gamma}\mathbf{Y}\phantom{\bm \gamma}} = \underset{n \times k}{\phantom{\bm \gamma} \mathbf{X} \phantom{\bm \gamma} }\underset{k \times 1}{\bm \beta} + \underset{n \times 1}{\phantom{\bm \beta} \bm \varepsilon \phantom{\bm \gamma} }
 $$
 
-식에 관한 자세한 설명 역시 생략한다. 앞서 본 그림은 보통 회귀분석의 예시로 많이 활용되는 아래 그림과는 다르다. 
+식에 관한 자세한 설명 역시 생략한다. 대충 $n$ 개의 관찰 수과 $k$ 개의 리그레서를 지닌 중회귀분석 모형이라고 생각하면 되겠다.  앞서 본 그림은 보통 회귀분석의 예시로 많이 활용되는 아래 그림과는 다르다. 
 
 ![](https://miro.medium.com/max/1720/1*G1Y_-X14q2xMVHlUuaUUdA.png =500x)
 위 그림은 1개의 regressor가 존재할 때 이것과 regressand를 그대로 2차원 평면에 관찰수대로 찍은 것이다. 첫번째 그림에서 "Observed Y"는 $n$ 개의 regressand 전체 해당한다. 우리가 관찰한 데이터의 갯수가 $n$ 개라면 $\mathbf{Y}$는 $(n \times 1)$ 벡터, 즉 $n$ 차원 벡터다. 이 벡터 하나가 관찰값 전체를 나타낸다. 
@@ -56,5 +56,6 @@ $\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDA1MDcwMywtMTUxMzgyMDMxOV19
+eyJoaXN0b3J5IjpbLTE5NjI5MzkzNTUsLTE1MTM4MjAzMTldfQ
+==
 -->
