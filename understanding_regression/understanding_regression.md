@@ -61,11 +61,11 @@ $$
 
 $\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 있다. 그런데 이렇게 기하학적으로 보면 col $\mathbf X$ 내에 표현된 $\hat{\mathbf Y}$ 가 $\mathbf Y$와 얼마나 가깝게 있는지를 지표화한다. 
 
-${\mathrm R}^2$는 회귀분석의 성과 지표로 어떤 의미가 있을까? 이렇게 기하적으로 이해하면 좀 더 접근이 쉽다. 한마디로 원래 관찰값과 regressor가 생성하는 벡터 공간 사이가 얼마나 떨어져 있는지를 보여주는 값이다. 분석의 목표가 회귀분석을 통한 예측이라면 $\textrm R^2$는 의미가 있을 수 있다. 반면 분석의 목표가 회귀분석을 통한 예측이 아니라 특정한 regressor의 인과관계에 관한 추정이라면  $\textrm R^2$는 무시해도 좋다. 아울러 회귀분석이라는 이름으로 불리지만 사실 전형적인 회귀분석의 방법을 따르지 않는 기법에서는  $\textrm R^2$는 존재하지 않는다. 대표적으로 로지스틱 회귀가 그렇다. 이 분석에는 회귀분석이라는 이름이 붙어 있지만 엄밀하게 따지면 로지스틱 회귀는 회귀분석이 아니다. 그래서 로지스틱 리그레션에는 $\textrm R^2$가 없다. 
+${\mathrm R}^2$는 회귀분석의 성과 지표로 어떤 의미가 있을까? 이렇게 기하적으로 이해하면 좀 더 접근이 쉽다. 한마디로 원래 관찰값과 regressor가 생성하는 벡터 공간 사이가 얼마나 떨어져 있는지를 보여주는 값이다. 분석의 목표가 회귀분석을 통한 예측이라면 $\textrm R^2$는 의미가 있을 수 있다. 반면 분석의 목표가 회귀분석을 통한 예측이 아니라 특정한 regressor의 인과관계에 관한 추정이라면  $\textrm R^2$는 무시해도 좋다. 아울러 회귀분석이라는 이름으로 불리지만 사실 전형적인 회귀분석의 방법을 따르지 않는 기법에서는  $\textrm R^2$는 존재하지 않는다. 대표적으로 로지스틱 회귀가 그렇다. 이 분석에는 회귀분석이라는 이름이 붙어 있지만 엄밀하게 따지면 로지스틱 회귀는 회귀분석이 아니다. 그래서 로지스틱 회귀에는 $\textrm R^2$가 없다. 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjk3MTczOSwtMzEwODM2NjUyLDIwMj
-MwMTUwOTYsLTEyODkzOTQ2NDQsLTc0NzcwMzQwMywtMTk2Mjkz
-OTM1NSwtMTUxMzgyMDMxOV19
+eyJoaXN0b3J5IjpbLTEyMzQyMjUxNSwtNTM2OTcxNzM5LC0zMT
+A4MzY2NTIsMjAyMzAxNTA5NiwtMTI4OTM5NDY0NCwtNzQ3NzAz
+NDAzLC0xOTYyOTM5MzU1LC0xNTEzODIwMzE5XX0=
 -->
