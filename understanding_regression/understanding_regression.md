@@ -35,7 +35,7 @@ $$
 \hat{\bm \beta} = ({\mathbf X}'{\mathbf X})^{-1} ({\mathbf X}' \mathbf Y)
 $$
 
-그리고 이 연산자를 regressor의  모음인 col $\mathbf X$에 적용하면 regressand $\mathbf Y$의 예측치 $\hat{\mathbf Y}$이 계산된다. 그림에서 보듯이 $\hat{\mathbf Y}$은 $\mathbf Y$와 $\mathbf X$의 컬럼 스페이스의 거리를 최소화하는 위치에 존재한다. $\hat{\mathbf Y}$는 어떤 벡터일까? $(n \times 1)$ 차원지만 이 벡터는   col $\mathbf X$ 내에 위치한 벡터다. 
+그리고 이 연산자를 regressor의  모음인 col $\mathbf X$에 적용하면 regressand $\mathbf Y$의 예측치 $\hat{\mathbf Y}$이 계산된다. 그림에서 보듯이 $\hat{\mathbf Y}$은 $\mathbf Y$와 $\mathbf X$의 컬럼 스페이스의 거리를 최소화하는 위치에 존재한다. $\hat{\mathbf Y}$는 어떤 벡터일까? $(n \times 1)$ 벡터지만   col $\mathbf X$ 내에 위치하고 있다. 
 
 이제 이 그림을 머리에 넣고서 $\mathrm R^2$의 의미를 살펴보자. 결론부터 이야기하면  $\mathrm R^2$는 그림에서 $(\mathbf Y - \overline{\mathbf Y})$ 벡터와 $(\hat{\mathbf Y}-\overline{\mathbf Y})$ 벡터가 이루는 각의 코사인 값, 즉 $\cos \theta$다. $\overline{\mathbf Y}$는 무엇일까? 그림에서처럼 $\overline{Y} \mathbf{1}_n$로 표기할 수 있다. 즉, $\mathbf Y$의 평균값 $\overline{Y}$만으로 구성된 $(n \times 1)$ 벡터다. 이 벡터는 col $\mathbf X$ 안에 있을까? 당연히 그렇다. $\mathbf X$는 최대한 $k(<n)$ 차원의 벡터이고, $\overline{\mathbf Y}$는 1차원 벡터다. 다시 본론으로 돌아가자. 이 코사인 값의 의미는 무엇일까? 
 
@@ -53,12 +53,16 @@ $$
 1 =  \dfrac{\Vert \mathbf Y - \hat{\mathbf Y} \Vert^2}{\Vert \mathbf Y - \overline{\mathbf Y} \Vert^2} + \dfrac{\Vert \hat{\mathbf Y} - \overline{\mathbf Y} \Vert^2}{\Vert \mathbf Y - \overline{\mathbf Y} \Vert^2}
 $$
 
-정의에 따라서 $1 = \dfrac{\text{RSS}} {\text{TSS}} +  {\mathrm R}^2$가 된다. 
+정의에 따라서 $1 = \dfrac{\text{RSS}} {\text{TSS}} +  {\mathrm R}^2$가 된다. 즉, 
+
+$$
+  {\mathrm R}^2 = 1 - \dfrac{\text{RSS}}{\text{TSS}}
+$$
 
 $\textrm R^2$는 가끔 회귀분석의 성과 지표로 남용되는 경우가 있다. 그런데 이렇게 기하학적으로 보면 col $\mathbf X$ 내에 표현된 $\hat{\mathbf Y}$ 가 $\mathbf Y$와 얼마나 가깝게 있는지를 지표화한 방식의 하나에 불과하다. 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTUzODI5OCwtNzQ3NzAzNDAzLC0xOT
+eyJoaXN0b3J5IjpbLTkxNDQ2NjM2MCwtNzQ3NzAzNDAzLC0xOT
 YyOTM5MzU1LC0xNTEzODIwMzE5XX0=
 -->
