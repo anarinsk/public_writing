@@ -166,7 +166,7 @@ $$
 \ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{\bm{x_i}}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
 $$
 
-여기서 $\beta_i$는 $\bm{x_i}$가 한 단위 변할 때 좌변에 미치는 영향이다. 흔히 $\dfrac{p(\bm{x_i})}{1-p(\bm{x_i})}$를 오즈(odds) 혹은 승산이라고 부른다. 이때 $\beta_j$는 $\bm{x_i}$에 속한 $x_j$ 한 단위 변할 때 오즈에 미치는 영향을 뜻한다.
+여기서 $\beta_i$는 $\bm{x_i}$가 한 단위 변할 때 좌변에 미치는 영향이다. 흔히 $\dfrac{p(\bm{x_i})}{1-p(\bm{x_i})}$를 오즈(odds) 혹은 승산이라고 부른다. 이때 $\beta_j$는 regressor $\bm{x_i}$에 속한 $x_j$ 한 단위 변할 때 오즈에 미치는 영향을 뜻한다.
 간혹 $\beta_i$는 0에서 1이 될 확률의 변화로 해석하려는 경우가 있는데 그렇게 하면 안된다. 물론 이렇게 말하고 싶은 심정은 이해한다. $x_i$의 변화가 상태를 0에서 1로 바꾸는 데 미치는 확률에 관심이 있을 것이다. 만일 이것을 구하고 싶다면 아래의 두 가지에 주의하자. 
 
 1. OLS의 경우 회귀식 자체가 선형이기 때문에 $\beta_i$에 관한 해석이 쉽고 단순하다. 그냥 직선의 기울기다. 그런데 로짓 회귀에서는 그렇게 분명하지 않다. 회귀식 자체가 비선형이므로 한계 효과를 구하기 위한 기울기를 '어디서' 구할지가 문제가 된다.측정 위치에 따라서  기울기가 달라지기 때문이다. 
@@ -175,7 +175,7 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTExOTQ5OCwtOTcxOTc2NTYxLC0xNz
-AwNDk5MDcsLTcwODkxNTgyMiwxMzU5NDkyMDAsMTc0MDU5NjA3
-NF19
+eyJoaXN0b3J5IjpbLTE4OTg1OTAxMzIsLTk3MTk3NjU2MSwtMT
+cwMDQ5OTA3LC03MDg5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYw
+NzRdfQ==
 -->
