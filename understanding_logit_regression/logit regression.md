@@ -97,10 +97,10 @@ $$
 
 $$
 \begin{aligned}
-\ln \dfrac{p(x_i)}{1-p(x_i)} & =\bm{x_i}\boldsymbol{\beta} \\
-\dfrac{p(x_i)}{1-p(x_i)}  & = e^{\bm{x_i}\boldsymbol{\beta}} \\
-p(x_i) & = \dfrac{e^{\bm{x_i}\boldsymbol{\beta}}}{1+e^{\bm{x_i}\boldsymbol{\beta}}} \\
-p(x_i) & = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
+\ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} & =\bm{x_i}\boldsymbol{\beta} \\
+\dfrac{p(\bm{x_i})}{1-p(\bm{x_i})}  & = e^{\bm{x_i}\boldsymbol{\beta}} \\
+p(\bm{x_i}) & = \dfrac{e^{\bm{x_i}\boldsymbol{\beta}}}{1+e^{\bm{x_i}\boldsymbol{\beta}}} \\
+p(\bm{x_i}) & = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
 \end{aligned}
 $$
 
@@ -115,7 +115,7 @@ $\hat\boldsymbol{\beta}$은 어떻게 구할 수 있을까? 현재까지 우리�
 
 어차피 regressand를 실수로 바꿀 수 없는 이상 우리가 아는 선형 회귀분석을 쓸 수는 없다. 그래서 이름과 달리 우리가 아는 '회귀분석', 즉 OLS를 여기서 쓸 수는 없다. 미안하다. 앞에서 거짓말 했다. 
 $$
-\ln \dfrac{p(x_i)}{1-p(x_i)} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{x_i}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
+\ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{x_i}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
 $$
 
 애초에 $\boldsymbol{\beta}$을 알고 있어야, 이 식으로부터 $p(\cdot)$을 구해낼 수 있다. 그런데 우리가 아는 회귀분석이란 $y$와 $\boldsymbol{\rm X}$가 주어졌을 때 하는 것 아닌가? 회귀분석의 좌변이 없기에 OLS로는 추정할 수 없다. 
@@ -133,13 +133,13 @@ $$
 이 변수는 이른바 베르누이 분포를 따른다. 즉, 해당 확률이 발생할 확률 $p$일 때 발생하면 1, 아니면 0이 된다.
 
 $$
-L(y_i) = p(x_i; \boldsymbol{\beta})^{y_i} (1-p(x_i; \boldsymbol{\beta}))^{1-y_i}
+L(y_i) = p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i}
 $$
 
 위 식에서 $y_i$가 1이면 $p(\cdot)$이 0이면 $1-p(\cdot)$이 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정할 수 있다면, 주어진 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
 
 $$
-L(y|X) = \prod_{i = 1}^{n}  L(y_i) = \prod p(x_i; \boldsymbol{\beta})^{y_i} (1-p(x_i; \boldsymbol{\beta}))^{1-y_i}
+L(y|X) = \prod_{i = 1}^{n}  L(y_i) = \prod p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i}
 $$
 
 $\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우도 함수가 일종의 목적 함수가 된다. 우도를 극대화해주는 $\boldsymbol{\beta}$가 우리가 찾는 추정치 최대 우도 추정치, 즉 MLE(MLE, maximum likelihood estimator)가 된다.  
@@ -151,7 +151,7 @@ $\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우�
 왜 로짓 회귀에서는 축야형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수의 변형은 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 지수로 올라가 있단 파라미터들이 앞으로 나오게 된다. 하지만 애석하게도(?) 아래 식에서 보듯이 
 
 $$
-p(x_i)  = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
+p(\bm{x_i})  = \dfrac{1}{e^{-\bm{\bm{x_i}}\boldsymbol{\beta}} + 1} 
 $$
 
 는 $\log_n$을 취하는 것으로는 비슷한 형태로 만들 수 없다. 로짓 함수의 경우 우도 극대화에서 축약형을 해를 구할 수 있는 변형이 없기 때문에 해당 우도를 극대화하는 파라미터를 찾기 위해서는 수치 최적화(numerical optimization)를 활용하는 것이다. 
@@ -163,7 +163,7 @@ $$
 먼저 OLS의 경우 변수를 어떻게 변형했는지에 따라서 다르지만, 대체적으로 $\beta_i$는 해당 regressor $x_i$의 한계효과로 해석할 수 있다. 즉, $x_i$가 한 단위 변할 때 이에 따른 $y_i$의 변화량을 의미한다. 그런데, 로짓 회귀에서는 이렇게 해석할 수 없다. 앞서 보았듯이, 로짓 회귀의 추정식은 다음과 같다. 
 
 $$
-\ln \dfrac{p(x_i)}{1-p(x_i)} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{x_i}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
+\ln \dfrac{p(\bm{x_i})}{1-p(x_i)} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{x_i}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
 $$
 
 여기서 $\beta_i$는 $x_i$가 한 단위 변할 때 좌변에 미치는 영향이다. 흔히 $\dfrac{p(x_i)}{1-p(x_i)}$를 오즈(odds) 혹은 승산이라고 부른다. 이때 $\beta_i$는 $x_i$가 한 단위 변할 때 오즈에 미치는 영향을 뜻한다. 
@@ -176,7 +176,7 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTAzMjI5MiwtOTcxOTc2NTYxLC0xNz
+eyJoaXN0b3J5IjpbMTEzNDM2MDIxMSwtOTcxOTc2NTYxLC0xNz
 AwNDk5MDcsLTcwODkxNTgyMiwxMzU5NDkyMDAsMTc0MDU5NjA3
 NF19
 -->
