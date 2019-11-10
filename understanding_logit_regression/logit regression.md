@@ -73,7 +73,7 @@ $$
 regressand를 이렇게 바꾸면 우선 가능한 값의 범위가 $[0, \infty)$로 확장된다. 여기서 음수 값을 포괄하는 방법은 없을까? 여기에 자연 로그를 적용해보자. 
 
 $$
-\ln \dfrac{p(x_i)}{1-p(x_i)}
+\ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})}
 $$
 
 이렇게 되면 가능한 값의 범위가 $(-\infty, \infty)$가 된다. Regressand가 이 형태라면 선형 회귀를 적용해도 좋겠다. 
@@ -81,7 +81,7 @@ $$
 즉, 
 
 $$
-\ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{\bm{x_i}}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
+\ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{\bm{x_i}} \phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
 $$
 
 매트릭스 형태로 적으면 다음과 같다. 
@@ -175,7 +175,7 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg1OTAxMzIsLTk3MTk3NjU2MSwtMT
-cwMDQ5OTA3LC03MDg5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYw
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTk0MjM3NDg3MiwtMTg5ODU5MDEzMiwtOT
+cxOTc2NTYxLC0xNzAwNDk5MDcsLTcwODkxNTgyMiwxMzU5NDky
+MDAsMTc0MDU5NjA3NF19
 -->
