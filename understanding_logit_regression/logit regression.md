@@ -108,12 +108,12 @@ $$
 
 # $\hat\boldsymbol{\beta}$는 어떻게 구하나? 
 
-이제 본론이다. $\hat\boldsymbol{\beta}$은 어떻게 구할 수 있을까? 현재까지 우리에게 주어진 조건을 보자. 
+$\hat\boldsymbol{\beta}$은 어떻게 구할 수 있을까? 현재까지 우리에게 주어진 조건을 보자. 
 
 1. regressand는 0 또는 1 뿐이다. 
 2. 로짓 함수를 통해서 regressor를 해당 관찰의 확률과 연결시킬 수 있게 되었다. 
 
-어차피 regressand를 실수로 바꿀 수 없는 이상 우리가 아는 선형 회귀분석을 쓸 수는 없다. 그래서 이름에 반하지만 우리가 아는 '회귀분석'을 여기서는 쓸 수가 없다. 미안하다. 앞에서 거짓말 했다. 애초에 우리의 모델을 잘 보면 딜레마가 드러난다. 
+어차피 regressand를 실수로 바꿀 수 없는 이상 우리가 아는 선형 회귀분석을 쓸 수는 없다. 그래서 이름과 달리 우리가 아는 '회귀분석', 즉 OLS를 여기서 쓸 수는 없다. 미안하다. 앞에서 거짓말 했다. 우리의 모델을 잘 보면  드러난다. 
 
 $$
 \ln \dfrac{p(x_i)}{1-p(x_i)} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{x_i}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
@@ -178,5 +178,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTQ5MjAwLDE3NDA1OTYwNzRdfQ==
+eyJoaXN0b3J5IjpbLTQyMDMyMzg4NSwxMzU5NDkyMDAsMTc0MD
+U5NjA3NF19
 -->
