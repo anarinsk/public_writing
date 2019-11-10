@@ -149,13 +149,13 @@ $\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우�
 
 [^1]: [여기](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares#Maximum_likelihood_approach)를 참고하라. 
 
-왜 로짓 회귀에서는 축야형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수의 변형은 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 올라가 있단 파라미터들이 빠져나오게 된다. 하지만 애석하게도(?) 위에서 보듯이 
+왜 로짓 회귀에서는 축야형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수의 변형은 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 지수로 올라가 있단 파라미터들이 앞으로 나오게 된다. 하지만 애석하게도(?) 아래 식에서 보듯이 
 
 $$
 p(x_i)  = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
 $$
 
-는 $\log_n$을 취하는 것으로는 비슷한 형태로 만들 수 없다. 이를 단순화하여 축약형을 해를 구할 수 있는 변형이 없기 때문에 해당 우도를 극대화하는 파라미터를 찾기 위해서는 수치적 극대화를 활용하는 것이다. 
+는 $\log_n$을 취하는 것으로는 비슷한 형태로 만들 수 없다. 로짓 함수의 경우 우도 극대화에서 축약형을 해를 구할 수 있는 변형이 없기 때문에 해당 우도를 극대화하는 파라미터를 찾기 위해서는 수치적 극대화를 활용하는 것이다. 
 
 # $\hat\boldsymbol{\beta}$의 의미는 무엇일까? 
 
@@ -177,6 +177,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwOTE4MjI5LDEzNTk0OTIwMCwxNzQwNT
+eyJoaXN0b3J5IjpbNDQ3Njg3OTUzLDEzNTk0OTIwMCwxNzQwNT
 k2MDc0XX0=
 -->
