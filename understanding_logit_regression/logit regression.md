@@ -42,7 +42,8 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 ![](https://t1.daumcdn.net/cfile/tistory/99F325485C7B76BC2B)
 
 regressor가 하나인 상황을 가정하고 위의 그림을 보자. regressand가 0, 1인 상태로 그대로 회귀분석을 하면 그림의 왼쪽 같이 나온다. 이 상태에서는 뭐가 문제일까? 회귀식의 기울기를 구할 수 있으니 된 것 아니냐고 생각할 수 있겠지만 큰 문제가 있다. 
-우선 x 값에 따라서 회귀식의 예측치가 $[0,1]$을 벗어날 수 있다. 임의로 계단 함수를 다시 얹어서 OLS(통상적인 회귀분석이라는 의미에서 Ordinary Least Square라고 흔히 부른다)를 구제할 수도 있겠다. 즉, 
+앞서 0과 1은 값 그 자체로 의미를 지니지 않는다고 말했다. 그런데 이를 그대로 값으로 바꿔서 회귀분석을 해도 좋은 것일까? 왠지 그러기에는 뭔가 찜찜하다. 
+게다가 x 값에 따라서 회귀식의 예측치가 $[0,1]$을 벗어날 수 있다. 임의로 계단 함수를 다시 얹어서 OLS(통상적인 회귀분석이라는 의미에서 Ordinary Least Square라고 흔히 부른다)를 구제할 수도 있겠다. 즉, 
 
 $$
 s(\beta x) = 
@@ -52,7 +53,7 @@ s(\beta x) =
 \end{cases}
 $$
 
-회귀식의 예측을 확률에 맞게 임의로 꺾어주는 것이다. 이러한 과정은 조금 더 '부드럽게' 할 수 있는 방법이 없을까? 
+회귀식의 예측을 확률에 맞게 임의로 꺾어주는 것이다. 이러한 과정은 조금 더 '부드럽게' 혹은 그럴 듯하게 할 수 없을까? 
 
 ## 범주형에서 확률로 
 
@@ -176,5 +177,5 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTg5ODk5OSwxNzQwNTk2MDc0XX0=
+eyJoaXN0b3J5IjpbMTkwNTMwMjU4NCwxNzQwNTk2MDc0XX0=
 -->
