@@ -145,11 +145,11 @@ $$
 
 $\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우도 함수가 일종의 목적 함수가 된다. 우도를 극대화해주는 $\boldsymbol{\beta}$가 우리가 찾는 추정치 최대 우도 추정치MLE(MLE, maximum likelihood estimator)가 된다.  
 
-간혹 목적 함수, 즉 우도 함수가 비선형이라서 해당 변수의 최대값을 축약형(reduced form)으로 구하기 힘들다는 내용을 보게 된다. 하지만 이는 반쪽만 맞다. 반례로 선형 회귀 모형에서 에러 항이 정규 분포를 따른다고 가정하고,  최대 우도 추정을 적용할 수 있다. 이때 추정치 $\hat\boldsymbol{\beta}$는 통상적인 방법으로 구한 OLS 추정치와 동일하다. 이는 수치적인 방법을 쓴 것이 아니라 분석적인 방법으로 식을 풀어서 구할 수 있다.[^1]
+간혹 목적 함수, 즉 우도 함수가 비선형이라서 해당 변수의 최대값을 축약형(reduced form)으로 구하기 힘들다는 내용을 보게 된다. 하지만 이는 반쪽만 맞다. 반례로 선형 회귀 모형에서 에러 항이 정규 분포를 따른다고 가정하고,  최대 우도 추정을 적용할 수 있다. 이때 추정치 $\hat\boldsymbol{\beta}$는 통상적인 방법으로 구한 OLS 추정량와 동일하다. 이는 수치적인 방법을 쓴 것이 아니라 분석적인 방법으로 식을 풀어서 구할 수 있다.[^1]
 
 [^1]: [여기](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares#Maximum_likelihood_approach)를 참고하라. 
 
-왜 로짓 회귀에서는 그것이 되지 않는 것일까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 변형은 계산을 쉽게 해준다. 정규분포에는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 올라가 있단 파라미터들이 빠져나오게 된다. 하지만 애석하게도(?) 위에서 보듯이 
+왜 로짓 회귀에서는 축야형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수의 변형은 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 올라가 있단 파라미터들이 빠져나오게 된다. 하지만 애석하게도(?) 위에서 보듯이 
 
 $$
 p(x_i)  = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
@@ -177,6 +177,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc3MTUyNTgsMTM1OTQ5MjAwLDE3ND
-A1OTYwNzRdfQ==
+eyJoaXN0b3J5IjpbNTUwOTE4MjI5LDEzNTk0OTIwMCwxNzQwNT
+k2MDc0XX0=
 -->
