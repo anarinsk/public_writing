@@ -20,7 +20,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 생각난 김에 짬을 내 회귀식에서 좌변과 우변을 지칭하는 용어를 정리해보자. 취향에 맞춰서 쓰되 일관성만 갖추면 되겠다.  
 
-좌변|우변|
+|좌변|우변|
 |--|--|
 |dependent variable|independent variables|
 |response variable|predictor variable|
@@ -176,6 +176,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDI5Nzc1MSwtNzA4OTE1ODIyLDEzNT
+eyJoaXN0b3J5IjpbLTE3MDA0OTkwNywtNzA4OTE1ODIyLDEzNT
 k0OTIwMCwxNzQwNTk2MDc0XX0=
 -->
