@@ -113,15 +113,14 @@ $\hat\boldsymbol{\beta}$은 어떻게 구할 수 있을까? 현재까지 우리�
 1. regressand는 0 또는 1 뿐이다. 
 2. 로짓 함수를 통해서 regressor를 해당 관찰의 확률과 연결시킬 수 있게 되었다. 
 
-어차피 regressand를 실수로 바꿀 수 없는 이상 우리가 아는 선형 회귀분석을 쓸 수는 없다. 그래서 이름과 달리 우리가 아는 '회귀분석', 즉 OLS를 여기서 쓸 수는 없다. 미안하다. 앞에서 거짓말 했다. 우리의 모델을 잘 보면  드러난다. 
-
+어차피 regressand를 실수로 바꿀 수 없는 이상 우리가 아는 선형 회귀분석을 쓸 수는 없다. 그래서 이름과 달리 우리가 아는 '회귀분석', 즉 OLS를 여기서 쓸 수는 없다. 미안하다. 앞에서 거짓말 했다. 
 $$
 \ln \dfrac{p(x_i)}{1-p(x_i)} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{x_i}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
 $$
 
-애초에 $\boldsymbol{\beta}$을 알고 있어야, 이 식으로부터 $p(\cdot)$을 구해낼 수 있다. 그런데 우리가 아는 회귀분석이란 $y$와 $\boldsymbol{\rm X}$가 주어졌을 때 하는 것 아닌가? 회귀분석의 좌변이 없기에 이 추정법으로는 할 수 있는 것이 없다. 
+애초에 $\boldsymbol{\beta}$을 알고 있어야, 이 식으로부터 $p(\cdot)$을 구해낼 수 있다. 그런데 우리가 아는 회귀분석이란 $y$와 $\boldsymbol{\rm X}$가 주어졌을 때 하는 것 아닌가? 회귀분석의 좌변이 없기에 OLS로는 추정할 수 없다. 
 
-그래서 로짓 회귀는 이름과 달리 $\boldsymbol{\beta}$의 추정치 $\hat\boldsymbol{\beta}$를 구하는데 회귀분석을 쓰지 않는다. 그래서 엄밀히 말하면 회귀분석이라면 말을 쓰면 안된다. 그럼 거두 절미하고 로짓 회귀에서는 어떻게  $\hat\boldsymbol{\beta}$를 얻는 것일까? 
+그래서 로짓 회귀는 이름과 달리 $\boldsymbol{\beta}$의 추정치 $\hat\boldsymbol{\beta}$를 구하는데 OLS의  쓰지 않는다. 그래서 엄밀히 말하면 회귀분석이라면 말을 쓰면 안된다. 그럼 거두 절미하고 로짓 회귀에서는 어떻게  $\hat\boldsymbol{\beta}$를 얻는 것일까? 
 
 ## 확률 대 우도 
 
@@ -178,6 +177,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDMyMzg4NSwxMzU5NDkyMDAsMTc0MD
+eyJoaXN0b3J5IjpbLTUxNjg0MTc3NCwxMzU5NDkyMDAsMTc0MD
 U5NjA3NF19
 -->
