@@ -140,7 +140,7 @@ $$
 위 식에서 $y_i$가 1이면 $p(\cdot)$이 0이면 $1-p(\cdot)$이 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정할 수 있다면, 주어진 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
 
 $$
-L(y|X) = \prod L(y_i) = \prod  p(x_i; \boldsymbol{\beta})^{y_i} (1-p(x_i; \boldsymbol{\beta}))^{1-y_i}
+L(y|X) = \prod_{i = 1}^{n}  L(y_i) = \prod p(x_i; \boldsymbol{\beta})^{y_i} (1-p(x_i; \boldsymbol{\beta}))^{1-y_i}
 $$
 
 이제 목표는 이 우도를 극대화하는 것이다. 무엇을 조정해서? $\boldsymbol{\beta}$다. 우도를 극대화해주는 $\boldsymbol{\beta}$가 좋은 추정치 $\hat\boldsymbol{\beta}$이 된다. 이것이 바로 최대우도비 추정이다. 
@@ -177,6 +177,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTUxMDU5LDEzNTk0OTIwMCwxNzQwNT
+eyJoaXN0b3J5IjpbMjE2NDk0NDIxLDEzNTk0OTIwMCwxNzQwNT
 k2MDc0XX0=
 -->
