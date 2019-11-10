@@ -9,7 +9,8 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 <!-- also posted in [NCSOFT-DANBI](https://danbi-ncsoft.github.io/studyetc/2019/10/28/understanding_regression.html)
 -->
-잘 알고 있다고 생각하지만 로지스틱 회귀(logistic regression 혹은 줄여서 로짓 회귀를 제대로 이해하고 있는 경우가 드물다. 그래서 작성해보았다. 보통 기계 학습을 배우다 보면 관습적으로 첫 챕터에서 쓱 지나치고 마는 경우가 많다. 하지만 로짓 회귀는 단순하면서도 강력한 방법이다. 보통 분류(classification)의 문제를 접근할 때 로짓 회귀를 먼저 해볼 것을 권하곤 한다. 로짓 회귀에서 '견적'이 나오면 더 발전할 가능성이 높다. 반면 로짓 회귀에서 싹수가 없으면 더 복잡한 고급 방법도 소용이 없는 경우가 많다. 요컨대 로짓 회귀는 시간 낭비를 막는 일종의 간보기로서 제법 유용하다. 
+잘 알고 있다고 혹은 당연하게 안다고 생각하지만 사실 잘 모르는 대상이 있다. 로지스틱 회귀(logistic regression) 혹은 로짓 회귀를 잘 이해하가 그렇다. 요즘은 기계 학습을 배우다 보면 관습적으로 첫 챕터에서 쓱 지나치고 마는 경우가 많다. 
+로짓 회귀는 단순하면서도 강력한 방법이다. 보통 분류(classification)의 문제를 접근할 때 로짓 회귀를 먼저 해볼 것을 권하곤 한다. 로짓 회귀에서 '견적'이 나오면 더 발전할 가능성이 높다. 반면 로짓 회귀에서 싹수가 없으면 더 복잡한 고급 방법도 소용이 없는 경우가 많다. 요컨대 로짓 회귀는 시간 낭비를 막는 일종의 간보기로서 제법 유용하다. 
 
 # 로짓 함수는 어떻게 등장하나? 
 
@@ -169,5 +170,5 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NzAzNzI1LDE3NDA1OTYwNzRdfQ==
+eyJoaXN0b3J5IjpbLTg4MjAxNDM0NiwxNzQwNTk2MDc0XX0=
 -->
