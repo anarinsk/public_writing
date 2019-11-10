@@ -93,7 +93,7 @@ $$
 
 애석하지만 이 식은 우리에게 주어진 자료로는 추정할 수 없다. 당장 regressand를 얻으려면 관찰별로 확률값을 알아야 하는데 주어진 값은 0 또는 1 뿐이다. 따라서 위의 식은 선형 회귀와 유사한 모형을 적용할 하나의 방법을 찾은 것일 뿐 실제로 추정할 수 있는 식이 아니다. $\boldsymbol{\beta}$는 어떻게 구해야 할까? 
 
-그 전에 로지스틱 함수를 찾아보자. 위의 식에서 $p(x_i)$를 해보자. 
+앞서 약속했던대로 모형에서 로지스틱 함수를 찾아보자. 위의 식에서 $p(x_i)$를 해보자. 
 
 $$
 \begin{aligned}
@@ -104,7 +104,7 @@ p(x_i) & = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1}
 \end{aligned}
 $$
 
-앞서 본 그림의 오른쪽과 같은 형태의 로지스틱 함수가 도출된다. 요컨대, 로지스틱 함수는 regressor를 해당 사건이 발생할 확률과 연결시키는 장치다. 때문에 종종 link function로 불리기도 한다. 
+앞서 본 그림의 오른쪽과 같은 형태의 로지스틱 함수가 도출된다. 요컨대, 로지스틱 함수는 regressor를 해당 사건이 발생할 확률과 연결시키는 장치다. 때문에 종종 로지스탁 함수는 연결 함수(link function)로 불리기도 한다. 
 
 # $\hat\boldsymbol{\beta}$는 어떻게 구하나? 
 
@@ -178,5 +178,5 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1OTE1MTEsMTc0MDU5NjA3NF19
+eyJoaXN0b3J5IjpbMTM1OTQ5MjAwLDE3NDA1OTYwNzRdfQ==
 -->
