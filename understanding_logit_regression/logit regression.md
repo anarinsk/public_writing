@@ -70,13 +70,13 @@ $$
 \dfrac{p(x_i)}{1-p(x_i)}
 $$
 
-regressand를 이렇게 바꾸면 가능한 값의 범위가 $[0, \infty)$로 확장된다. 여기서 음수 값을 포괄하는 방법은 없을까? 여기에 자연 로그를 적용해보자. 
+regressand를 이렇게 바꾸면 우선 가능한 값의 범위가 $[0, \infty)$로 확장된다. 여기서 음수 값을 포괄하는 방법은 없을까? 여기에 자연 로그를 적용해보자. 
 
 $$
 \ln \dfrac{p(x_i)}{1-p(x_i)}
 $$
 
-이렇게 되면 가능한 값의 범위가 $(-\infty, \infty)$가 된다. 이제 선형 회귀를 적용할 수 있게 되었다. 
+이렇게 되면 가능한 값의 범위가 $(-\infty, \infty)$가 된다. Regressand가 이 형태라면 선형 회귀를 적용해도 좋겠다. 
 
 즉, 
 
@@ -91,7 +91,7 @@ $$
 $$
 
 
-하지만 이 식은 사실상 주어진 자료로는 추정할 수 없다. 당장 regressand를 얻으려면 관찰별로 확률값을 알아야 하는데 주어진 값은 0 또는 1 뿐이다. 따라서 위의 식은 선형 회귀와 유사한 모델을 적용할 하나의 방법을 찾은 것일 뿐 실제로 추정할 수 있는 식이 아니다. $\boldsymbol{\beta}$는 어떻게 구해야 할까? 
+애석하지만 이 식은 우리에게 주어진 자료로는 추정할 수 없다. 당장 regressand를 얻으려면 관찰별로 확률값을 알아야 하는데 주어진 값은 0 또는 1 뿐이다. 따라서 위의 식은 선형 회귀와 유사한 모형을 적용할 하나의 방법을 찾은 것일 뿐 실제로 추정할 수 있는 식이 아니다. $\boldsymbol{\beta}$는 어떻게 구해야 할까? 
 
 그 전에 로지스틱 함수를 찾아보자. 위의 식에서 $p(x_i)$를 해보자. 
 
@@ -178,5 +178,5 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzYwODUyMiwxNzQwNTk2MDc0XX0=
+eyJoaXN0b3J5IjpbNzk1OTE1MTEsMTc0MDU5NjA3NF19
 -->
