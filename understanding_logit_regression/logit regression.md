@@ -125,7 +125,7 @@ $$
 ## 확률 대 우도 
 
 잠시 로짓 회귀의 추정을 살펴보기 전에 확률과 우도의 차이점에 관해서 알아보자. 확률이라면 분포와 그 분포의 주요 파리미터가 주어졌을 때 해당 관찰이 발견될 확률을 구하는 것인가? 즉, 거칠게 표현하면 이렇다. 연속 확률변수 $x$가 따르는 어떤 분포가 있다고 할 때, 해당 분포의 파라미터(정규분포라면 평균과 분산이다) $\theta$에 대해서 $P(x_1 < x <x_2 | \theta)$이 확률이다. 
-우도(likelihood)는 무엇일까? 우도는 해당 확률 분포의 컨셉을 뒤집은 것이다. 즉 어떤 관찰이 있을 때 분포의 특정 파라미터 하에서 얻게 되는 확률 밀도함수를 의미한다. 만일 연속 확률변수가 아니라 이산 확률변수라면 확률 질량함수가 될 것이고 이는 확률과 같다. 요컨대 목표에 따라서conditioning되는 것이 달라지는 것이 확률과 우도의 차이라고 보면 쉽다. 
+우도(likelihood)는 무엇일까? 우도는 해당 확률 분포의 컨셉을 뒤집은 것이다. 즉 어떤 관찰이 있을 때 분포의 특정 파라미터 하에서 얻게 되는 확률 밀도함수를 의미한다. 만일 연속 확률변수가 아니라 이산 확률변수라면 확률 질량함수가 될 것이고 이는 확률과 같다. 요컨대 목표에 따라서 conditioning되는 것이 달라지는 것이 확률과 우도의 차이라고 보면 쉽다. 
 
 ## 최대 우도 추정(maximum likelihood estimation) 
 
@@ -176,6 +176,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA0OTkwNywtNzA4OTE1ODIyLDEzNT
-k0OTIwMCwxNzQwNTk2MDc0XX0=
+eyJoaXN0b3J5IjpbLTk3MTk3NjU2MSwtMTcwMDQ5OTA3LC03MD
+g5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYwNzRdfQ==
 -->
