@@ -14,7 +14,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # 로짓 함수는 어떻게 등장하나? 
 
-말 그대로다. 로지스틱 함수를 사용하는 회귀분석이라는 뜻이다. 그렇다면 로지스틱 함수는 어디서 어떻게 등장할까? 로짓 회귀의 데이터 형식을 살펴보자. 종속 변수, 반응(response), regressand 등 다양한 형태로 불리는 식의 좌변은 0 또는 1로만 되어 있다. 즉, 어떤 상태이면 1, 그렇지 않으면 0이다. 이때 0 또는 1은 값 자체로 의미를 지니지 않는다. 이는 범주형 변수로서 True or False와 같은 이항 변수로 이해하면 좋겠다. 식의 우변에는 통상적인 독립 변수, 예측 변수(predictor), regressor가 등장한다. 생각난 김에 잠시 짬을 내서 회귀식은 유사한 형태의 좌변과 우변을 지칭하는 용어를 한번 정리해보도록 하자. 취향에 맞춰서 쓰되 일관되게 쓰면 되겠다. 
+로짓 회귀는 말 그대로 로지스틱 함수를 사용하는 회귀분석이라는 뜻이다. 로지스틱 함수는 어디서 어떻게 등장할까? 로짓 회귀의 데이터 형식을 살펴보자. 종속 변수, 반응(response), regressand 등 다양한 형태로 불리는 식의 좌변은 0 또는 1로만 되어 있다. 즉, 어떤 상태이면 1, 그렇지 않으면 0이다. 이때 0 또는 1은 값 자체로 의미를 지니지 않는다. 이는 범주형 변수로서 True or False와 같은 이항 변수로 이해하면 좋겠다. 식의 우변에는 통상적인 독립 변수, 예측 변수(predictor), regressor가 등장한다. 생각난 김에 잠시 짬을 내서 회귀식은 유사한 형태의 좌변과 우변을 지칭하는 용어를 한번 정리해보도록 하자. 취향에 맞춰서 쓰되 일관되게 쓰면 되겠다. 
 
 좌변|우변|
 |--|--|
@@ -170,5 +170,5 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1ODQwMjQ1LDE3NDA1OTYwNzRdfQ==
+eyJoaXN0b3J5IjpbNzE1OTQ0NDkzLDE3NDA1OTYwNzRdfQ==
 -->
