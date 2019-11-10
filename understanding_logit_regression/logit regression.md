@@ -61,13 +61,13 @@ $$
 그렇다면 그렇게 바뀌주도록 하자. 범주형 변수가 결국 상태를 나타내는 것이라면 1이라는 상태를 지닐 확률을 추정하는 문제로 바꿔 생각하면 어떨까? 즉, 
 
 $$
-p(y_i = 1 | x_i) = p(x_i) 
+p(y_i = 1 | \bm{x_i}) = p(\bm{x_i}) 
 $$
 
 그런데 앞서 보았듯이 확률 값을 선형 회귀로 추정하는 데에는 어려움이 있다. 회귀 모형의 특성을 지니멶서도 확률 값을 [0,1] 사이에 '잘' 떨궈야 하기 때문이다.
 
 $$
-\dfrac{p(x_i)}{1-p(x_i)}
+\dfrac{p(\bm{x_i})}{1-p(\bm{x_i})}
 $$
 
 regressand를 이렇게 바꾸면 우선 가능한 값의 범위가 $[0, \infty)$로 확장된다. 여기서 음수 값을 포괄하는 방법은 없을까? 여기에 자연 로그를 적용해보자. 
@@ -81,7 +81,7 @@ $$
 즉, 
 
 $$
-\ln \dfrac{p(x_i)}{1-p(x_i)} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{x_i}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
+\ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} = \underset{1 \times k}{\phantom{\boldsymbol{\beta}}\bm{\bm{x_i}}\phantom{\boldsymbol{\beta}}}\underset{k \times 1}{\boldsymbol{\beta}}, ~k = 1,  2, \dotsc, n
 $$
 
 매트릭스 형태로 적으면 다음과 같다. 
@@ -176,6 +176,7 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTk3NjU2MSwtMTcwMDQ5OTA3LC03MD
-g5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYwNzRdfQ==
+eyJoaXN0b3J5IjpbLTY4NTAzMjI5MiwtOTcxOTc2NTYxLC0xNz
+AwNDk5MDcsLTcwODkxNTgyMiwxMzU5NDkyMDAsMTc0MDU5NjA3
+NF19
 -->
