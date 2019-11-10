@@ -155,11 +155,11 @@ $$
 p(x_i)  = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
 $$
 
-는 $\log_n$을 취하는 것으로는 비슷한 형태로 만들 수 없다. 로짓 함수의 경우 우도 극대화에서 축약형을 해를 구할 수 있는 변형이 없기 때문에 해당 우도를 극대화하는 파라미터를 찾기 위해서는 수치적 극대화를 활용하는 것이다. 
+는 $\log_n$을 취하는 것으로는 비슷한 형태로 만들 수 없다. 로짓 함수의 경우 우도 극대화에서 축약형을 해를 구할 수 있는 변형이 없기 때문에 해당 우도를 극대화하는 파라미터를 찾기 위해서는 수치 최적화(numerical optimization)를 활용하는 것이다. 
 
 # $\hat\boldsymbol{\beta}$의 의미는 무엇일까? 
 
-보통 머신 러닝의 맥락에서 로짓 회귀는 가장 원시적인 분류기로 소개된다. 즉, $y_i$의 속성을 예측하는 분류기이기 때문에 $\hat\boldsymbol{\beta}$에 관해서는 특별한 의미를 부여하지 않는다. 하지만 회귀분석을 인과관계의 추론의 활용해 온 분야에서는 $\hat\boldsymbol{\beta}$를 어떻게 해석할 것인지는 항상 중요한 질문이다. 
+보통 기계 학습의 맥락에서 로짓 회귀는 가장 원시적인 분류기(classifier)로 소개된다. 즉 $y_i$의 속성을 예측하는 분류 장치이기 때문에 $\hat\boldsymbol{\beta}$에 특별한 의미를 부여하지 않는다. 하지만 회귀분석을 인과관계의 추론의 활용해 온 여타 분야에서는 $\hat\boldsymbol{\beta}$를 어떻게 해석할 것인지는 중요한 질문이다. 
 
 먼저 OLS의 경우 변수를 어떻게 변형했는지에 따라서 다르지만, 대체적으로 $\beta_i$는 해당 regressor $x_i$의 한계효과로 해석할 수 있다. 즉, $x_i$가 한 단위 변할 때 이에 따른 $y_i$의 변화량을 의미한다. 그런데, 로짓 회귀에서는 이렇게 해석할 수 없다. 앞서 보았듯이, 로짓 회귀의 추정 전략을 다음과 같다. 
 
@@ -177,6 +177,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3Njg3OTUzLDEzNTk0OTIwMCwxNzQwNT
-k2MDc0XX0=
+eyJoaXN0b3J5IjpbLTk1Mjg4MDU4NiwxMzU5NDkyMDAsMTc0MD
+U5NjA3NF19
 -->
