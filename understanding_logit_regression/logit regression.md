@@ -137,7 +137,7 @@ $$
 L(y_i) = p(x_i; \boldsymbol{\beta})^{y_i} (1-p(x_i; \boldsymbol{\beta}))^{1-y_i}
 $$
 
-위 식에서 $y_i$가 1이면 $p(\cdot)$이 0이면 $1-p(\cdot)$이 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정할 수 있다면, 이런 결과를 얻게될 우도는 이 확률을 쭉 곱한 것과 같다. 즉, 
+위 식에서 $y_i$가 1이면 $p(\cdot)$이 0이면 $1-p(\cdot)$이 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정할 수 있다면, 주어진 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
 
 $$
 L(y|X) = \prod L(y_i) = \prod  p(x_i; \boldsymbol{\beta})^{y_i} (1-p(x_i; \boldsymbol{\beta}))^{1-y_i}
@@ -177,6 +177,6 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjQzNjEwMywxMzU5NDkyMDAsMTc0MD
-U5NjA3NF19
+eyJoaXN0b3J5IjpbMTY1OTUxMDU5LDEzNTk0OTIwMCwxNzQwNT
+k2MDc0XX0=
 -->
