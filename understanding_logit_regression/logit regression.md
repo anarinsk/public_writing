@@ -135,7 +135,7 @@ $$
 L(y_i) = p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i}
 $$
 
-위 식에서 $y_i$가 1이면 $p(\cdot)$이 0이면 $1-p(\cdot)$이 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정할 수 있다면, 주어진 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
+위 식에서 $y_i$가 1이면 $p(\cdot)$이 0이면 $1-p(\cdot)$가 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정하면 주어진 형태의 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
 
 $$
 L(y|X) = \prod_{i = 1}^{n}  L(y_i) = \prod p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i}
@@ -176,9 +176,9 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNz
-Q3MjA5OSwtMTU4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1
-MjQwLC05NDIzNzQ4NzIsLTE4OTg1OTAxMzIsLTk3MTk3NjU2MS
-wtMTcwMDQ5OTA3LC03MDg5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1
-OTYwNzRdfQ==
+eyJoaXN0b3J5IjpbMjAzMzI1MDE0MSwtODA1NjQzNTgsMjAxNj
+EzMDM5MCwyMTA3NDcyMDk5LC0xNTgyMjc2MjIwLC0xNTIxMjgy
+NzkxLDEwODc4NDUyNDAsLTk0MjM3NDg3MiwtMTg5ODU5MDEzMi
+wtOTcxOTc2NTYxLC0xNzAwNDk5MDcsLTcwODkxNTgyMiwxMzU5
+NDkyMDAsMTc0MDU5NjA3NF19
 -->
