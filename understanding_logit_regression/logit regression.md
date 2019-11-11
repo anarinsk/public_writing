@@ -9,6 +9,12 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 <!-- also posted in [NCSOFT-DANBI](https://danbi-ncsoft.github.io/studyetc/2019/10/28/understanding_regression.html)
 -->
+
+# tl;dr 
+- 로짓 회귀는 우리가 알던 그 회귀는 아니다. 
+- 로짓 회귀를 회귀로 
+
+
 잘 알고 있다고 여기고 있지만 사실 잘 모르는 것이 있다. 로지스틱 회귀(logistic regression) 혹은 로짓 회귀가 그렇지 않을까? 요즘 기계 학습을 배우게 되면, 로짓 회귀는 첫 챕터에서 쓱 지나치기 쉽다. 로짓 회귀는 단순하면서도 강력한 방법이다. 필자는 분류(classification)의 문제에 접근할 때 로짓 회귀를 먼저 해볼 것을 항상 권한다. 로짓 회귀에서 '견적'이 나오면 그 질문은 더 발전할 가능성이 높다. 반면 로짓 회귀에서 싹수가 없으면 더 복잡한 고급 방법도 소용이 없는 경우가 많다. 요컨대 로짓 회귀는 시간 낭비를 막는 일종의 '맛보기'로서 유용하다. 
 
 # 로짓 함수는 어떻게 등장하나? 
@@ -172,12 +178,12 @@ $$
 1. OLS의 경우 회귀식 자체가 선형이기 때문에 $\beta_i$에 관한 해석이 쉽고 단순하다. 그냥 직선의 기울기다. 그런데 로짓 회귀에서는 그렇게 분명하지 않다. 회귀식 자체가 비선형이므로 한계 효과를 구하기 위한 기울기를 '어디서' 구할지가 문제가 된다.측정 위치에 따라서  기울기가 달라지기 때문이다. 
 2. 측정에는 대체로 두 가지 방식이 많이 활용된다. regressor 값에서 $x_i$별로 확률값의 변화를 추정한 뒤 이를 평균하는 방식이다. 반대로 regressor 값의 평균에서 한번만 $p_i$에 미치는 영향을 추정하는 방법이다. 통계 패키지 별로 방법을 지원하니 필요할 경우 찾아서 값을 구하면 된다. 
 
-
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA5NTUxNTAsMjAzMzI1MDE0MSwtOD
-A1NjQzNTgsMjAxNjEzMDM5MCwyMTA3NDcyMDk5LC0xNTgyMjc2
-MjIwLC0xNTIxMjgyNzkxLDEwODc4NDUyNDAsLTk0MjM3NDg3Mi
-wtMTg5ODU5MDEzMiwtOTcxOTc2NTYxLC0xNzAwNDk5MDcsLTcw
-ODkxNTgyMiwxMzU5NDkyMDAsMTc0MDU5NjA3NF19
+eyJoaXN0b3J5IjpbLTU1OTc3ODU0MiwtMTEwMDk1NTE1MCwyMD
+MzMjUwMTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIw
+OTksLTE1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MC
+wtOTQyMzc0ODcyLC0xODk4NTkwMTMyLC05NzE5NzY1NjEsLTE3
+MDA0OTkwNywtNzA4OTE1ODIyLDEzNTk0OTIwMCwxNzQwNTk2MD
+c0XX0=
 -->
