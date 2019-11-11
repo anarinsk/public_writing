@@ -13,10 +13,9 @@
 <p>2019-11-10</p>
 <p>Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a></p>
 <!-- also posted in [NCSOFT-DANBI](https://danbi-ncsoft.github.io/studyetc/2019/10/28/understanding_regression.html)&#10;-->
-<p>잘 알고 있다고 혹은 당연하게 여기지만 사실 잘 모르는 것이 있다. 로지스틱 회귀(logistic regression) 혹은 로짓 회귀가 그렇다. 요즘 기계 학습을 배우는 과정에서 로짓 회귀는 첫 챕터에서 지나치고 마는 경우가 많다.<br>
-로짓 회귀는 단순하면서도 강력한 방법이다. 필자는 분류(classification)의 문제에 접근할 때 로짓 회귀를 먼저 해볼 것을 권한다. 로짓 회귀에서 '견적’이 나오면 그 질문은 더 발전할 가능성이 높다. 반면 로짓 회귀에서 싹수가 없으면 더 복잡한 고급 방법도 소용이 없는 경우가 많다. 요컨대 로짓 회귀는 시간 낭비를 막는 일종의 '맛보기’로서 유용하다.</p>
+<p>잘 알고 있다고 여기고 있지만 사실 잘 모르는 것이 있다. 로지스틱 회귀(logistic regression) 혹은 로짓 회귀가 그렇지 않을까? 요즘 기계 학습을 배우게 되면, 로짓 회귀는 첫 챕터에서 쓱 지나치기 쉽다. 로짓 회귀는 단순하면서도 강력한 방법이다. 필자는 분류(classification)의 문제에 접근할 때 로짓 회귀를 먼저 해볼 것을 항상 권한다. 로짓 회귀에서 '견적’이 나오면 그 질문은 더 발전할 가능성이 높다. 반면 로짓 회귀에서 싹수가 없으면 더 복잡한 고급 방법도 소용이 없는 경우가 많다. 요컨대 로짓 회귀는 시간 낭비를 막는 일종의 '맛보기’로서 유용하다.</p>
 <h1 id="로짓-함수는-어떻게-등장하나">로짓 함수는 어떻게 등장하나?</h1>
-<p>로짓 회귀는 말 그대로 로지스틱 함수를 사용하는 회귀분석이라는 뜻이다. 로지스틱 함수는 어디서 어떻게 등장할까? 로짓 회귀의 데이터 형식을 살펴보자. 종속 변수, 반응(response), regressand 등 다양한 형태로 불리는 식의 좌변은 0 또는 1로만 되어 있다. 즉, 어떤 상태이면 1, 그렇지 않으면 0이다. 이때 0 또는 1은 값 자체로 의미를 지니지 않는다. 이는 범주형 변수로서 True or False와 같은 이항 변수로 이해하면 좋겠다. 식의 우변에는 통상적인 독립 변수, 예측 변수(predictor), regressor가 등장한다.</p>
+<p>로짓 회귀는 말 그대로 로지스틱 함수를 활용하는 회귀 분석이라는 뜻이다. 로지스틱 함수는 어디서 어떻게 등장할까? 로짓 회귀의 데이터 형식을 살펴보자. 종속 변수, 반응(response), regressand 등 다양한 형태로 불리는 식의 좌변은 0 또는 1로만 되어 있다. 즉, 어떤 상태이면 1, 그렇지 않으면 0이다. 이때 0 또는 1은 값 자체로 의미를 지니지 않는다. 이는 범주형 변수로서 True or False와 같은 이항 변수로 이해하면 좋겠다. 식의 우변에는 통상적인 독립 변수, 예측 변수(predictor), regressor가 등장한다.</p>
 <h2 id="잠시-용어-정리">잠시, 용어 정리</h2>
 <p>생각난 김에 짬을 내 회귀식에서 좌변과 우변을 지칭하는 용어를 정리해보자. 취향에 맞춰서 쓰되 일관성만 갖추면 되겠다.</p>
 
@@ -28,6 +27,10 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.03588em;">y</span></span></span></span></span></td>
+<td><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">x</span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="bold-italic">X</mi></mrow><annotation encoding="application/x-tex">\bm X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68611em; vertical-align: 0em;"></span><span class="mord"><span class="mord boldsymbol" style="margin-right: 0.07778em;">X</span></span></span></span></span></span></td>
+</tr>
 <tr>
 <td>dependent variable</td>
 <td>independent variables</td>
