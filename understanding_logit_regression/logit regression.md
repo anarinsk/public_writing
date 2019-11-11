@@ -186,11 +186,22 @@ $$
 
 ## 조금 더 수학적으로 
 
-이 부분은 부담스럽다면 넘어가도 좋다. 알고 싶은 한계 효과는 $\frac{d p}{d x_i}$일 것이다. 즉, regressor의 한 변수가 한 단위 변할 때 확률의 변화가 어떻게 될 것인지가 우ㄹ
+이 부분은 부담스럽다면 넘어가도 좋다. 알고 싶은 한계 효과는 $\frac{d p}{d x_i}$일 것이다. 즉, regressor의 한 변수가 한 단위 변할 때 확률의 변화가 어떻게 될 것인지가 우리의 한계 효과다. 즉, 
+
+$$
+p(\bm{x_i}) = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
+$$
+
+이 녀석을 그대로 미분해보자. 
+
+$$
+\dfrac{\partial p(\bm{x_i})}{x_i} = 
+$$
+
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYzNjE3MSwtNTE1MzAzNTY3LDE3OT
+eyJoaXN0b3J5IjpbMTEzNDI3ODI3OCwtNTE1MzAzNTY3LDE3OT
 IxODk2ODQsLTM2MzA5OTM4MiwtMTEwMDk1NTE1MCwyMDMzMjUw
 MTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIwOTksLT
 E1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MCwtOTQy
