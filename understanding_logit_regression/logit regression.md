@@ -128,14 +128,13 @@ $$
 
 ## 최대 우도 추정(maximum likelihood estimation) 
 
-다시 문제로 돌아오자. 우리는 0, 1 즉 존재/비존재의 특징을 지니는 변수를 갖고 있다. 그리고 이 녀석은 이산확률 분포를 따르기 때문에 우도 역시 그냥 확률이 된다.  
-이 변수는 이른바 베르누이 분포를 따른다. 즉, 해당 확률이 발생할 확률 $p$일 때 발생하면 1, 아니면 0이 된다.
+다시 문제로 돌아오자. 우리는 0, 1 즉 존재/비존재의 특징을 지니는 변수를 갖고 있다. 그리고 이 녀석은 이산 확률 분포를 따르기 때문에 우도 역시 그냥 확률이 된다.  이는 이른바 베르누이 분포를 따른다. 즉, 해당 확률이 발생할 확률 $p$일 때 발생하면 1, 아니면 0이 된다. 베르누이 분포의 확률 질량 함수를 간단하게 표현하는 방법은 없을까? 
 
 $$
 L(y_i) = p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i}
 $$
 
-위 식에서 $y_i$가 1이면 $p(\cdot)$이 0이면 $1-p(\cdot)$가 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정하면 주어진 형태의 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
+위와 같은 식으로 간단히 해결된다. 위 식에서 $y_i$가 1이면 $p(\cdot)$가, 0이면 $1-p(\cdot)$가 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정하면 주어진 형태의 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
 
 $$
 L(y|X) = \prod_{i = 1}^{n}  L(y_i) = \prod p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i}
@@ -176,9 +175,9 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzI1MDE0MSwtODA1NjQzNTgsMjAxNj
-EzMDM5MCwyMTA3NDcyMDk5LC0xNTgyMjc2MjIwLC0xNTIxMjgy
-NzkxLDEwODc4NDUyNDAsLTk0MjM3NDg3MiwtMTg5ODU5MDEzMi
-wtOTcxOTc2NTYxLC0xNzAwNDk5MDcsLTcwODkxNTgyMiwxMzU5
-NDkyMDAsMTc0MDU5NjA3NF19
+eyJoaXN0b3J5IjpbLTExMDA5NTUxNTAsMjAzMzI1MDE0MSwtOD
+A1NjQzNTgsMjAxNjEzMDM5MCwyMTA3NDcyMDk5LC0xNTgyMjc2
+MjIwLC0xNTIxMjgyNzkxLDEwODc4NDUyNDAsLTk0MjM3NDg3Mi
+wtMTg5ODU5MDEzMiwtOTcxOTc2NTYxLC0xNzAwNDk5MDcsLTcw
+ODkxNTgyMiwxMzU5NDkyMDAsMTc0MDU5NjA3NF19
 -->
