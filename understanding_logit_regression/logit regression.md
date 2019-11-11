@@ -63,7 +63,7 @@ $$
 p(y_i = 1 | \bm{x_i}) = p(\bm{x_i}) 
 $$
 
-그런데 앞서 보았듯이 확률 값을 선형 회귀로 추정하는 데에는 어려움이 있다. 통상적인 회귀 모형의 특성, 특히 regressand를 실수형 변수로 두면서 확률 값을 [0,1] 사이에 '잘' 떨궈야 하기 때문이다.
+그런데 앞서 보았듯이 확률 값을 선형 회귀로 추정하는 데에는 어려움이 있다. 통상적인 회귀 모형의 특성을 유지하면서도 확률 값을 [0,1] 사이에 '잘' 떨궈야 하기 때문이다.
 
 $$
 \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})}
@@ -119,7 +119,7 @@ $$
 
 애초에 $\boldsymbol{\beta}$을 알고 있어야, 이 식으로부터 $p(\cdot)$을 구해낼 수 있다. 그런데 우리가 아는 회귀분석이란 $y$와 $\boldsymbol{\rm X}$가 주어졌을 때 하는 것 아닌가? 회귀분석의 좌변이 없기에 OLS로는 추정할 수 없다. 
 
-그래서 로짓 회귀는 이름과 달리 $\boldsymbol{\beta}$의 추정치 $\hat\boldsymbol{\beta}$를 구하는데 OLS의 방법을 쓰지 않는다. 거두 절미하고 로짓 회귀에서는 어떻게  $\hat\boldsymbol{\beta}$를 얻는 것일까? 
+그래서 로짓 회귀는 이름과 달리 $\boldsymbol{\beta}$의 추정치 $\hat\boldsymbol{\beta}$를 구하는데 OLS의 방법을 쓰지 않는다. 로짓 회귀에서는 어떻게  $\hat\boldsymbol{\beta}$를 얻는 것일까? 
 
 ## 확률 대 우도 
 
@@ -176,9 +176,9 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNjY5MSwyMDE2MTMwMzkwLDIxMDc0Nz
-IwOTksLTE1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0
-MCwtOTQyMzc0ODcyLC0xODk4NTkwMTMyLC05NzE5NzY1NjEsLT
-E3MDA0OTkwNywtNzA4OTE1ODIyLDEzNTk0OTIwMCwxNzQwNTk2
-MDc0XX0=
+eyJoaXN0b3J5IjpbMTgxMzEyMTcxOSwyMDE2MTMwMzkwLDIxMD
+c0NzIwOTksLTE1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0
+NTI0MCwtOTQyMzc0ODcyLC0xODk4NTkwMTMyLC05NzE5NzY1Nj
+EsLTE3MDA0OTkwNywtNzA4OTE1ODIyLDEzNTk0OTIwMCwxNzQw
+NTk2MDc0XX0=
 -->
