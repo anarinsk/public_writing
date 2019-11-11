@@ -12,7 +12,14 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # tl;dr 
 - 로짓 회귀는 우리가 알던 그 회귀는 아니다. 
-- 로짓 회귀를 회귀로 
+- 로짓 회귀는 아래와 같은 데이터 모델에 기반한 추정법이다. 
+
+ $$
+ \ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} =\bm{x_i}\boldsymbol{\beta} 
+ $$
+  
+  - 
+   
 
 
 잘 알고 있다고 여기고 있지만 사실 잘 모르는 것이 있다. 로지스틱 회귀(logistic regression) 혹은 로짓 회귀가 그렇지 않을까? 요즘 기계 학습을 배우게 되면, 로짓 회귀는 첫 챕터에서 쓱 지나치기 쉽다. 로짓 회귀는 단순하면서도 강력한 방법이다. 필자는 분류(classification)의 문제에 접근할 때 로짓 회귀를 먼저 해볼 것을 항상 권한다. 로짓 회귀에서 '견적'이 나오면 그 질문은 더 발전할 가능성이 높다. 반면 로짓 회귀에서 싹수가 없으면 더 복잡한 고급 방법도 소용이 없는 경우가 많다. 요컨대 로짓 회귀는 시간 낭비를 막는 일종의 '맛보기'로서 유용하다. 
@@ -180,10 +187,10 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTc3ODU0MiwtMTEwMDk1NTE1MCwyMD
-MzMjUwMTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIw
-OTksLTE1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MC
-wtOTQyMzc0ODcyLC0xODk4NTkwMTMyLC05NzE5NzY1NjEsLTE3
-MDA0OTkwNywtNzA4OTE1ODIyLDEzNTk0OTIwMCwxNzQwNTk2MD
-c0XX0=
+eyJoaXN0b3J5IjpbODk4NzQ4ODk3LC0xMTAwOTU1MTUwLDIwMz
+MyNTAxNDEsLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5
+OSwtMTU4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC
+05NDIzNzQ4NzIsLTE4OTg1OTAxMzIsLTk3MTk3NjU2MSwtMTcw
+MDQ5OTA3LC03MDg5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYwNz
+RdfQ==
 -->
