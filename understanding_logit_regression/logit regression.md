@@ -186,7 +186,7 @@ $$
 
 ## 조금 더 수학적인 이해 
 
-이 부분은 부담스럽다면 넘어가도 좋다. 알고 싶은 한계 효과는 $\frac{ p}{d x_j}$일 것이다. 즉, regressor의 한 변수가 한 단위 변할 때 확률의 변화가 어떻게 될 것인지가 우리의 한계 효과다. 즉, 
+이 부분은 부담스럽다면 넘어가도 좋다. 앞서 말한 한계 효과는 $\frac{\partial p}{\partial x_j}$이다. 즉, regressor의 한 변수$x_j$ 가 한 단위 변할 때 확률 변화를 측정한다. 즉, 
 
 $$
 p(\bm{x_i}) = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
@@ -202,11 +202,11 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI3MzM1OTEsLTUxNTMwMzU2NywxNz
-kyMTg5Njg0LC0zNjMwOTkzODIsLTExMDA5NTUxNTAsMjAzMzI1
-MDE0MSwtODA1NjQzNTgsMjAxNjEzMDM5MCwyMTA3NDcyMDk5LC
-0xNTgyMjc2MjIwLC0xNTIxMjgyNzkxLDEwODc4NDUyNDAsLTk0
-MjM3NDg3MiwtMTg5ODU5MDEzMiwtOTcxOTc2NTYxLC0xNzAwND
-k5MDcsLTcwODkxNTgyMiwxMzU5NDkyMDAsMTc0MDU5NjA3NF19
+eyJoaXN0b3J5IjpbMTU2NTE5MzExNywtNTE1MzAzNTY3LDE3OT
+IxODk2ODQsLTM2MzA5OTM4MiwtMTEwMDk1NTE1MCwyMDMzMjUw
+MTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIwOTksLT
+E1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MCwtOTQy
+Mzc0ODcyLC0xODk4NTkwMTMyLC05NzE5NzY1NjEsLTE3MDA0OT
+kwNywtNzA4OTE1ODIyLDEzNTk0OTIwMCwxNzQwNTk2MDc0XX0=
 
 -->
