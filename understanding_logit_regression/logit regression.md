@@ -154,7 +154,9 @@ $$
 p(\bm{x_i})  = \dfrac{1}{e^{-\bm{\bm{x_i}}\boldsymbol{\beta}} + 1} 
 $$
 
-는 $\log_n$을 취하는 것으로는 비슷한 형태로 만들 수 없다. 로짓 함수의 경우 우도 극대화에서 축약형을 해를 구할 수 있는 변형이 없기 때문에 해당 우도를 극대화하는 파라미터를 찾기 위해서는 수치 최적화(numerical optimization)를 활용하는 것이다. 
+는 $\log_n$을 취하는 것으로는 비슷한 형태로 만들 수 없다. 로짓 함수의 경우 우도 극대화에서 축약형을 해를 구할 수 있는 변형이 없기 때문에 해당 우도를 극대화하는 파라미터를 찾기 위해서는 수치 최적화(numerical optimization)를 활용하는 것이다.[^2]
+
+[^2]: 수치 최적화의 자세한 내용과 사례는 [이 글](https://ratsgo.github.io/machine%20learning/2017/07/02/logistic/)을 참고하라. 
 
 # $\hat\boldsymbol{\beta}$의 의미는 무엇일까? 
 
@@ -175,7 +177,7 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjM3NDg3MiwtMTg5ODU5MDEzMiwtOT
-cxOTc2NTYxLC0xNzAwNDk5MDcsLTcwODkxNTgyMiwxMzU5NDky
-MDAsMTc0MDU5NjA3NF19
+eyJoaXN0b3J5IjpbMTA4Nzg0NTI0MCwtOTQyMzc0ODcyLC0xOD
+k4NTkwMTMyLC05NzE5NzY1NjEsLTE3MDA0OTkwNywtNzA4OTE1
+ODIyLDEzNTk0OTIwMCwxNzQwNTk2MDc0XX0=
 -->
