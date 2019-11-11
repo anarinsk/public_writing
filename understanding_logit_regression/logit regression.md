@@ -186,7 +186,7 @@ $$
 
 ## 조금 더 수학적인 이해 
 
-이 부분은 부담스럽다면 넘어가도 좋다. 알고 싶은 한계 효과는 $\frac{d p}{d x_j}$일 것이다. 즉, regressor의 한 변수가 한 단위 변할 때 확률의 변화가 어떻게 될 것인지가 우리의 한계 효과다. 즉, 
+이 부분은 부담스럽다면 넘어가도 좋다. 알고 싶은 한계 효과는 $\frac{ p}{d x_j}$일 것이다. 즉, regressor의 한 변수가 한 단위 변할 때 확률의 변화가 어떻게 될 것인지가 우리의 한계 효과다. 즉, 
 
 $$
 p(\bm{x_i}) = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
@@ -200,15 +200,13 @@ $$
 
 위의 식은 한계 효과를 미분을 통해 도출한 것이다. 이제 앞서 말했던 어려운 점이 무엇인지 알 수 있다. 어떤 $\bm{x_i}$에서 측정하는지에 따라서 값이 달라진다. 따라서 평균에서 한 번만 측정할 것인지 아니면 $n$개의 모든 데이터 포인트에 대해서 계산한 뒤 이를 평균할 것인지 등의 조건이 필요하게 된다. 보통 후자를 많이 활용하고 통계 패키지마다 해당 옵션을 제공하고 있다. 
 
-
-
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDMzMTkxLC01MTUzMDM1NjcsMTc5Mj
-E4OTY4NCwtMzYzMDk5MzgyLC0xMTAwOTU1MTUwLDIwMzMyNTAx
-NDEsLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5OSwtMT
-U4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIz
-NzQ4NzIsLTE4OTg1OTAxMzIsLTk3MTk3NjU2MSwtMTcwMDQ5OT
-A3LC03MDg5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYwNzRdfQ==
+eyJoaXN0b3J5IjpbLTE4NzI3MzM1OTEsLTUxNTMwMzU2NywxNz
+kyMTg5Njg0LC0zNjMwOTkzODIsLTExMDA5NTUxNTAsMjAzMzI1
+MDE0MSwtODA1NjQzNTgsMjAxNjEzMDM5MCwyMTA3NDcyMDk5LC
+0xNTgyMjc2MjIwLC0xNTIxMjgyNzkxLDEwODc4NDUyNDAsLTk0
+MjM3NDg3MiwtMTg5ODU5MDEzMiwtOTcxOTc2NTYxLC0xNzAwND
+k5MDcsLTcwODkxNTgyMiwxMzU5NDkyMDAsMTc0MDU5NjA3NF19
 
 -->
