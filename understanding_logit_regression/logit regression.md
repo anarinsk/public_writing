@@ -17,10 +17,10 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
  $$
  \ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} =\bm{x_i}\boldsymbol{\beta} 
  $$
-  
-  - 
-   
+ 
+ - $\boldsymbol{\beta}$를 해석할 때 주의하자. 이를 통상적인 회귀분석의 계수(한계 효과)처럼 해석하려면 별도의 계산이 필요하다. 
 
+# 로짓 회귀는 몰라도 되나? 
 
 잘 알고 있다고 여기고 있지만 사실 잘 모르는 것이 있다. 로지스틱 회귀(logistic regression) 혹은 로짓 회귀가 그렇지 않을까? 요즘 기계 학습을 배우게 되면, 로짓 회귀는 첫 챕터에서 쓱 지나치기 쉽다. 로짓 회귀는 단순하면서도 강력한 방법이다. 필자는 분류(classification)의 문제에 접근할 때 로짓 회귀를 먼저 해볼 것을 항상 권한다. 로짓 회귀에서 '견적'이 나오면 그 질문은 더 발전할 가능성이 높다. 반면 로짓 회귀에서 싹수가 없으면 더 복잡한 고급 방법도 소용이 없는 경우가 많다. 요컨대 로짓 회귀는 시간 낭비를 막는 일종의 '맛보기'로서 유용하다. 
 
@@ -187,10 +187,10 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NzQ4ODk3LC0xMTAwOTU1MTUwLDIwMz
-MyNTAxNDEsLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5
-OSwtMTU4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC
-05NDIzNzQ4NzIsLTE4OTg1OTAxMzIsLTk3MTk3NjU2MSwtMTcw
-MDQ5OTA3LC03MDg5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYwNz
-RdfQ==
+eyJoaXN0b3J5IjpbLTM2MzA5OTM4MiwtMTEwMDk1NTE1MCwyMD
+MzMjUwMTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIw
+OTksLTE1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MC
+wtOTQyMzc0ODcyLC0xODk4NTkwMTMyLC05NzE5NzY1NjEsLTE3
+MDA0OTkwNywtNzA4OTE1ODIyLDEzNTk0OTIwMCwxNzQwNTk2MD
+c0XX0=
 -->
