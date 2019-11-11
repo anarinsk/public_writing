@@ -148,7 +148,7 @@ $\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우�
 
 [^1]: [여기](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares#Maximum_likelihood_approach)를 참고하라. 
 
-왜 로짓 회귀에서는 축야형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수의 변형은 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 지수로 올라가 있단 파라미터들이 앞으로 나오게 된다. 하지만 애석하게도(?) 아래 식에서 보듯이 
+왜 로짓 회귀에서는 축약형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수의 변형은 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 지수로 올라가 있단 파라미터들이 앞으로 나오게 된다. 하지만 애석하게도(?) 아래 식에서 보듯이 
 
 $$
 p(\bm{x_i})  = \dfrac{1}{e^{-\bm{\bm{x_i}}\boldsymbol{\beta}} + 1} 
@@ -177,8 +177,8 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIyNzYyMjAsLTE1MjEyODI3OTEsMT
-A4Nzg0NTI0MCwtOTQyMzc0ODcyLC0xODk4NTkwMTMyLC05NzE5
-NzY1NjEsLTE3MDA0OTkwNywtNzA4OTE1ODIyLDEzNTk0OTIwMC
-wxNzQwNTk2MDc0XX0=
+eyJoaXN0b3J5IjpbMjEwNzQ3MjA5OSwtMTU4MjI3NjIyMCwtMT
+UyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIzNzQ4NzIsLTE4OTg1
+OTAxMzIsLTk3MTk3NjU2MSwtMTcwMDQ5OTA3LC03MDg5MTU4Mj
+IsMTM1OTQ5MjAwLDE3NDA1OTYwNzRdfQ==
 -->
