@@ -195,13 +195,14 @@ $$
 이 녀석을 그대로 미분해보자. 
 
 $$
-\dfrac{\partial p(\bm{x_i})}{x_i} = 
+\dfrac{\partial p(\bm{x_i})}{\partial x_i} = \dfrac{\beta_i e^{-\bm{x_i}\boldsymbol{\beta}}}{(e^{-\bm{x_i}\boldsymbol{\beta}} + 1)^2}
 $$
 
+위의 식은 정확한 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDI3ODI3OCwtNTE1MzAzNTY3LDE3OT
+eyJoaXN0b3J5IjpbMTE4NDI1MDc0MywtNTE1MzAzNTY3LDE3OT
 IxODk2ODQsLTM2MzA5OTM4MiwtMTEwMDk1NTE1MCwyMDMzMjUw
 MTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIwOTksLT
 E1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MCwtOTQy
