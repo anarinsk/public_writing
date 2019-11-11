@@ -184,9 +184,9 @@ $$
 1. OLS의 경우 회귀식 자체가 선형이기 때문에 $\beta_i$에 관한 해석이 쉽고 단순하다. 그냥 직선의 기울기다. 그런데 로짓 회귀에서는 그렇게 분명하지 않다. 회귀식 자체가 비선형이므로 한계 효과를 구하기 위한 기울기를 '어디서' 구할지가 문제가 된다.측정 위치에 따라서  기울기가 달라지기 때문이다. 
 2. 도출하는 방법이 크게 어렵지는 않다. 측정에는 대체로 두 가지 방식이 많이 활용된다. regressor 값에서 $x_i$별로 확률값의 변화를 추정한 뒤 이를 평균하는 방식이다. 반대로 regressor 값의 평균에서 한번만 $p_i$에 미치는 영향을 추정하는 방법이다. 통계 패키지 별로 방법을 지원하니 필요할 경우 찾아서 값을 구하면 된다. 
 
-## 조금 더 수학적으로 
+## 조금 더 수학적인 이해 
 
-이 부분은 부담스럽다면 넘어가도 좋다. 알고 싶은 한계 효과는 $\frac{d p}{d x_i}$일 것이다. 즉, regressor의 한 변수가 한 단위 변할 때 확률의 변화가 어떻게 될 것인지가 우리의 한계 효과다. 즉, 
+이 부분은 부담스럽다면 넘어가도 좋다. 알고 싶은 한계 효과는 $\frac{d p}{d x_j}$일 것이다. 즉, regressor의 한 변수가 한 단위 변할 때 확률의 변화가 어떻게 될 것인지가 우리의 한계 효과다. 즉, 
 
 $$
 p(\bm{x_i}) = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} 
@@ -195,18 +195,18 @@ $$
 이 녀석을 그대로 미분해보자. 
 
 $$
-\dfrac{\partial p(\bm{x_i})}{\partial x_i} = \dfrac{\beta_i e^{-\bm{x_i}\boldsymbol{\beta}}}{(e^{-\bm{x_i}\boldsymbol{\beta}} + 1)^2}
+\dfrac{\partial p(\bm{x_i})}{\partial x_j} = \dfrac{\beta_j e^{-\bm{x_i}\boldsymbol{\beta}}}{(e^{-\bm{x_i}\boldsymbol{\beta}} + 1)^2}
 $$
 
-위의 식은 정확한 
+위의 식은 한계 효과를 미분을 통해 도출한 것이다. 이제 앞서 말했던 어려운 점이 무엇인지 알 수 있다. 어떤 $\bm{x_i}$에서 측정하는지에 따라서 값이 달라진다. 따라서 평규
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDI1MDc0MywtNTE1MzAzNTY3LDE3OT
-IxODk2ODQsLTM2MzA5OTM4MiwtMTEwMDk1NTE1MCwyMDMzMjUw
-MTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIwOTksLT
-E1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MCwtOTQy
-Mzc0ODcyLC0xODk4NTkwMTMyLC05NzE5NzY1NjEsLTE3MDA0OT
-kwNywtNzA4OTE1ODIyLDEzNTk0OTIwMCwxNzQwNTk2MDc0XX0=
+eyJoaXN0b3J5IjpbLTI1NTg2MzU1LC01MTUzMDM1NjcsMTc5Mj
+E4OTY4NCwtMzYzMDk5MzgyLC0xMTAwOTU1MTUwLDIwMzMyNTAx
+NDEsLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5OSwtMT
+U4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIz
+NzQ4NzIsLTE4OTg1OTAxMzIsLTk3MTk3NjU2MSwtMTcwMDQ5OT
+A3LC03MDg5MTU4MjIsMTM1OTQ5MjAwLDE3NDA1OTYwNzRdfQ==
 
 -->
