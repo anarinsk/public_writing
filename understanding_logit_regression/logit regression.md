@@ -152,17 +152,17 @@ $$
 L(y|{\bm X}) = \prod_{i = 1}^{n}  L(y_i) = \prod p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i} = L(\boldsymbol{\beta}|y, {\bm X})
 $$
 
-$\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우도 함수가 일종의 목적 함수가 된다. 우도를 극대화해주는 $\boldsymbol{\beta}$가 우리가 찾는 추정치 최대 우도 추정치, 즉 MLE(MLE, maximum likelihood estimator) $hjat \boldsymbol{\beta}$ 된다. 즉, 
+$\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우도 함수가 일종의 목적 함수가 된다. 우도를 극대화해주는 $\boldsymbol{\beta}$가 우리가 찾는 추정치 최대 우도 추정치, 즉 MLE(MLE, maximum likelihood estimator) $\hat \boldsymbol{\beta}$ 이다. 즉, 
 
 $$
 \hat \boldsymbol{\beta} = \argmax L(\boldsymbol{\beta}|y, {\bm X})
 $$
 
-간혹 목적 함수, 즉 우도 함수가 비선형이라서 목적 함수의 최대화를 달성하는 해 $\argmax \boldsymbol{\beta}$를 축약형(reduced form)으로 구하기 힘들다는 내용을 하게 된다. 이는 반쪽만 맞다. 반례로 선형 회귀 모형에서 에러 항이 정규 분포를 따른다고 가정하면  최대 우도 추정을 적용할 수 있다. 정규 분포의 우도 역시 비선형이지만, 축약형 해를 쉽게 구할 수 있다. [^1]
+간혹 목적 함수, 즉 우도 함수가 비선형이라서 목적 함수의 최대화를 달성하는 해 $\hat \boldsymbol{\beta}$를 축약형(reduced form)으로 구하기 힘들다는 내용을 접하곤 한다. 이는 반쪽만 맞다. 반례로 선형 회귀 모형에서 에러 항이 정규 분포를 따른다고 가정하면  최대 우도 추정을 적용할 수 있다. 정규 분포의 우도 역시 비선형이지만, 축약형 해를 쉽게 구할 수 있다. [^1]
 
 [^1]: 이때 추정치 $\hat\boldsymbol{\beta}$는 통상적인 방법으로 구한 OLS 추정량와 동일하다. 이는 수치적인 방법을 쓴 것이 아니라 분석적인 방법으로 식을 풀어서 구할 수 있다. [여기](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares#Maximum_likelihood_approach)를 참고하라. 
 
-왜 로짓 회귀에서는 축약형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$, 즉 $\argmax \boldsymbol{\beta}$ 값이지 우도 자체가 아니다. 따라서 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수의 변형은 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 지수로 올라가 있단 파라미터들이 앞으로 나오게 된다. 하지만 애석하게도(?) 아래 식에서 보듯이 
+왜 로짓 회귀에서는 축약형 해를 구할 수 없을까? 우도 추정에서 우리가 관심이 있는 것은 목적함수를 극대화하는 $\hat\boldsymbol{\beta}$  값이지 우도 자체가 아니다. 따라서 원래의 우도를 적절한 형태로 변형해도 변형된 목적함수를 극대화해주는 $\hat\boldsymbol{\beta}$가 바뀌지 않는다면 목적 함수를 변형해도 괜찮다. 때로는 변형이 계산을 쉽게 바꿔준다. 정규분포는 오일러 수($e$)의 지수 위에 최대화에 필요한 파라미터가 다 올라가 있다. 따라서 원래 목적함수에 $\log_n$를 취하면 곱셈이 덧셈으로 변하고 오일러 수 위에 지수로 올라가 있단 파라미터들이 앞으로 나오게 된다. 하지만 애석하게도(?) 아래 식에서 보듯이 
 
 $$
 p(\bm{x_i})  = \dfrac{1}{e^{-\bm{\bm{x_i}}\boldsymbol{\beta}} + 1} 
@@ -215,11 +215,11 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODA3MzUzMyw3NTQ3MTYxNDcsMTc1ND
-E3NzQyMiwxNTAwNDUzNTU1LDE0NTEwMDIyMTYsMzc3MTA1MjYx
-LDEyMjg0NTAzMDIsMTU2NTE5MzExNywtNTE1MzAzNTY3LDE3OT
-IxODk2ODQsLTM2MzA5OTM4MiwtMTEwMDk1NTE1MCwyMDMzMjUw
-MTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0NzIwOTksLT
-E1ODIyNzYyMjAsLTE1MjEyODI3OTEsMTA4Nzg0NTI0MCwtOTQy
-Mzc0ODcyXX0=
+eyJoaXN0b3J5IjpbODU0NjMwOTkyLDc1NDcxNjE0NywxNzU0MT
+c3NDIyLDE1MDA0NTM1NTUsMTQ1MTAwMjIxNiwzNzcxMDUyNjEs
+MTIyODQ1MDMwMiwxNTY1MTkzMTE3LC01MTUzMDM1NjcsMTc5Mj
+E4OTY4NCwtMzYzMDk5MzgyLC0xMTAwOTU1MTUwLDIwMzMyNTAx
+NDEsLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5OSwtMT
+U4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIz
+NzQ4NzJdfQ==
 -->
