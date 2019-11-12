@@ -149,7 +149,7 @@ $$
 위와 같은 식으로 간단히 해결된다. 위 식에서 $y_i$가 1이면 $p(\cdot)$가, 0이면 $1-p(\cdot)$가 할당된다. 이제 우리는 $n$ 개의 관찰에 관해서 식의 좌변에는 0,1을 갖고 있다. 각각의 시행이 독립적이라고 가정하면 주어진 형태의 데이터를 관찰하게 될 우도는 이 확률을 곱한 것과 같다. 즉, 
 
 $$
-L(y|X) = \prod_{i = 1}^{n}  L(y_i) = \prod p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i}
+L(y|{\bm X}) = \prod_{i = 1}^{n}  L(y_i) = \prod p(\bm{x_i}; \boldsymbol{\beta})^{y_i} (1-p(\bm{x_i}; \boldsymbol{\beta}))^{1-y_i} = L(\boldsymbol{\beta}|y, {\bm X})
 $$
 
 $\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우도 함수가 일종의 목적 함수가 된다. 우도를 극대화해주는 $\boldsymbol{\beta}$가 우리가 찾는 추정치 최대 우도 추정치, 즉 MLE(MLE, maximum likelihood estimator)가 된다.  
@@ -211,11 +211,11 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NzE2MTQ3LDE3NTQxNzc0MjIsMTUwMD
-Q1MzU1NSwxNDUxMDAyMjE2LDM3NzEwNTI2MSwxMjI4NDUwMzAy
-LDE1NjUxOTMxMTcsLTUxNTMwMzU2NywxNzkyMTg5Njg0LC0zNj
-MwOTkzODIsLTExMDA5NTUxNTAsMjAzMzI1MDE0MSwtODA1NjQz
-NTgsMjAxNjEzMDM5MCwyMTA3NDcyMDk5LC0xNTgyMjc2MjIwLC
-0xNTIxMjgyNzkxLDEwODc4NDUyNDAsLTk0MjM3NDg3MiwtMTg5
-ODU5MDEzMl19
+eyJoaXN0b3J5IjpbMTA3MzYwMzM5LDc1NDcxNjE0NywxNzU0MT
+c3NDIyLDE1MDA0NTM1NTUsMTQ1MTAwMjIxNiwzNzcxMDUyNjEs
+MTIyODQ1MDMwMiwxNTY1MTkzMTE3LC01MTUzMDM1NjcsMTc5Mj
+E4OTY4NCwtMzYzMDk5MzgyLC0xMTAwOTU1MTUwLDIwMzMyNTAx
+NDEsLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5OSwtMT
+U4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIz
+NzQ4NzJdfQ==
 -->
