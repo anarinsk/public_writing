@@ -201,19 +201,21 @@ p(\bm{x_i}) & = \dfrac{1}{e^{-\bm{x_i}\boldsymbol{\beta}} + 1} \\
 \end{aligned}
 $$
 
+그리고 이 녀석을 $\bm x_i$에 속한 $x_j$에 대해서 미분하면 아래와 같다. 
+
 $$
 \dfrac{\partial p(\bm{x_i})}{\partial x_j} = \dfrac{\beta_j e^{\bm{x_i}\boldsymbol{\beta}}}{(e^{\bm{x_i}\boldsymbol{\beta}} + 1)^2}
 $$
 
-한계 효과는 미분을 통해 간단히 도출할 수 있다. 이제 앞서 말했던 측정의 어려운 점이 무엇인지 잘 알 수 있다. 어떤 $\bm{x_i}$에서 측정하는지에 따라서 값이 달라진다. 따라서 평균에서 한 번만 측정할 것인지 아니면 $n$개의 모든 데이터 포인트에 대해서 계산한 뒤 이를 평균할 것인지 등의 조건이 필요하게 된다. 보통 후자를 많이 활용하고 통계 패키지마다 해당 옵션을 제공하고 있다. 
+이처럼 한계 효과는 미분을 통해 간단히 도출할 수 있다. 앞서 말했던 측정의 어려운 점이 무엇인지 이제 잘 볼 수 있다. 어떤 $\bm{x_i}$에서 측정하는지에 따라서 값이 달라진다. 따라서 평균에서 한 번만 측정할 것인지 아니면 $n$개의 모든 데이터 포인트에 대해서 계산한 뒤 이를 평균할 것인지 등의 조건이 필요하게 된다. 보통 후자를 많이 활용하고 통계 패키지마다 해당 옵션을 제공하고 있다. 
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3MTA1MjYxLDEyMjg0NTAzMDIsMTU2NT
-E5MzExNywtNTE1MzAzNTY3LDE3OTIxODk2ODQsLTM2MzA5OTM4
-MiwtMTEwMDk1NTE1MCwyMDMzMjUwMTQxLC04MDU2NDM1OCwyMD
-E2MTMwMzkwLDIxMDc0NzIwOTksLTE1ODIyNzYyMjAsLTE1MjEy
-ODI3OTEsMTA4Nzg0NTI0MCwtOTQyMzc0ODcyLC0xODk4NTkwMT
-MyLC05NzE5NzY1NjEsLTE3MDA0OTkwNywtNzA4OTE1ODIyLDEz
-NTk0OTIwMF19
+eyJoaXN0b3J5IjpbMTQ1MTAwMjIxNiwzNzcxMDUyNjEsMTIyOD
+Q1MDMwMiwxNTY1MTkzMTE3LC01MTUzMDM1NjcsMTc5MjE4OTY4
+NCwtMzYzMDk5MzgyLC0xMTAwOTU1MTUwLDIwMzMyNTAxNDEsLT
+gwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5OSwtMTU4MjI3
+NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIzNzQ4Nz
+IsLTE4OTg1OTAxMzIsLTk3MTk3NjU2MSwtMTcwMDQ5OTA3LC03
+MDg5MTU4MjJdfQ==
 -->
