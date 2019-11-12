@@ -11,14 +11,14 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 -->
 
 # tl;dr 
-- 로짓 회귀는 우리가 알던 그 회귀는 아니다. 
-- 로짓 회귀는 아래와 같은 데이터 모델에 기반한 추정법이다. 
+- 로짓 회귀는 우리가 알던 그 '회귀'가 아니다. 
+- 로짓 회귀는 아래와 같은 데이터 모형에 기반한 추정법이다. 
 
  $$
  \ln \dfrac{p(\bm{x_i})}{1-p(\bm{x_i})} =\bm{x_i}\boldsymbol{\beta} 
  $$
  
- - $\boldsymbol{\beta}$를 해석할 때 주의하자. 이를 통상적인 회귀분석의 계수(한계 효과)처럼 해석하려면 별도의 계산이 필요하다. 
+ - 회귀식의 계수 $\boldsymbol{\beta}$를 해석할 때 주의하자. 이를 통상적인 회귀분석의 계수(한계 효과)처럼 해석하려면 별도의 계산이 필요하다. 
 
 # 로짓 회귀는 몰라도 되나? 
 
@@ -215,11 +215,11 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYwMDAwMTcsLTE4OTk4MDIwMTksLT
-E4ODQwMDUzMiw4NTQ2MzA5OTIsNzU0NzE2MTQ3LDE3NTQxNzc0
-MjIsMTUwMDQ1MzU1NSwxNDUxMDAyMjE2LDM3NzEwNTI2MSwxMj
-I4NDUwMzAyLDE1NjUxOTMxMTcsLTUxNTMwMzU2NywxNzkyMTg5
-Njg0LC0zNjMwOTkzODIsLTExMDA5NTUxNTAsMjAzMzI1MDE0MS
-wtODA1NjQzNTgsMjAxNjEzMDM5MCwyMTA3NDcyMDk5LC0xNTgy
-Mjc2MjIwXX0=
+eyJoaXN0b3J5IjpbMTM5Nzg0NDgzNSwtMTk4NjAwMDAxNywtMT
+g5OTgwMjAxOSwtMTg4NDAwNTMyLDg1NDYzMDk5Miw3NTQ3MTYx
+NDcsMTc1NDE3NzQyMiwxNTAwNDUzNTU1LDE0NTEwMDIyMTYsMz
+c3MTA1MjYxLDEyMjg0NTAzMDIsMTU2NTE5MzExNywtNTE1MzAz
+NTY3LDE3OTIxODk2ODQsLTM2MzA5OTM4MiwtMTEwMDk1NTE1MC
+wyMDMzMjUwMTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0
+NzIwOTldfQ==
 -->
