@@ -185,7 +185,7 @@ $$
 여기서 $\beta_i$는 $\bm{x_i}$가 한 단위 변할 때 좌변에 미치는 영향이다. 흔히 $\dfrac{p(\bm{x_i})}{1-p(\bm{x_i})}$를 오즈(odds) 혹은 승산이라고 부른다. 이때 $\beta_j$는 regressor $\bm{x_i}$에 속한 $x_j$ 한 단위 변할 때 오즈에 미치는 영향을 뜻한다.
 간혹 $\beta_i$는 0에서 1이 될 확률의 변화로 해석하려는 경우가 있는데 그렇게 하면 안된다. 물론 이렇게 말하고 싶은 심정은 이해한다. $x_i$의 변화가 상태를 0에서 1로 바꾸는 데 미치는 확률에 관심이 있을 것이다. 만일 이것을 구하고 싶다면 아래의 두 가지에 주의하자. 
 
-1. OLS의 경우 회귀식 자체가 선형이기 때문에 $\beta_i$에 관한 해석이 쉽고 단순하다. 그냥 직선의 기울기다. 그런데 로짓 회귀에서는 그렇게 분명하지 않다. 회귀식 자체가 비선형이므로 한계 효과를 구하기 위한 기울기를 '어디서' 구할지가 문제가 된다.측정 위치에 따라서  기울기가 달라지기 때문이다. 
+1. OLS의 경우 회귀식 자체가 선형이기 때문에 $\beta_i$에 관한 해석이 쉽고 단순하다. 그냥 직선의 기울기다. 그런데 로짓 회귀에서는 그렇게 분명하지 않다. 회귀식 자체가 비선형이므로 한계 효과를 구하기 위한 기울기를 '어디서' 구할지가 문제가 된다. 측정 위치에 따라서  기울기가 달라지기 때문이다. 
 2. 도출하는 방법이 크게 어렵지는 않다. 측정에는 대체로 두 가지 방식이 많이 활용된다. regressor 값에서 $x_i$별로 확률값의 변화를 추정한 뒤 이를 평균하는 방식이다. 반대로 regressor 값의 평균에서 한번만 $p_i$에 미치는 영향을 추정하는 방법이다. 통계 패키지 별로 방법을 지원하니 필요할 경우 찾아서 값을 구하면 된다. 
 
 ## 조금 더 수학적인 이해 
@@ -215,11 +215,11 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0NjMwOTkyLDc1NDcxNjE0NywxNzU0MT
-c3NDIyLDE1MDA0NTM1NTUsMTQ1MTAwMjIxNiwzNzcxMDUyNjEs
-MTIyODQ1MDMwMiwxNTY1MTkzMTE3LC01MTUzMDM1NjcsMTc5Mj
-E4OTY4NCwtMzYzMDk5MzgyLC0xMTAwOTU1MTUwLDIwMzMyNTAx
-NDEsLTgwNTY0MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5OSwtMT
-U4MjI3NjIyMCwtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIz
-NzQ4NzJdfQ==
+eyJoaXN0b3J5IjpbLTE4ODQwMDUzMiw4NTQ2MzA5OTIsNzU0Nz
+E2MTQ3LDE3NTQxNzc0MjIsMTUwMDQ1MzU1NSwxNDUxMDAyMjE2
+LDM3NzEwNTI2MSwxMjI4NDUwMzAyLDE1NjUxOTMxMTcsLTUxNT
+MwMzU2NywxNzkyMTg5Njg0LC0zNjMwOTkzODIsLTExMDA5NTUx
+NTAsMjAzMzI1MDE0MSwtODA1NjQzNTgsMjAxNjEzMDM5MCwyMT
+A3NDcyMDk5LC0xNTgyMjc2MjIwLC0xNTIxMjgyNzkxLDEwODc4
+NDUyNDBdfQ==
 -->
