@@ -154,7 +154,7 @@ $$
 
 $\boldsymbol{\beta}$에 따라서 해당 우도가 달라지게 되므로, 우도 함수가 일종의 목적 함수가 된다. 우도를 극대화해주는 $\boldsymbol{\beta}$가 우리가 찾는 추정치 최대 우도 추정치, 즉 MLE(MLE, maximum likelihood estimator)가 된다.  
 
-간혹 목적 함수, 즉 우도 함수가 비선형이라서 해당 변수의 최대값을 축약형(reduced form)으로 구하기 힘들다는 내용을 보게 된다. 하지만 이는 반쪽만 맞다. 반례로 선형 회귀 모형에서 에러 항이 정규 분포를 따른다고 가정하면  최대 우도 추정을 적용할 수 있다. 정규 분포의 우도 역시 비선형이지만, 축약형 해를 쉽게 구할 수 있다. [^1]
+간혹 목적 함수, 즉 우도 함수가 비선형이라서 목적 함수의 최대화를 달성하는 해 $\boldsymbol{\beta}^*$를 축약형(reduced form)으로 구하기 힘들다는 내용을 보게 된다. 하지만 이는 반쪽만 맞다. 반례로 선형 회귀 모형에서 에러 항이 정규 분포를 따른다고 가정하면  최대 우도 추정을 적용할 수 있다. 정규 분포의 우도 역시 비선형이지만, 축약형 해를 쉽게 구할 수 있다. [^1]
 
 [^1]: 이때 추정치 $\hat\boldsymbol{\beta}$는 통상적인 방법으로 구한 OLS 추정량와 동일하다. 이는 수치적인 방법을 쓴 것이 아니라 분석적인 방법으로 식을 풀어서 구할 수 있다. [여기](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares#Maximum_likelihood_approach)를 참고하라. 
 
@@ -211,11 +211,11 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDE3NzQyMiwxNTAwNDUzNTU1LDE0NT
-EwMDIyMTYsMzc3MTA1MjYxLDEyMjg0NTAzMDIsMTU2NTE5MzEx
-NywtNTE1MzAzNTY3LDE3OTIxODk2ODQsLTM2MzA5OTM4MiwtMT
-EwMDk1NTE1MCwyMDMzMjUwMTQxLC04MDU2NDM1OCwyMDE2MTMw
-MzkwLDIxMDc0NzIwOTksLTE1ODIyNzYyMjAsLTE1MjEyODI3OT
-EsMTA4Nzg0NTI0MCwtOTQyMzc0ODcyLC0xODk4NTkwMTMyLC05
-NzE5NzY1NjFdfQ==
+eyJoaXN0b3J5IjpbMTI2NTIzOTc2MywxNzU0MTc3NDIyLDE1MD
+A0NTM1NTUsMTQ1MTAwMjIxNiwzNzcxMDUyNjEsMTIyODQ1MDMw
+MiwxNTY1MTkzMTE3LC01MTUzMDM1NjcsMTc5MjE4OTY4NCwtMz
+YzMDk5MzgyLC0xMTAwOTU1MTUwLDIwMzMyNTAxNDEsLTgwNTY0
+MzU4LDIwMTYxMzAzOTAsMjEwNzQ3MjA5OSwtMTU4MjI3NjIyMC
+wtMTUyMTI4Mjc5MSwxMDg3ODQ1MjQwLC05NDIzNzQ4NzIsLTE4
+OTg1OTAxMzJdfQ==
 -->
