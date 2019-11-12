@@ -188,7 +188,7 @@ $$
 1. OLS의 경우 회귀식 자체가 선형이기 때문에 $\beta_i$에 관한 해석이 쉽고 단순하다. 그냥 직선의 기울기다. 그런데 로짓 회귀에서는 그렇게 분명하지 않다. 회귀식 자체가 비선형이므로 한계 효과를 구하기 위한 기울기를 '어디서' 구할지가 문제가 된다. 측정 위치에 따라서  기울기가 달라지기 때문이다. 
 2. 도출하는 방법이 크게 어렵지는 않다. 측정에는 대체로 두 가지 방식이 많이 활용된다. regressor 값에서 $x_i$별로 확률값의 변화를 추정한 뒤 이를 평균하는 방식이다. 반대로 regressor 값의 평균에서 한번만 $p_i$에 미치는 영향을 추정하는 방법이다. 통계 패키지가 대체로 두 방법을 모두 지원하니 필요할 경우 찾아서 값을 구하면 되겠다. 
 
-## 조금 더 수학적인 이해 
+## $\hat \boldsymbol{\beta}$, 수학적인 이해 
 
 이 부분은 부담스럽다면 넘어가도 좋다. 앞서 말한 한계 효과는 $\frac{\partial p}{\partial x_j}$이다. 즉, regressor의 한 변수$x_j$ 가 한 단위 변할 때 확률 변화를 측정한다. 즉, 
 
@@ -215,11 +215,11 @@ $$
 
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzg0NDgzNSwtMTk4NjAwMDAxNywtMT
-g5OTgwMjAxOSwtMTg4NDAwNTMyLDg1NDYzMDk5Miw3NTQ3MTYx
-NDcsMTc1NDE3NzQyMiwxNTAwNDUzNTU1LDE0NTEwMDIyMTYsMz
-c3MTA1MjYxLDEyMjg0NTAzMDIsMTU2NTE5MzExNywtNTE1MzAz
-NTY3LDE3OTIxODk2ODQsLTM2MzA5OTM4MiwtMTEwMDk1NTE1MC
-wyMDMzMjUwMTQxLC04MDU2NDM1OCwyMDE2MTMwMzkwLDIxMDc0
-NzIwOTldfQ==
+eyJoaXN0b3J5IjpbOTM3MDkzOTQ3LDEzOTc4NDQ4MzUsLTE5OD
+YwMDAwMTcsLTE4OTk4MDIwMTksLTE4ODQwMDUzMiw4NTQ2MzA5
+OTIsNzU0NzE2MTQ3LDE3NTQxNzc0MjIsMTUwMDQ1MzU1NSwxND
+UxMDAyMjE2LDM3NzEwNTI2MSwxMjI4NDUwMzAyLDE1NjUxOTMx
+MTcsLTUxNTMwMzU2NywxNzkyMTg5Njg0LC0zNjMwOTkzODIsLT
+ExMDA5NTUxNTAsMjAzMzI1MDE0MSwtODA1NjQzNTgsMjAxNjEz
+MDM5MF19
 -->
