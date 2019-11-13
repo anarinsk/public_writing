@@ -1,4 +1,4 @@
-**Dan Ariely, "Dollars and Sense"**
+**Dan Ariely, &quot;Dollars and Sense&quot;**
 
 2018-10-01
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
@@ -65,9 +65,10 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), written with [StackEdit](https://stackedit.io/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA0NDM1MzYsLTUwNDQwNjcxOCwtNj
-Y1MDEzMzgsNjUzNjcyNTc1LDE1NzQxNTg1MTYsLTkxMzEyODQ0
-NiwtMTMwNzQ3NjcxMywtMTk4MzkxNjM1LC0xNTQ3NzgwOTgxLD
-EwOTE3Mjc3ODcsLTk2OTQ0NDE1MiwyMjAzOTMwNjksLTEwOTk5
-MjczODgsMTIzODQ3NjU5NywtOTM2NDY0NTAxXX0=
+eyJoaXN0b3J5IjpbMTM1Njg0NTg3MiwtMTc0MDQ0MzUzNiwtNT
+A0NDA2NzE4LC02NjUwMTMzOCw2NTM2NzI1NzUsMTU3NDE1ODUx
+NiwtOTEzMTI4NDQ2LC0xMzA3NDc2NzEzLC0xOTgzOTE2MzUsLT
+E1NDc3ODA5ODEsMTA5MTcyNzc4NywtOTY5NDQ0MTUyLDIyMDM5
+MzA2OSwtMTA5OTkyNzM4OCwxMjM4NDc2NTk3LC05MzY0NjQ1MD
+FdfQ==
 -->
