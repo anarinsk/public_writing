@@ -11,12 +11,11 @@ data-ad-layout="in-article"
 data-ad-format="fluid"
 data-ad-client="ca-pub-5998015764378916"
 data-ad-slot="8073142933"></ins>
-
 <script>
-
 (adsbygoogle = window.adsbygoogle || []).push({});
-
 </script>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMzQ2NTA4LDE1NDQ1MTIzMjZdfQ==
+eyJoaXN0b3J5IjpbODAwOTYxODQyLDE1NDQ1MTIzMjZdfQ==
 -->
