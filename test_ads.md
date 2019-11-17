@@ -5,7 +5,6 @@
 애드센스는 아래에... 
 
 <div align="center">
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
 style="display:block; text-align:center;"
@@ -18,7 +17,7 @@ data-ad-slot="8073142933"></ins>
 </script>
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ5MzUwNTEsMTE1OTc0OTY1MywtOT
-EwNTU1NTI4LC0xOTkwMzY5NDY3LDI1NjM5NTgyNyw4MDA5NjE4
-NDIsMTU0NDUxMjMyNl19
+eyJoaXN0b3J5IjpbMjA2OTgzNzE1LDExNTk3NDk2NTMsLTkxMD
+U1NTUyOCwtMTk5MDM2OTQ2NywyNTYzOTU4MjcsODAwOTYxODQy
+LDE1NDQ1MTIzMjZdfQ==
 -->
