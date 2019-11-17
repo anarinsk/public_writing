@@ -1,9 +1,5 @@
-# Testing AdSense 
 
-내용은 이렇다. 
-애드센스는 아래에... 
-
-<div  class="stackedit__html">
+<div  class="stackedit__html"><h1  id="testing-adsense">Testing AdSense</h1>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
 style="display:block; text-align:center;"
@@ -14,9 +10,9 @@ data-ad-slot="8073142933"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</div>
-
+내용은 이렇다. 
+애드센스는 아래에... 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2Mzk1ODI3LDgwMDk2MTg0MiwxNTQ0NT
-EyMzI2XX0=
+eyJoaXN0b3J5IjpbLTE5OTAzNjk0NjcsMjU2Mzk1ODI3LDgwMD
+k2MTg0MiwxNTQ0NTEyMzI2XX0=
 -->
