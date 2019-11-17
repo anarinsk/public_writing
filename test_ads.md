@@ -3,6 +3,7 @@
 내용은 이렇다. 
 애드센스는 아래에... 
 
+<div  class="stackedit__html">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
 style="display:block; text-align:center;"
@@ -13,9 +14,9 @@ data-ad-slot="8073142933"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
+</div>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg3MjkxNDYsODAwOTYxODQyLDE1ND
-Q1MTIzMjZdfQ==
+eyJoaXN0b3J5IjpbMjU2Mzk1ODI3LDgwMDk2MTg0MiwxNTQ0NT
+EyMzI2XX0=
 -->
